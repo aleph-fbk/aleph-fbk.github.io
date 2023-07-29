@@ -1,3 +1,15 @@
+# How to try the website locally: 
+
+- clone this repository
+- install rvm (https://rvm.io/rvm/install) (you may need to reboot your computer)
+- install ruby with "rvm install ruby 2.7.2"
+- run "bundle install"
+- run "bundle exec jekyll serve"
+  - if the above command does not work, delete the "gemfile.lock" file, run "rvm install ruby 3.2.2" and again "bundle exec jekyll serve"
+- open the browser at "http://0.0.0.0:4000/"
+
+***
+
 This document provides instructions about the [ALEPH website](https://aleph.github.io).
 
 Table of Contents:
