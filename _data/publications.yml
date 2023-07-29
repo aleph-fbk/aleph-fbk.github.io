@@ -9,6 +9,7 @@
     - GiadaSciarretta
     - AlessandroTomasi
   destination: FPS2019
+  isALEPH: false
   year: 2019
   doi: 10.1007/978-3-030-45371-8_10
 
@@ -24,6 +25,7 @@
   abstract: >
     We propose an audit-based architecture that leverages the Hyperledger Fabric distributed ledger as a means to increase accountability and decentralize the authorization decision process of Attribute-Based Access Control policies by using smart contracts. Our goal is to decrease the trust in administrators and users with privileged accounts, and make the a posteriori verification of access events more reliable. We implement our approach to the use case of Electronic Health Record access control. Preliminary experiments show the viability of the proposed approach.
   destination: STM2019
+  isALEPH: false
   year: 2019
   doi: 10.1007/978-3-030-31511-5_2
 
@@ -42,6 +44,7 @@
   abstract: >
     The increasing demand for cooperative, connected, and automated mobility (CCAM) services should proceed at the same pace with the enforcement of security mechanisms that would make CCAM services secure. The first contribution of this paper resides in a review of the ongoing regulatory and standardization activities related to cybersecurity of autonomous vehicles. Then, referring to the ongoing piloting activities funded by the European Union, we focus on the security threats for back-situation awareness (BSA), i.e., a safety-related CCAM service dealing with emergency scenarios. We propose a practical strong authentication method for BSA, and extensively discuss how existing standards can mitigate the security threats of this prominent CCAM service.
   destination: 5GWF20
+  isALEPH: false
   year: 2020
 
 - id: ASIACCS2020
@@ -55,6 +58,7 @@
   abstract: >
     To facilitate the adoption of cloud by organizations, Cryptographic Access Control (CAC) is the obvious solution to control data sharing among users while preventing partially trusted Cloud Service Providers (CSP) to access sensitive data. Indeed, several CAC schemes have been proposed in the literature. Despite their differences, available solutions are based on a common set of entities—e.g., a data storage service or a proxy mediating the access of users to encrypted data—that operate in different (security) domains—e.g., on-premise or the CSP. However, the majority of the CAC schemes assumes a fixed assignment of entities to domains; this has security and usability implications that are not made explicit and can make inappropriate the use of a CAC scheme in certain scenarios with specific requirements. For instance, assuming that the proxy runs at the premises of the organization avoids the vendor lock-in effect but may substantially mine scalability. To the best of our knowledge, no previous work considers how to select the best possible architecture (i.e., the assignment of entities to domains) to deploy a CAC scheme for the requirements of a given scenario. In this paper, we propose a methodology to assist administrators to explore different architectures of CAC schemes for a given scenario. We do this by identifying the possible architectures underlying the CAC schemes available in the literature and formalize them in simple set theory. This allows us to reduce the problem of selecting the most suitable architecture satisfying a heterogeneous set of requirements arising from the considered scenario to a Multi-Objective Optimization Problem (MOOP) for which state-of-the-art solvers can be invoked. Finally, we show how the capability of solving the MOOP can be used to build a prototype tool assisting administrators to preliminary perform a ``What-if'' analysis to explore the trade-offs among the various architectures and then use available standards and tools (such as TOSCA and Cloudify) for automated deployment in multiple CSPs.
   destination: ASIACCS2020
+  isALEPH: false
   year: 2020
   doi: 10.1145/3320269.3384767
   urlComplementary: /complementary/ASIACCS2020
@@ -70,6 +74,7 @@
   abstract: >
     We present the integration of TLSAssistant, a tool for TLS vulnerability scanning and mitigation, with an online platform of services for cybersecurity in critical infrastructure. We highlight the added value of intelligence sharing and synergies with other services on the platform, as well as the non-trivial challenges encountered in the process.
   destination: CPS4CIP2020
+  isALEPH: false
   year: 2020
 
 - id: DETIPS2020
@@ -82,6 +87,7 @@
     - GiulioPellizzari
     - SilvioRanise
   destination: DETIPS2020
+  isALEPH: false
   abstract: >
     We investigate the combined use of eIDAS-based electronic identity and Verifiable Credentials for remote onboarding and contracting, and provide a proof-of-concept implementation based on SAML authentication. The main non-trivial value derived from this proposal is a higher degree of assurance in the contract offering phase for the Contracting Service Provider.
   year: 2020
@@ -96,6 +102,7 @@
   abstract: >
     Android apps are subject to malicious reverse engineering and code tampering for many reasons, like premium features unlocking and malware piggybacking. Scientific literature and practitioners proposed several Anti-Debugging and Anti-Tampering protections, readily implementable by app developers, to empower Android apps to react against malicious reverse engineering actively. However, the extent to which Android app developers deploy these protections is not known. In this paper, we describe a large-scale study on Android apps to quantify the practical adoption of Anti-Debugging and Anti-Tampering protections. We analyzed 14,173 apps from 2015 and 23,610 apps from 2019 from the Google Play Store. Our analysis shows that 59% of these apps implement neither Anti-Debugging nor Anti-Tampering protections. Moreover, half of the remaining apps deploy only one protection, not exploiting the variety of available protections. We also observe that app developers prefer Java to Native protections by a ratio of 99 to 1. Finally, we note that apps in 2019 employ more protections against reverse engineering than apps in 2015.
   destination: JISA
+  isALEPH: false
   year: 2020
   doi: 10.1016/j.jisa.2020.102463
 
@@ -113,6 +120,7 @@
     - EmanueleViglianisi
   year: 2020
   destination: SecAssAPIFinancial_book_2020
+  isALEPH: false
   doi: 10.1561/9781680836875
 
 - id: TOPS2020_2
@@ -126,6 +134,7 @@
   abstract: >
     To facilitate the adoption of cloud by organizations, Cryptographic Access Control (CAC) is the obvious solution to control data sharing among users while preventing partially trusted Cloud Service Providers (CSP) from accessing sensitive data. Indeed, several CAC schemes have been proposed in the literature. Despite their differences, available solutions are based on a common set of entities---e.g., a data storage service or a proxy mediating the access of users to encrypted data---that operate in different (security) domains---e.g., on-premise or the CSP. However, the majority of these CAC schemes assumes a fixed assignment of entities to domains; this has security and usability implications that are not made explicit and can make inappropriate the use of a CAC scheme in certain scenarios with specific trust assumptions and requirements. For instance, assuming that the proxy runs at the premises of the organization avoids the vendor lock-in effect but may give rise to other security concerns (e.g., malicious insiders attackers). To the best of our knowledge, no previous work considers how to select the best possible architecture (i.e., the assignment of entities to domains) to deploy a CAC scheme for the trust assumptions and requirements of a given scenario. In this paper, we propose a methodology to assist administrators in exploring different architectures for the enforcement of CAC schemes in a given scenario. We do this by identifying the possible architectures underlying the CAC schemes available in the literature and formalizing them in simple set theory. This allows us to reduce the problem of selecting the most suitable architectures satisfying a heterogeneous set of trust assumptions and requirements arising from the considered scenario to a decidable Multi-Objective Combinatorial Optimization Problem (MOCOP) for which state-of-the-art solvers can be invoked. Finally, we show how we use the capability of solving the MOCOP to build a prototype tool assisting administrators to preliminary perform a ``What-if'' analysis to explore the trade-offs among the various architectures and then use available standards and tools (such as TOSCA and Cloudify) for automated deployment in multiple CSPs.
   destination: TOPS
+  isALEPH: false
   year: 2020
   urlComplementary: /complementary/TOPS2020_2
   
@@ -140,6 +149,7 @@
   abstract: >
     While organisations move their infrastructure to the cloud, honest but curious Cloud Service Providers (CSPs) threaten the confidentiality of cloud-hosted data. In this context, many researchers proposed Cryptographic Access Control (CAC) schemes to support data sharing among users while preventing CSPs from accessing sensitive data. However, the majority of these schemes focuses on high-level features only and cannot adapt to the multiple requirements arising in different scenarios. Moreover, (almost) no CAC scheme implementation is available for enforcement of authorisation policies in the cloud, and performance evaluation is often over- looked. To fill this gap, we propose the toolchain COERCIVE, short for CryptOgraphy killEd (the honest but) cuRious Cloud servIce proVidEr, which is composed of two tools: TradeOffBoard and CryptoAC. TradeOff- Board assists organisations in identifying the optimal CAC architecture for their scenario. CryptoAC enforces authorisation policies in the cloud by deploying the architecture selected with TradeOffBoard. In this paper, we describe the implementation of CryptoAC and conduct a thorough performance evaluation to demonstrate its scalability and efficiency with synthetic benchmarks.
   destination: SECRYPT2021
+  isALEPH: false
   year: 2021
   urlComplementary: /complementary/SECRYPT2021_2
   
@@ -159,6 +169,7 @@
   abstract: >
     Providing seamless connectivity and services across national borders are intricate challenges with multifarious underlying aspects, ranging from the network management to business and political considerations. Since the cross-border inter-Public Land Mobile Network (PLMN) network handover is currently not available in European cellular networks, we present a complementary approach, diminishing the connectivity gap to a minimum. By leveraging Distributed Ledger Technology (DLT), we establish a dynamic, secure data exchange and management solution between several Mobile Network Operators (MNOs) of different countries. Systematically integrating foreign cell and base station parameter (i.e., Radio Access Network (RAN) data) of border regions into the internal network management systems permits their usage in standardized Mobility Management procedures. We demonstrate that this type of collaboration on the interMNO network governance considerably improves the network quality and customer experience when crossing national borders. Since foreign RAN data is also required for the inter-PLMN network handover (and can serve many additional purposes) and provided that our solution is not relying on any specific mobile network technology generation (e.g., 4G or 5G), we conclude that it is a fundamental step towards an inter-MNO ecosystem beyond 5G.
   destination: SMDS2021
+  isALEPH: false
   year: 2021
   doi: 10.1109/SMDS53860.2021.00029
 
@@ -172,6 +183,7 @@
   abstract: >
     Besides developing new Cooperative, Connected and Automated Mobility (CCAM) services for the improvement of road safety and travel experience, researchers are considering protection mechanisms to ensure the security of these services and the safety of involved users (drivers but also, e.g., cyclists and pedestrians). In particular, several Identity Management (IDM) protocols have been designed as the first line of defence against external attackers. Among these protocols, a promising trend in research consists in the use of a Smart Card (SC) as a technical enabler for strong authentication. Indeed, many SC-based IDM protocols for Vehicle-to-Vehicle (V2V) and Vehicle-to-Infrastructure (V2I) communications in real-time CCAM services have been proposed in the literature which present interesting features and promising usability experimental results. However, this research line is far from being exhausted, especially considering the recent spread of SC technologies and use cases. For this reason, in this paper we propose a systematic literature review on SC-based IDM protocols for real-time CCAM services. In particular, we identify characterising assumptions of CCAM scenarios and extrapolate a unified high-level view of the steps composing a SC-based IDM protocol. Then, we present a detailed survey of several SC-based IDM protocols. Finally, we identify trends in research and formulate guidelines and useful recommendations to provide a solid base which researchers can use as a starting point for the design of new and improved SC-based IDM protocols for CCAM scenarios.
   destination: T-ITS
+  isALEPH: false
   year: 2021
   doi: 10.1109/TITS.2021.3118721
 
@@ -190,6 +202,7 @@
     Together with the electrification of vehicles, the provision of cooperative, connected, and automated mobility (CCAM) services is a prominent recent trend in the automotive sector. Upcoming car models will be able to exchange messages between themselves and with road traffic authorities by means of vehicle-to-everything (V2X) communication—in particular, leveraging mobile network technologies for the cellular V2X (C-V2X) paradigm [1] . Moreover, (part of) such exchanged messages will be processed as a whole in, e.g., edge computing servers, to generate a global vision of the state of a given stretch of road. CCAM services will exploit vehicular information transport and processing to implement complex maneuvers in a (semi)automatic manner by interacting with the in-car network.
   destination: VTMagazine
   destinationAddon: Volume 16, Issue 4, December 2021, Pages 78-88
+  isALEPH: false
   year: 2021
   doi: 10.1109/MVT.2021.3089144
   
@@ -205,6 +218,7 @@
   abstract: >
     It is crucial to ensure the security and privacy of communications in IoT scenarios that process an increasingly large amount of sensitive data. In this context, we propose a cryptographic enforcement mechanism of access control policies to guarantee the confidentiality and integrity of messages exchanged with the MQTT protocol in presence of external attackers, malicious insiders and "honest-but-curious" service providers. A preliminary performance evaluation with a prototype implementation in an open-source tool shows the overhead is acceptable in relevant use case scenarios and provides a higher level of security with respect to other approaches.
   destination: DBSEC2022
+  isALEPH: false
   year: 2022
   doi: 10.1007/978-3-031-10684-2_14
   urlComplementary: /complementary/DBSEC2022
@@ -220,6 +234,7 @@
   abstract: >
     While the security analysis of Access Control (AC) policies has received a lot of attention, the same cannot be said for their enforcement. As systems become more distributed (e.g., centralized services may become a bottleneck) and legal compliance constraints stricter (e.g., the problem of honest but curious Cloud providers in the light of privacy regulations), the fine-tuning of AC enforcement mechanisms is likely to become more and more important. This is especially true in scenarios where the quality of service may suffer from computationally heavy security mechanisms and low latency is a prominent requirement. As a first step towards a principled approach to fine-tune AC enforcement, this paper introduces a methodology providing the means to measure the performance of AC enforcement mechanisms through the simulation of realistic deployment scenarios. To do so, we base our methodology on Business Process Model and Notation (BPMN) workflows—that provide for an appropriate abstraction of the sequence of requests toward AC enforcement mechanisms performed by applications—to derive lists of AC operations (e.g., access a resource, revoke a permission) and execute them to evaluate and compare the performance of different mechanisms. Finally, we implement our methodology and apply it to three case studies representative of both traditional centralized AC—i.e., the Open Policy Agent (OPA) and the eXtensible Access Control Markup Language (XACML)—and decentralized Cryptographic Access Control (CAC)—i.e., CryptoAC—.
   destination: POLSIM2023
+  isALEPH: false
   year: 2023
   #doi: 10.1145/3320269.3384767
   urlComplementary: /complementary/POLSIM2023
@@ -238,6 +253,7 @@
   abstract: >
     Verifiable credentials are a digital analogue of physical credentials. Their authenticity and integrity are protected by means of cryptographic techniques, and they can be presented to verifiers to prove claims about the holder of the credential itself. One way to preserve privacy during presentation consists in selectively disclosing the attributes in a credential. In this paper we present the most widespread cryptographic mechanisms used to enable selective disclosure of attributes, describing their structure and comparing them in terms of performance, size of the associated verifiable presentations, and the ability to produce predicate proofs and unlinkable presentations.
   destination: SECRYPT2023
+  isALEPH: true
   year: 2023
   doi: 10.5220/0012084000003555
 
@@ -255,6 +271,7 @@
 #   year:               # year of publication (e.g., 2023)
 #   doi:                # doi (e.g., 10.1145/3320269.3384767)
 #   urlComplementary:   # url of complementary (in "_complementary")
+#   urlNews:            # url of news (e.g., "/news/2020/02/15/paper-accepted-at-asiaccs-2020/")
 #   urlNews:            # url of news (e.g., "/news/2020/02/15/paper-accepted-at-asiaccs-2020/")
 
 ## 2024

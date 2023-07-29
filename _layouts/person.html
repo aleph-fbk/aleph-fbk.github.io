@@ -68,11 +68,23 @@ layout: default
 
             <div id="toc"></div>
 
-            <!-- PUBLICATIONS -->
-            {% assign publicationsByYear = site.data.publications | where_exp: "publication", "publication.authors contains page.person" | where_exp: "publication", "publication.id_iris != nil" | group_by: "year" | sort: "name" | reverse %}
+            <!-- PUBLICATIONS IN ALEPH -->
+            {% assign publicationsByYear = site.data.publications | where_exp: "publication", "publication.authors contains page.person" | where_exp: "publication", "publication.id_iris != nil" | where: "isALEPH", "true" | group_by: "year" | sort: "name" | reverse %}
             {% if publicationsByYear.size > 0 %}
                 <section class="contains-publications">
                     <h1>Publications</h1>
+                    {% for year in publicationsByYear %}
+                        <h4>{{ year.name }}</h4>
+                        {% include list-publications.html source=year.items sort="title" %}
+                    {% endfor %}
+                </section>
+            {% endif %}
+
+            <!-- PUBLICATIONS NOT IN ALEPH -->
+            {% assign publicationsByYear = site.data.publications | where_exp: "publication", "publication.authors contains page.person" | where_exp: "publication", "publication.id_iris != nil" | where: "isALEPH", "false" | group_by: "year" | sort: "name" | reverse %}
+            {% if publicationsByYear.size > 0 %}
+                <section class="contains-publications">
+                    <h1>Past Publications — Before Joining ALEPH</h1>
                     {% for year in publicationsByYear %}
                         <h4>{{ year.name }}</h4>
                         {% include list-publications.html source=year.items sort="title" %}
