@@ -12,10 +12,16 @@ show_sidebar: false
         {% assign currentProjects = site.projects | where_exp: "project", "project.endDate == nil" %}
         {% assign formerProjects = site.projects | where_exp: "project", "project.endDate != nil" %}
 
-        <h1>Current Projects</h1>
-        {% include list-projects.html source=currentProjects style="card" %}
+        {% if currentProjects.size == 0 %}
+        {% else %}
+            <h1>Current Projects</h1>
+            {% include list-projects.html source=currentProjects style="card" %}
+        {% endif %}
 
-        <h1>Former Projects</h1>
-        {% include list-projects.html source=formerProjects style="card" %}
+        {% if formerProjects.size == 0 %}
+        {% else %}
+            <h1>Former Projects</h1>
+            {% include list-projects.html source=formerProjects style="card" %}
+        {% endif %}
     </div>
 </div>

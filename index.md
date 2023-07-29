@@ -14,8 +14,6 @@ In line with the mission of [Fondazione Bruno Kessler](https://www.fbk.eu) (FBK)
 - Decentralization of Trust (e.g., distributed ledger technology, secure multi-party computation, threshold cryptography, zero-knowledge proofs)
 - Post-Quantum Cryptography
 
-# Research Areas
 {% include topics.md %}
 
-# In the Spotlight
 {% include spotlights.md %}

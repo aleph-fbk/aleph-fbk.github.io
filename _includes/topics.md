@@ -1,5 +1,8 @@
 {% assign sorted_topics = site.topics | where: "type", "topic" | sort: "order" %}
 
+{% if sorted_topics.size == 0 %}
+{% else %}
+<h1>Research Areas</h1>
 <div class="columns is-multiline">
     {% for topic in sorted_topics %}
     <div class="column is-4-desktop is-6-tablet">
@@ -21,3 +24,4 @@
     </div>
     {% endfor %}
 </div>
+{% endif %}
