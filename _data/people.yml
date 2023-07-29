@@ -1,0 +1,167 @@
+# Please keep alphabetical order
+
+# - id:         # ID of the person
+#   name:
+#   surname:
+#   affiliations:
+#     - role: 
+#       unit: 
+#       institution: 
+#       place:
+#   email:      # e.g., name.surname@domain.it
+#   image:      # image (external) url
+
+- id: AdamJLee
+  name: Adam J.
+  surname: Lee
+  email: adamlee@cs.pitt.edu
+
+- id: AlessandroTomasi
+  name: Alessandro
+  surname: Tomasi
+  affiliations:
+    - role: Head of Unit
+      unit: Applied Cryptography
+      institution: Fondazione Bruno Kessler
+      place: Trento, Italy
+  email: altomasi@fbk.eu
+
+- id: AmirSharif
+  name: Amir
+  surname: Sharif
+
+- id: AndreaBisegna
+  name: Andrea
+  surname: Bisegna
+
+- id: AndreaFlamini
+  name: Andrea
+  surname: Flamini
+
+- id: AndreasHeiderAviet
+  name: Andreas
+  surname: Heider-Aviet
+
+- id: ClausPahl
+  name: Claus
+  surname: Pahl
+
+- id: DamianoSartori
+  name: Damiano
+  surname: Sartori
+
+- id: DannyRoswinOllik
+  name: Danny Roswin
+  surname: Ollik
+
+- id: EmanueleViglianisi
+  name: Emanuele
+  surname: Viglianisi
+
+- id: GiacomoZanolli
+  name: Giacomo
+  surname: Zanolli
+
+- id: GiadaSciarretta
+  name: Giada
+  surname: Sciarretta
+
+- id: GianfrancoBurzio
+  name: Gianfranco
+  surname: Burzio
+
+- id: GiulioPellizzari
+  name: Giulio
+  surname: Pellizzari
+
+- id: GiuseppeFarandaCordella
+  name: Giuseppe Faranda
+  surname: Cordella
+
+- id: HamidBerzegar
+  name: Hamid R.
+  surname: Berzegar
+
+- id: IonAndyDitu
+  name: Ion Andy
+  surname: Ditu
+
+- id: MarcoCentenaro
+  name: Marco
+  surname: Centenaro
+
+- id: MarianoCeccato
+  name: Mariano
+  surname: Ceccato
+
+- id: MarioScuro
+  name: Mario
+  surname: Scuro
+
+- id: NabilElIoini
+  name: Nabil
+  surname: El Ioini
+
+- id: RiccardoLongo
+  name: Riccardo
+  surname: Longo
+  affiliations:
+    - role: Researcher
+      unit: Applied Cryptography
+      institution: Fondazione Bruno Kessler
+      place: Trento, Italy
+  email: rlongo@fbk.eu
+
+- id: RobertoCarbone
+  name: Roberto
+  surname: Carbone
+
+- id: RobertoRiggio
+  name: Roberto
+  surname: Riggio
+
+- id: SalvatoreManfredi
+  name: Salvatore
+  surname: Manfredi
+
+- id: SergioManuelNobregaGoncalves
+  name: Sergio Manuel
+  surname: Nóbrega Gonçalves
+
+- id: SilvioRanise
+  name: Silvio
+  surname: Ranise
+
+- id: StefanoBerlato
+  name: Stefano
+  surname: Berlato
+  affiliations:
+    - role: PhD Student
+      unit: Applied Cryptography
+      institution: Fondazione Bruno Kessler
+      place: Trento, Italy
+    - role: PhD Student
+      unit: DIBRIS
+      institution: University of Genoa
+      place: Genoa, Italy
+  email: sberlato@fbk.eu
+
+- id: UmbertoMorelli
+  name: Umberto
+  surname: Morelli
+
+- id: VanThanhLe
+  name: Van Thanh
+  surname: Le
+
+- id: ZahraEbadiAnsaroudi
+  name: Zahra
+  surname: Ebadi Ansaroudi
+  affiliations:
+    - role: Researcher
+      unit: Applied Cryptography
+      institution: Fondazione Bruno Kessler
+      place: Trento, Italy
+  email: zebadiansaroudi@fbk.eu
+
+# Please keep alphabetical order

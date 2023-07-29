@@ -1,0 +1,127 @@
+title: Applied Cryptography
+tagline: Research Unit in Fondazione Bruno Kessler (FBK)
+logo: /assets/images/logos/ALEPH_symbol.png
+remote_theme: chrisrhymes/bulma-clean-theme
+markdown: kramdown
+repository: aleph-fbk/aleph.github.io
+
+plugins:
+  - jekyll-redirect-from
+
+collections:
+  collaborations:
+    output: true
+    layout: collaboration
+    image: https://via.placeholder.com/800x600
+    show_sidebar: false
+  complementary:
+    output: true
+    layout: complementary
+    image: https://via.placeholder.com/800x600
+    show_sidebar: false
+  events:
+    output: true
+    layout: page
+    image: https://via.placeholder.com/800x600
+    show_sidebar: false
+  news:
+    output: true
+    layout: news
+    image: https://via.placeholder.com/800x600
+    permalink: /news/:year/:month/:day/:title/
+    show_sidebar: false
+  people:
+    output: true
+    layout: page
+    image: https://via.placeholder.com/800x600
+    show_sidebar: false
+  projects:
+    output: true
+    layout: project
+    image: https://via.placeholder.com/800x600
+    show_sidebar: false
+  teaching:
+    output: true
+    layout: page
+    image: https://via.placeholder.com/800x600
+    show_sidebar: false
+  tools:
+    output: true
+    layout: tool
+    image: https://via.placeholder.com/800x600
+    show_sidebar: false
+  topics:
+    output: true
+    layout: topic
+    image: https://via.placeholder.com/800x600
+    show_sidebar: false
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      image: /assets/images/logos/ALEPH_symbol.png
+
+  - scope:
+      type: collaborations
+    values:
+      layout: collaboration
+
+  - scope:
+      type: complementary
+    values:
+      layout: complementary
+
+  - scope:
+      type: events
+    values:
+      layout: page
+
+  - scope:
+      type: news
+    values:
+      layout: news
+
+  - scope:
+      path: "_news/assets/*"
+    values:
+      permalink: /news/:title
+
+  - scope:
+      path: "_news/*-paper*-accepted-*"
+    values:
+      layout: news-accepted-paper
+      tags: [papers]
+
+  - scope:
+      path: "_news/*seminar*"
+    values:
+      layout: news-seminar
+      tags: [seminars]
+      
+  - scope:
+      path: "_news/*award*"
+    values:
+      tags: [awards]
+
+  - scope:
+      path: "_people/*-*"
+    values:
+      layout: person
+
+  - scope:
+      type: projects
+    values:
+      layout: project
+
+  - scope:
+      type: tools
+    values:
+      layout: tool
+
+  - scope:
+      type: topics
+    values:
+      layout: topic
+
+exclude: ["*/template*.md", "*/_template*.md", "README*.md"]

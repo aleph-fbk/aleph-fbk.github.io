@@ -1,0 +1,16 @@
+# ===== remove the line below when we have an event =====
+- id: noneevent
+# ===== remove the line above when we have an event =====
+
+
+## 2023
+# - id:               # ID of the event
+#   name:             # complete name of the event
+#   startDate:        # start date of the venue with quotes (e.g., "2020-02-07")
+#   endDate:          # end date of the venue with quotes (e.g., "2020-02-09")
+#   acronym:          # acronym of the event
+#  description:       # description of the event
+#  url:               # internal link to the event subpage (in "_events/")
+
+## 2024
+# ...
