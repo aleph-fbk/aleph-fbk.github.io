@@ -7,7 +7,7 @@ layout: page
         {{ content }}
     </div>
 
-    {% assign publicationsByYear = site.data.publications | where_exp: "publication", "publication.id_iris != nil" | group_by: "year" | sort: "name" | reverse %}
+    {% assign publicationsByYear = site.data.publications | where_exp: "publication", "publication.id_iris != nil" | where: "isALEPH", "true" | group_by: "year" | sort: "name" | reverse %}
 
     <div class="column is-12">
         {% for year in publicationsByYear %}
@@ -22,14 +22,14 @@ layout: page
 
     <div class="column is-12">
         <h1>Past Publications</h1>
-        <p>ALEPH was formed in June 2023. Here follows the list of publications by ALEPH members before that date.</p>
-        {% for year in publicationsByYear %}
+        <p>ALEPH was formed in June 2023; please refer to members' personal pages for publications before that date.</p>
+        <!-- {% for year in publicationsByYear %}
             {% assign yearn = year.name | plus:0 %}
             {% if yearn < 2023 %}
                 <h2>{{ year.name }} <small>({{ year.items.size }})</small></h2>
                 {% include list-publications.html source=year.items sort="title" %}
             {% endif %}
-        {% endfor %}
+        {% endfor %} -->
     </div>
 
 </div>

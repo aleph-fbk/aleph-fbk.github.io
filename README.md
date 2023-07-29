@@ -180,10 +180,12 @@ tools:
 To add a list of related publications to a specific page, just open the [`_data/publications.yml`](_data/publications.yml) file and check whether the publication is already listed (the list is sorted by year). If not, just add it through the following structure:
 ```yaml
 - id:                       # Choose a unique ID for the publication, will be referenced later
+  id_iris:                  # ID of the publication in FBK IRIS (e.g., "324208") (optional)
   title:                    # Title of the publication
   authors:                  # Authors of the publication
   destination:              # Unique ID of the destination (see below)
   destinationAddon:         # Addon to the destination journal or proceedings (e.g., volume, pages) (optional)
+  isALEPH:                  # Whether the publication should appear in the list of publications of ALEPH (then, set to "true") or only on persons' personal pages (then, set to "false")
   year:                     # Year of the publication
   doi:                      # DOI of the publication (optional)
   urlComplementary:         # URL to complementary material (optional)
