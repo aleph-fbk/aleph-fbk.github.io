@@ -31,9 +31,9 @@ Table of Contents:
     - [Add a new event](#add-a-new-event)
     - [List an external event](#list-an-external-event)
   - [News](#news)
-    - [Add general news](#add-general-news)
+    <!-- - [Add general news](#add-general-news)
     - [Add accepted papers news](#add-accepted-papers-news)
-    - [Add seminar news](#add-seminar-news)
+    - [Add seminar news](#add-seminar-news) -->
   - [Projects](#projects)
     - [Add a new page](#add-a-new-page-1)
   - [Tools](#tools)
@@ -53,7 +53,6 @@ The website is structured as follow:
 |-- _events/                => Events
 |-- _includes/              => Files to be commonly included (header, footer)
 |-- _layouts/               => Custom layouts for pages
-|-- _news/                  => News
 |-- _projects/              => Projects
 |-- _tools/                 => Tools
 |-- _topics/                => Topics (to appear in homepage)
@@ -189,7 +188,6 @@ To add a list of related publications to a specific page, just open the [`_data/
   year:                     # Year of the publication
   doi:                      # DOI of the publication (optional)
   urlComplementary:         # URL to complementary material (optional)
-  urlNews:                  # URL to the news of accepted paper on this website (optional)
 ```
 
 Then, insert a new line with a dash (-) followed by the assigned "id" under the `publications` structure in the intended page, for instance:
@@ -271,7 +269,10 @@ To list an external event, you should just edit the file [`_data/events.yml`](_d
 ```
 
 ## News
-### Add general news
+
+We decided to remove the news from the ALEPH's website (see [issue #3](https://gitlab.fbk.eu/st/people/StefanoBerlato/aleph_website/-/issues/3))
+
+<!-- ### Add general news
 To create news, just add a new file in the `_news` folder with the following name: `[yyyy]-[mm]-[dd]-[title-of-the-news-with-dashes].md`, where `yyyy`, `mm` and `dd` refer to the date of the news. The content of the file should respect the [template](_news/_template-general.md).
 
 URL of the new page: `https://aleph.github.io/news/[yyyy]/[mm]/[dd]/[title-of-the-news-with-dashes]`.
@@ -292,7 +293,7 @@ To create news about seminars, just add a new file in the `_news` folder with th
 
 URL of the new page: `https://aleph.github.io/news/[yyyy]/[mm]/[dd]/[custom-title-with-dashes]`.
 
-The news will be automatically listed on the website (inside the [News](https://aleph.github.io/news) page) with the `seminars` tag.
+The news will be automatically listed on the website (inside the [News](https://aleph.github.io/news) page) with the `seminars` tag. -->
 
 ## Projects
 ### Add a new page
