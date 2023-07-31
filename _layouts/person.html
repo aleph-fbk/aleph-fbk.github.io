@@ -81,7 +81,7 @@ layout: default
             {% endif %}
 
             <!-- PUBLICATIONS NOT IN ALEPH -->
-            {% assign publicationsByYear = site.data.publications | where_exp: "publication", "publication.authors contains page.person" | where_exp: "publication", "publication.id_iris != nil" | where: "isALEPH", "false" | group_by: "year" | sort: "name" | reverse %}
+            <!-- {% assign publicationsByYear = site.data.publications | where_exp: "publication", "publication.authors contains page.person" | where_exp: "publication", "publication.id_iris != nil" | where: "isALEPH", "false" | group_by: "year" | sort: "name" | reverse %}
             {% if publicationsByYear.size > 0 %}
                 <section class="contains-publications">
                     <h1>Past Publications — Before Joining ALEPH</h1>
@@ -90,7 +90,7 @@ layout: default
                         {% include list-publications.html source=year.items sort="title" %}
                     {% endfor %}
                 </section>
-            {% endif %}
+            {% endif %} -->
 
             <!-- THESES -->
             {% assign theses = site.data.theses | where_exp: "thesis", "thesis.author == page.person" | sort: "year" | reverse %}
@@ -122,12 +122,12 @@ layout: default
             {% endif %}
 
             <!-- DISSEMINATION -->
-            {% assign disseminationByStartDate = site.data.dissemination | where_exp: "dissemination", "dissemination.participants contains page.person" | group_by: "startDate" | sort: "name" | reverse %}         
+            {% assign disseminationByStartDate = site.data.dissemination | where_exp: "dissemination", "dissemination.participants contains page.person" | group_by: "startDate" | sort: "name" | reverse %}
             {% if disseminationByStartDate.size > 0 %}
                 <section class="contains-dissemination">
                     <h1>Dissemination</h1>
                     {% assign consideredYear = nil %}
-                    
+
                     {% for startDate in disseminationByStartDate %}
                         {% assign startDateYear = startDate.name | date: "%Y" %}
                         {% if consideredYear != startDateYear %}
@@ -174,7 +174,7 @@ layout: default
                                 <a href="tel:{{ phone }}">{{ phone }}</a>
                             </li>
                         {% endif %}
-                        
+
                         {% if email %}
                             <li class="contains-email">
                                 <a href="mailto:{{ email }}">{{ email }}</a>
