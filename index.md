@@ -1,9 +1,10 @@
 ---
 title: Applied Cryptography
-subtitle: Research Unit in Fondazione Bruno Kessler
+subtitle: Research Unit #in Fondazione Bruno Kessler
 layout: page
 heroImageLeft: /assets/images/logos/ALEPH_symbol_white.png
 heroImageRight: /assets/images/logos/CS_white.png
+
 ---
 
 # Who we are

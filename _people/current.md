@@ -4,6 +4,8 @@ layout: page
 permalink: /people/
 ---
 
+<p></p>
+
 <h1>Heads</h1>
 {% assign details = "picture, role, internalUnit, email, phone, personalPage, website" | split: ", " %}
 {% include list-people.html source=site.data.members.current.head style="card" details=details %}
