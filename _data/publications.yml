@@ -272,8 +272,6 @@
 #   year:               # year of publication (e.g., 2023)
 #   doi:                # doi (e.g., 10.1145/3320269.3384767)
 #   urlComplementary:   # url of complementary (in "_complementary")
-#   urlNews:            # url of news (e.g., "/news/2020/02/15/paper-accepted-at-asiaccs-2020/")
-#   urlNews:            # url of news (e.g., "/news/2020/02/15/paper-accepted-at-asiaccs-2020/")
 
 ## 2024
 # ...

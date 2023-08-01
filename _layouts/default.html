@@ -14,9 +14,11 @@
     {% endunless %}
     <section class="page-top">
         {% include header.html %}
-        {% unless page.hide_hero %}
-            {% include hero.html %}
-        {% endunless %}
+        {% if page.url == "/" %}
+            {% unless page.hide_hero %}
+                {% include hero.html %}
+            {% endunless %}
+        {% endif %}
     </section>
     {% include callouts.html %}
     <section class="section">

@@ -1,5 +1,5 @@
 - name: Collaborations
-  link: /collaborations
+  link: /collaborations/
 # - name: Dissemination
 #   link: /dissemination/
 # - name: Events
@@ -21,7 +21,7 @@
   link: /publications/
 # - name: Teaching
 #   link: /teaching/
-- name: Internships and Theses Proposals
+- name: Internships and Theses
   link: /offers/
 - name: Tools
   link: /tools/

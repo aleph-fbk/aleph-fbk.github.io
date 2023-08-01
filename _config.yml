@@ -4,6 +4,7 @@ logo: /assets/images/logos/ALEPH_symbol.png
 remote_theme: chrisrhymes/bulma-clean-theme
 markdown: kramdown
 repository: aleph-fbk/aleph.github.io
+fixed_navbar: top
 
 plugins:
   - jekyll-redirect-from
