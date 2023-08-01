@@ -18,7 +18,7 @@ publications:                   # Publications related to the project (optional)
       
 ---
 
-Write here the content of the page. You can use both markdown and HTML syntax.
-
 To add a Table of Contents, just add the following code where you want it to appear:
 {% include toc.md %}
+
+Write here the content of the page. You can use both markdown and HTML syntax.

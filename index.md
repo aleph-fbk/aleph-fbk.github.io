@@ -139,7 +139,7 @@ In line with the mission of [Fondazione Bruno Kessler](https://www.fbk.eu) (FBK)
             .attr("y", d => (-d.radius/2))
             .attr("width", d => (d.radius))
             .attr("height", d => (d.radius))
-            .attr('xlink:href', d => ('fontawesome-free-6.4.0-web/icons.svg#' + d.icon));
+            .attr('xlink:href', d => ('fontawesome-6.4.0/icons.svg#' + d.icon));
 
         simulation.on("tick", () => {
             link

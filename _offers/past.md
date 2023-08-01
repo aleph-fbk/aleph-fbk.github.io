@@ -8,4 +8,4 @@ permalink: /offers/past
 
 Here you can find the list of the closed internships and theses proposal of the unit.
 
-- [Closed Proposals for Academic Year 2022-2023](/offers/projects/2022-2023)
+- [Closed Proposals for Academic Year 2022-2023](/offers/past/2022-2023)

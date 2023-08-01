@@ -26,18 +26,15 @@ Table of Contents:
     - [Add related publications](#add-related-publications)
     - [Add destination](#add-destination)
   - [Complementary materials](#complementary-materials)
-    - [Add a new page](#add-a-new-page)
+    - [Add a new complementary material](#add-a-new-page)
   - [Events](#events)
     - [Add a new event](#add-a-new-event)
     - [List an external event](#list-an-external-event)
   - [News](#news)
-    <!-- - [Add general news](#add-general-news)
-    - [Add accepted papers news](#add-accepted-papers-news)
-    - [Add seminar news](#add-seminar-news) -->
   - [Projects](#projects)
-    - [Add a new page](#add-a-new-page-1)
+    - [Add a new project](#add-a-new-page-1)
   - [Tools](#tools)
-    - [Add a new page](#add-a-new-page-2)
+    - [Add a new tool](#add-a-new-page-2)
     - [List an external tool](#list-an-external-tool)
   - [Topics](#topics)
     - [Add a related publication](#add-a-related-publication)
@@ -45,35 +42,51 @@ Table of Contents:
 # Structure of the website
 The website is structured as follow:
 ```
-.
-|-- _complementary/         => Complementary materials for papers
+|-- .
+|-- _collaborations/        => Collaborations
+|-- _complementary/         => Complementary materials of papers
 |-- _data/                  => Data to populate lists
-|   └── menus/                  => Entries for side menus
-|
+|   └── menus/              => Entries for side menus
 |-- _events/                => Events
-|-- _includes/              => Files to be commonly included (header, footer)
-|-- _layouts/               => Custom layouts for pages
+|-- _includes/              => Files commonly included in pages (do not touch)
+|-- _layouts/               => Custom layouts for pages (do not touch)
+|-- _offers                 => Internships and theses offers (both past and open)
+|   └── past/                  => Internships and theses past offers
+|-- _people/                => Persons' profiles
 |-- _projects/              => Projects
+|-- _teaching/              => Teaching activities
 |-- _tools/                 => Tools
-|-- _topics/                => Topics (to appear in homepage)
-|-- assets/                 => Assets for the website (CSS, common images)
-|   └── css/                    => Stylesheets
-|   └── images/                 => Common images for easy inclusion
-|       └── logos/                  => Logos that are commonly used
+|-- assets/                 => Assets for the website
+|   └── areas/                 => Assets for pages
+|       └── collaborations/       => Assets for collaborations
+|       └── complementary/        => Assets for complementary
+|       └── events/               => Assets for events
+|       └── people/               => Assets for people
+|       └── projects/             => Assets for projects
+|       └── tools/                => Assets for tools
+|   └── css/                   => Stylesheets (do not touch)
+|   └── images/                => Common images for easy inclusion (do not touch)
+|       └── logos/                => Logos that are commonly used (do not touch)
+|   └── js/                 => Javascript files (do not touch)
+|   └── fontawesome-6.4.0/  => SVG icons (do not touch)
 |
-|-- _config.yml             => Configuration file of the website
-|-- 404.md                  => Custom 404 error page
-|-- collaborations.md       => Collaborations page
-|-- events.md               => Events page
-|-- index.md                => Homepage
-|-- projects.md             => List of projects
-|-- teaching.md             => Teaching page
-└── tools.md                => List of tools
+|-- _config.yml             => Configuration file of the website (do not touch)
+|-- 404.md                  => 404 page (do not touch)
+|-- CNAME                   => CNAME (do not touch)
+|-- collaborations.md       => Collaborations page (do not touch)
+|-- d3jsGraph.json          => Data for the network graph in the home page (do not touch)
+|-- dissemination.md        => Collaborations page (do not touch)
+|-- events.md               => Events page (do not touch)
+|-- favicon.ico             => favicon (do not touch)
+|-- favicon.png             => favicon (do not touch)
+|-- index.md                => Homepage (do not touch)
+|-- projects.md             => Projects page (do not touch)
+|-- publications.md         => Publications page (do not touch)
+└── tools.md                => Tools page (do not touch)
 ```
 
-Some folders (`_complementary`, `_projects`, `_tools` and `_topics`) also contain an `assets` subfolder where to upload images or attachments that are specifically related to a complementary material, project, tool or topic, respectively. Further information about attachment management can be found [below](#use-of-attachments).
-
 # General instructions
+
 ## Language
 This website is composed of several markdown pages that are automatically compiled and converted to HTML. Some templates (listed below) will guide through the creation of new pages. To update the website, you just need to push your changes to the repository; after a while the website will update accordingly.
 
@@ -81,42 +94,22 @@ On top of every page, a YAML preamble (started and ended with `---`) defines som
 
 Only plaintext is allowed inside YAML preambles, while common markdown or HTML tags can be used outside.
 
-Example of YAML syntax:
-```yaml
----
-# Only plaintext is allowed in YAML preambles
-variable1: normal text
-variable2: "text with special characters like: colons"
-variable3: >
-    Multiline text
-    that can stand on
-    different lines
-    until the next assignment appears
-variable4: other normal text
----
-
-Here you can use both markdown and HTML syntax.
-```
 
 ## Use of attachments
-Common images can be found in and used from the folder [`assets/images`](assets/images) (e.g., logos are in [`assets/images/logos`](assets/images/logos)), without uploading them over and over.
+Common images can be found in and used from the folder [`assets/images`](assets/images).
 
-Custom images or attachments specifically related to complementary materials, projects or tools should be uploaded in the related `assets` folder inside a new folder whose name must coincide with that of the related complementary material/project/tool page.
+Custom images or attachments specifically related to collaborations, complementary material, events, people, projects and tools should be uploaded in the related [`assets/areas`](assets/areas) folder.
 
-Custom images or attachments specifically related to events, instead, should be uploaded in a new `assets` folder inside the event folder.
+**Important**: keep material properly organized (e.g., use subfolders).
 
-Specifically:
-- for **complementary materials**: inside the folder `_complementary/assets/[ConferenceAcronym][Year]/[CustomNameOfFiles]`.
 
-- for **events**: inside the folder `_events/[EventAcronym]/assets/[CustomNameOfFiles]`.
-
-- for **projects**: inside the folder `_projects/assets/[ProjectName]/[CustomNameOfFiles]`.
-
-- for **tools**: inside the folder `_tools/assets/[ToolName]/[CustomNameOfFiles]`.
 
 # Common operations
+
+
 ## General
 The following operations can be done in any page, regardless the category.
+
 
 ### Add attached images
 To add some images, just add the following structure in the related page:
@@ -129,36 +122,21 @@ images:
 
 Images will be displayed at the end of the page in a *lightbox* structure (i.e., a popup will open and display the image bigger when clicking on it).
 
-### Add involved people
-To add a list of involved people to a specific page, just open the [`_data/people.yml`](_data/people.yml) file and check whether the person (and the correct affiliation) is already listed. If not, just add it through the following structure:
-```yaml
-- id:                       # Choose a unique ID for the person, will be referenced later
-  name:                     # Name
-  surname:                  # Surname
-  role:                     # Role (optional)
-  affiliations:
-    # Repeat the following structure to add more affiliations
-    - unit:                 # Unit or Department (optional)
-      institution:          # Institution
-      place:                # Place of the institution
-  email:                    # Email
-  website:                  # Website (optional)
-  image:                    # URL of a picture (optional)
-  usernameFBK:              # FBK username (for retrieving the picture, optional)
-```
 
-Then, insert a new line with a dash (-) followed by the assigned "id" under the `people` structure in the intended page, for instance:
+### Add involved people
+To add a list of involved people to a specific page, just open the [`_data/people.yml`](_data/people.yml) file and check whether the person (and the correct affiliation) is already listed. If not, just add it using the template you find at the top of [`_data/people.yml`](_data/people.yml).
+Then, in the specific page, insert a new line with a dash (-) followed by the assigned "id" under the `people` structure in the intended page, for instance:
 ```yaml
 people:
   - id1
   - id2
   - [...]
 ```
+**Important**: if the person is already listed in the `people.yml` file but with a former affiliation, please do not update the existent entry, as this would cause every page referring to the entry to update accordingly; instead, add a new entry with a different ID.
 
-**Important**: if the person is already listed in the `people.yml` file but with a former affiliation, please don't update the existent entry, as this would cause every page referring to the entry to update accordingly; instead, add a new entry with a different ID.
 
 ### Add related events
-To add a list of related events to a specific page, they must be listed in the [`_data/events.yml`](_data/events.yml) file. Thus, insert a new line with a dash (-) followed by the assigned "id" under the `events` structure in the intended page, for instance:
+To add a list of related events to a specific page, they must be listed in the [`_data/events.yml`](_data/events.yml) file (see how to [add a new event](#add-a-new-event)). Then, insert a new line with a dash (-) followed by the assigned "id" under the `events` structure in the intended page, for instance:
 ```yaml
 events:
   - id1
@@ -166,8 +144,9 @@ events:
   - [...]
 ```
 
+
 ### Add related tools
-To add a list of related tools to a specific page, they must be listed in the [`_data/tools.yml`](_data/tools.yml) file. Thus, insert a new line with a dash (-) followed by the assigned "id" under the `tools` structure in the intended page, for instance:
+To add a list of related tools to a specific page, they must be listed in the [`_data/tools.yml`](_data/tools.yml) file (see how to [add a new tool](#add-a-new-page-2)). Then, insert a new line with a dash (-) followed by the assigned "id" under the `tools` structure in the intended page, for instance:
 ```yaml
 tools:
   - id1
@@ -175,21 +154,9 @@ tools:
   - [...]
 ```
 
-### Add related publications
-To add a list of related publications to a specific page, just open the [`_data/publications.yml`](_data/publications.yml) file and check whether the publication is already listed (the list is sorted by year). If not, just add it through the following structure:
-```yaml
-- id:                       # Choose a unique ID for the publication, will be referenced later
-  id_iris:                  # ID of the publication in FBK IRIS (e.g., "324208") (optional)
-  title:                    # Title of the publication
-  authors:                  # Authors of the publication
-  destination:              # Unique ID of the destination (see below)
-  destinationAddon:         # Addon to the destination journal or proceedings (e.g., volume, pages) (optional)
-  isALEPH:                  # Whether the publication should appear in the list of publications of ALEPH (then, set to "true") or only on persons' personal pages (then, set to "false")
-  year:                     # Year of the publication
-  doi:                      # DOI of the publication (optional)
-  urlComplementary:         # URL to complementary material (optional)
-```
 
+### Add related publications
+To add a list of related publications to a specific page, just open the [`_data/publications.yml`](_data/publications.yml) file and check whether the publication is already listed (the list is sorted by year). If not, just add it using the template you find at the top of [`_data/publications.yml`](_data/publications.yml).
 Then, insert a new line with a dash (-) followed by the assigned "id" under the `publications` structure in the intended page, for instance:
 ```yaml
 publications:
@@ -198,25 +165,15 @@ publications:
   - [...]
 ```
 
+
 ### Add destination
-As explained in the previous section, each publication should be linked to the related destination (conference, workshop or journal) through the `destination` field.
-
-To add a specific destination, just open the [`_data/destinations.yml`](_data/destinations.yml) file and check whether the destination is already listed (journals are on the top, while conferences and workshops are sorted by year). If not, just add it through the following structure:
-```yaml
-- id:                       # Choose a unique ID for the destination, will be referenced later
-  name:                     # Name of the journal, conference or workshop
-  proceedings:              # Name of the proceedings (optional, only if different from "name")
-  acronym:                  # Acronym of  the journal, conference or workshop
-  url:                      # URL of the journal, conference or workshop
-  type:                     # Type of destination (among conference, journal and workshop)
-  location:                 # Location of the destination (if applicable, e.g., not for journal)
-  startDate:                # Starting date of the destination (if applicable, e.g., not for journal)
-  endDate:                  # Ending date of the destination (if applicable, e.g., not for journal)
-```
-
+To add a specific destination, just open the [`_data/destinations.yml`](_data/destinations.yml) file and check whether the destination is already listed (journals are on the top, while conferences and workshops are sorted by year). If not, just add it using the template you find at the top of [`_data/destinations.yml`](_data/destinations.yml).
 Then, insert the assigned "id" in the `destination` field within the publications list.
 
+
 ## Complementary materials
+
+
 ### Add a new page
 To create a new page for a complementary material, just add a new file `[ConferenceAcronym][Year].md` to the [`_complementary`](_complementary/) folder. The content of the file should respect the [template](_complementary/_template.md).
 
@@ -226,7 +183,10 @@ URL of the new page: `https://aleph.github.io/complementary/[ConferenceAcronym][
 
 The page will **not** be listed on the website (unless explicitly linked to the related publication), but the link can be used in papers or other publications.
 
+
 ## Events
+
+
 ### Add a new event
 The website can show kind of sub-websites for events. To create a new one, just create a new folder named `[EventAcronym]/` inside the `_events` folder. The main page should be named `index.md`, while other side pages can have any name as they will be explicitly linked. The content of the file should respect the [template](_events/_template.md).
 
@@ -235,8 +195,7 @@ Guidelines on attachments can be found [above](#use-of-attachments).
 To display a menu on the right part of the page (e.g., to link other subpages) you need to create a new file called `[EventAcronym].yml` and place it in the [`_data/menus`](_data/menus) folder. The file should have this structure:
 ```yaml
 - label:                # Label to be display on top of the menu
-  items:
-    # Repeat the following structure for each page
+  items:                # Repeat the following structure for each page
     - name:             # Name of the page
       link:             # Link to the page
 ```
@@ -256,6 +215,7 @@ Finally, to list the event, you should edit the file [`_data/events.yml`](_data/
 
 After this operation, the tool will be listed on the website (inside the [Events](https://aleph.github.io/events) page).
 
+
 ### List an external event
 To list an external event, you should just edit the file [`_data/events.yml`](_data/events.yml) and append the following structure:
 ```yaml
@@ -268,34 +228,15 @@ To list an external event, you should just edit the file [`_data/events.yml`](_d
   url:                  # URL to the event page (also external)
 ```
 
+
 ## News
 
 We decided to remove the news from the ALEPH's website (see [issue #3](https://gitlab.fbk.eu/st/people/StefanoBerlato/aleph_website/-/issues/3))
 
-<!-- ### Add general news
-To create news, just add a new file in the `_news` folder with the following name: `[yyyy]-[mm]-[dd]-[title-of-the-news-with-dashes].md`, where `yyyy`, `mm` and `dd` refer to the date of the news. The content of the file should respect the [template](_news/_template-general.md).
-
-URL of the new page: `https://aleph.github.io/news/[yyyy]/[mm]/[dd]/[title-of-the-news-with-dashes]`.
-
-The news will be automatically listed on the website (inside the [News](https://aleph.github.io/news) page).
-
-### Add accepted papers news
-To create news about accepted papers, you first need to create the publication (and, maybe, destination) entry as explained [here](#add-related-publications).
-
-Then, just add a new file in the `_news` folder with the following name: `[yyyy]-[mm]-[dd]-paper-accepted-at-[conference-or-journal-acronym].md`, where `yyyy`, `mm` and `dd` refer to the date of the news. The content of the file should respect the [template](_news/_template-accepted-paper.md).
-
-URL of the new page: `https://aleph.github.io/news/[yyyy]/[mm]/[dd]/paper-accepted-at-[conference-or-journal-acronym]`.
-
-The news will be automatically listed on the website (inside the [News](https://aleph.github.io/news) page) with the `papers` tag.
-
-### Add seminar news
-To create news about seminars, just add a new file in the `_news` folder with the following name: `[yyyy]-[mm]-[dd]-[custom-title-with-dashes].md` (it must contain the word "seminar", e.g., `st-seminar-by-roberto-carbone`), where `yyyy`, `mm` and `dd` refer to the date of the news. The content of the file should respect the [template](_news/_template-seminar.md).
-
-URL of the new page: `https://aleph.github.io/news/[yyyy]/[mm]/[dd]/[custom-title-with-dashes]`.
-
-The news will be automatically listed on the website (inside the [News](https://aleph.github.io/news) page) with the `seminars` tag. -->
 
 ## Projects
+
+
 ### Add a new page
 To create a new page for a project, just add a new file `[ProjectName].md` to the [`_projects`](_projects/) folder. The content of the file should respect the [template](_projects/_template.md).
 
@@ -305,7 +246,10 @@ URL of the new page: `https://aleph.github.io/projects/[ProjectName]`.
 
 The project will be automatically listed on the website (inside the [Projects](https://aleph.github.io/projects) page).
 
+
 ## Tools
+
+
 ### Add a new page
 To create a new page for a tool, just add a new file `[ToolName].md` to the [`_tools`](_tools/) folder. The content of the file should respect the [template](_tools/_template.md).
 

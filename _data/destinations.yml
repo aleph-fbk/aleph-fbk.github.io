@@ -2,6 +2,13 @@
 
 
 # JOURNALS
+
+# - id:                       # Choose a unique ID for the destination, will be referenced later
+#   name:                     # Name of the destination
+#   acronym:                  # Acronym of the destination
+#   url:                      # URL of the destination
+#   type: journal             # Keep journal
+
 - id: JISA
   name: Journal of Information Security and Applications
   acronym: JISA
@@ -25,35 +32,41 @@
   url: https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=6979
   type: journal
 
-# - id:             # ID of the venue
-#   name:           # complete name of the venue
-#   acronym:        # eventual acronym
-#   url:            # official URL of the venue
-#   type: journal   # keep journal
-
 
 # ONLINE
-# - id:             # ID of the venue
-#   name:           # complete name of the venue
-#   acronym:        # eventual acronym
-#   url:            # official URL of the venue
-#   type: website   # keep website
+
+# - id:                       # Choose a unique ID for the destination, will be referenced later
+#   name:                     # Name of the destination
+#   acronym:                  # Acronym of the destination
+#   url:                      # URL of the destination
+#   type: website             # Keep website
 
 
 # BOOKS
+
+# - id:                       # Choose a unique ID for the destination, will be referenced later
+#   name:                     # Name of the destination
+#   acronym:                  # Acronym of the destination
+#   url:                      # URL of the destination
+#   type: book      # Keep book
+
 - id: SecAssAPIFinancial_book_2020
   name: "Cyber-Physical Threat Intelligence for Critical Infrastructures Security: A Guide to Integrated Cyber-Physical Protection of Modern Critical Infrastructures"
   url: https://nowpublishers.com/article/BookDetails/9781680836868
   type: book
 
-# - id:             # ID of the venue
-#   name:           # complete name of the venue
-#   acronym:        # eventual acronym
-#   url:            # official URL of the venue
-#   type: book      # keep book
-
 
 # CONFERENCES/WORKSHOPS
+
+# - id:                       # Choose a unique ID for the destination, will be referenced later
+#   name:                     # Name of the destination
+#   proceedings:              # Name of the proceedings (optional, only if different from "name")
+#   acronym:                  # Acronym of the destination
+#   url:                      # URL of the destination
+#   type: conference          # Keep conference
+#   location:                 # Location of the destination (if applicable, e.g., not for journal)
+#   startDate:                # Starting date of the destination (if applicable, e.g., not for journal)
+#   endDate:                  # Ending date of the destination (if applicable, e.g., not for journal)
 
 ## 2019
 - id: FPS2019
@@ -150,16 +163,6 @@
   location: Rome, Italy
   startDate: "2023-07-10"
   endDate: "2023-07-12"
-
-# - id:               # ID of the venue
-#   name:             # complete name of the venue
-#   acronym:          # eventual acronym
-#   url:              # official URL of the venue
-#   proceedings:      # proceedings title
-#   type: conference  # keep conference
-#   location:         # location of the venue
-#   startDate:        # start date of the venue with quotes (e.g., "2020-02-07")
-#   endDate:          # end date of the venue with quotes (e.g., "2020-02-09")
 
 
 ## 2024

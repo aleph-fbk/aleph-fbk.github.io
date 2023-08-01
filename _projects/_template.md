@@ -43,4 +43,4 @@ publications:                   # Publications related to the project (optional)
 
 ---
 
-Write here the content of the page, it appears in the "Overview" section. You can use both markdown and HTML syntax.
+Write here the content of the page. You can use both markdown and HTML syntax.

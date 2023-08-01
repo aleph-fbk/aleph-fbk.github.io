@@ -1,15 +1,15 @@
 # Please keep alphabetical order
 
-# - id:         # ID of the person
-#   name:
-#   surname:
-#   affiliations:
-#     - role: 
-#       unit: 
-#       institution: 
-#       place:
-#   email:      # e.g., name.surname@domain.it
-#   image:      # image (external) url
+# - id:                       # Choose a unique ID for the person, will be referenced later
+#   name:                     # Name
+#   surname:                  # Surname
+#   affiliations:             # Repeat the following structure to add more affiliations
+#     - role:                 # Role (optional)
+#       unit:                 # Unit or Department (optional)
+#       institution:          # Institution
+#       place:                # Place of the institution
+#   email:                    # Email
+#   image:                    # URL of a picture (optional)  
 
 - id: AdamJLee
   name: Adam J.
