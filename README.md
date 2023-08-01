@@ -13,7 +13,6 @@
 This document provides instructions about the [ALEPH website](https://aleph.github.io).
 
 Table of Contents:
-- [Structure of the website](#structure-of-the-website)
 - [General instructions](#general-instructions)
   - [Language](#language)
   - [Use of attachments](#use-of-attachments)
@@ -38,52 +37,8 @@ Table of Contents:
     - [List an external tool](#list-an-external-tool)
   - [Topics](#topics)
     - [Add a related publication](#add-a-related-publication)
+- [Structure of the website](#structure-of-the-website)
 
-# Structure of the website
-The website is structured as follow:
-```
-|-- .
-|-- _collaborations/        => Collaborations
-|-- _complementary/         => Complementary materials of papers
-|-- _data/                  => Data to populate lists
-|   └── menus/              => Entries for side menus
-|-- _events/                => Events
-|-- _includes/              => Files commonly included in pages (do not touch)
-|-- _layouts/               => Custom layouts for pages (do not touch)
-|-- _offers                 => Internships and theses offers (both past and open)
-|   └── past/                  => Internships and theses past offers
-|-- _people/                => Persons' profiles
-|-- _projects/              => Projects
-|-- _teaching/              => Teaching activities
-|-- _tools/                 => Tools
-|-- assets/                 => Assets for the website
-|   └── areas/                 => Assets for pages
-|       └── collaborations/       => Assets for collaborations
-|       └── complementary/        => Assets for complementary
-|       └── events/               => Assets for events
-|       └── people/               => Assets for people
-|       └── projects/             => Assets for projects
-|       └── tools/                => Assets for tools
-|   └── css/                   => Stylesheets (do not touch)
-|   └── images/                => Common images for easy inclusion (do not touch)
-|       └── logos/                => Logos that are commonly used (do not touch)
-|   └── js/                 => Javascript files (do not touch)
-|   └── fontawesome-6.4.0/  => SVG icons (do not touch)
-|
-|-- _config.yml             => Configuration file of the website (do not touch)
-|-- 404.md                  => 404 page (do not touch)
-|-- CNAME                   => CNAME (do not touch)
-|-- collaborations.md       => Collaborations page (do not touch)
-|-- d3jsGraph.json          => Data for the network graph in the home page (do not touch)
-|-- dissemination.md        => Collaborations page (do not touch)
-|-- events.md               => Events page (do not touch)
-|-- favicon.ico             => favicon (do not touch)
-|-- favicon.png             => favicon (do not touch)
-|-- index.md                => Homepage (do not touch)
-|-- projects.md             => Projects page (do not touch)
-|-- publications.md         => Publications page (do not touch)
-└── tools.md                => Tools page (do not touch)
-```
 
 # General instructions
 
@@ -285,3 +240,52 @@ URLs can also point to external resources (as previously made websites or extern
 ## Topics
 ### Add a related publication
 Each of the topic and spotlights in homepage may contain a list of relevant papers. To add a new one, just follow the instructions [above](#add-related-publications). The pages of the topics will be found in the `_topics` folder.
+
+
+
+
+# Structure of the website
+The website is structured as follow:
+```
+|-- .
+|-- _collaborations/        => Collaborations
+|-- _complementary/         => Complementary materials of papers
+|-- _data/                  => Data to populate lists
+|   └── menus/              => Entries for side menus
+|-- _events/                => Events
+|-- _includes/              => Files commonly included in pages (do not touch)
+|-- _layouts/               => Custom layouts for pages (do not touch)
+|-- _offers                 => Internships and theses offers (both past and open)
+|   └── past/                  => Internships and theses past offers
+|-- _people/                => Persons' profiles
+|-- _projects/              => Projects
+|-- _teaching/              => Teaching activities
+|-- _tools/                 => Tools
+|-- assets/                 => Assets for the website
+|   └── areas/                 => Assets for pages
+|       └── collaborations/       => Assets for collaborations
+|       └── complementary/        => Assets for complementary
+|       └── events/               => Assets for events
+|       └── people/               => Assets for people
+|       └── projects/             => Assets for projects
+|       └── tools/                => Assets for tools
+|   └── css/                   => Stylesheets (do not touch)
+|   └── images/                => Common images for easy inclusion (do not touch)
+|       └── logos/                => Logos that are commonly used (do not touch)
+|   └── js/                 => Javascript files (do not touch)
+|   └── fontawesome-6.4.0/  => SVG icons (do not touch)
+|
+|-- _config.yml             => Configuration file of the website (do not touch)
+|-- 404.md                  => 404 page (do not touch)
+|-- CNAME                   => CNAME (do not touch)
+|-- collaborations.md       => Collaborations page (do not touch)
+|-- d3jsGraph.json          => Data for the network graph in the home page (do not touch)
+|-- dissemination.md        => Collaborations page (do not touch)
+|-- events.md               => Events page (do not touch)
+|-- favicon.ico             => favicon (do not touch)
+|-- favicon.png             => favicon (do not touch)
+|-- index.md                => Homepage (do not touch)
+|-- projects.md             => Projects page (do not touch)
+|-- publications.md         => Publications page (do not touch)
+└── tools.md                => Tools page (do not touch)
+```
