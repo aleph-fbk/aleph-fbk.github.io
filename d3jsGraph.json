@@ -1,0 +1,120 @@
+{
+   "nodes":[
+      {
+         "id":"Access Control",
+         "group":"Topics",
+         "radius":40,
+         "icon":"universal-access"
+      },
+      {
+         "id":"Privacy Enhancing Cryptography",
+         "group":"Topics",
+         "radius":40,
+         "icon":"user-secret"
+      },
+      {
+         "id":"Decentralization of Trust",
+         "group":"Topics",
+         "radius":40,
+         "icon":"handshake"
+      },
+      {
+         "id":"Cryptographic Access Control",
+         "group":"SubTopics",
+         "radius":20,
+         "icon":"gamepad"
+      },
+      {
+         "id":"Attribute-based Encryption",
+         "group":"SubTopics",
+         "radius":20,
+         "icon":"building-lock"
+      },
+      {
+         "id":"Zero-Knowledge Proofs",
+         "group":"SubTopics",
+         "radius":20,
+         "icon":"hat-wizard"
+      },
+      {
+         "id":"Secure Multi-Party Computation",
+         "group":"SubTopics",
+         "radius":20,
+         "icon":"people-group"
+      },
+      {
+         "id":"Threshold Cryptography",
+         "group":"SubTopics",
+         "radius":20,
+         "icon":"hourglass-start"
+      },
+      {
+         "id":"Blockchain Applications",
+         "group":"SubTopics",
+         "radius":20,
+         "icon":"hive"
+      },
+      {
+         "id":"Post-Quantum Cryptography",
+         "group":"SubTopics",
+         "radius":20,
+         "icon":"atom"
+      },
+      {
+         "id":"Cryptanalysis",
+         "group":"SubTopics",
+         "radius":20,
+         "icon":"magnifying-glass"
+      },
+      {
+         "id":"Hardware-based Security",
+         "group":"SubTopics",
+         "radius":20,
+         "icon":"microchip"
+      },
+      {
+         "id":"Symbolic Model Verification",
+         "group":"SubTopics",
+         "radius":20,
+         "icon":"certificate"
+      }
+   ],
+   "links":[
+      {
+         "source":"Access Control",
+         "target":"Cryptographic Access Control"
+      },
+      {
+         "source":"Access Control",
+         "target":"Attribute-based Encryption"
+      },
+      {
+         "source":"Privacy Enhancing Cryptography",
+         "target":"Attribute-based Encryption"
+      },
+      {
+         "source":"Privacy Enhancing Cryptography",
+         "target":"Zero-Knowledge Proofs"
+      },
+      {
+         "source":"Privacy Enhancing Cryptography",
+         "target":"Secure Multi-Party Computation"
+      },
+      {
+         "source":"Decentralization of Trust",
+         "target":"Zero-Knowledge Proofs"
+      },
+      {
+         "source":"Decentralization of Trust",
+         "target":"Secure Multi-Party Computation"
+      },
+      {
+         "source":"Decentralization of Trust",
+         "target":"Threshold Cryptography"
+      },
+      {
+         "source":"Decentralization of Trust",
+         "target":"Blockchain Applications"
+      }
+   ]
+}
