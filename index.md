@@ -26,6 +26,21 @@ In line with the mission of [Fondazione Bruno Kessler](https://www.fbk.eu) (FBK)
 
 <script type="module">
 
+
+    function updateScaling() {
+        const originalWidth = 928;                   // The original width of the SVG
+        const originalHeight = 680;                  // The original height of the SVG
+        const svg = document.getElementById('scaling-group');
+
+        // Get the dimensions of the container
+        const containerWidth = window.innerWidth;
+        const containerHeight = originalHeight;
+        // Update the viewBox attribute to match the container size
+        svg.setAttribute('viewBox', `${-containerWidth/2} ${-containerHeight/2} ${containerWidth} ${containerHeight}`);
+    }
+
+
+
     import * as d3 from "https://cdn.jsdelivr.net/npm/d3@7/+esm";
 
     fetch("d3jsGraph.json")
@@ -78,10 +93,11 @@ In line with the mission of [Fondazione Bruno Kessler](https://www.fbk.eu) (FBK)
 
         // Create the SVG container.
         const svg = d3.create("svg")
-            .attr("width", width)
-            .attr("height", height)
+            .attr("width", "100%")
+            .attr("height", "100%")
+            .attr("id", "scaling-group")
             .attr("viewBox", [-width / 2, -height / 2, width, height])
-            .attr("style", "max-width: 100%; height: auto; font: 12px sans-serif;");
+            .attr("style", 'max-width: 100%; height: auto; font: 12px "Montserrat", sans-serif;');
 
         // Add a line for each link, and a circle for each node.
         const link = svg.append("g")
@@ -116,7 +132,7 @@ In line with the mission of [Fondazione Bruno Kessler](https://www.fbk.eu) (FBK)
             .attr("fill", "none")
             .attr("stroke", "white")
             .attr("stroke-width", 3)
-            .attr("style", "z-index:50");
+            .attr("font-family", '"Montserrat", sans-serif');
 
         node.append('use')
             .attr("x", d => (-d.radius/2))
@@ -135,10 +151,12 @@ In line with the mission of [Fondazione Bruno Kessler](https://www.fbk.eu) (FBK)
                 .attr("transform", d => `translate(${d.x},${d.y})`);
         });
 
-
-
         // Append the SVG element.
         d3.select("#d3jsGraph").append(function(){return svg.node();});
+
+        // Call the updateScaling function initially and on window resize
+        window.addEventListener('resize', updateScaling);
+        updateScaling();
     }
 
 </script>
