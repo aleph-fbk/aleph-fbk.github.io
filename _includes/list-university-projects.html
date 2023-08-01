@@ -233,6 +233,15 @@
                                 </span>
                             </h2>
                             {% if project.published %}<p><b>Published on:</b> {{ project.published | date: "%B %e, %Y" }}</p>{% endif %}
+
+                            {%- if project.thesisID -%}
+                                <div class="university-projects-call-text">
+                                    <p>This proposal resulted in the following thesis:</p>
+                                    {% assign theses = site.data.theses | where_exp: "thesis", "thesis.id == project.thesisID" | sort: "year" | reverse %}
+                                    {% include list-theses.html source=theses %}
+                                </div>
+                            {%- endif -%}
+                            <p></p>
                             {% if project.description %}
                                 <div class="description">
                                     <p><b>Description:</b></p>
