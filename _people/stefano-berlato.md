@@ -25,4 +25,4 @@ He joined the Security & Trust research unit in October 2018 as a Research Assis
 
 His research focuses on applied cryptography and the design of architectural models and orchestration optimization methodologies for cryptographic access control schemes in decentralized scenarios.
 
-Please refer to the [personal website](https://stefanoberlato.it/) for past projects and publications.
+Please refer to the [personal website](https://stefanoberlato.it/) for the complete list of projects, publications and theses before joining ALEPH.
