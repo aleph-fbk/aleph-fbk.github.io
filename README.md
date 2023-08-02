@@ -8,6 +8,20 @@
   - if the above command does not work, delete the "gemfile.lock" file, run "rvm install ruby 3.2.2" and again "bundle exec jekyll serve"
 - open the browser at "http://0.0.0.0:4000/"
 
+Sample installation in Ubuntu 22.04:
+
+```bash
+sudo apt install software-properties-common ruby-dev ruby-bundler
+sudo apt-add-repository -y ppa:rael-gc/rvm
+sudo apt-get update
+sudo usermod -a -G rvm $USER
+source ~/.bashrc
+sudo apt-get install rvm
+rvm install ruby 3.2.2
+bundle install
+bundle exec jekyll serve
+```
+
 ***
 
 This document provides instructions about the [ALEPH website](https://aleph.github.io).
