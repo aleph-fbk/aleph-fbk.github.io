@@ -7,9 +7,9 @@ heroImageRight: /assets/images/logos/CS_white.png
 
 ---
 
-# Who we are
+At **Applied Cryptography (ALEPH &alefsym;)** we match cutting-edge cryptography with interesting requirements, brought by our collaborations with academia, the public sector, and the private sector. In order to find the best match, our research requires in-depth knowledge of existing standards and protocols, and often involves performance evaluation in the specific scenarios of interest. The use cases we encounter in our projects range from digital identity to cloud computing, electronic voting, and automotive. Some projects result in the creation of tools or libraries, which we publish open source whenever possible.
 
-In line with the mission of [Fondazione Bruno Kessler](https://www.fbk.eu) (FBK), which aims to achieve scientific research of excellence and have an impact on society, the **Applied Cryptography (ALEPH)** Research Unit of the [Cybersecurity center](https://www.fbk.eu/it/cybersecurity/) of FBK develops cutting-edge security solutions in the following areas:
+Our current research topics of main interest are represented below.
 
 <!-- - Access Control (e.g., attribute-based encryption, cryptographic access control)
 - Privacy-Enhancing Cryptography (e.g., attribute-based encryption, secure multi-party computation, zero-knowledge proofs)
@@ -160,3 +160,6 @@ In line with the mission of [Fondazione Bruno Kessler](https://www.fbk.eu) (FBK)
     }
 
 </script>
+
+
+&#x2135; is one of the Research Units of the [Cybersecurity center](https://www.fbk.eu/it/cybersecurity/) of [Fondazione Bruno Kessler](https://www.fbk.eu) (FBK). Our mission is to carry out scientific research of excellence with a positive impact on society.
