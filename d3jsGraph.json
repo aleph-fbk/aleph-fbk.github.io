@@ -4,7 +4,7 @@
          "id":"Access Control",
          "group":"Topics",
          "radius":40,
-         "icon":"universal-access"
+         "icon":"person-military-pointing"
       },
       {
          "id":"Privacy Enhancing Cryptography",
@@ -28,37 +28,37 @@
          "id":"Attribute-based Encryption",
          "group":"SubTopics",
          "radius":20,
-         "icon":"building-lock"
+         "icon":"user-tag"
       },
       {
          "id":"Zero-Knowledge Proofs",
          "group":"SubTopics",
          "radius":20,
-         "icon":"hat-wizard"
+         "icon":"circle-question"
       },
       {
          "id":"Secure Multi-Party Computation",
          "group":"SubTopics",
          "radius":20,
-         "icon":"people-group"
+         "icon":"users-gear"
       },
       {
          "id":"Threshold Cryptography",
          "group":"SubTopics",
          "radius":20,
-         "icon":"hourglass-start"
+         "icon":"users-slash"
       },
       {
          "id":"Blockchain Applications",
          "group":"SubTopics",
          "radius":20,
-         "icon":"hive"
+         "icon":"link"
       },
       {
          "id":"Post-Quantum Cryptography",
          "group":"SubTopics",
          "radius":20,
-         "icon":"atom"
+         "icon":"q"
       },
       {
          "id":"Cryptanalysis",
