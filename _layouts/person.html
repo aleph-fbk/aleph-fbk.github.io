@@ -113,19 +113,19 @@ layout: default
                     {% if currentProjects.size > 0 %}
                         <h4>Current</h4>
                         <div class="column is-12">
-                            {% include list-projects.html source=currentProjects sort="title" style="card" %}
+                            {% include list-items.html source=currentProjects sort="title" style="card" %}
                         </div>
                     {% else %}
                         <h4>Former</h4>
                         <div class="column is-12">
-                            {% include list-projects.html source=formerProjects sort="title" style="card" %}
+                            {% include list-items.html source=formerProjects sort="title" style="card" %}
                         </div>
                     {% endif %}
                 </section>
             {% endif %}
 
             <!-- DISSEMINATION -->
-            {% assign disseminationByStartDate = site.data.dissemination | where_exp: "dissemination", "dissemination.participants contains page.person" | group_by: "startDate" | sort: "name" | reverse %}
+            {% assign disseminationByStartDate = site.dissemination | where_exp: "dissemination", "dissemination.participants contains page.person" | group_by: "startDate" | reverse %}
             {% if disseminationByStartDate.size > 0 %}
                 <section class="contains-dissemination">
                     <h1>Dissemination</h1>
@@ -218,14 +218,9 @@ layout: default
                                 {% when "ORCID" %}
                                     {% assign linkName = "ORCID" %}
                                     {% assign linkURL = "https://orcid.org/" | append: link.value %}
-                                {% when "Publons" %}
-                                    {% assign linkName = "Publons" %}
                                 {% when "ResearchGate" %}
                                     {% assign linkName = "ResearchGate" %}
                                     {% assign linkURL = "https://www.researchgate.net/profile/" | append: link.value %}
-                                {% when "Twitter" %}
-                                    {% assign linkName = "Twitter" %}
-                                    {% assign linkURL = "https://twitter.com/" | append: link.value %}
                                 {% when "Website" %}
                                     {% assign linkName = "Website" %}
                                     {% assign linkURL = link.value %}

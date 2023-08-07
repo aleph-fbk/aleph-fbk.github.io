@@ -1,0 +1,45 @@
+{% assign items = include.source | sort: "id" %}
+{% assign style = include.style %}
+
+{% if items.size > 0 %}
+    {% if style == "card" %}
+        <div class="columns is-multiline">
+    {% elsif style == "list" %}
+        <ul>
+    {% endif %}
+
+    {%- for item in items -%}
+        {% if style == "card" %}
+            <div class="column is-4-desktop is-6-tablet">
+                <a href="{{ item.internalUrl | prepend: site.baseurl }}">
+                    <div class="card enterprise">
+                        <div class="card-image">
+                            <figure class="image">
+                                {% if item.logo %}
+                                    <img src="{{ site.baseurl }}{{ item.logo }}" alt="{{ item.title }}" />
+                                {% else %}
+                                    <img class="default" alt="{{ item.title }}" />
+                                {% endif %}
+                            </figure>
+                        </div>
+                        <div class="card-content">
+                            <p class="title is-4">{{ item.title }}</p>
+                            {% if item.description %}<p class="subtitle is-4">{{ item.description }}</p>{% endif %}
+                        </div>
+                    </div>
+                </a>
+            </div>
+        {% elsif style == "list" %}
+            <li class="item">
+                <a href="{{ item.internalUrl | prepend: site.baseurl }}"><b>{{ item.title }}</b></a>
+            </li>
+        {% endif %}
+    {% endfor %}
+
+    {% if style == "card" %}
+        </div>
+    {% elsif style == "list" %}
+        </ul>
+    {% endif %}
+
+{% endif %}

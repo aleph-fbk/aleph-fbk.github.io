@@ -1,7 +1,7 @@
 ---
-title: Internships and Theses
+title: Past Internships and Theses
 layout: page
-permalink: /offers/
+permalink: /offers/past/
 ---
 
 <br />
@@ -12,6 +12,6 @@ permalink: /offers/
     </div>
 
     <div class="column is-12">
-        {% include list-university-projects.html source=site.data.offers.university-projects %}
+        {% include list-university-projects.html source=site.data.offers.past-university-projects %}
     </div>
 </div>

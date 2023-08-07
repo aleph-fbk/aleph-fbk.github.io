@@ -5,6 +5,7 @@ type: topic
 url: /topics/DecentralizationOfTrust
 image: decentralizationOfTrust.png
 order: 2
+permalink: /topics/DecentralizationOfTrust/
 
 tools:
     # -               # ID of related tools

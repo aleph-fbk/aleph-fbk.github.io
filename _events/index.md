@@ -1,17 +1,18 @@
 ---
+title: Events
 layout: page
-show_sidebar: false
+permalink: /events/
 ---
 
+<br />
 <div class="columns is-multiline">
 
     <div class="column is-12">
-        {{ content }}
 
         {% assign todayDate = 'now' | date: '%Y-%m-%d' %}
-        {% assign currentEvents = site.data.events | where_exp: "event", "event.startDate <= todayDate" | where_exp: "event", "event.endDate >= todayDate" | sort: "startDate" | reverse %}
-        {% assign incomingEvents = site.data.events | where_exp: "event", "event.startDate > todayDate" | sort: "startDate" | reverse %}
-        {% assign pastEvents = site.data.events | where_exp: "event", "event.endDate < todayDate" | sort: "startDate" | reverse %}
+        {% assign currentEvents = site.events | where_exp: "event", "event.startDate <= todayDate" | where_exp: "event", "event.endDate >= todayDate" | where_exp: "event", "event.title != 'Events'" | sort: "startDate" | reverse %}
+        {% assign incomingEvents = site.events | where_exp: "event", "event.startDate > todayDate" | where_exp: "event", "event.title != 'Events'" | sort: "startDate" | reverse %}
+        {% assign pastEvents = site.events | where_exp: "event", "event.endDate < todayDate" | where_exp: "event", "event.title != 'Events'" | sort: "startDate" | reverse %}
         
         {% if currentEvents.size > 0 %}
             <h1>Ongoing Events</h1>
@@ -29,3 +30,4 @@ show_sidebar: false
         {% endif %}
     </div>
 </div>
+

@@ -1,21 +1,57 @@
 ---
 id: SERICS
+logo: /assets/areas/projects/logo_SERICS.png
 title: SERICS
-titleAddon: SEcurity and RIghts In the CyberSpace
+isCurrent: true
+internalUrl: /projects/SERICS
+description: SEcurity and RIghts In the CyberSpace
 
-startDate: # "2020-05-01"
+# role:                           # Role of the Unit in the project (optional)
+# startDate:                      # Start date in YYYY-MM-DD format (optional)
+# endDate:                        # End date in YYYY-MM-DD format (optional)
+# leader:                         # Activity leader (optional)
+# referenceFBK:                   # Name of the reference in FBK (optional)
+# duration:                       # Duration of the project (optional)
 
-leader:                         # Activity leader (optional)
-referenceFBK:                   # Name of the reference in FBK (optional)
-duration:                       # Duration of the project (optional)
 funding: The project SERICS (PE00000014) is funded under the MUR National Recovery and Resilience Plan funded by the European Union --- NextGenerationEU.  
 website: https://serics.eu/
-cordisNo:                       # 786727
-logo: logo_SERICS.png
 
-publications:
-  - SECRYPT2023
-  
+# cordisNo:                       # Number of the project within the CORDIS website (optional)
+# partners:                       # Partners of the project (optional)
+#     # Either free text, or structured text as follows:
+#     # Repeat the following structure to add more partners
+#     - name:                     # Name of the partner
+#       detail:                   # Details about the partner
+#       link:                     # Website of the partner
+# goals: >
+#     Write here the goals (only plaintext, also multiline, optional)
+
+publications:                   # List of IDs of related publications
+    - SECRYPT2023
+
+# theses:                         # List of IDs of related theses
+#     - 
+
+# events:                         # List of IDs of related events
+#     - 
+
+# tools:                          # List of IDs of related tools
+#     - 
+
+# projects:                       # List of IDs of related projects
+#     - 
+
+# collaborations:                 # List of IDs of related collaborations
+#     - 
+
+people:                         # List of IDs of related people
+    - AlessandroTomasi
+    - RiccardoLongo
+    - StefanoBerlato
+
+# images:                         # Repeat the following structure to add more images
+#     - title:                    # Title of the image
+#       source:                   # Path to the image
 ---
 
 In the scope of the Italian Partnership - Partenariato Esteso “**Security and Rights in CyberSpace**” (**SeRiCS**), FBK is participating in  the “Spoke 4: Operating Systems and Virtualization Security” project “Securing Containers (SecCo)”, and in the “Spoke 5: Cryptography and Distributed Systems Security” project “Secure and TRaceable Identities in Distributed Environments (STRIDE)”.

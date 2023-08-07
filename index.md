@@ -4,6 +4,7 @@ subtitle: Research Unit #in Fondazione Bruno Kessler
 layout: page
 heroImageLeft: /assets/images/logos/ALEPH_symbol_white.png
 heroImageRight: /assets/images/logos/CS_white.png
+show_hero: true
 
 ---
 
@@ -23,7 +24,6 @@ Our current research topics of main interest are represented below.
 <!-- {% include topics.md %}
 
 {% include spotlights.md %} -->
-
 
 <!-- <script src="https://kit.fontawesome.com/beda7765f5.js" crossorigin="anonymous"></script> -->
 

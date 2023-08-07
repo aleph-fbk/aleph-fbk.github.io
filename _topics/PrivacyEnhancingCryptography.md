@@ -5,6 +5,7 @@ type: topic
 url: /topics/PrivacyEnhancingCryptography
 image: privacyEnhancingCryptography.png
 order: 3
+permalink: /topics/PrivacyEnhancingCryptography/
 
 tools:
     # -               # ID of related tools

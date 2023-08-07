@@ -4,8 +4,12 @@ person: StefanoBerlato
 links:
   - name: ACM
     value: 99659584111
+  - name: CV
+    value: https://stefanoberlato.it/about/pdf/CV_BerlatoStefano.pdf
   - name: dblp
     value: 265/9746
+  - name: GitHub
+    value: StefanoBerlato
   - name: GoogleScholar
     value: cMgQ9_cAAAAJ
   - name: LinkedIn
@@ -16,7 +20,6 @@ links:
     value: Stefano-Berlato-2
   - name: Website
     value: https://stefanoberlato.it/
-
 ---
 
 Stefano Berlato is a student of the PhD Program in Security, Risk and Vulnerability, jointly offered by the University of Genoa and Fondazione Bruno Kessler. He received the BSc degree in Computer Science from the University of Trento in 2017, and the MSc degree in Computer Science "ICT Innovation - Security & Privacy" from the University of Trento in 2019.

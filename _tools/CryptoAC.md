@@ -1,18 +1,42 @@
 ---
+# coming from "_includes/list-items.html"
+id: CryptoAC
+logo: /assets/areas/no_image.png
 title: CryptoAC
+internalUrl: /tools/CryptoAC/
+description: Cryptographic Access Control
+
+
+# # coming from "_layouts/page.html"
+publications:
+    - ASIACCS2020
+    - SECRYPT2021_2
+    - TOPS2020_2
+    - DBSEC2022
+
+# theses:                         # List of IDs of related theses
+#     - 
+
+# events:                         # List of IDs of related events
+#     - 
+
+# tools:                          # List of IDs of related tools
+#     - 
+
+# projects:                       # List of IDs of related projects
+#     - 
+
+# collaborations:                 # List of IDs of related collaborations
+#     - 
 
 people:
     - StefanoBerlato
     - RobertoCarbone
     - SilvioRanise
 
-peopleOrder: surname
-
-publications:
-    - ASIACCS2020
-    - SECRYPT2021_2
-    - TOPS2020_2
-    - DBSEC2022
+# images:                         # Repeat the following structure to add more images
+#     - title:                    # Title of the image
+#       source:                   # Path to the image
 ---
 
 ### Description

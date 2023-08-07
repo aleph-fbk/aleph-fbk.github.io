@@ -1,12 +1,13 @@
 ---
+title: News
 layout: page
-show_sidebar: false
+permalink: /news/
 ---
 
+<br />
 <div class="columns is-multiline">
 
     <div class="column is-12">
-        {{ content }}
 
         <div class="posts">
             {% assign posts = site.news | sort: "date" | reverse %}

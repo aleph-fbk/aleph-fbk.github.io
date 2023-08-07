@@ -1,15 +1,39 @@
 ---
+# coming from "_includes/list-items.html"
+id: ACE
+logo: /assets/areas/no_image.png
 title: ACE
+internalUrl: /tools/ACE/
+description: AC state-change rule extraction procedurE
+
+
+# # coming from "_layouts/page.html"
+# publications:                   # List of IDs of related publications
+#     - 
+
+# theses:                         # List of IDs of related theses
+#     - 
+
+# events:                         # List of IDs of related events
+#     - 
+
+# tools:                          # List of IDs of related tools
+#     - 
+
+# projects:                       # List of IDs of related projects
+#     - 
+
+# collaborations:                 # List of IDs of related collaborations
+#     - 
 
 people:
     - StefanoBerlato
     - RobertoCarbone
     - SilvioRanise
 
-peopleOrder: surname
-
-publications:
-    # - POLSIM2023
+# images:                         # Repeat the following structure to add more images
+#     - title:                    # Title of the image
+#       source:                   # Path to the image
 ---
 
 ### Description

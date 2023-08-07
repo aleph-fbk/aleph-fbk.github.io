@@ -1,46 +1,64 @@
 ---
-title:                          # Name of the project
-titleAddon:                     # Title addon (appears in parenthesis after the name in projects' list, optional)
-tagline:                        # Tagline, describes the project in projects' list
+# coming from "_includes/list-items.html"
+id:                             # ID of the collaboration
+logo:                           # "/assets/areas/collaborations/<image name>"
+title:                          # Title of the collaboration
+internalUrl:                    # "/collaborations/<ID of the collaboration>"
+description:                    # Short description (few words)
 
+
+
+# coming from "_collaborations/index.html"
+isCurrent:                      # Either 'true' for ongoing collaborations or 'false' for terminated collaborations
+
+
+
+# coming from "_layouts/project.html"
+role:                           # Role of the Unit in the project (optional)
 startDate:                      # Start date in YYYY-MM-DD format (optional)
 endDate:                        # End date in YYYY-MM-DD format (optional)
-
 leader:                         # Activity leader (optional)
 referenceFBK:                   # Name of the reference in FBK (optional)
 duration:                       # Duration of the project (optional)
 funding:                        # Funding of the project (optional)
 website:                        # Website of the project (optional)
 cordisNo:                       # Number of the project within the CORDIS website (optional)
-logo:                           # name (with extension) of the image file in "assets/areas/projects/"
-
-goals: >
-    Write here the goals (only plaintext, also multiline, optional)
-
-role:                           # Role of the Unit in the project (optional)
-
 partners:                       # Partners of the project (optional)
     # Either free text, or structured text as follows:
     # Repeat the following structure to add more partners
     - name:                     # Name of the partner
       detail:                   # Details about the partner
       link:                     # Website of the partner
+goals: >
+    Write here the goals (only plaintext, also multiline, optional)
 
-people:                         # People involved in the project (optional)
-    # For each person, add details on _data/people.yml
-    # Then, add here a new line with a dash (-) followed by the assigned "id"
 
-peopleOrder: surname            # How to order the involved people (must be one of the fields belonging to the "people" structure)
 
-images:                         # Attached images to show at the end of the page (optional)
-    # Repeat the following structure to add more images
+# coming from "_layouts/page.html"
+publications:                   # List of IDs of related publications
+    - 
+
+theses:                         # List of IDs of related theses
+    - 
+
+events:                         # List of IDs of related events
+    - 
+
+tools:                          # List of IDs of related tools
+    - 
+
+projects:                       # List of IDs of related projects
+    - 
+
+collaborations:                 # List of IDs of related collaborations
+    - 
+
+people:                         # List of IDs of related people
+    - 
+
+images:                         # Repeat the following structure to add more images
     - title:                    # Title of the image
       source:                   # Path to the image
-
-publications:                   # Publications related to the project (optional)
-    # For each publication, add details on _data/publications.yml
-    # Then, add here a new line with a dash (-) followed by the assigned "id"
-
 ---
 
 Write here the content of the page. You can use both markdown and HTML syntax.

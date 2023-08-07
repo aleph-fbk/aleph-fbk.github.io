@@ -1,7 +1,7 @@
 ---
 title: Former People
 layout: page
-permalink: /people/former
+permalink: /people/former/
 ---
 
 {% include toc.md %}

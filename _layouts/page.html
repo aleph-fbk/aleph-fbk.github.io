@@ -18,7 +18,18 @@ layout: default
         {% if page.tools.size > 0 %}
             <div class="column is-12">
                 <h1 id="related-tools" class="related in-toc">Related Tools</h1>
-                {% include list-tools.html source=page.tools %}
+                {% assign processedIDs = "" | split: "" %}
+                {% for id in page.tools %}
+                    {% assign processedID = "/tools/" | append: id %}
+                    {% assign processedIDs = processedIDs | push: processedID %}
+                {% endfor %}
+                {% assign processedItems = "" | split: "" %}
+                {% for item in site.tools %}
+                    {% if processedIDs contains item.id %}
+                    {% assign processedItems = processedItems | push: item %}
+                    {% endif %}
+                {% endfor %}
+                {% include list-items.html source=processedItems style="list" %}
             </div>
         {% endif %}
 
@@ -31,15 +42,37 @@ layout: default
 
         {% if page.projects.size > 0 %}
             <div class="column is-12">
-                <h1 id="related-projects" class="related in-toc">Related Project</h1>
-                {% include list-projects.html source=page.projects style="list" %}
+                <h1 id="related-projects" class="related in-toc">Related Projects</h1>
+                {% assign processedIDs = "" | split: "" %}
+                {% for id in page.projects %}
+                    {% assign processedID = "/projects/" | append: id %}
+                    {% assign processedIDs = processedIDs | push: processedID %}
+                {% endfor %}
+                {% assign processedItems = "" | split: "" %}
+                {% for item in site.projects %}
+                    {% if processedIDs contains item.id %}
+                    {% assign processedItems = processedItems | push: item %}
+                    {% endif %}
+                {% endfor %}
+                {% include list-items.html source=processedItems style="list" %}
             </div>
         {% endif %}
 
         {% if page.collaborations.size > 0 %}
             <div class="column is-12">
                 <h1 id="related-collaborations" class="related in-toc">Related Collaborations</h1>
-                {% include list-collaborations.html source=page.collaborations style="list" %}
+                {% assign processedIDs = "" | split: "" %}
+                {% for id in page.collaborations %}
+                    {% assign processedID = "/collaborations/" | append: id %}
+                    {% assign processedIDs = processedIDs | push: processedID %}
+                {% endfor %}
+                {% assign processedItems = "" | split: "" %}
+                {% for item in site.collaborations %}
+                    {% if processedIDs contains item.id %}
+                    {% assign processedItems = processedItems | push: item %}
+                    {% endif %}
+                {% endfor %}
+                {% include list-items.html source=processedItems style="list" %}
             </div>
         {% endif %}
 

@@ -4,19 +4,22 @@
          "id":"Access Control",
          "group":"Topics",
          "radius":40,
-         "icon":"person-military-pointing"
+         "icon":"person-military-pointing",
+         "click":"/topics/AccessControl/"
       },
       {
          "id":"Privacy Enhancing Cryptography",
          "group":"Topics",
          "radius":40,
-         "icon":"user-secret"
+         "icon":"user-secret",
+         "click":"/topics/PrivacyEnhancingCryptography/"
       },
       {
          "id":"Decentralization of Trust",
          "group":"Topics",
          "radius":40,
-         "icon":"handshake"
+         "icon":"handshake",
+         "click":"/topics/DecentralizationOfTrust/"
       },
       {
          "id":"Cryptographic Access Control",

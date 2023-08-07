@@ -14,7 +14,7 @@
     {% endunless %}
     <section class="page-top">
         {% include header.html %}
-        {% if page.url == "/" %}
+        {% if page.show_hero %}
             {% unless page.hide_hero %}
                 {% include hero.html %}
             {% endunless %}

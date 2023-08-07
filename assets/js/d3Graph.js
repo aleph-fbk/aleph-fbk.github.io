@@ -81,13 +81,17 @@ function createGraph(data) {
             .on("drag", dragged)
             .on("end", dragended)
         )
-        .on("click", function(event, object) {
+        .on("click", function(event, d) {
+            event.stopPropagation();
+            if (d.hasOwnProperty("click")) {
+                window.location.href = window.location.origin + d.click;
+            } else {
                 alert("You clicked: "  
-                    + object.id 
-                    + ", now decide what to do with this information"
+                    + d.id 
+                    + ", now decide what to do with this information "
                     + "(e.g., open page of topic, show publications for subtopics...)"
                 );
-                event.stopPropagation();
+            }
         });
 
     node.append("circle")

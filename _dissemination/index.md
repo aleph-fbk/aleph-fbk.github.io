@@ -1,14 +1,16 @@
 ---
+title: Dissemination
 layout: page
+permalink: /dissemination/
 ---
 
+<br />
 <div class="columns is-multiline">
-    <div class="column is-12">
-        {{ content }}
-    </div>
+
+    {% include toc.md %}
 
     <div class="column is-12">
-        {% assign disseminationByCategory = site.data.dissemination | group_by: "category" | sort: "name" %}
+        {% assign disseminationByCategory = site.dissemination | group_by: "category" | where_exp: "dissemination", "dissemination.title != 'Dissemination'" | sort: "name" %}
 
         {% for category in disseminationByCategory %}
             {% assign categoryID = category.name | replace: " ", "-" | downcase %}

@@ -1,11 +1,11 @@
 ---
+title: Publications
 layout: page
+permalink: /publications/
 ---
 
+<br />
 <div class="columns is-multiline">
-    <div class="column is-12">
-        {{ content }}
-    </div>
 
     {% assign publicationsByYear = site.data.publications | where_exp: "publication", "publication.id_iris != nil" | where: "isALEPH", "true" | group_by: "year" | sort: "name" | reverse %}
 
