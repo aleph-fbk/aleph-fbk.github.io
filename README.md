@@ -24,7 +24,7 @@ bundle exec jekyll serve
 
 ***
 
-## This document provides instructions about the [ALEPH website](https://aleph.github.io).
+### This document provides instructions about the [ALEPH website](https://aleph.github.io).
 
 Table of Contents:
 - [Good to know](#good-to-know)
@@ -52,7 +52,7 @@ Table of Contents:
 
 # Good to know
 
-## Language
+### Language
 This website is composed of several markdown pages that are automatically compiled and converted to HTML. See the istructions below to create and update pages; afterwards, you just need to push your changes to the repository and the website will update accordingly.
 
 On top of many pages, a YAML preamble (that starts and ends with `---`) defines some metadata of the page (like the title and the layout to be used) as well as custom variables. Each layout requires some variables, while other may be optionally assigned; variables' values will then be parsed and placed inside the webpage according to the specific layout.
@@ -60,7 +60,7 @@ On top of many pages, a YAML preamble (that starts and ends with `---`) defines 
 Only plaintext is allowed inside YAML preambles, while common markdown or HTML tags can be used outside.
 
 
-## Use of attachments
+### Use of attachments
 Common images can be found in and used from the folder [`assets/images`](./assets/images).
 
 Custom images or attachments specifically related to collaborations, complementary material, events, people, projects and tools should be uploaded in the related [`assets/areas`](./assets/areas) folder. Keep material properly organized (e.g., use subfolders).
@@ -70,7 +70,7 @@ Custom images or attachments specifically related to collaborations, complementa
 
 > **Important**: anything you create a reference to in the website (e.g., collaborations, complementary material, events, people, projects, tools) need to exist already (see the instructions below).
 
-## Add a person
+### Add a person
 You can add a person (e.g., new member or student) in the [`_data/people.yml`](./_data/people.yml) file:
 1. check whether the person (and the correct affiliation) is already listed;
 2. if the person is already listed but with a former affiliation, please do not update the existent entry, as this would cause every page referring to the entry to update accordingly. Instead, add a new entry with a different ID;
@@ -80,35 +80,35 @@ Optionally, you can add a personal page for the new person in [`_people`](./_peo
 
 Finally, modify the [`_data/members.yml`](./_data/members.yml) file to add the new person to the `people` page of the website.
 
-## Add a thesis
+### Add a thesis
 You can add a thesis in the [`_data/theses.yml`](./_data/theses.yml) file using the template you find at the top of  the file.
 
-## Add a tool
+### Add a tool
 You can add a tool by creating a new file in [`_tools`](./_tools/) following the [**template**](./_tools/_template.md) and naming it accordingly.
 
-## Add a publication
+### Add a publication
 You can add a publication in the [`_data/publications.yml`](./_data/publications.yml) file using the template you find at the top of the file. Remember that each publication is linked to a destination (see below).
 
-## Add a destination
+### Add a destination
 You can add a destination in the [`_data/destinations.yml`](./_data/destinations.yml) file using the template you find at the top of the file. 
 
-## Add a project
+### Add a project
 You can add a project by creating a new file in [`_projects`](./_projects/) following the [**template**](./_projects/_template.md) and naming it accordingly.
 
-## Add a collaboration
+### Add a collaboration
 You can add a collaboration by creating a new file in [`_collaborations`](./_collaborations/) following the [**template**](./_collaborations/_template.md) and naming it accordingly.
 
-## Add a complementary material
+### Add a complementary material
 You can add a complementary material by creating a new file in [`__complementary`](./__complementary/) following the [**template**](./__complementary/_template.md) and naming it accordingly. The page will **not** be listed on the website, but the link can be used in papers or other publications: `https://aleph.github.io/complementary/<name_of_the_complementary_file>`.
 
 
 
 # Special operations
 
-## Internships and thesis offers
+### Internships and thesis offers
 For now, just contact `sberlato@fbk.eu`.
 
-## Topics
+### Topics
 For now, just contact `sberlato@fbk.eu`.
 
 
@@ -117,16 +117,16 @@ For now, just contact `sberlato@fbk.eu`.
 
 # Currently disabled operations
 
-## News
+### News
 We have decided to permanently remove the news from the ALEPH's website (see [issue #3](https://gitlab.fbk.eu/st/people/StefanoBerlato/aleph_website/-/issues/3)).
 
-## Events
+### Events
 Until we have an event, we have decided to remove the events page from the ALEPH's website. We will refer to the instructions in [the ST website](https://github.com/stfbk/stfbk.github.io/blob/master/README.md) to add events.
 
-## Dissemination
+### Dissemination
 Until we have a dissemination activity, we have decided to remove the dissemination page from the ALEPH's website. We will refer to the instructions in [the ST website](https://github.com/stfbk/stfbk.github.io/blob/master/README.md) to add dissemination activities.
 
-## Teaching
+### Teaching
 Until we have a teaching activity, we have decided to remove the teaching page from the ALEPH's website. We will refer to the instructions in [the ST website](https://github.com/stfbk/stfbk.github.io/blob/master/README.md) to add teaching activities.
 
 
