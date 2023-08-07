@@ -288,13 +288,14 @@ The website is structured as follow:
 |   └── images/                => Common images for easy inclusion (do not touch)
 |       └── logos/                => Logos that are commonly used (do not touch)
 |   └── js/                 => Javascript files (do not touch)
-|   └── fontawesome-6.4.0/  => SVG icons (do not touch)
+|   └── json/               => JSON files (do not touch)
+|   └── svg/               => SVG files (do not touch)
+|       └── fontawesome-6.4.0/ => SVG logos commonly used (do not touch)
 |
 |-- _config.yml             => Configuration file of the website (do not touch)
 |-- 404.md                  => 404 page (do not touch)
 |-- CNAME                   => CNAME (do not touch)
 |-- collaborations.md       => Collaborations page (do not touch)
-|-- d3jsGraph.json          => Data for the network graph in the home page (do not touch)
 |-- dissemination.md        => Collaborations page (do not touch)
 |-- events.md               => Events page (do not touch)
 |-- favicon.ico             => favicon (do not touch)
@@ -302,5 +303,6 @@ The website is structured as follow:
 |-- index.md                => Homepage (do not touch)
 |-- projects.md             => Projects page (do not touch)
 |-- publications.md         => Publications page (do not touch)
+|-- README.md               => This file (do not touch)
 └── tools.md                => Tools page (do not touch)
 ```
