@@ -116,7 +116,15 @@ Our current research topics of main interest are represented below.
                 .on("start", dragstarted)
                 .on("drag", dragged)
                 .on("end", dragended)
-            );
+            )
+            .on("click", function(event, object) {
+                    alert("You clicked: "  
+                        + object.id 
+                        + ", now decide what to do with this information"
+                        + "(e.g., open page of topic, show publications for subtopics...)"
+                    );
+                    event.stopPropagation();
+            });
 
         node.append("circle")
             .attr("r", d => d.radius)

@@ -275,6 +275,7 @@ The website is structured as follow:
 |-- _projects/              => Projects
 |-- _teaching/              => Teaching activities
 |-- _tools/                 => Tools
+|-- _topics/                => Topics (linked to the graph in the homepage)
 |-- assets/                 => Assets for the website
 |   └── areas/                 => Assets for pages
 |       └── collaborations/       => Assets for collaborations

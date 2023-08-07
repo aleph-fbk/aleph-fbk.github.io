@@ -9,7 +9,7 @@ people:
 peopleOrder: surname
 
 publications:
-    - POLSIM2023
+    # - POLSIM2023
 ---
 
 ### Description
@@ -18,6 +18,6 @@ ACE (*AC state-change rule extraction procedurE*) extracts access control polici
 
 The design of ACE was firstly described in the (yet to be published) article "*A Simulation Framework for the Experimental Evaluation of Access Control Enforcement Mechanisms based on Business Processes*".
 
-Run the [helper](./launchHelper.sh) to get more information on ACE, or launch the [scripts](./scripts/) to run ACE on the example [workflows](./workflows/).
+Please refer to the [GitHub repository](https://github.com/stfbk/ACE) for more details.
 
 > **Important** - ACE is still experimental and under active development; we welcome your interest and encourage you to reach out to the developers at `sberlato@fbk.eu` for more information!
