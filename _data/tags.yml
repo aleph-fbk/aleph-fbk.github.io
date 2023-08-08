@@ -30,9 +30,9 @@
 #   text: "Cryptographic Access Control"
 #   color: "#9397f0"
 
-# - id: Cryptanalysis
-#   text: "Cryptanalysis"
-#   color: "#84ceb2"
+- id: Cryptanalysis
+  text: "Cryptanalysis"
+  color: "#84ceb2"
 
 - id: DecentralizationOfTrust
   text: "Decentralization of Trust"
