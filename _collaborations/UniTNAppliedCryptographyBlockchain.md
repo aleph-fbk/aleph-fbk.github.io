@@ -15,6 +15,8 @@ isCurrent: true
 
 # coming from "_layouts/page.html"
 publications:                   # List of IDs of related publications
+#    - EVOTEID2023
+    - SECRYPT2023
     - EVOTEID2022
 
 # theses:                         # List of IDs of related theses
