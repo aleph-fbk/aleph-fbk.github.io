@@ -100,6 +100,22 @@
     - DecentralizationOfTrust
 
 # 2023
+- id: AppliedSciences2023
+  title: "On Pseudorandomness and Deep Learning: A Case Study"
+  authors:
+    - ZahraEbadiAnsaroudi
+    - RoccoZaccagnino
+    - PaoloD'Arco
+  abstract: >
+    Pseudorandomness is a crucial property that the designers of cryptographic primitives aim to achieve. It is also a key requirement in the calls for proposals of new primitives, as in the case of block ciphers. Therefore, the assessment of the property is an important issue to deal with. Currently, an interesting research line is the understanding of how powerful machine learning methods are in distinguishing pseudorandom objects from truly random objects. Moving along such a research line, in this paper a deep learning-based pseudorandom distinguisher is developed and trained for two well-known lightweight ciphers, Speck and Simon. Specifically, the distinguisher exploits a convolutional Siamese network for distinguishing the outputs of these ciphers from random sequences. Experiments with different instances of Speck and Simon show that the proposed distinguisher highly able to distinguish between the two types of sequences, with an average accuracy of 99.5%  for Speck and 99.6% for Simon. Hence, the proposed method could significantly impact the security of these cryptographic primitives and of the applications in which they are used.
+  destination: ApplSci
+  destinationAddon: Volume 13, Issue 5
+  isALEPH: true
+  year: 2023
+  doi: 10.3390/app13053372
+  tags:   
+    - Cryptanalysis
+  
 - id: EVOTEID2023
   isALEPH: false
   year: 2023
@@ -148,8 +164,10 @@
     - AmirSharif
     - AlessandroTomasi 
   tags:                     
-    - VerifiableCredentials
-    - SelectiveDisclosure
+    # - VerifiableCredentials
+    # - SelectiveDisclosure
+    - ZKP
+    - PrivacyEnhancingCryptography
   abstract: >
     Verifiable credentials are a digital analogue of physical credentials. Their authenticity and integrity are protected by means of cryptographic techniques, and they can be presented to verifiers to prove claims about the holder of the credential itself. One way to preserve privacy during presentation consists in selectively disclosing the attributes in a credential. In this paper we present the most widespread cryptographic mechanisms used to enable selective disclosure of attributes, describing their structure and comparing them in terms of performance, size of the associated verifiable presentations, and the ability to produce predicate proofs and unlinkable presentations.
   destination: SECRYPT2023

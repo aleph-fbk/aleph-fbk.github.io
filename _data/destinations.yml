@@ -10,6 +10,12 @@
 #   url:                      # URL of the destination
 #   type: journal             # Keep journal
 
+- id: ApplSci
+  name: Applied Sciences
+  acronym: Appl. Sci.
+  url: https://www.mdpi.com/journal/applsci
+  type: journal
+
 - id: JISA
   name: Journal of Information Security and Applications
   acronym: JISA

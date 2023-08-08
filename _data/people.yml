@@ -120,6 +120,10 @@
       institution: Fondazione Bruno Kessler
   email: mbitussi@fbk.eu
   
+- id: PaoloD'Arco
+  name: Paolo
+  surname: D'Arco
+  
 - id: RiccardoLongo
   name: Riccardo
   surname: Longo
@@ -142,6 +146,10 @@
   phone: "+390461314185"
   website: https://st.fbk.eu/people/roberto-carbone
   image: https://st.fbk.eu/assets/areas/people/RobertoCarbone.jpg
+
+- id: RoccoZaccagnino
+  name: Rocco
+  surname: Zaccagnino
 
 - id: SalvatoreManfredi
   name: Salvatore

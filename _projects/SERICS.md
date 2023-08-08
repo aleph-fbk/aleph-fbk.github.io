@@ -37,6 +37,7 @@ website: https://serics.eu/
 # coming from "_layouts/page.html"
 publications:                   # List of IDs of related publications
     - SECRYPT2023
+    - AppliedSciences2023
 
 # theses:                         # List of IDs of related theses
 #     - 
