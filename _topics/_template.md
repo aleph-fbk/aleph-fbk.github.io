@@ -1,7 +1,7 @@
 ---
 # coming from "_layouts/default.html"
 title:                          # Title of the topic
-show_hero: true                 # Leave "true"s
+show_hero: true                 # Leave "true"
 
 
 

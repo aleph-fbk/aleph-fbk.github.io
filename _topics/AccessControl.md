@@ -1,13 +1,16 @@
 ---
 # coming from "_layouts/default.html"
 title: Access Control
-show_hero: true                 # Leave "true"s
+show_hero: true                 # Leave "true"
 
 
 
 # coming from "_layouts/page.html"
-# publications:                   # List of IDs of related publications
-#     - 
+publications:                   # List of IDs of related publications
+    - ASIACCS2020
+    - SECRYPT2021_2
+    - TOPS2020_2
+    - DBSEC2022
 
 # theses:                         # List of IDs of related theses
 #     - 
@@ -15,8 +18,10 @@ show_hero: true                 # Leave "true"s
 # events:                         # List of IDs of related events
 #     - 
 
-# tools:                          # List of IDs of related tools
-#     - 
+tools:                          # List of IDs of related tools
+    - ACE
+    - ANNA
+    - CryptoAC 
 
 # projects:                       # List of IDs of related projects
 #     - 
@@ -32,4 +37,6 @@ show_hero: true                 # Leave "true"s
 #       source:                   # Path to the image
 ---
 
-TODO description, subtopics are Attribute-based encryption and Cryptographic Access Control
+Aleph research focuses on cryptographic technologies for robust access control. To a first approximation, cryptography provides a means of realizing access control policy enforcement by key management: those who have the right key can access the right resource.
+
+A well-known example is [Attribute-Based Encryption](https://csrc.nist.gov/pubs/ir/8450/ipd) (ABE) in its key-policy (KP-ABE) and ciphertext-policy (CP-ABE) variants.
