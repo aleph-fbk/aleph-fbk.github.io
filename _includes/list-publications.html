@@ -111,12 +111,17 @@
                     {{ destinationString }}{{ linksString }}<br />
                     {%- for tagID in publication.tags -%}
                     {% assign tag = site.data.tags | where: "id", tagID %}
-                    <span style="background-color: {{ tag[0].color }};"  class="tag tag-{{ tagID }}">
-                        <b>
-                            {{ tag[0].text }}
-                        </b>
-                    </span>
-                {%- endfor -%}
+                        {% if tag.size == 0 %}
+                            {% assign tagText = "TAG NOT FOUND | CHECK tags.yaml" %}
+                        {%- else -%}
+                            {% assign tagText = tag[0].text %}
+                        {% endif %}
+                        <span style="background-color: {{ tag[0].color }};"  class="tag tag-{{ tagID }}">
+                            <b>
+                                {{ tagText }}
+                            </b>
+                        </span>
+                    {%- endfor -%}
                 </li>
             {% endfor %}
         </ul>

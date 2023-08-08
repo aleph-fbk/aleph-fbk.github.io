@@ -86,14 +86,10 @@ function createGraph(data) {
             if (d.hasOwnProperty("click")) {
                 window.location.href = window.location.origin + d.click;
             } else {
-                alert("You clicked: "  
-                    + d.id 
-                    + ", now decide what to do with this information "
-                    + "(e.g., open page of topic, show publications for subtopics...)"
-                );
+                // currently, this does nothing
             }
         })
-        .attr("style", "cursor: pointer;");
+        .attr("style", d => d.hasOwnProperty("click") ? "cursor: pointer;" : "");
 
     node.append("circle")
         .attr("r", d => d.radius)
@@ -116,7 +112,7 @@ function createGraph(data) {
         .attr("y", d => (-d.radius/2))
         .attr("width", d => (d.radius))
         .attr("height", d => (d.radius))
-        .attr('xlink:href', d => ('/assets/svg/fontawesome-6.4.0/icons.svg#' + d.icon));
+        .attr('xlink:href', d => (d.icon));
 
     simulation.on("tick", () => {
         link

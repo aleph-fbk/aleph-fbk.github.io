@@ -66,9 +66,9 @@
   text: "Threshold Cryptography"
   color: "#a5afb6"
 
-- id: VerifiableCredentials
-  text: "Verifiable Credentials"
-  color: "#a8c1b2"
+# - id: VerifiableCredentials
+#   text: "Verifiable Credentials"
+#   color: "#a8c1b2"
 
 - id: ZKP
   text: "Zero-Knowledge Proof"

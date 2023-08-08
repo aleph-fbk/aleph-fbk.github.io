@@ -4,7 +4,7 @@
          "id":"Access Control",
          "group":"Topics",
          "radius":40,
-         "icon":"person-military-pointing",
+         "icon":"/assets/svg/fontawesome-6.4.0/icons.svg#person-military-pointing",
          "click":"/topics/AccessControl/",
          "color":"#7dc2fa",
          "strokewidth":"8"
@@ -13,7 +13,7 @@
          "id":"Privacy Enhancing Cryptography",
          "group":"Topics",
          "radius":40,
-         "icon":"user-secret",
+         "icon":"/assets/svg/fontawesome-6.4.0/icons.svg#user-secret",
          "click":"/topics/PrivacyEnhancingCryptography/",
          "color":"#7dc2fa",
          "strokewidth":"8"
@@ -22,7 +22,7 @@
          "id":"Decentralization of Trust",
          "group":"Topics",
          "radius":40,
-         "icon":"handshake",
+         "icon":"/assets/svg/fontawesome-6.4.0/icons.svg#handshake",
          "click":"/topics/DecentralizationOfTrust/",
          "color":"#7dc2fa",
          "strokewidth":"8"
@@ -31,7 +31,7 @@
          "id":"Cryptographic Access Control",
          "group":"SubTopics",
          "radius":20,
-         "icon":"gamepad",
+         "icon":"/assets/svg/fontawesome-6.4.0/icons.svg#gamepad",
          "color":"#c2f1c1",
          "strokewidth":"4"
       },
@@ -39,7 +39,7 @@
          "id":"Attribute-based Encryption",
          "group":"SubTopics",
          "radius":20,
-         "icon":"user-tag",
+         "icon":"/assets/svg/fontawesome-6.4.0/icons.svg#user-tag",
          "color":"#c2f1c1",
          "strokewidth":"4"
       },
@@ -47,7 +47,7 @@
          "id":"Zero-Knowledge Proofs",
          "group":"SubTopics",
          "radius":20,
-         "icon":"circle-question",
+         "icon":"/assets/svg/fontawesome-6.4.0/icons.svg#circle-question",
          "color":"#c2f1c1",
          "strokewidth":"4"
       },
@@ -55,7 +55,7 @@
          "id":"Secure Multi-Party Computation",
          "group":"SubTopics",
          "radius":20,
-         "icon":"users-gear",
+         "icon":"/assets/svg/fontawesome-6.4.0/icons.svg#users-gear",
          "color":"#c2f1c1",
          "strokewidth":"4"
       },
@@ -63,7 +63,7 @@
          "id":"Threshold Cryptography",
          "group":"SubTopics",
          "radius":20,
-         "icon":"users-slash",
+         "icon":"/assets/svg/fontawesome-6.4.0/icons.svg#users-slash",
          "color":"#c2f1c1",
          "strokewidth":"4"
       },
@@ -71,7 +71,7 @@
          "id":"Blockchain Applications",
          "group":"SubTopics",
          "radius":20,
-         "icon":"link",
+         "icon":"/assets/svg/fontawesome-6.4.0/icons.svg#link",
          "color":"#c2f1c1",
          "strokewidth":"4"
       },
@@ -79,7 +79,7 @@
          "id":"Post-Quantum Cryptography",
          "group":"SubTopics",
          "radius":20,
-         "icon":"q",
+         "icon":"/assets/svg/fontawesome-6.4.0/icons.svg#q",
          "color":"#c2f1c1",
          "strokewidth":"4"
       },
@@ -87,7 +87,7 @@
          "id":"Cryptanalysis",
          "group":"SubTopics",
          "radius":20,
-         "icon":"magnifying-glass",
+         "icon":"/assets/svg/fontawesome-6.4.0/icons.svg#magnifying-glass",
          "color":"#c2f1c1",
          "strokewidth":"4"
       },
@@ -95,7 +95,7 @@
          "id":"Hardware-based Security",
          "group":"SubTopics",
          "radius":20,
-         "icon":"microchip",
+         "icon":"/assets/svg/fontawesome-6.4.0/icons.svg#microchip",
          "color":"#c2f1c1",
          "strokewidth":"4"
       },
@@ -103,7 +103,7 @@
          "id":"Symbolic Model Verification",
          "group":"SubTopics",
          "radius":20,
-         "icon":"certificate",
+         "icon":"/assets/svg/material-design-icons/icons.svg#glyphs",
          "color":"#c2f1c1",
          "strokewidth":"4"
       }
