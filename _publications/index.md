@@ -16,7 +16,7 @@ permalink: /publications/
 
     <div class="column is-12">
         <h1>Past Publications</h1>
-        <p>ALEPH was created in 2023; members' personal pages may include prior publications.</p>
+        <p>ALEPH was created in 2023; topic, project, and members' personal pages may include prior publications.</p>
     </div>
 
 </div>
