@@ -13,6 +13,9 @@ tools:
 publications:
     # - EVOTEID2023
 
+projects:
+    - e-voting
+    
 theses:
     # -               # ID of related thesis
 ---
