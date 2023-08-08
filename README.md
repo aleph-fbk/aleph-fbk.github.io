@@ -35,6 +35,7 @@ Table of Contents:
   - [Add a thesis](#add-a-thesis)
   - [Add a tool](#add-a-tool)
   - [Add a publication](#add-a-publication)
+  - [Add a tag](#add-a-tag)
   - [Add a destination](#add-a-destination)
   - [Add a project](#add-a-project)
   - [Add a collaboration](#add-a-collaboration)
@@ -53,22 +54,25 @@ Table of Contents:
 # Good to know
 
 ### Language
-This website is composed of several markdown pages that are automatically compiled and converted to HTML. See the istructions below to create and update pages; afterwards, you just need to push your changes to the repository and the website will update accordingly.
 
-On top of many pages, a YAML preamble (that starts and ends with `---`) defines some metadata of the page (like the title and the layout to be used) as well as custom variables. Each layout requires some variables, while other may be optionally assigned; variables' values will then be parsed and placed inside the webpage according to the specific layout.
+This website is composed of several markdown (`.md`) pages that are automatically compiled and converted to HTML whenever the repository is updated (e.g., with a new commit).
+
+On top of many pages, a YAML preamble (that starts and ends with `---`) defines metadata (e.g., title, layout) as well as custom variables. Each layout requires specific variables, while others may be optionally assigned.
 
 Only plaintext is allowed inside YAML preambles, while common markdown or HTML tags can be used outside.
 
 
 ### Use of attachments
+
 Common images can be found in and used from the folder [`assets/images`](./assets/images).
 
-Custom images or attachments specifically related to collaborations, complementary material, events, people, projects and tools should be uploaded in the related [`assets/areas`](./assets/areas) folder. Keep material properly organized (e.g., use subfolders).
+Custom images or attachments should be uploaded in the [`assets/areas`](./assets/areas) folder. Please keep material properly organized (e.g., using subfolders).
 
 
 # Common operations
 
-> **Important**: anything you create a reference to in the website (e.g., collaborations, complementary material, events, people, projects, tools) need to exist already (see the instructions below).
+> **Important**: anything you create a reference to in the website (e.g., collaborations, complementary material, events, people, projects, tools, tags) need to exist already. For instance, it is not possible to create a new project referring to a person that does not exist in [`_data/people.yml`](./_data/people.yml). Similarly, it is not possible to create a new publication whose venue (e.g., conference) does not exist in [`_data/destinations.yml`](./_data/destinations.yml).
+
 
 ### Add a person
 You can add a person (e.g., new member or student) in the [`_data/people.yml`](./_data/people.yml) file:
@@ -89,8 +93,13 @@ You can add a tool by creating a new file in [`_tools`](./_tools/) following the
 ### Add a publication
 You can add a publication in the [`_data/publications.yml`](./_data/publications.yml) file using the template you find at the top of the file. Remember that each publication is linked to a destination (see below).
 
+> **How to define tags for a publication?** You can (*i*) check the tags already existing in [`_data/tags.yml`](./_data/tags.yml) or (*ii*) use the keywords of the publication as tags or (*iii*) you can create new tags (but only if strictly necessary), either by defining them manually or by asking an AI (e.g., ChatGPT) to extract them from the abstract. A publication should have no less than 2 tags and no more than 5 tags.
+
+### Add a tag
+This website implements a filtering system for publications based on tags. You can add a tag in the [`_data/tags.yml`](./_data/tags.yml) file using the template you find at the top of the file.
+
 ### Add a destination
-You can add a destination in the [`_data/destinations.yml`](./_data/destinations.yml) file using the template you find at the top of the file. 
+You can add a destination (e.g., conference, journal) in the [`_data/destinations.yml`](./_data/destinations.yml) file using the template you find at the top of the file. 
 
 ### Add a project
 You can add a project by creating a new file in [`_projects`](./_projects/) following the [**template**](./_projects/_template.md) and naming it accordingly.
@@ -99,7 +108,7 @@ You can add a project by creating a new file in [`_projects`](./_projects/) foll
 You can add a collaboration by creating a new file in [`_collaborations`](./_collaborations/) following the [**template**](./_collaborations/_template.md) and naming it accordingly.
 
 ### Add a complementary material
-You can add a complementary material by creating a new file in [`__complementary`](./__complementary/) following the [**template**](./__complementary/_template.md) and naming it accordingly. The page will **not** be listed on the website, but the link can be used in papers or other publications: `https://aleph.github.io/complementary/<name_of_the_complementary_file>`.
+You can add a complementary material (e.g., for a publication) by creating a new file in [`__complementary`](./__complementary/) following the [**template**](./__complementary/_template.md) and naming it accordingly. The page will **not** be listed on the website, but the link can be used in papers or other publications: `https://aleph.github.io/complementary/<name_of_the_complementary_file>`.
 
 
 
@@ -163,10 +172,10 @@ The website is structured as follow:
 |   └── css/                   => Stylesheets (do not touch)
 |   └── images/                => Common images for easy inclusion (do not touch)
 |       └── logos/                => Logos that are commonly used (do not touch)
-|   └── js/                 => Javascript files (do not touch)
-|   └── json/               => JSON files (do not touch)
-|   └── svg/               => SVG files (do not touch)
-|       └── fontawesome-6.4.0/ => SVG logos commonly used (do not touch)
+|   └── js/                    => Javascript files (do not touch)
+|   └── json/                  => JSON files (do not touch)
+|   └── svg/                   => SVG files (do not touch)
+|       └── fontawesome-6.4.0/    => SVG logos commonly used (do not touch)
 |
 |-- _config.yml             => Configuration file of the website (do not touch)
 |-- 404.md                  => 404 page (do not touch)

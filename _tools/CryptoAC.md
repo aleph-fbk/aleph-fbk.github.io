@@ -7,7 +7,7 @@ internalUrl: /tools/CryptoAC/
 description: Cryptographic Access Control
 
 
-# # coming from "_layouts/page.html"
+# coming from "_layouts/page.html"
 publications:
     - ASIACCS2020
     - SECRYPT2021_2

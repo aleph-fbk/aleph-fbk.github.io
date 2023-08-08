@@ -77,9 +77,10 @@ layout: default
         {% endif %}
 
         {% if page.publications.size > 0 %}
+            {% assign publicationsByYear = page.publications | where: "isALEPH", "true" | group_by: "year" | sort: "name" | reverse %}
             <div class="column is-12">
                 <h1 id="related-publications" class="related in-toc">Related Publications</h1>
-                {% include list-publications.html source=page.publications %}
+                {% include list-publications.html source=publicationsByYear %}
             </div>
         {% endif %}
 

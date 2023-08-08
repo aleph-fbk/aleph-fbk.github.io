@@ -1,5 +1,5 @@
 # ===== template for an offer =====
-# # coming from "_includes/list-university-projects.html"
+# coming from "_includes/list-university-projects.html"
 # - id: P1
 #   title:            # Title of the offer
 #   thesisID:         # ID of the thesis (when the offer finishes and if it resulted in a thesis)

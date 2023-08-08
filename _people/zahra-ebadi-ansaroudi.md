@@ -1,5 +1,6 @@
 ---
 person: ZahraEbadiAnsaroudi
+show_hero: true
 ---
 
 I am Zahra Ebadi Ansaroudi, a dedicated researcher in Computer Science, with a specialization in Cryptography. My primary focus is on investigating cryptographic protocols to address security and privacy concerns in emerging technologies like the Internet of Things (IoT) and blockchain. Currently, I am deeply intrigued by identity management and digital identity solutions, with the goal of empowering individuals to have greater control over their personal information.

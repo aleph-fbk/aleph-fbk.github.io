@@ -1,21 +1,27 @@
 ---
+# coming from "_includes/list-items.html"
 id: SERICS
 logo: /assets/areas/projects/logo_SERICS.png
 title: SERICS
-isCurrent: true
 internalUrl: /projects/SERICS
 description: SEcurity and RIghts In the CyberSpace
 
+
+
+# coming from "_collaborations/index.html"
+isCurrent: true
+
+
+
+# coming from "_layouts/project.html"
 # role:                           # Role of the Unit in the project (optional)
 # startDate:                      # Start date in YYYY-MM-DD format (optional)
 # endDate:                        # End date in YYYY-MM-DD format (optional)
 # leader:                         # Activity leader (optional)
 # referenceFBK:                   # Name of the reference in FBK (optional)
 # duration:                       # Duration of the project (optional)
-
 funding: The project SERICS (PE00000014) is funded under the MUR National Recovery and Resilience Plan funded by the European Union --- NextGenerationEU.  
 website: https://serics.eu/
-
 # cordisNo:                       # Number of the project within the CORDIS website (optional)
 # partners:                       # Partners of the project (optional)
 #     # Either free text, or structured text as follows:
@@ -26,6 +32,9 @@ website: https://serics.eu/
 # goals: >
 #     Write here the goals (only plaintext, also multiline, optional)
 
+
+
+# coming from "_layouts/page.html"
 publications:                   # List of IDs of related publications
     - SECRYPT2023
 

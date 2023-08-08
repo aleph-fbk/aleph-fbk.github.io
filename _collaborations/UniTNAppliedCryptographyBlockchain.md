@@ -1,11 +1,19 @@
 ---
+# coming from "_includes/list-items.html"
 id: UniTNAppliedCryptographyBlockchain
 logo: /assets/areas/collaborations/logo_UNITN.png
 title: University of Trento
-isCurrent: true
 internalUrl: /collaborations/UniTNAppliedCryptographyBlockchain
 description: Laboratory of Applied Cryptography and Blockchain
 
+
+
+# coming from "_collaborations/index.html"
+isCurrent: true
+
+
+
+# coming from "_layouts/page.html"
 # publications:                   # List of IDs of related publications
 #     - 
 
@@ -16,13 +24,13 @@ description: Laboratory of Applied Cryptography and Blockchain
 #     - 
 
 # tools:                          # List of IDs of related tools
-#     -
+#     - 
 
 # projects:                       # List of IDs of related projects
-#     -
+#     - 
 
 # collaborations:                 # List of IDs of related collaborations
-#     -
+#     - 
 
 people:                         # List of IDs of related people
     - AlessandroTomasi

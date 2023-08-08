@@ -1,5 +1,6 @@
 ---
 person:                   # Person ID
+show_hero: true           # Show the hero bar (blue section under the navbar)
 
 links:                    # All links are optional
   - name: ACM

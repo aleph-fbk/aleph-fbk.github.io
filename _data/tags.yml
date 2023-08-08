@@ -1,0 +1,78 @@
+# PLEASE KEEP ALPHABETICAL ORDER BY ID
+
+# ===== template for a new tag =====
+# - id:               # ID of the tag (e.g., ZKP)
+#   text:             # Text that will be printed (e.g., "Zero-Knowledge Proof")
+#   color:            # Color of the tag (e.g., "#6ad25b")
+#                     # run the Python code below to generate a neutral pastel color
+                      # -----
+                      # import random
+                      # red = (random.randint(0, 255) + 255) / 2
+                      # green = (random.randint(0, 255) + 255) / 2
+                      # blue = (random.randint(0, 255) + 255) / 2
+                      # hex_color = "#{:02x}{:02x}{:02x}".format(int(red), int(green), int(blue))
+                      # print(hex_color)
+                      # -----
+
+- id: ABE
+  text: "Attribute-based Encryption"
+  color: "#8abcbb"
+
+- id: AccessControl
+  text: "Access Control"
+  color: "#bca7a0"
+
+- id: Blockchain
+  text: "Blockchain Applications"
+  color: "#a1baba"
+
+- id: CAC
+  text: "Cryptographic Access Control"
+  color: "#9397f0"
+
+- id: Cryptanalysis
+  text: "Cryptanalysis"
+  color: "#84ceb2"
+
+- id: DecentralizationOfTrust
+  text: "Decentralization of Trust"
+  color: "#adc3fe"
+
+- id: HardwareBasedSecurity
+  text: "Hardware-based Security"
+  color: "#c3dccc"
+
+- id: PostQuantumCryptography
+  text: "Post-Quantum Cryptography"
+  color: "#d9bec6"
+
+- id: PrivacyEnhancingCryptography
+  text: "Privacy Enhancing Cryptography"
+  color: "#e3e5d4"
+
+- id: SelectiveDisclosure
+  text: "Selective Disclosure"
+  color: "#bd98dc"
+
+- id: SymbolicModelVerification
+  text: "Symbolic Model Verification"
+  color: "#7fad88"
+
+- id: SMPC
+  text: "Secure Multi-Party Computation"
+  color: "#ce8fc9"
+
+- id: ThresholdCryptography
+  text: "Threshold Cryptography"
+  color: "#a5afb6"
+
+- id: VerifiableCredentials
+  text: "Verifiable Credentials"
+  color: "#a8c1b2"
+
+- id: ZKP
+  text: "Zero-Knowledge Proof"
+  color: "#dbbcec"
+
+
+# PLEASE KEEP ALPHABETICAL ORDER BY ID

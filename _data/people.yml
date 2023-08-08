@@ -1,6 +1,6 @@
 # Please keep alphabetical order
 
-# # Copy-past the template below
+# ===== template for a new person =====
 # - id:                       # Choose a unique ID for the person, will be referenced later
 #   name:                     # Name
 #   surname:                  # Surname

@@ -1,5 +1,6 @@
 ---
 person: RiccardoLongo
+show_hero: true
 
 links:
   - name: dblp

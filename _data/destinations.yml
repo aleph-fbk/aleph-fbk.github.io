@@ -3,6 +3,7 @@
 
 # JOURNALS
 
+# ===== template for a journal =====
 # - id:                       # Choose a unique ID for the destination, will be referenced later
 #   name:                     # Name of the destination
 #   acronym:                  # Acronym of the destination
@@ -35,6 +36,7 @@
 
 # ONLINE
 
+# ===== template for an online destination =====
 # - id:                       # Choose a unique ID for the destination, will be referenced later
 #   name:                     # Name of the destination
 #   acronym:                  # Acronym of the destination
@@ -44,11 +46,12 @@
 
 # BOOKS
 
+# ===== template for a book =====
 # - id:                       # Choose a unique ID for the destination, will be referenced later
 #   name:                     # Name of the destination
 #   acronym:                  # Acronym of the destination
 #   url:                      # URL of the destination
-#   type: book      # Keep book
+#   type: book                # Keep book
 
 - id: SecAssAPIFinancial_book_2020
   name: "Cyber-Physical Threat Intelligence for Critical Infrastructures Security: A Guide to Integrated Cyber-Physical Protection of Modern Critical Infrastructures"
@@ -56,8 +59,9 @@
   type: book
 
 
-# CONFERENCES/WORKSHOPS
+# CONFERENCES/WORKSHOPS/DEMOS
 
+# ===== template for a conference/workshop/demo =====
 # - id:                       # Choose a unique ID for the destination, will be referenced later
 #   name:                     # Name of the destination
 #   proceedings:              # Name of the proceedings (optional, only if different from "name")

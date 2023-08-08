@@ -5,81 +5,94 @@
          "group":"Topics",
          "radius":40,
          "icon":"person-military-pointing",
-         "click":"/topics/AccessControl/"
+         "click":"/topics/AccessControl/",
+         "color":"#7dc2fa"
       },
       {
          "id":"Privacy Enhancing Cryptography",
          "group":"Topics",
          "radius":40,
          "icon":"user-secret",
-         "click":"/topics/PrivacyEnhancingCryptography/"
+         "click":"/topics/PrivacyEnhancingCryptography/",
+         "color":"#7dc2fa"
       },
       {
          "id":"Decentralization of Trust",
          "group":"Topics",
          "radius":40,
          "icon":"handshake",
-         "click":"/topics/DecentralizationOfTrust/"
+         "click":"/topics/DecentralizationOfTrust/",
+         "color":"#7dc2fa"
       },
       {
          "id":"Cryptographic Access Control",
          "group":"SubTopics",
          "radius":20,
-         "icon":"gamepad"
+         "icon":"gamepad",
+         "color":"#c2f1c1"
       },
       {
          "id":"Attribute-based Encryption",
          "group":"SubTopics",
          "radius":20,
-         "icon":"user-tag"
+         "icon":"user-tag",
+         "color":"#c2f1c1"
       },
       {
          "id":"Zero-Knowledge Proofs",
          "group":"SubTopics",
          "radius":20,
-         "icon":"circle-question"
+         "icon":"circle-question",
+         "color":"#c2f1c1"
       },
       {
          "id":"Secure Multi-Party Computation",
          "group":"SubTopics",
          "radius":20,
-         "icon":"users-gear"
+         "icon":"users-gear",
+         "color":"#c2f1c1"
       },
       {
          "id":"Threshold Cryptography",
          "group":"SubTopics",
          "radius":20,
-         "icon":"users-slash"
+         "icon":"users-slash",
+         "color":"#c2f1c1"
       },
       {
          "id":"Blockchain Applications",
          "group":"SubTopics",
          "radius":20,
-         "icon":"link"
+         "icon":"link",
+         "color":"#c2f1c1"
       },
       {
          "id":"Post-Quantum Cryptography",
          "group":"SubTopics",
          "radius":20,
-         "icon":"q"
+         "icon":"q",
+         "color":"#c2f1c1"
       },
       {
          "id":"Cryptanalysis",
          "group":"SubTopics",
          "radius":20,
-         "icon":"magnifying-glass"
+         "icon":"magnifying-glass",
+         "color":"#c2f1c1"
       },
       {
          "id":"Hardware-based Security",
          "group":"SubTopics",
          "radius":20,
-         "icon":"microchip"
+         "icon":"microchip",
+         "color":"#c2f1c1"
       },
       {
          "id":"Symbolic Model Verification",
          "group":"SubTopics",
          "radius":20,
-         "icon":"certificate"
+         "icon":"certificate",
+         "color":"#c2f1c1"
       }
    ],
    "links":[

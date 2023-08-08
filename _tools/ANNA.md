@@ -7,7 +7,7 @@ internalUrl: /tools/ANNA/
 description: Access coNtrol mechaNisms evaluAtor
 
 
-# # coming from "_layouts/page.html"
+# coming from "_layouts/page.html"
 # publications:                   # List of IDs of related publications
 #     - 
 

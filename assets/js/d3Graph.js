@@ -96,7 +96,7 @@ function createGraph(data) {
 
     node.append("circle")
         .attr("r", d => d.radius)
-        .attr("fill", d => color(d.group));
+        .attr("fill", d => d.color);
         // .attr("stroke", "white")
         // .attr("stroke-width", 1.5)
 

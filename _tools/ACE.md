@@ -7,7 +7,7 @@ internalUrl: /tools/ACE/
 description: AC state-change rule extraction procedurE
 
 
-# # coming from "_layouts/page.html"
+# coming from "_layouts/page.html"
 # publications:                   # List of IDs of related publications
 #     - 
 
