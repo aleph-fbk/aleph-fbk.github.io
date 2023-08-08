@@ -18,8 +18,8 @@ show_hero: true                 # Leave "true"
 # tools:                          # List of IDs of related tools
 #     - 
 
-# projects:                       # List of IDs of related projects
-#     - 
+projects:                       # List of IDs of related projects
+    - e-voting
 
 # collaborations:                 # List of IDs of related collaborations
 #     - 
