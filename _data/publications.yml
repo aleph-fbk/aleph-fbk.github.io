@@ -148,8 +148,10 @@
     - AmirSharif
     - AlessandroTomasi 
   tags:                     
-    - VerifiableCredentials
-    - SelectiveDisclosure
+    # - VerifiableCredentials
+    # - SelectiveDisclosure
+    - ZKP
+    - PrivacyEnhancingCryptography
   abstract: >
     Verifiable credentials are a digital analogue of physical credentials. Their authenticity and integrity are protected by means of cryptographic techniques, and they can be presented to verifiers to prove claims about the holder of the credential itself. One way to preserve privacy during presentation consists in selectively disclosing the attributes in a credential. In this paper we present the most widespread cryptographic mechanisms used to enable selective disclosure of attributes, describing their structure and comparing them in terms of performance, size of the associated verifiable presentations, and the ability to produce predicate proofs and unlinkable presentations.
   destination: SECRYPT2023

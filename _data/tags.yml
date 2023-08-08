@@ -50,9 +50,9 @@
   text: "Privacy Enhancing Cryptography"
   color: "#e3e5d4"
 
-- id: SelectiveDisclosure
-  text: "Selective Disclosure"
-  color: "#bd98dc"
+# - id: SelectiveDisclosure
+#   text: "Selective Disclosure"
+#   color: "#bd98dc"
 
 # - id: SymbolicModelVerification
 #   text: "Symbolic Model Verification"
@@ -66,9 +66,9 @@
   text: "Threshold Cryptography"
   color: "#a5afb6"
 
-- id: VerifiableCredentials
-  text: "Verifiable Credentials"
-  color: "#a8c1b2"
+# - id: VerifiableCredentials
+#   text: "Verifiable Credentials"
+#   color: "#a8c1b2"
 
 - id: ZKP
   text: "Zero-Knowledge Proof"
