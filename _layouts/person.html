@@ -75,7 +75,7 @@ layout: default
             {% assign publicationsByYear = site.data.publications | where_exp: "publication", "publication.authors contains page.person" | where: "isALEPH", "true" | group_by: "year" | sort: "name" | reverse %}
             {% if publicationsByYear.size > 0 %}
                 <section class="contains-publications">
-                    <h1>Publications</h1>
+                    <h1>Publications in ALEPH</h1>
                     {% include list-publications.html source=publicationsByYear sort="title" allowFiltering=false %}
                 </section>
             {% endif %}
@@ -126,6 +126,18 @@ layout: default
                             {% include list-items.html source=formerCollaborations sort="title" style="card" %}
                         </div>
                     {% endif %}
+                </section>
+            {% endif %}
+
+            <!-- TOOLS -->
+            {% assign currentTools = site.tools | where_exp: "tool", "tool.people contains page.person" | where_exp: "tool", "tool.title != 'Tools'" | sort: "name" %}
+            {% if currentTools.size > 0 %}
+                <section class="contains-tools">
+                    <h1>Tools</h1>
+                        <h4>Current</h4>
+                        <div class="column is-12">
+                            {% include list-items.html source=currentTools sort="title" style="card" %}
+                        </div>
                 </section>
             {% endif %}
 

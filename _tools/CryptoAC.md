@@ -26,8 +26,8 @@ publications:
 # projects:                       # List of IDs of related projects
 #     - 
 
-# collaborations:                 # List of IDs of related collaborations
-#     - 
+collaborations:                   # List of IDs of related collaborations
+    - ST 
 
 people:
     - StefanoBerlato

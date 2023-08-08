@@ -37,6 +37,6 @@ tools:                          # List of IDs of related tools
 #       source:                   # Path to the image
 ---
 
-Aleph research focuses on cryptographic technologies for robust access control. To a first approximation, cryptography provides a means of realizing access control policy enforcement by key management: those who have the right key can access the right resource.
+ALEPH research focuses on cryptographic technologies for robust access control. To a first approximation, cryptography provides a means of realizing access control policy enforcement by key management: those who have the right key can access the right resource.
 
 A well-known example is [Attribute-Based Encryption](https://csrc.nist.gov/pubs/ir/8450/ipd) (ABE) in its key-policy (KP-ABE) and ciphertext-policy (CP-ABE) variants.

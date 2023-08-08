@@ -36,6 +36,6 @@ projects:                       # List of IDs of related projects
 
 An intuitive example is threshold digital signature, requiring a threshold of honest participants to contribute to their creation by using their secret key shares.
 
-An application of interest for aleph has been electronic voting. By way of example, if ballots are cast with additively homomorphic encryption, and several tabulation authorities each have a share of the election secret key, no single authority can decrypt individual votes or their sum, and a threshold of honest authorities is required to decrypt the final tally.
+An application of interest for ALEPH has been electronic voting. By way of example, if ballots are cast with additively homomorphic encryption, and several tabulation authorities each have a share of the election secret key, no single authority can decrypt individual votes or their sum, and a threshold of honest authorities is required to decrypt the final tally.
 
 Additional technologies of interest include tamper-evident and -resistant distributed ledgers.

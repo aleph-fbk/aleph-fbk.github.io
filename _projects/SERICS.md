@@ -50,11 +50,11 @@ publications:                   # List of IDs of related publications
 # projects:                       # List of IDs of related projects
 #     - 
 
-collaborations:
+collaborations:                   # List of IDs of related collaborations
     - ST
     - RiSING
 
-people:                         # List of IDs of related people
+people:                           # List of IDs of related people
     - AlessandroTomasi
     - RiccardoLongo
     - StefanoBerlato

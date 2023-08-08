@@ -17,14 +17,14 @@ description: AC state-change rule extraction procedurE
 # events:                         # List of IDs of related events
 #     - 
 
-# tools:                          # List of IDs of related tools
-#     - 
+tools:                            # List of IDs of related tools
+    - ANNA
 
 # projects:                       # List of IDs of related projects
 #     - 
 
-# collaborations:                 # List of IDs of related collaborations
-#     - 
+collaborations:                   # List of IDs of related collaborations
+    - ST 
 
 people:
     - StefanoBerlato

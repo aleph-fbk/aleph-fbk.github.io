@@ -8,7 +8,7 @@
     {% if allowFiltering %}
         <h1>Filter by Tag</h1>
         {%- for tag in site.data.tags -%}
-            <div style="display:inline;" id="tag-{{ tag.id }}">
+            <div style="display:inline; cursor: pointer;" id="tag-{{ tag.id }}">
                 <span onclick="toggleTagFilter('{{ tag.id }}')" style="margin: 2px; background-color: {{ tag.color }};" class="tag tag-{{ tag.id }}">
                     <b>
                         {{ tag.text }}

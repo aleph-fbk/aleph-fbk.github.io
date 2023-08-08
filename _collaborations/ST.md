@@ -34,8 +34,9 @@ projects:                       # List of IDs of related projects
 # collaborations:                 # List of IDs of related collaborations
 #     - 
 
-#people:                         # List of IDs of related people
+# people:                         # List of IDs of related people
 #    - AlessandroTomasi
+#    - StefanoBerlato
 
 # images:                         # Repeat the following structure to add more images
 #     - title:                    # Title of the image
