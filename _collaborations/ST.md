@@ -16,7 +16,7 @@ isCurrent: true
 # coming from "_layouts/page.html"
 publications:                   # List of IDs of related publications
 #     - EVOTEID2023
-    - POLSIM2023
+#     - POLSIM2023
     - SECRYPT2023
 
 # theses:                         # List of IDs of related theses
