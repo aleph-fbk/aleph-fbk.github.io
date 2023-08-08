@@ -43,3 +43,5 @@ projects:                       # List of IDs of related projects
 ---
 
 The Laboratory of Applied Cryptography and Blockchain Technology is a Joint Research Lab of the FBK [Cybersecurity Center](https://www.fbk.eu/en/cybersecurity/) and the UniTN [Laboratory of Industrial Mathematics and Cryptography](https://www.maths.unitn.it/en/110/laboratory-of-industrial-mathematics-and-cryptography), active since 2020.
+
+The Joint Lab matches the complex and unusual requirements of real-life scenarios with fundamental mathematical research to find innovative solutions.

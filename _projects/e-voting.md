@@ -51,13 +51,13 @@ publications:                   # List of IDs of related publications
 # projects:                       # List of IDs of related projects
 #     - 
 
-collaborations:
+collaborations:                 # List of IDs of related collaborations
      - UniTNAppliedCryptographyBlockchain
      - ST
 
-people:                         # List of IDs of related people
-    - AlessandroTomasi
-    - RiccardoLongo
+# people:                         # List of IDs of related people
+#     - AlessandroTomasi
+#     - RiccardoLongo
 
 # images:                         # Repeat the following structure to add more images
 #     - title:                    # Title of the image
