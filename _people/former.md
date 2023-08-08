@@ -4,6 +4,8 @@ layout: page
 permalink: /people/former/
 ---
 
+<br />
+
 {% include toc.md %}
 
 {%- if site.data.members.former.head.size > 0 -%}

@@ -12,7 +12,7 @@
 #     textual abstract    
 #   destination:              # Unique ID of the destination (see below)
 #   destinationAddon:         # Addon to the destination journal or proceedings (e.g., volume, pages) (optional)
-#   isALEPH:                  # Whether the publication should appear in the list of publications of ALEPH (then, set to "true") or only on tools' pages (then, set to "false")
+#   isALEPH:                  # Whether the publication should appear in all pages including the list of publications of ALEPH (then, set to "true") or in all pages excluding the list of publications of ALEPH (then, set to "false")
 #   year:               # year of publication (e.g., 2023)
 #   doi:                # doi (e.g., 10.1145/3320269.3384767)
 #   urlComplementary:   # url of complementary (in "_complementary")
@@ -80,8 +80,6 @@
   doi: 10.1007/978-3-031-10684-2_14
 
 - id: EVOTEID2022
-  isALEPH: true
-  year: 2022
   title: "Adaptation of an i-voting scheme to Italian Elections for Citizens Abroad"
   authors:
     - RiccardoLongo
@@ -91,6 +89,8 @@
   abstract: >
     We adapt the Araújo-Traoré protocol to Italian elections, with emphasis on anti-coercion measures. In this short paper we focus on a new method for managing anti-coercion credentials for each voter.
   destination: EVOTEID2022
+  isALEPH: false
+  year: 2022
   doi: 10.15157/diss/027
   tags:                     
     - ThresholdCryptography
