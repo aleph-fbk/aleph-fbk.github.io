@@ -2,9 +2,9 @@
 # coming from "_includes/list-items.html"
 id: UniTNAppliedCryptographyBlockchain
 logo: /assets/areas/collaborations/logo_UNITN.png
-title: University of Trento
+title: Laboratory of Applied Cryptography and Blockchain Technology
 internalUrl: /collaborations/UniTNAppliedCryptographyBlockchain
-description: Laboratory of Applied Cryptography and Blockchain
+description: Joint Lab with the University of Trento
 
 
 
@@ -14,8 +14,8 @@ isCurrent: true
 
 
 # coming from "_layouts/page.html"
-# publications:                   # List of IDs of related publications
-#     - 
+publications:                   # List of IDs of related publications
+    - EVOTEID2022
 
 # theses:                         # List of IDs of related theses
 #     - 
@@ -26,18 +26,18 @@ isCurrent: true
 # tools:                          # List of IDs of related tools
 #     - 
 
-# projects:                       # List of IDs of related projects
-#     - 
+projects:                       # List of IDs of related projects
+    - e-voting
 
 # collaborations:                 # List of IDs of related collaborations
 #     - 
 
-people:                         # List of IDs of related people
-    - AlessandroTomasi
+# people:                         # List of IDs of related people
+#     - AlessandroTomasi
 
 # images:                         # Repeat the following structure to add more images
 #     - title:                    # Title of the image
 #       source:                   # Path to the image
 ---
 
-Laboratory of Applied Cryptography and Blockchain technology
+The Laboratory of Applied Cryptography and Blockchain Technology is a Joint Research Lab of the FBK [Cybersecurity Center](https://www.fbk.eu/en/cybersecurity/) and the UniTN [Laboratory of Industrial Mathematics and Cryptography](https://www.maths.unitn.it/en/110/laboratory-of-industrial-mathematics-and-cryptography), active since 2020.

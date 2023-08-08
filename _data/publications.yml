@@ -101,7 +101,7 @@
 
 # 2023
 - id: EVOTEID2023
-  isALEPH: true
+  isALEPH: false
   year: 2023
   title: "Coercion-resistant i-voting with short PIN and OAuth 2.0"
   authors:
