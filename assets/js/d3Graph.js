@@ -66,7 +66,7 @@ function createGraph(data) {
     // Add a line for each link, and a circle for each node.
     const link = svg.append("g")
         .attr("stroke", "#999")
-        .attr("stroke-opacity", 0.6)
+        .attr("stroke-opacity", 0.5)
         .selectAll("line")
         .data(links)
         .join("line")
@@ -92,17 +92,18 @@ function createGraph(data) {
                     + "(e.g., open page of topic, show publications for subtopics...)"
                 );
             }
-        });
+        })
+        .attr("style", "cursor: pointer;");
 
     node.append("circle")
         .attr("r", d => d.radius)
-        .attr("fill", d => d.color);
-        // .attr("stroke", "white")
-        // .attr("stroke-width", 1.5)
+        .attr("fill", "white")
+        .attr("stroke", d => d.color)
+        .attr("stroke-width", d => d.strokewidth);
 
     node.append("text")
-        .attr("x", d => (d.radius+5))
-        .attr("y", "0.31em")
+        .attr("x", d => (-d.id.length)*3)
+        .attr("y", d => (d.radius+20))
         .text(d => d.id)
         .clone(true).lower()
         .attr("fill", "none")

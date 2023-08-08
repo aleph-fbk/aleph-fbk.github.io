@@ -14,22 +14,4 @@ Our current research topics of main interest are represented below.
 
 &#x2135; is one of the Research Units of the [Center for Cybersecurity](https://www.fbk.eu/it/cybersecurity/) of [Fondazione Bruno Kessler](https://www.fbk.eu) (FBK). Our mission is to carry out scientific research of excellence with a positive impact on society.
 
-
-<!-- - Access Control (e.g., attribute-based encryption, cryptographic access control)
-- Privacy-Enhancing Cryptography (e.g., attribute-based encryption, secure multi-party computation, zero-knowledge proofs)
-- Decentralization of Trust (e.g., distributed ledger technology, secure multi-party computation, threshold cryptography, zero-knowledge proofs)
-- Post-Quantum Cryptography -->
-
-<!-- Commented to leave room for the network graph -->
-<!-- 
-     These two files below does not exist anymore; use list-items.yml layout instead
-    \{\% include topics.md \%\}
-    \{\% include spotlights.md \%\} 
--->
-
-
-<!-- Commented because we have the svg of the icons in local assets -->
-<!-- <script src="https://kit.fontawesome.com/beda7765f5.js" crossorigin="anonymous"></script> -->
-
-
 <script type="module" src="/assets/js/d3Graph.js"></script>

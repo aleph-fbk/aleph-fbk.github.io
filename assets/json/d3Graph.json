@@ -6,7 +6,8 @@
          "radius":40,
          "icon":"person-military-pointing",
          "click":"/topics/AccessControl/",
-         "color":"#7dc2fa"
+         "color":"#7dc2fa",
+         "strokewidth":"8"
       },
       {
          "id":"Privacy Enhancing Cryptography",
@@ -14,7 +15,8 @@
          "radius":40,
          "icon":"user-secret",
          "click":"/topics/PrivacyEnhancingCryptography/",
-         "color":"#7dc2fa"
+         "color":"#7dc2fa",
+         "strokewidth":"8"
       },
       {
          "id":"Decentralization of Trust",
@@ -22,115 +24,135 @@
          "radius":40,
          "icon":"handshake",
          "click":"/topics/DecentralizationOfTrust/",
-         "color":"#7dc2fa"
+         "color":"#7dc2fa",
+         "strokewidth":"8"
       },
       {
          "id":"Cryptographic Access Control",
          "group":"SubTopics",
          "radius":20,
          "icon":"gamepad",
-         "color":"#c2f1c1"
+         "color":"#c2f1c1",
+         "strokewidth":"4"
       },
       {
          "id":"Attribute-based Encryption",
          "group":"SubTopics",
          "radius":20,
          "icon":"user-tag",
-         "color":"#c2f1c1"
+         "color":"#c2f1c1",
+         "strokewidth":"4"
       },
       {
          "id":"Zero-Knowledge Proofs",
          "group":"SubTopics",
          "radius":20,
          "icon":"circle-question",
-         "color":"#c2f1c1"
+         "color":"#c2f1c1",
+         "strokewidth":"4"
       },
       {
          "id":"Secure Multi-Party Computation",
          "group":"SubTopics",
          "radius":20,
          "icon":"users-gear",
-         "color":"#c2f1c1"
+         "color":"#c2f1c1",
+         "strokewidth":"4"
       },
       {
          "id":"Threshold Cryptography",
          "group":"SubTopics",
          "radius":20,
          "icon":"users-slash",
-         "color":"#c2f1c1"
+         "color":"#c2f1c1",
+         "strokewidth":"4"
       },
       {
          "id":"Blockchain Applications",
          "group":"SubTopics",
          "radius":20,
          "icon":"link",
-         "color":"#c2f1c1"
+         "color":"#c2f1c1",
+         "strokewidth":"4"
       },
       {
          "id":"Post-Quantum Cryptography",
          "group":"SubTopics",
          "radius":20,
          "icon":"q",
-         "color":"#c2f1c1"
+         "color":"#c2f1c1",
+         "strokewidth":"4"
       },
       {
          "id":"Cryptanalysis",
          "group":"SubTopics",
          "radius":20,
          "icon":"magnifying-glass",
-         "color":"#c2f1c1"
+         "color":"#c2f1c1",
+         "strokewidth":"4"
       },
       {
          "id":"Hardware-based Security",
          "group":"SubTopics",
          "radius":20,
          "icon":"microchip",
-         "color":"#c2f1c1"
+         "color":"#c2f1c1",
+         "strokewidth":"4"
       },
       {
          "id":"Symbolic Model Verification",
          "group":"SubTopics",
          "radius":20,
          "icon":"certificate",
-         "color":"#c2f1c1"
+         "color":"#c2f1c1",
+         "strokewidth":"4"
       }
    ],
    "links":[
       {
          "source":"Access Control",
-         "target":"Cryptographic Access Control"
+         "target":"Cryptographic Access Control",
+         "value":"3"
       },
       {
          "source":"Access Control",
-         "target":"Attribute-based Encryption"
+         "target":"Attribute-based Encryption",
+         "value":"3"
       },
       {
          "source":"Privacy Enhancing Cryptography",
-         "target":"Attribute-based Encryption"
+         "target":"Attribute-based Encryption",
+         "value":"3"
       },
       {
          "source":"Privacy Enhancing Cryptography",
-         "target":"Zero-Knowledge Proofs"
+         "target":"Zero-Knowledge Proofs",
+         "value":"3"
       },
       {
          "source":"Privacy Enhancing Cryptography",
-         "target":"Secure Multi-Party Computation"
+         "target":"Secure Multi-Party Computation",
+         "value":"3"
       },
       {
          "source":"Decentralization of Trust",
-         "target":"Zero-Knowledge Proofs"
+         "target":"Zero-Knowledge Proofs",
+         "value":"3"
       },
       {
          "source":"Decentralization of Trust",
-         "target":"Secure Multi-Party Computation"
+         "target":"Secure Multi-Party Computation",
+         "value":"3"
       },
       {
          "source":"Decentralization of Trust",
-         "target":"Threshold Cryptography"
+         "target":"Threshold Cryptography",
+         "value":"3"
       },
       {
          "source":"Decentralization of Trust",
-         "target":"Blockchain Applications"
+         "target":"Blockchain Applications",
+         "value":"3"
       }
    ]
 }
