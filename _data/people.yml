@@ -55,6 +55,29 @@
 - id: AndreaFlamini
   name: Andrea
   surname: Flamini
+  affiliations:
+    - role: PhD Candidate
+      unit: Department of Mathematics
+      institution: University of Trento
+      place: Trento, Italy
+  email: andrea.flamini@unitn.it
+  
+- id: ChiaraSpadafora
+  name: Chiara
+  surname: Spadafora
+  affiliations:
+    - role: PhD Candidate
+      unit: Department of Mathematics
+      institution: University of Trento
+      place: Trento, Italy
+  email: chiara.spadafora@unitn.it
+
+- id: FrancescoAntonioMarino
+  name: Francesco Antonio
+  surname: Marino
+  affiliations:
+    - institution: Istituto Poligrafico e Zecca dello Stato (IPZS)
+  email: fa.marino@ipzs.it
 
 - id: GiacomoZanolli
   name: Giacomo
@@ -85,6 +108,18 @@
   name: Mariano
   surname: Ceccato
 
+- id: MarioScuro
+  name: Mario
+  surname: Scuro
+  
+- id: MatteoBitussi
+  name: Matteo
+  surname: Bitussi
+  affiliations:
+    - unit: Security & Trust
+      institution: Fondazione Bruno Kessler
+  email: mbitussi@fbk.eu
+  
 - id: RiccardoLongo
   name: Riccardo
   surname: Longo

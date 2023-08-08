@@ -158,7 +158,25 @@
   startDate: "2022-07-18"
   endDate: "2022-07-20"
   
+- id: EVOTEID2022
+  name: Seventh International Joint Conference on Electronic Voting
+  acronym: E-Vote-ID 2022
+  url: https://e-vote-id.org/e-vote-id-2022/
+  type: conference
+  location: Bregenz, Austria
+  startDate: "2022-10-04"
+  endDate: "2022-10-07"
+  
 # 2023
+- id: EVOTEID2023
+  name: Eighth International Joint Conference on Electronic Voting
+  acronym: E-Vote-ID 2023
+  url: https://e-vote-id.org/e-vote-id-2023/
+  type: conference
+  location: Luxembourg City, Luxembourg
+  startDate: "2022-10-03"
+  endDate: "2022-10-06"
+  
 - id: SECRYPT2023
   name: 20th International Conference on Security and Cryptography
   acronym: SECRYPT 2023
