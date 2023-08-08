@@ -14,8 +14,10 @@ isCurrent: true
 
 
 # coming from "_layouts/page.html"
-# publications:                   # List of IDs of related publications
-#     - 
+publications:                   # List of IDs of related publications
+#     - EVOTEID2023
+    - POLSIM2023
+    - SECRYPT2023
 
 # theses:                         # List of IDs of related theses
 #     - 
@@ -43,4 +45,6 @@ projects:                       # List of IDs of related projects
 #       source:                   # Path to the image
 ---
 
-[Security & Trust](https://st.fbk.eu/) is a research unit in the Center for Cybersecurity in FBK.
+[Security & Trust](https://st.fbk.eu/) is a research unit in the Center for Cybersecurity in FBK, specializing in Digital Identity and application-level security and risk assessment, with expertise on major standards and protocols such as OAuth, OpenID Connect, TLS.
+
+Our collaborations include providing expertise, comparative evaluation, and proof-of-concept implementations on best practice and novel cryptographic mechanisms for specific use case requirements.
