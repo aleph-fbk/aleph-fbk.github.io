@@ -56,7 +56,7 @@ layout: default
 
 <div class="content single-fbkperson">
 
-    <p></p>
+    <br />
 
     <span id="set-title">{{ person.name }} {{ person.surname }}</span>
     <span id="set-subtitle">{{ roleALEPH }}</span>
@@ -72,7 +72,7 @@ layout: default
             <div id="toc"></div>
 
             <!-- PUBLICATIONS IN ALEPH -->
-            {% assign publicationsByYear = site.data.publications | where_exp: "publication", "publication.authors contains page.person" | where_exp: "publication", "publication.id_iris != nil" | where: "isALEPH", "true" | group_by: "year" | sort: "name" | reverse %}
+            {% assign publicationsByYear = site.data.publications | where_exp: "publication", "publication.authors contains page.person" | where: "isALEPH", "true" | group_by: "year" | sort: "name" | reverse %}
             {% if publicationsByYear.size > 0 %}
                 <section class="contains-publications">
                     <h1>Publications</h1>

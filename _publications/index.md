@@ -7,7 +7,7 @@ permalink: /publications/
 <br />
 <div class="columns is-multiline">
 
-    {% assign publicationsByYear = site.data.publications | where_exp: "publication", "publication.id_iris != nil" | where: "isALEPH", "true" | group_by: "year" | sort: "name" | reverse %}
+    {% assign publicationsByYear = site.data.publications | where: "isALEPH", "true" | group_by: "year" | sort: "name" | reverse %}
 
     <div class="column is-12">
         {% include list-publications.html source=publicationsByYear sort="title" allowFiltering=true %}

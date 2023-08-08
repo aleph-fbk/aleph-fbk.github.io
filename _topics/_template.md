@@ -1,19 +1,35 @@
 ---
-title:              # title
-subtitle:           # title
-type:               # either "spotlight" or "topic"
-url:                # "/topics/${name_of_this_file_no_extension}"
-image:              # name (with extension) of the image file in "assets/areas/topics/"
-order:              # 1 to |number of files in this folder|
+# coming from "_layouts/default.html"
+title:                          # Title of the topic
+show_hero: true                 # Leave "true"s
 
-tools:
-    -               # ID of related tools
 
-publications:
-    -               # ID of related publications
 
-theses:
-    -               # ID of related thesis
+# coming from "_layouts/page.html"
+publications:                   # List of IDs of related publications
+    - 
+
+theses:                         # List of IDs of related theses
+    - 
+
+events:                         # List of IDs of related events
+    - 
+
+tools:                          # List of IDs of related tools
+    - 
+
+projects:                       # List of IDs of related projects
+    - 
+
+collaborations:                 # List of IDs of related collaborations
+    - 
+
+people:                         # List of IDs of related people
+    - 
+
+images:                         # Repeat the following structure to add more images
+    - title:                    # Title of the image
+      source:                   # Path to the image
 ---
 
 description

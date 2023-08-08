@@ -4,7 +4,7 @@ layout: page
 permalink: /people/
 ---
 
-<p></p>
+<br />
 
 <h1>Heads</h1>
 {% assign details = "picture, role, internalUnit, email, phone, personalPage, website" | split: ", " %}

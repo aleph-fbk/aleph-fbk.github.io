@@ -21,10 +21,15 @@ Our current research topics of main interest are represented below.
 - Post-Quantum Cryptography -->
 
 <!-- Commented to leave room for the network graph -->
-<!-- {% include topics.md %}
+<!-- 
+     These two files below does not exist anymore; use list-items.yml layout instead
+    \{\% include topics.md \%\}
+    \{\% include spotlights.md \%\} 
+-->
 
-{% include spotlights.md %} -->
 
+<!-- Commented because we have the svg of the icons in local assets -->
 <!-- <script src="https://kit.fontawesome.com/beda7765f5.js" crossorigin="anonymous"></script> -->
+
 
 <script type="module" src="/assets/js/d3Graph.js"></script>
