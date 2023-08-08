@@ -1,9 +1,9 @@
 ---
 # coming from "_includes/list-items.html"
 id: ST
-logo: /assets/images/logos/ST.png
-title: Security & Trust
-internalUrl: /collaborations/ST
+logo: /assets/images/logos/RiSING.png
+title: Robust and Secure Distributed Computing
+internalUrl: /collaborations/RiSING
 description: FBK Research Unit
 
 
@@ -27,7 +27,6 @@ isCurrent: true
 #     - 
 
 projects:                       # List of IDs of related projects
-     - e-voting
      - SERICS
 
 # collaborations:                 # List of IDs of related collaborations
@@ -41,4 +40,4 @@ projects:                       # List of IDs of related projects
 #       source:                   # Path to the image
 ---
 
-[Security & Trust](https://st.fbk.eu/) is a research unit in the Center for Cybersecurity in FBK.
+[Robust and Secure Distributed Computing](https://rising.fbk.eu/) (RiSING) is a research unit in the Center for Cybersecurity in FBK.
