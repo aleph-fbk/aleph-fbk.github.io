@@ -29,6 +29,7 @@ isCurrent: true
 projects:                       # List of IDs of related projects
      - e-voting
      - SERICS
+     - FAMILIAR
 
 # collaborations:                 # List of IDs of related collaborations
 #     - 

@@ -60,10 +60,10 @@ partners:                       # Partners of the project (optional)
 # projects:                       # List of IDs of related projects
 #     - 
 
-# collaborations:                 # List of IDs of related collaborations
-#     - 
+collaborations:                   # List of IDs of related collaborations
+    - ST
 
-people:                         # List of IDs of related people
+people:                           # List of IDs of related people
     - SilvioRanise
     - StefanoBerlato
 
