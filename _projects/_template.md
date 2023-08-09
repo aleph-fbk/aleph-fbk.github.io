@@ -1,15 +1,17 @@
 ---
 # coming from "_includes/list-items.html"
 id:                             # ID of the collaboration
-logo:                           # "/assets/areas/collaborations/<image name>"
+logo:                           # "/assets/areas/projects/<image name>" or 
+                                # "/assets/svg/material-design-icons/icons.svg#<icon id>" or 
+                                # "/assets/svg/fontawesome-6.4.0/icons.svg#<icon id>"
 title:                          # Title of the collaboration
-internalUrl:                    # "/collaborations/<ID of the collaboration>"
+internalUrl:                    # "/projects/<ID of the collaboration>"
 description:                    # Short description (few words)
 
 
 
-# coming from "_collaborations/index.html"
-isCurrent:                      # Either 'true' for ongoing collaborations or 'false' for terminated collaborations
+# coming from "_projects_/index.html"
+isCurrent:                      # Either 'true' for ongoing projects or 'false' for terminated projects
 
 
 

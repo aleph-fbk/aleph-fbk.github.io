@@ -16,7 +16,13 @@
                         <div class="card-image">
                             <figure class="image">
                                 {% if item.logo %}
-                                    <img src="{{ site.baseurl }}{{ item.logo }}" alt="{{ item.title }}" />
+                                    {% if item.logo contains "/assets/svg/" %}
+                                        <svg>
+                                            <use href="{{ site.baseurl }}{{ item.logo }}"/>
+                                        </svg>
+                                    {% else %}
+                                        <img src="{{ site.baseurl }}{{ item.logo }}" alt="{{ item.title }}" />
+                                    {% endif %}
                                 {% else %}
                                     <img class="default" alt="{{ item.title }}" />
                                 {% endif %}

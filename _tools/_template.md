@@ -1,7 +1,9 @@
 ---
 # coming from "_includes/list-items.html"
 id:                             # ID of the tool
-logo:                           # "/assets/areas/tools/<image name>"
+logo:                           # "/assets/areas/tools/<image name>" or 
+                                # "/assets/svg/material-design-icons/icons.svg#<icon id>" or 
+                                # "/assets/svg/fontawesome-6.4.0/icons.svg#<icon id>"
 title:                          # Title of the tool
 internalUrl:                    # "/tools/<ID of the tool>"
 description:                    # Short description (few words)

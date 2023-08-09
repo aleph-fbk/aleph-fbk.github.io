@@ -1,7 +1,9 @@
 ---
 # coming from "_includes/list-items.html"
 id:                             # ID of the collaboration
-logo:                           # "/assets/areas/collaborations/<image name>"
+logo:                           # "/assets/areas/collaborations/<image name>" or 
+                                # "/assets/svg/material-design-icons/icons.svg#<icon id>" or 
+                                # "/assets/svg/fontawesome-6.4.0/icons.svg#<icon id>"
 title:                          # Title of the collaboration
 internalUrl:                    # "/collaborations/<ID of the collaboration>"
 description:                    # Short description (few words)

@@ -1,7 +1,7 @@
 ---
 # coming from "_includes/list-items.html"
 id: e-voting
-#logo: /assets/areas/projects/logo_SERICS.png
+logo: /assets/svg/material-design-icons/icons.svg#how_to_vote
 title: E-voting
 internalUrl: /projects/e-voting
 description: Electronic voting

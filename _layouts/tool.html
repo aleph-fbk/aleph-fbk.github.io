@@ -3,14 +3,19 @@ layout: page
 ---
 
 <div class="columns is-multiline">
-  
-  <div class="column is-12">
-    {% if page.logo %}
-      <img class="logo pull-right" src="{{ page.logo }}" />
-    {% endif %}
-
-    <br />
-    
-    {{ content }}
-  </div>
+    <div class="column is-12">
+        {% if page.logo %}
+            {% if page.logo contains "/assets/svg/" %}
+                <div class="logo pull-right">
+                    <svg>
+                        <use href="{{ page.logo }}"/>
+                    </svg>
+                </div>
+            {% else %}
+                <img class="logo pull-right" src="{{ page.logo }}" />
+            {% endif %}
+        {% endif %}
+        <br />
+        {{ content }}
+    </div>
 </div>
