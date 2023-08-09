@@ -1,35 +1,13 @@
-# How to try the website locally: 
+# The ALEPH Website
 
-- clone this repository
-- install rvm (https://rvm.io/rvm/install) (you may need to reboot your computer)
-- install ruby with "rvm install ruby 2.7.2"
-- run "bundle install"
-- run "bundle exec jekyll serve"
-  - if the above command does not work, delete the "gemfile.lock" file, run "rvm install ruby 3.2.2" and again "bundle exec jekyll serve"
-- open the browser at "http://0.0.0.0:4000/"
-
-Sample installation in Ubuntu 22.04:
-
-```bash
-sudo apt install software-properties-common ruby-dev ruby-bundler
-sudo apt-add-repository -y ppa:rael-gc/rvm
-sudo apt-get update
-sudo usermod -a -G rvm $USER
-source ~/.bashrc
-sudo apt-get install rvm
-rvm install ruby 3.2.2
-bundle install
-bundle exec jekyll serve
-```
-
-***
-
-### This document provides instructions about the [ALEPH website](https://aleph.github.io).
+### This document provides instructions about the [ALEPH website](https://aleph.github.io). Please start by reading (at least) the [How to update the website](#how-to-update-the-website) section.
 
 Table of Contents:
 - [Good to know](#good-to-know)
-  - [Language](#language)
+  - [How to update the website](#how-to-update-the-website)
+  - [How to try the website locally](#how-to-try-the-website-locally)
   - [Use of attachments](#use-of-attachments)
+  - [Language](#language)
 - [Common operations](#common-operations)
   - [Add a person](#add-a-person)
   - [Add a thesis](#add-a-thesis)
@@ -53,6 +31,43 @@ Table of Contents:
 
 # Good to know
 
+### How to update the website
+
+1. Read the instructions you find in the [Common operations](#common-operations) section to understand how to implement your change (e.g., add a new publication, update a project). You may try out your change by following the instructions in the [How to try the website locally](#how-to-try-the-website-locally) section;
+2. Create a dedicated issue and make a pull request to the repository. **It is a best practice to avoid pushing changes directly into the main branch**;
+3. The Content Managers (`sberlato@fbk.eu` and `altomasi@fbk.eu`) will check your modification and merge it into the main branch;
+4. The website will automatically update accordingly.
+
+### How to try the website locally
+
+1. clone the repository;
+2. install rvm (https://rvm.io/rvm/install) (you may need to reboot your computer);
+3. install ruby with `rvm install ruby 2.7.2`;
+4. run `bundle install`;
+5. run `bundle exec jekyll serve`;
+  - if the above command does not work, delete the `gemfile.lock` file, run `rvm install ruby 3.2.2` and again `bundle exec jekyll serve`;
+6. open the browser at `http://0.0.0.0:4000/`;
+
+Sample installation script in Ubuntu 22.04:
+
+```bash
+sudo apt install software-properties-common ruby-dev ruby-bundler
+sudo apt-add-repository -y ppa:rael-gc/rvm
+sudo apt-get update
+sudo usermod -a -G rvm $USER
+source ~/.bashrc
+sudo apt-get install rvm
+rvm install ruby 3.2.2
+bundle install
+bundle exec jekyll serve
+```
+
+### Use of attachments
+
+Common images can be found in and used from the folder [`assets/images`](./assets/images).
+
+Custom images or attachments should be uploaded in the [`assets/areas`](./assets/areas) folder. Please keep material properly organized (e.g., using subfolders).
+
 ### Language
 
 This website is composed of several markdown (`.md`) pages that are automatically compiled and converted to HTML whenever the repository is updated (e.g., with a new commit).
@@ -61,12 +76,6 @@ On top of many pages, a YAML preamble (that starts and ends with `---`) defines 
 
 Only plaintext is allowed inside YAML preambles, while common markdown or HTML tags can be used outside.
 
-
-### Use of attachments
-
-Common images can be found in and used from the folder [`assets/images`](./assets/images).
-
-Custom images or attachments should be uploaded in the [`assets/areas`](./assets/areas) folder. Please keep material properly organized (e.g., using subfolders).
 
 
 # Common operations
@@ -85,7 +94,7 @@ Optionally, you can add a personal page for the new person in [`_people`](./_peo
 Finally, modify the [`_data/members.yml`](./_data/members.yml) file to add the new person to the `people` page of the website.
 
 ### Add a thesis
-You can add a thesis in the [`_data/theses.yml`](./_data/theses.yml) file using the template you find at the top of  the file.
+You can add a thesis in the [`_data/theses.yml`](./_data/theses.yml) file using the template you find at the top of the file.
 
 ### Add a tool
 You can add a tool by creating a new file in [`_tools`](./_tools/) following the [**template**](./_tools/_template.md) and naming it accordingly.
@@ -141,7 +150,7 @@ Until we have a teaching activity, we have decided to remove the teaching page f
 
 
 # Structure of the website
-The website is structured as follow:
+The website is structured as follows:
 ```
 |-- .
 |-- _collaborations/        => Collaborations
