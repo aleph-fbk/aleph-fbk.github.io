@@ -5,7 +5,8 @@ layout: page
 permalink: /collaborations/
 ---
 
-<br />
+<p></p>
+
 <div class="columns is-multiline collaborations">
     <div class="column is-12">
         {% assign currentCollaborations = site.collaborations | where_exp: "collaboration", "collaboration.isCurrent == true" | where_exp: "collaboration", "collaboration.title != 'Collaborations'" | sort: "title" %}

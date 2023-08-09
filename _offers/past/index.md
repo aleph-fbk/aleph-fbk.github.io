@@ -4,7 +4,8 @@ layout: page
 permalink: /offers/past/
 ---
 
-<br />
+<p></p>
+
 <div class="columns is-multiline">
 
     <div class="column is-12">

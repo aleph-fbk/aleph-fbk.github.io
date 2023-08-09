@@ -4,7 +4,7 @@ layout: page
 permalink: /people/former/
 ---
 
-<br />
+<p></p>
 
 {% include toc.md %}
 

@@ -4,7 +4,8 @@ layout: page
 permalink: /dissemination/
 ---
 
-<br />
+<p></p>
+
 <div class="columns is-multiline">
 
     {% include toc.md %}

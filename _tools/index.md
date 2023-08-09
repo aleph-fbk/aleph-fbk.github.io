@@ -5,7 +5,8 @@ layout: page
 permalink: /tools/
 ---
 
-<br />
+<p></p>
+
 <div class="columns is-multiline">
 
     {% assign tools = site.tools | where_exp: "tool", "tool.title != 'Tools'" | sort_natural: "name" %}

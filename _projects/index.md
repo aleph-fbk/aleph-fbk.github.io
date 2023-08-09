@@ -5,7 +5,8 @@ layout: page
 permalink: /projects/
 ---
 
-<br />
+<p></p>
+
 <div class="columns is-multiline">
     <div class="column is-12">
         {% assign currentProjects = site.projects | where_exp: "project", "project.isCurrent == true" | where_exp: "project", "project.title != 'Projects'" %}

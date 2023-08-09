@@ -18,6 +18,8 @@
         {%- endfor -%}
     {% endif %}
 
+    <p></p>
+
     {% for year in publicationsByYear %}
         {% assign yearn = year.name | plus:0 %}
         <h4>{{ year.name }} <small>({{ year.items.size }})</small></h4>

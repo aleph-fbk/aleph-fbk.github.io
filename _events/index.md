@@ -4,7 +4,8 @@ layout: page
 permalink: /events/
 ---
 
-<br />
+<p></p>
+
 <div class="columns is-multiline">
 
     <div class="column is-12">

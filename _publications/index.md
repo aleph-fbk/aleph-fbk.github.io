@@ -4,7 +4,8 @@ layout: page
 permalink: /publications/
 ---
 
-<br />
+<p></p>
+
 <div class="columns is-multiline">
 
     {% assign publicationsByYear = site.data.publications | where: "isALEPH", "true" | group_by: "year" | sort: "name" | reverse %}
