@@ -5,7 +5,7 @@
          "group":"Topics",
          "radius":40,
          "icon":"/assets/svg/fontawesome-6.4.0/icons.svg#user-secret",
-         "click":"/topics/PrivacyEnhancingCryptography/",
+         "click":"/topics/PrivacyEnhancingCryptography",
          "color":"#7dc2fa",
          "strokewidth":"8"
       },
@@ -14,7 +14,7 @@
          "group":"Topics",
          "radius":40,
          "icon":"/assets/svg/fontawesome-6.4.0/icons.svg#person-military-pointing",
-         "click":"/topics/AccessControl/",
+         "click":"/topics/AccessControl",
          "color":"#7dc2fa",
          "strokewidth":"8"
       },
@@ -23,7 +23,7 @@
          "group":"Topics",
          "radius":40,
          "icon":"/assets/svg/fontawesome-6.4.0/icons.svg#handshake",
-         "click":"/topics/DecentralizationOfTrust/",
+         "click":"/topics/DecentralizationOfTrust",
          "color":"#7dc2fa",
          "strokewidth":"8"
       },
