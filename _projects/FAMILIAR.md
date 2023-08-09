@@ -45,6 +45,14 @@ partners:                       # Partners of the project (optional)
 
 
 # coming from "_layouts/page.html"
+# selectedPublications:           # Whether publications for the page are selected 
+#                                 # (if "true", show "Selected Publications" instead  
+#                                 # of "Related Publications" in the page)
+
+# selectedProjects:               # Whether projects for the page are selected 
+#                                 # (if "true", show "Main Projects" instead  
+#                                 # of "Related Projects" in the page)
+
 # publications:                   # List of IDs of related publications
 #     - 
 

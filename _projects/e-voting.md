@@ -35,7 +35,15 @@ funding: Futuro & Conoscenza s.r.l.
 
 
 # coming from "_layouts/page.html"
-publications:                   # List of IDs of related publications
+# selectedPublications:           # Whether publications for the page are selected 
+#                                 # (if "true", show "Selected Publications" instead  
+#                                 # of "Related Publications" in the page)
+
+# selectedProjects:               # Whether projects for the page are selected 
+#                                 # (if "true", show "Main Projects" instead  
+#                                 # of "Related Projects" in the page)
+
+publications:                     # List of IDs of related publications
     - EVOTEID2022
 #    - EVOTEID2023
 

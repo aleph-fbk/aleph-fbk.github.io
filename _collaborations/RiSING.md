@@ -14,6 +14,14 @@ isCurrent: true
 
 
 # coming from "_layouts/page.html"
+selectedPublications: true        # Whether publications for the page are selected 
+                                  # (if "true", show "Selected Publications" instead  
+                                  # of "Related Publications" in the page)
+
+selectedProjects: true            # Whether projects for the page are selected 
+                                  # (if "true", show "Main Projects" instead  
+                                  # of "Related Projects" in the page)
+
 # publications:                   # List of IDs of related publications
 #     - 
 
@@ -41,4 +49,6 @@ projects:                         # List of IDs of related projects
 #       source:                   # Path to the image
 ---
 
-[Robust and Secure Distributed Computing](https://rising.fbk.eu/) (RiSING) is a research unit in the Center for Cybersecurity in FBK.
+[Robust and Secure Distributed Computing](https://rising.fbk.eu/) (RiSING) is a research unit in the Center for Cybersecurity in FBK, focusing on the investigation of methods and the design and implementation of platforms that guarantee efficiency, robustness and security in distributed computing environments.
+
+Our collaborations include providing formal mathematical methods and optimization techniques for secure and efficient orchestration of Cloud-native applications.

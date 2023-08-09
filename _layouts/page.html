@@ -2,6 +2,10 @@
 layout: default
 ---
 
+{% assign selectedPublications = page.selectedPublications %}
+{% assign selectedProjects = page.selectedProjects %}
+
+
 <div class="content">
     <div class="columns is-multiline">
         <div class="column is-12">
@@ -42,7 +46,11 @@ layout: default
 
         {% if page.projects.size > 0 %}
             <div class="column is-12">
+                {% if selectedPublications %}
+                <h1 id="related-projects" class="related in-toc">Main Projects</h1>
+                {% else %}    
                 <h1 id="related-projects" class="related in-toc">Related Projects</h1>
+                {% endif %}
                 {% assign processedIDs = "" | split: "" %}
                 {% for id in page.projects %}
                     {% assign processedID = "/projects/" | append: id %}
@@ -79,7 +87,11 @@ layout: default
         {% if page.publications.size > 0 %}
             {% assign publicationsByYear = site.data.publications | where_exp: "publication", "page.publications contains publication.id" | group_by: "year" | sort: "name" | reverse %}
             <div class="column is-12">
-                <h1 id="related-publications" class="related in-toc">Related Publications</h1>
+                {% if selectedPublications %}
+                    <h1 id="related-publications" class="related in-toc">Selected Publications</h1>
+                {% else %}    
+                    <h1 id="related-publications" class="related in-toc">Related Publications</h1>
+                {% endif %}
                 {% include list-publications.html source=publicationsByYear %}
             </div>
         {% endif %}

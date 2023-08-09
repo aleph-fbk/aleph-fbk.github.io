@@ -14,7 +14,15 @@ isCurrent: true
 
 
 # coming from "_layouts/page.html"
-publications:                   # List of IDs of related publications
+selectedPublications: true        # Whether publications for the page are selected 
+                                  # (if "true", show "Selected Publications" instead  
+                                  # of "Related Publications" in the page)
+
+selectedProjects: true            # Whether projects for the page are selected 
+                                  # (if "true", show "Main Projects" instead  
+                                  # of "Related Projects" in the page)
+
+publications:                     # List of IDs of related publications
 #     - EVOTEID2023
 #     - POLSIM2023
     - SECRYPT2023
@@ -25,10 +33,12 @@ publications:                   # List of IDs of related publications
 # events:                         # List of IDs of related events
 #     - 
 
-# tools:                          # List of IDs of related tools
-#     - 
+tools:                            # List of IDs of related tools
+    - CryptoAC
+    - ANNA
+    - ACE
 
-projects:                       # List of IDs of related projects
+projects:                         # List of IDs of related projects
      - e-voting
      - SERICS
      - FAMILIAR

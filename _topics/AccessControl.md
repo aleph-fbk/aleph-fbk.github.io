@@ -6,7 +6,15 @@ show_hero: true                 # Leave "true"
 
 
 # coming from "_layouts/page.html"
-publications:                   # List of IDs of related publications
+# selectedPublications:           # Whether publications for the page are selected 
+#                                 # (if "true", show "Selected Publications" instead  
+#                                 # of "Related Publications" in the page)
+
+# selectedProjects:               # Whether projects for the page are selected 
+#                                 # (if "true", show "Main Projects" instead  
+#                                 # of "Related Projects" in the page)
+
+publications:                     # List of IDs of related publications
     - ASIACCS2020
     - SECRYPT2021_2
     - TOPS2020_2
@@ -18,7 +26,7 @@ publications:                   # List of IDs of related publications
 # events:                         # List of IDs of related events
 #     - 
 
-tools:                          # List of IDs of related tools
+tools:                            # List of IDs of related tools
     - ACE
     - ANNA
     - CryptoAC 

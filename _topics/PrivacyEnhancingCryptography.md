@@ -6,7 +6,15 @@ show_hero: true
 
 
 # coming from "_layouts/page.html"
-publications:                   # List of IDs of related publications
+# selectedPublications:           # Whether publications for the page are selected 
+#                                 # (if "true", show "Selected Publications" instead  
+#                                 # of "Related Publications" in the page)
+
+# selectedProjects:               # Whether projects for the page are selected 
+#                                 # (if "true", show "Main Projects" instead  
+#                                 # of "Related Projects" in the page)
+
+publications:                     # List of IDs of related publications
     - SECRYPT2023
 
 # theses:                         # List of IDs of related theses
@@ -18,7 +26,7 @@ publications:                   # List of IDs of related publications
 # tools:                          # List of IDs of related tools
 #     - 
 
-projects:                       # List of IDs of related projects
+projects:                         # List of IDs of related projects
     - SERICS
 
 # collaborations:                 # List of IDs of related collaborations
