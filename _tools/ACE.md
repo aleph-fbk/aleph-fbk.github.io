@@ -3,7 +3,7 @@
 id: ACE
 logo: /assets/areas/no_image.png
 title: ACE
-internalUrl: /tools/ACE/
+internalUrl: /tools/ACE
 description: AC state-change rule extraction procedurE
 
 

@@ -3,7 +3,7 @@
 id: CryptoAC
 logo: /assets/areas/no_image.png
 title: CryptoAC
-internalUrl: /tools/CryptoAC/
+internalUrl: /tools/CryptoAC
 description: Cryptographic Access Control
 
 

@@ -3,7 +3,7 @@
 id: ANNA
 logo: /assets/areas/no_image.png
 title: ANNA
-internalUrl: /tools/ANNA/
+internalUrl: /tools/ANNA
 description: Access coNtrol mechaNisms evaluAtor
 
 
