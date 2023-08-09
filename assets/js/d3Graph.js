@@ -98,14 +98,17 @@ function createGraph(data) {
         .attr("stroke-width", d => d.strokewidth);
 
     node.append("text")
-        .attr("x", d => (-d.id.length)*3)
+        .attr("x", d => (-d.id.length)*(3.5))
         .attr("y", d => (d.radius+20))
+        .attr("font-family", "\"Montserrat\", sans-serif")
+        .attr("font-size", "1.25em")
         .text(d => d.id)
         .clone(true).lower()
         .attr("fill", "none")
         .attr("stroke", "white")
         .attr("stroke-width", 3)
-        .attr("font-family", '"Montserrat", sans-serif');
+        .attr("font-family", "\"Montserrat\", sans-serif")
+        .attr("font-size", ".251em");
 
     node.append('use')
         .attr("x", d => (-d.radius/2))
