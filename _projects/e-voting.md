@@ -20,8 +20,8 @@ endDate: 2023-06-30
 # leader:                         # Activity leader (optional)
 # referenceFBK:                   # Name of the reference in FBK (optional)
 # duration:                       # Duration of the project (optional)
-funding: Futuro & Conoscenza s.r.l.
-# website: https://serics.eu/
+# funding:                        # Funding of the project (optional)
+# website:                        # Website of the project (optional)
 # cordisNo:                       # Number of the project within the CORDIS website (optional)
 # partners:                       # Partners of the project (optional)
 #     # Either free text, or structured text as follows:
@@ -63,13 +63,25 @@ collaborations:                 # List of IDs of related collaborations
      - UniTNAppliedCryptographyBlockchain
      - ST
 
-# people:                         # List of IDs of related people
-#     - AlessandroTomasi
-#     - RiccardoLongo
+people:                         # List of IDs of related people
+    - AlessandroTomasi
+    - RiccardoLongo
 
 # images:                         # Repeat the following structure to add more images
 #     - title:                    # Title of the image
 #       source:                   # Path to the image
 ---
 
+The aim of this project was to design and implement a proof-of-concept end-to-end verifiable electronic voting solution.
 
+Electronic voting (e-voting) includes processes in whole or in part executed by electronic means, such as by using voting machines to cast ballots, using scanners to digitize paper ballots, or casting votes remotely over the internet (i-voting).
+
+e-voting needs to satisfy highly complex requirements ([Council of Europe](https://www.coe.int/en/web/electoral-assistance/e-voting), [US Election Assistance Commission](https://www.eac.gov/voting-equipment/voluntary-voting-system-guidelines)), and is potentially subject to more, and more scalable attacks than in-presence paper-based voting at poll stations, and is therefore rightly subject to intense scrutiny.
+
+On the other hand, cryptographic protocols for end-to-end verifiable elections have the potential for enhanced trustworthiness. Some of the interesting components are:
+
+- additively homomorphic encryption to tally enncrypted votes and only decrypt the final sum;
+- threshold cryptgraphy and secure multiparty computation to ensure multiple parties must collaborate to perform a decryption and to issue valid voting credentials;
+- zero-knowledge proofs to check voting credential correctness, but also fake proofs to fool coercers.
+
+In the ccourse of this project, working as a team with personnell from collaborating partners, we had the opportunity to realize a protocol specification, cryptographic library, back-end services, and front-end android native mobile application. Source code is not currently openly available while the funding agency assesses its options.
