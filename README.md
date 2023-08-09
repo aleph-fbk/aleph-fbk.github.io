@@ -26,7 +26,7 @@ Table of Contents:
   - [Events](#events)
   - [Dissemination](#dissemination)
   - [Teaching](#teaching)
-- [Structure of the website](#structure-of-the-website)
+<!-- - [Structure of the website](#structure-of-the-website) -->
 
 
 # Good to know
@@ -148,7 +148,7 @@ Until we have a dissemination activity, we have decided to remove the disseminat
 Until we have a teaching activity, we have decided to remove the teaching page from the ALEPH's website. We will refer to the instructions in [the ST website](https://github.com/stfbk/stfbk.github.io/blob/master/README.md) to add teaching activities.
 
 
-
+<!-- 
 # Structure of the website
 The website is structured as follows:
 ```
@@ -191,4 +191,4 @@ The website is structured as follows:
 |-- CNAME                   => CNAME (do not touch)
 |-- index.md                => Homepage (do not touch)
 └── README.md               => This file (do not touch)
-```
+``` -->
