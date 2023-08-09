@@ -1,20 +1,20 @@
 {
    "nodes":[
       {
-         "id":"Access Control",
-         "group":"Topics",
-         "radius":40,
-         "icon":"/assets/svg/fontawesome-6.4.0/icons.svg#person-military-pointing",
-         "click":"/topics/AccessControl/",
-         "color":"#7dc2fa",
-         "strokewidth":"8"
-      },
-      {
          "id":"Privacy Enhancing Cryptography",
          "group":"Topics",
          "radius":40,
          "icon":"/assets/svg/fontawesome-6.4.0/icons.svg#user-secret",
          "click":"/topics/PrivacyEnhancingCryptography/",
+         "color":"#7dc2fa",
+         "strokewidth":"8"
+      },
+      {
+         "id":"Access Control",
+         "group":"Topics",
+         "radius":40,
+         "icon":"/assets/svg/fontawesome-6.4.0/icons.svg#person-military-pointing",
+         "click":"/topics/AccessControl/",
          "color":"#7dc2fa",
          "strokewidth":"8"
       },
@@ -60,18 +60,18 @@
          "strokewidth":"4"
       },
       {
-         "id":"Threshold Cryptography",
-         "group":"SubTopics",
-         "radius":20,
-         "icon":"/assets/svg/fontawesome-6.4.0/icons.svg#users-slash",
-         "color":"#c2f1c1",
-         "strokewidth":"4"
-      },
-      {
          "id":"Blockchain Applications",
          "group":"SubTopics",
          "radius":20,
          "icon":"/assets/svg/fontawesome-6.4.0/icons.svg#link",
+         "color":"#c2f1c1",
+         "strokewidth":"4"
+      },
+      {
+         "id":"Threshold Cryptography",
+         "group":"SubTopics",
+         "radius":20,
+         "icon":"/assets/svg/fontawesome-6.4.0/icons.svg#users-slash",
          "color":"#c2f1c1",
          "strokewidth":"4"
       },
