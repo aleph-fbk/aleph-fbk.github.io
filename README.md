@@ -136,7 +136,7 @@ For now, just contact `sberlato@fbk.eu`.
 # Currently disabled operations
 
 ### News
-We have decided to permanently remove the news from the ALEPH's website (see [issue #3](https://gitlab.fbk.eu/st/people/StefanoBerlato/aleph_website/-/issues/3)).
+We have decided to permanently remove the news from the ALEPH's website (see [issue #2](https://github.com/aleph-fbk/aleph-fbk.github.io/issues/2)).
 
 ### Events
 Until we have an event, we have decided to remove the events page from the ALEPH's website. We will refer to the instructions in [the ST website](https://github.com/stfbk/stfbk.github.io/blob/master/README.md) to add events.
