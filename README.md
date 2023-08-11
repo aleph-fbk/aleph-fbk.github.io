@@ -1,6 +1,6 @@
 # The ALEPH Website
 
-### This document provides instructions about the [ALEPH website](https://aleph.github.io). Please start by reading (at least) the [How to update the website](#how-to-update-the-website) section.
+### This document provides instructions about the [ALEPH website](https://aleph.fbk.eu/). Please start by reading (at least) the [How to update the website](#how-to-update-the-website) section.
 
 Table of Contents:
 - [Good to know](#good-to-know)
