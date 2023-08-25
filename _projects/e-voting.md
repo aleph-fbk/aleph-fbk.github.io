@@ -90,5 +90,5 @@ In the ccourse of this project, working as a team with personnell from collabora
 A demo version of the proof of concept will be shown during the dissemination event [Notte della Ricerca 2023](https://nottedellaricerca.tn.it/) held in occasion of the [European Researcher's Night](https://marie-sklodowska-curie-actions.ec.europa.eu/event/2023-european-researchers-night).
 
 The de demo will be accompanied by two posters (in Italian):
-- a demo walkthrough: [Vote App: Il Tuo Voto Conta](https://fbk-my.sharepoint.com/:b:/g/personal/rlongo_fbk_eu/ETszJHoSC45Mi5Bazla4eAkBcSmn8Ndccq7pVcPQQCw8PA?e=jPcCeM)
-- a more technical description: [Note Tecniche su VOTE APP: {\huge come votare via Internet in maniera sicura con il tuo smartphone](https://www.canva.com/design/DAFqTKrQhZs/UB_DF9zdJurnl5c5xWUX_w/view?utm_content=DAFqTKrQhZs&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink)
+- a demo walkthrough: [Vote App: Il Tuo Voto Conta](https://www.canva.com/design/DAFqTKrQhZs/UB_DF9zdJurnl5c5xWUX_w/view?utm_content=DAFqTKrQhZs&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink)
+- a more technical description: [Note Tecniche su VOTE APP: come votare via Internet in maniera sicura con il tuo smartphone](https://fbk-my.sharepoint.com/:b:/g/personal/rlongo_fbk_eu/ETszJHoSC45Mi5Bazla4eAkBcSmn8Ndccq7pVcPQQCw8PA?e=jPcCeM)
