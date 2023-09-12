@@ -84,11 +84,11 @@ On the other hand, cryptographic protocols for end-to-end verifiable elections h
 - threshold cryptgraphy and secure multiparty computation to ensure multiple parties must collaborate to perform a decryption and to issue valid voting credentials;
 - zero-knowledge proofs to check voting credential correctness, but also fake proofs to fool coercers.
 
-In the ccourse of this project, working as a team with personnell from collaborating partners, we had the opportunity to realize a protocol specification, cryptographic library, back-end services, and front-end android native mobile application. Source code is not currently openly available while the funding agency assesses its options.
+In the course of this project, working as a team with personnell from collaborating partners, we had the opportunity to realize a protocol specification, cryptographic library, back-end services, and front-end android native mobile application. Source code is not currently openly available while the funding agency assesses its options.
 
 ## Notte della Ricerca 2023
 A demo version of the proof of concept will be shown during the dissemination event [Notte della Ricerca 2023](https://nottedellaricerca.tn.it/) held in occasion of the [European Researcher's Night](https://marie-sklodowska-curie-actions.ec.europa.eu/event/2023-european-researchers-night).
 
-The de demo will be accompanied by two posters (in Italian):
+The demo will be accompanied by two posters (in Italian):
 - a demo walkthrough: [Vote App: Il Tuo Voto Conta](https://www.canva.com/design/DAFs1nyMc0g/ip_nvaLek0140ip3WU6c9Q/view?utm_content=DAFs1nyMc0g&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink)
 - a more technical description: [Note Tecniche su VOTE APP: come votare via Internet in maniera sicura con il tuo smartphone](https://fbk-my.sharepoint.com/:b:/g/personal/rlongo_fbk_eu/ETszJHoSC45Mi5Bazla4eAkBcSmn8Ndccq7pVcPQQCw8PA?e=jPcCeM)
