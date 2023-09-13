@@ -7,12 +7,5 @@ permalink: /offers/
 <p></p>
 
 <div class="columns is-multiline">
-
-    <div class="column is-12">
-        {% include toc.md %}
-    </div>
-
-    <div class="column is-12">
-        {% include list-university-projects.html source=site.data.offers.university-projects %}
-    </div>
+    <p>Please refer to the <a href="https://cs.fbk.eu/internships/">dedicated page</a> to see the internship projects currently available in the Center for Cybersecurity of <i>Fondazione Bruno Kessler (FBK)</i>.</p>
 </div>
