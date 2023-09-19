@@ -79,6 +79,11 @@
     - institution: Istituto Poligrafico e Zecca dello Stato (IPZS)
   email: fa.marino@ipzs.it
 
+- id: FrancescoMogavero
+  name: Francesco
+  orcid: 0000-0001-9860-7297
+  surname: Mogavero
+  
 - id: GiacomoZanolli
   name: Giacomo
   surname: Zanolli
@@ -217,5 +222,6 @@
       institution: Fondazione Bruno Kessler
       place: Trento, Italy
   email: zebadiansaroudi@fbk.eu
-
+  orcid: 0000-0002-8921-4480
+  
 # Please keep alphabetical order
