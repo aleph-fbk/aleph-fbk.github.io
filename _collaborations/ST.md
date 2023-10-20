@@ -35,7 +35,7 @@ publications:                     # List of IDs of related publications
 
 tools:                            # List of IDs of related tools
     - CryptoAC
-    - ANNA
+    - ACME
     - ACE
 
 projects:                         # List of IDs of related projects
