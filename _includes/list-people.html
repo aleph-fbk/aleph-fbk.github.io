@@ -270,7 +270,6 @@
                         {% if formerRole %}<p class="subtitle former-role is-4">{{ formerRole }}</p>{% endif %}
                         {% if currentRole and details contains "currentRole" %}<p class="subtitle current-role is-4">{{ currentRole }}</p>{% endif %}
                         {% if additionalInfo.topic and details contains "topic" %}<p class="subtitle topic is-4">{{ additionalInfo.topic }}</p>{% endif %}
-                        {% if thesis.title and details contains "thesis" %}<p class="subtitle thesis is-4">Thesis: {{ thesis.title }}</p>{% endif %}
                         <div class="links">
                             {% if person.email and details contains "email" %}
                                 <a href="mailto:{{ person.email }}">
