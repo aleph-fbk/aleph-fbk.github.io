@@ -1,4 +1,5 @@
 ---
+id: Events
 title: Events
 layout: page
 permalink: /events/
@@ -6,8 +7,7 @@ permalink: /events/
 
 <p></p>
 
-<div class="columns is-multiline">
-
+<div class="columns is-multiline events ">
     <div class="column is-12">
 
         {% assign todayDate = 'now' | date: '%Y-%m-%d' %}
@@ -29,6 +29,5 @@ permalink: /events/
             <h1>Past Events</h1>
             {% include list-events.html source=pastEvents %}
         {% endif %}
-    </div>
-</div>
 
+</div>

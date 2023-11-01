@@ -1,7 +1,7 @@
 ---
 # coming from "_includes/list-items.html"
 id: ACME
-logo: /assets/areas/no_image.png
+logo: /assets/areas/tools/ACME/ACME.png
 title: ACME
 internalUrl: /tools/ACME
 description: Access Control Mechanisms Evaluator

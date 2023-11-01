@@ -19,8 +19,9 @@ Table of Contents:
   - [Add a collaboration](#add-a-collaboration)
   - [Add a complementary material](#add-a-complementary-material)
 - [Special operations](#special-operations)
-  - [Internships and thesis offers](#internships-and-thesis-offers)
-  - [Topics](#topics)
+  - [Add an event](#add-an-event)
+  - [Internship and thesis offers](#internship-and-thesis-offers)
+  - [Topics linked to the graph in the homepage](#topics-linked-to-the-graph-in-the-homepage)
 - [Currently disabled operations](#currently-disabled-operations)
   - [News](#news)
   - [Events](#events)
@@ -80,7 +81,7 @@ Only plaintext is allowed inside YAML preambles, while common markdown or HTML t
 
 # Common operations
 
-> **Important**: anything you create a reference to in the website (e.g., collaborations, complementary material, events, people, projects, tools, tags) need to exist already. For instance, it is not possible to create a new project referring to a person that does not exist in [`_data/people.yml`](./_data/people.yml). Similarly, it is not possible to create a new publication whose venue (e.g., conference) does not exist in [`_data/destinations.yml`](./_data/destinations.yml).
+> **Important**: anything you create a reference to in the website (i.e., collaborations, complementary material, events, people, projects, tools, tags) need to exist already. For instance, it is not possible to create a new project referring to a person that does not exist in [`_data/people.yml`](./_data/people.yml). Similarly, it is not possible to create a new publication whose venue (e.g., conference) does not exist in [`_data/destinations.yml`](./_data/destinations.yml).
 
 
 ### Add a person
@@ -89,7 +90,7 @@ You can add a person (e.g., new member or student) in the [`_data/people.yml`](.
 2. if the person is already listed but with a former affiliation, please do not update the existent entry, as this would cause every page referring to the entry to update accordingly. Instead, add a new entry with a different ID;
 3. if the person is not listed, add it using the template you find at the top of the file.
 
-Optionally, you can add a personal page for the new person in [`_people`](./_people/) following the [**template**](./_people/_template.md) and naming it accordingly.
+Optionally, you can add a personal page for the new person in [`_people`](./_people/) following the [**template**](./_people/_template.md) and naming it accordingly. Currently, **the personal page is not available for interns, thesis students, and junior students.**
 
 Finally, modify the [`_data/members.yml`](./_data/members.yml) file to add the new person to the `people` page of the website.
 
@@ -123,11 +124,30 @@ You can add a complementary material (e.g., for a publication) by creating a new
 
 # Special operations
 
-### Internships and thesis offers
-For now, just contact `sberlato@fbk.eu`.
+### Add an event
+You can add an event by creating a new folder named `[EventAcronym]` in [`_events`](./_events/) and then creating, within the new folder `[EventAcronym]`, a new file following the [**template**](./_events/_template.md) and naming it `index.md`.
 
-### Topics
-For now, just contact `sberlato@fbk.eu`.
+To display a menu on the right part of the page (e.g., to link other subpages) you need to create a new file called `[EventAcronym].yml` and place it in the [`_data/menus`](_data/menus) folder. The file should have this structure:
+```yaml
+- label:                # Label to be display on top of the menu
+  items:
+    # Repeat the following structure for each page
+    - name:             # Name of the page
+      link:             # Link to the page
+```
+
+
+### Internship and thesis offers
+In September 2023, it was decided that all Internship and thesis offers of the center for cybersecurity would be published in the [**center for cybersecurity website**](https://cs.fbk.eu/).
+
+Contact `mpernpruner@fbk.eu` for more details.
+
+
+### Topics linked to the graph in the homepage
+The graph of topics in the homepage is created starting from the information in the [**d3Graph JSON file**](./assets/json/d3Graph.json). To create a new topic, subtopic or link between topics, replicate the data structures in the [**d3Graph JSON file**](./assets/json/d3Graph.json). 
+
+The code to render the graph is in the [**d3Graph JavaScript file**](./assets/js/d3Graph.js); please do not modify this file.
+
 
 
 
@@ -138,57 +158,8 @@ For now, just contact `sberlato@fbk.eu`.
 ### News
 We have decided to permanently remove the news from the ALEPH's website (see [issue #2](https://github.com/aleph-fbk/aleph-fbk.github.io/issues/2)).
 
-### Events
-Until we have an event, we have decided to remove the events page from the ALEPH's website. We will refer to the instructions in [the ST website](https://github.com/stfbk/stfbk.github.io/blob/master/README.md) to add events.
-
 ### Dissemination
 Until we have a dissemination activity, we have decided to remove the dissemination page from the ALEPH's website. We will refer to the instructions in [the ST website](https://github.com/stfbk/stfbk.github.io/blob/master/README.md) to add dissemination activities.
 
 ### Teaching
 Until we have a teaching activity, we have decided to remove the teaching page from the ALEPH's website. We will refer to the instructions in [the ST website](https://github.com/stfbk/stfbk.github.io/blob/master/README.md) to add teaching activities.
-
-
-<!-- 
-# Structure of the website
-The website is structured as follows:
-```
-|-- .
-|-- _collaborations/        => Collaborations
-|-- _complementary/         => Complementary materials of papers
-|-- _data/                  => Data to populate lists
-|   └── menus/              => Entries for side menus
-|-- _dissemination/         => Dissemination activities
-|-- _events/                => Events
-|-- _includes/              => Files commonly included in pages (do not touch)
-|-- _layouts/               => Custom layouts for pages (do not touch)
-|-- _news/                  => News
-|-- _offers                 => Internships and theses offers (both past and open)
-|   └── past/                  => Internships and theses past offers
-|-- _people/                => Persons' profiles
-|-- _projects/              => Projects
-|-- _publications/          => Publications
-|-- _teaching/              => Teaching activities
-|-- _tools/                 => Tools
-|-- _topics/                => Topics (linked to the graph in the homepage)
-|-- assets/                 => Assets for the website
-|   └── areas/                 => Assets for pages
-|       └── collaborations/       => Assets for collaborations
-|       └── complementary/        => Assets for complementary
-|       └── events/               => Assets for events
-|       └── people/               => Assets for people
-|       └── projects/             => Assets for projects
-|       └── tools/                => Assets for tools
-|   └── css/                   => Stylesheets (do not touch)
-|   └── images/                => Common images for easy inclusion (do not touch)
-|       └── logos/                => Logos that are commonly used (do not touch)
-|   └── js/                    => Javascript files (do not touch)
-|   └── json/                  => JSON files (do not touch)
-|   └── svg/                   => SVG files (do not touch)
-|       └── fontawesome-6.4.0/    => SVG logos commonly used (do not touch)
-|
-|-- _config.yml             => Configuration file of the website (do not touch)
-|-- 404.md                  => 404 page (do not touch)
-|-- CNAME                   => CNAME (do not touch)
-|-- index.md                => Homepage (do not touch)
-└── README.md               => This file (do not touch)
-``` -->

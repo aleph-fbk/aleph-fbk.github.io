@@ -1,7 +1,7 @@
 ---
 # coming from "_includes/list-items.html"
 id: CryptoAC
-logo: /assets/areas/no_image.png
+logo: /assets/areas/tools/CryptoAC/CryptoAC.png
 title: CryptoAC
 internalUrl: /tools/CryptoAC
 description: Cryptographic Access Control

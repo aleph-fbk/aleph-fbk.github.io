@@ -1,7 +1,7 @@
 ---
 # coming from "_includes/list-items.html"
 id: ACE
-logo: /assets/areas/no_image.png
+logo: /assets/areas/tools/ACE/ACE.png
 title: ACE
 internalUrl: /tools/ACE
 description: AC state-change rule extraction procedurE

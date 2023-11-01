@@ -1,7 +1,7 @@
 ---
 # coming from "_includes/list-items.html"
 id: SERICS
-logo: /assets/areas/projects/logo_SERICS.png
+logo: /assets/areas/projects/SERICS/logo_SERICS.png
 title: SERICS
 internalUrl: /projects/SERICS
 description: SEcurity and RIghts In the CyberSpace

@@ -1,7 +1,7 @@
 ---
 # coming from "_includes/list-items.html"
 id: FAMILIAR
-logo: /assets/areas/projects/logo_FAMILIAR.png
+logo: /assets/areas/projects/FAMILIAR/logo_FAMILIAR.png
 title: FAMILIAR
 internalUrl: /projects/FAMILIAR
 description: piattaForma dinAMica per IL socIo sanitARio

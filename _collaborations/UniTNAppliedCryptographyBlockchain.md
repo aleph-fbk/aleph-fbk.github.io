@@ -1,7 +1,7 @@
 ---
 # coming from "_includes/list-items.html"
 id: UniTNAppliedCryptographyBlockchain
-logo: /assets/areas/collaborations/logo_UNITN.png
+logo: /assets/areas/collaborations/UniTNAppliedCryptographyBlockchain/logo_UNITN.png
 title: Laboratory of Applied Cryptography and Blockchain Technology
 internalUrl: /collaborations/UniTNAppliedCryptographyBlockchain
 description: Joint Lab with the University of Trento

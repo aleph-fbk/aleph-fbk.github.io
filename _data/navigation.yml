@@ -2,8 +2,8 @@
   link: /collaborations/
 # - name: Dissemination
 #   link: /dissemination/
-# - name: Events
-#   link: /events/
+- name: Events
+  link: /events/
 # - name: News
 #   link: /news/
 - name: People
