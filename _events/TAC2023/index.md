@@ -62,13 +62,113 @@ menubar:                        # Menubar to show
   Rome, Italy, December 14-15, 2023
 </blockquote>
 
+
 # Scope & Topics
 
 Topics in Applied Cryptography 2023 (TAC2023) is a workshop dedicated to cryptography with a specific application, scenario and/or technology in mind, including performance evaluation, libraries and implementation issues, hardware and IoT, attacks and vulnerabilities, and requirements for unusual application scenarios; purely theoretical results are out of scope. Topics of interest include privacy enhancing cryptography, homomorphic encryption, secure multi-party computation, quantum key distribution, and quantum-safe cryptography.
 
+
+# Program
+All times are in <a href="https://time.is/en/CEST" target="_blank">Central European Summer Time (CEST)</a>. The program is tentative and may be subject to changes.
+
+
+<table class="bordered program" width="100%">
+  <tr class="day">
+    <td colspan="2">
+      Friday 15th December 2023
+    </td>
+  </tr>
+
+  <tr class="session">
+    <td colspan="2">
+      <p class="title">Invited Speaker</p>
+      <!-- <p class="chair">Roberto Carbone (Fondazione Bruno Kessler)</p> -->
+    </td>
+  </tr>
+
+  <tr class="institutional">
+    <td class="talk">
+      <p class="title">Royal Rumbles in Cryptography: the NIST PQC Competition</p>
+      <p class="speakers"><b>Marco Baldi</b> (Università Politecnica delle Marche)</p>
+    </td>
+    <td>11:30-12:10</td>
+  </tr>
+
+
+
+  <tr class="session">
+    <td colspan="2">
+      <p class="title">Lightning Talks</p>
+      <!-- <p class="chair">Roberto Carbone (Fondazione Bruno Kessler)</p> -->
+    </td>
+  </tr>
+  
+  <tr>
+    <td class="talk">
+      <p class="title">Cryptographic Enforcement of Attribute-based Access Control Policies</p>
+      <p class="speakers"><b>Stefano Berlato</b> (Fondazione Bruno Kessler), Alessandro Colombo, Roberto Carbone, and Silvio Ranise</p>
+    </td>
+    <td>12:10-12:20</td>
+  </tr>
+
+  <tr>
+    <td class="talk">
+      <p class="title">OpenABE Bindings for Kotlin</p>
+      <p class="speakers"><b>Stefano Berlato</b> (Fondazione Bruno Kessler), Roberto Carbone, and Silvio Ranise</p>
+    </td>
+    <td>12:20-12:30</td>
+  </tr>
+
+  <tr>
+    <td class="talk">
+      <p class="title">Multiparty Class Group Encryption and Applications to E-Voting</p>
+      <p class="speakers">Chiara Spadafora, <b>Michele Battagliola</b> (University of Trento), Giuseppe D'Alconzo and Andrea Gangemi</p>
+    </td>
+    <td>12:30-12:40</td>
+  </tr>
+
+
+
+  <tr class="session">
+    <td colspan="2">
+      <p class="title">Presentations and Demos</p>
+      <!-- <p class="chair">Roberto Carbone (Fondazione Bruno Kessler)</p> -->
+    </td>
+  </tr>
+  
+  <tr>
+    <td class="talk">
+      <p class="title">Vote App: Verifiable and Coercion-Resistant I-Voting</p>
+      <p class="speakers">Chiara Spadafora, Riccardo Longo and Francesco Antonio Marino</p>
+    </td>
+    <td>12:40-13:00</td>
+  </tr>
+
+  <tr>
+    <td class="talk">
+      <p class="title">Rapid implementation and deployment of cryptographic flows</p>
+      <p class="speakers">Andrea D'Intino and Denis Roio</p>
+    </td>
+    <td>13:00-13:30</td>
+  </tr>
+
+</table>
+
+
+
+
+
+
+
+
+
+
 # Call for Papers
+
 The full call for papers for TAC2023 can be found [here](https://easychair.org/cfp/TAC2023).
 
+
 # Important Dates
+
 - **Submission deadline**:      23.10.2023
 - **Notification to authors**:  31.10.2023
