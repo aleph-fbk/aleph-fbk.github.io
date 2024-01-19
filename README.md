@@ -90,7 +90,7 @@ You can add a person (e.g., new member or student) in the [`_data/people.yml`](.
 2. if the person is already listed but with a former affiliation, please do not update the existent entry, as this would cause every page referring to the entry to update accordingly. Instead, add a new entry with a different ID;
 3. if the person is not listed, add it using the template you find at the top of the file.
 
-Optionally, you can add a personal page for the new person in [`_people`](./_people/) following the [**template**](./_people/_template.md) and naming it accordingly. Currently, **the personal page is not available for interns, thesis students, and junior students.**
+Members are asked to add a personal page [`_people`](./_people/) following the [**template**](./_people/_template.md) and naming it accordingly — the bio is optional. Currently, **the personal page is not available for interns, thesis students, and junior students.**
 
 Finally, modify the [`_data/members.yml`](./_data/members.yml) file to add the new person to the `people` page of the website.
 
