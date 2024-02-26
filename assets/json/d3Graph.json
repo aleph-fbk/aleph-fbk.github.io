@@ -1,6 +1,30 @@
 {
    "nodes":[
       {
+         "id":"Digital Identity",
+         "group":"Applications",
+         "radius":40,
+         "icon":"/assets/svg/fontawesome-6.4.0/icons.svg#id-card",
+         "color":"#cd8b76",
+         "strokewidth":"8"
+      },
+      {
+         "id":"Cloud Computing",
+         "group":"Applications",
+         "radius":40,
+         "icon":"/assets/svg/fontawesome-6.4.0/icons.svg#cloud",
+         "color":"#cd8b76",
+         "strokewidth":"8"
+      },      
+      {
+         "id":"E-Voting",
+         "group":"Applications",
+         "radius":40,
+         "icon":"/assets/svg/fontawesome-6.4.0/icons.svg#check-to-slot",
+         "color":"#cd8b76",
+         "strokewidth":"8"
+      },
+      {
          "id":"Privacy Enhancing Cryptography",
          "group":"Topics",
          "radius":40,
@@ -26,6 +50,22 @@
          "click":"/topics/DecentralizationOfTrust",
          "color":"#7dc2fa",
          "strokewidth":"8"
+      },
+      {
+         "id":"Homomorphic Encryption",
+         "group":"SubTopics",
+         "radius":20,
+         "icon":"/assets/svg/fontawesome-6.4.0/icons.svg#calculator",
+         "color":"#c2f1c1",
+         "strokewidth":"4"
+      },
+      {
+         "id":"Searchable Encryption",
+         "group":"SubTopics",
+         "radius":20,
+         "icon":"/assets/svg/fontawesome-6.4.0/icons.svg#magnifying-glass",
+         "color":"#c2f1c1",
+         "strokewidth":"4"
       },
       {
          "id":"Cryptographic Access Control",
@@ -56,14 +96,6 @@
          "group":"SubTopics",
          "radius":20,
          "icon":"/assets/svg/fontawesome-6.4.0/icons.svg#users-gear",
-         "color":"#c2f1c1",
-         "strokewidth":"4"
-      },
-      {
-         "id":"Blockchain Applications",
-         "group":"SubTopics",
-         "radius":20,
-         "icon":"/assets/svg/fontawesome-6.4.0/icons.svg#link",
          "color":"#c2f1c1",
          "strokewidth":"4"
       },
@@ -121,6 +153,16 @@
       },
       {
          "source":"Privacy Enhancing Cryptography",
+         "target":"Searchable Encryption",
+         "value":"3"
+      },
+      {
+         "source":"Privacy Enhancing Cryptography",
+         "target":"Homomorphic Encryption",
+         "value":"3"
+      },
+      {
+         "source":"Privacy Enhancing Cryptography",
          "target":"Attribute-based Encryption",
          "value":"3"
       },
@@ -150,9 +192,64 @@
          "value":"3"
       },
       {
-         "source":"Decentralization of Trust",
-         "target":"Blockchain Applications",
+         "source":"Cloud Computing",
+         "target":"Cryptographic Access Control",
          "value":"3"
-      }
+      },
+      {
+         "source":"Cloud Computing",
+         "target":"Attribute-based Encryption",
+         "value":"3"
+      },
+      {
+         "source":"Cloud Computing",
+         "target":"Searchable Encryption",
+         "value":"3"
+      },
+      {
+         "source":"Cloud Computing",
+         "target":"Homomorphic Encryption",
+         "value":"3"
+      },
+      {
+         "source":"Cloud Computing",
+         "target":"Threshold Cryptography",
+         "value":"3"
+      },
+      {
+         "source":"Cloud Computing",
+         "target":"Secure Multi-Party Computation",
+         "value":"3"
+      },
+      {
+         "source":"E-Voting",
+         "target":"Homomorphic Encryption",
+         "value":"3"
+      },
+      {
+         "source":"E-Voting",
+         "target":"Threshold Cryptography",
+         "value":"3"
+      },
+      {
+         "source":"E-Voting",
+         "target":"Secure Multi-Party Computation",
+         "value":"3"
+      },
+      {
+         "source":"E-Voting",
+         "target":"Zero-Knowledge Proofs",
+         "value":"3"
+      },
+      {
+         "source":"Digital Identity",
+         "target":"Zero-Knowledge Proofs",
+         "value":"3"
+      },
+      {
+         "source":"Digital Identity",
+         "target":"Hardware-based Security",
+         "value":"3"
+      }      
    ]
 }
