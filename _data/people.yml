@@ -111,10 +111,24 @@
       place: Trento, Italy
   email: iditu@fbk.eu
 
+- id: SimoneBrunello
+  name: Simone
+  surname: Brunello
+  affiliations:
+    - role: Research Assistant
+      unit: Applied Cryptography
+      institution: Fondazione Bruno Kessler
+      place: Trento, Italy
+  email: sbrunello@fbk.eu
+
 - id: IonAndyDitu_BA
   name: Ion Andy
   surname: Ditu
   
+- id: LucaClaus
+  name: Luca
+  surname: Claus
+
 - id: MarcoCentenaro
   name: Marco
   surname: Centenaro
@@ -201,10 +215,9 @@
   website: https://st.fbk.eu/people/silvio-ranise
   image: https://cs.fbk.eu/assets/areas/people/cs/SilvioRanise.jpg
 
-- id: SimoneBrunello
+- id: SimoneBrunello_BA
   name: Simone
   surname: Brunello
-  email: sbrunello@fbk.eu
 
 - id: StefanoBerlato
   name: Stefano

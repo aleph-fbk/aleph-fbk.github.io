@@ -39,6 +39,7 @@
   height: 100%;
   -webkit-box-shadow: 0 .5em 1em -.125em rgba(10,10,10,0.1),0 0px 0 1px rgba(10,10,10,0.02);
   -moz-box-shadow: 0 .5em 1em -.125em rgba(10,10,10,0.1),0 0px 0 1px rgba(10,10,10,0.02);
+  border-radius: 20px;
 }
 
 .card:hover {
@@ -49,10 +50,6 @@
 
 .card .subtitle{
   font-size: 1rem;
-}
-
-.card.person {
-  padding-top: 1.3em;
 }
 
 .card.person:hover {
@@ -68,6 +65,12 @@
 .card .card-image img.default {
   opacity: 0.3;
 }
+
+.card-image:first-child img {
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
 
 .card.enterprise .card-image,
 .card.project .card-image {
@@ -91,9 +94,18 @@
 }
 
 .card.person .card-image img {
-  border-radius: 15px;
-  width: auto;
-  max-height: 96px;
+  border-radius: 20px;
+  width: 100%;
+  aspect-ratio: 1/1;
+  object-fit: cover;
+}
+
+@media (max-width: 768px) {
+  .card.person .card-image img {
+    margin-top: 30px;
+    width: 66%;
+    max-width: 200px;
+  }
 }
 
 .card.person .card-content {
