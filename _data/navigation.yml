@@ -21,12 +21,12 @@
   link: /publications/
 # - name: Teaching
 #   link: /teaching/
-- name: Internships and Theses
-  link: /offers/
-  dropdown:
-    - name: Open Calls
-      link: /offers/
-    - name: Past Calls
-      link: /offers/past
+# - name: Internships and Theses
+#   link: /offers/
+#   dropdown:
+#     - name: Open Calls
+#       link: /offers/
+#     - name: Past Calls
+#       link: /offers/past
 - name: Tools
   link: /tools/

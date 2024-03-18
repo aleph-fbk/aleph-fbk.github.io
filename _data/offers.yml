@@ -42,7 +42,7 @@ past-university-projects:
       projects:
         - id: P1-2022-2023
           title: Trusted Execution Environments for Advanced Data Protection
-          thesisID: IonAndyDitu_M
+          thesisID: IonAndyDitu_Thesis_Bachelor
           description: >
             Cryptographic Access Control (CAC) is often employed to protect the confidentiality of Cloud-hosted sensitive data from curious service providers while enforcing access control policies. Unfortunately, CAC usually incurs significant computational overhead that limits its applicability in real-world scenarios [1]. The main goal of this project is to investigate how Trusted Execution Environments (TEEs) such as Intel SGX [2] can synergize with CAC to relieve these computational overheads and efficiently guarantee advanced data protection.
           level: BSc/MSc

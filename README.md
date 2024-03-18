@@ -20,13 +20,13 @@ Table of Contents:
   - [Add a complementary material](#add-a-complementary-material)
 - [Special operations](#special-operations)
   - [Add an event](#add-an-event)
-  - [Internship and thesis offers](#internship-and-thesis-offers)
   - [Topics linked to the graph in the homepage](#topics-linked-to-the-graph-in-the-homepage)
 - [Currently disabled operations](#currently-disabled-operations)
   - [News](#news)
   - [Events](#events)
   - [Dissemination](#dissemination)
   - [Teaching](#teaching)
+  - [Internship and thesis offers](#internship-and-thesis-offers)
 <!-- - [Structure of the website](#structure-of-the-website) -->
 
 
@@ -137,12 +137,6 @@ To display a menu on the right part of the page (e.g., to link other subpages) y
 ```
 
 
-### Internship and thesis offers
-In September 2023, it was decided that all Internship and thesis offers of the center for cybersecurity would be published in the [**center for cybersecurity website**](https://cs.fbk.eu/).
-
-Contact `mpernpruner@fbk.eu` for more details.
-
-
 ### Topics linked to the graph in the homepage
 The graph of topics in the homepage is created starting from the information in the [**d3Graph JSON file**](./assets/json/d3Graph.json). To create a new topic, subtopic or link between topics, replicate the data structures in the [**d3Graph JSON file**](./assets/json/d3Graph.json). 
 
@@ -163,3 +157,9 @@ Until we have a dissemination activity, we have decided to remove the disseminat
 
 ### Teaching
 Until we have a teaching activity, we have decided to remove the teaching page from the ALEPH's website. We will refer to the instructions in [the ST website](https://github.com/stfbk/stfbk.github.io/blob/master/README.md) to add teaching activities.
+
+
+### Internship and thesis offers
+In September 2023, it was decided that all Internship and thesis offers of the center for cybersecurity would be published in the [**center for cybersecurity website**](https://cs.fbk.eu/).
+
+Contact `mpernpruner@fbk.eu` for more details.
