@@ -47,12 +47,12 @@ current:
     #   yearFrom:       2024
     #   # yearTo:         2023
 
-    # - personId:       SaraMontanari
-    #   type:           M
-    #   topic:          Key Recovery
-    #   institution:    University of Trento
-    #   yearFrom:       2024
-    #   # yearTo:         2024
+    - personId:       SaraMontanari
+      type:           M
+      topic:          Key Recovery
+      institution:    University of Trento
+      yearFrom:       2024
+      # yearTo:         2024
 
   junior:
     # -   # ID of the person
