@@ -10,7 +10,7 @@
 #     -                       # ... (remember that tags should exist in "_data/tags.yml")
 #   abstract: >               # Abstract (optional)
 #     textual abstract    
-#   destination:              # Unique ID of the destination (see below)
+#   destination:              # Unique ID of the destination (remember that destinations should exist in "_data/destinations.yml")
 #   destinationAddon:         # Addon to the destination journal or proceedings (e.g., volume, pages) (optional)
 #   isALEPH:                  # Whether the publication should appear in all pages including the list of publications of ALEPH (then, set to "true") or in all pages excluding the list of publications of ALEPH (then, set to "false")
 #   year:               # year of publication (e.g., 2023)
@@ -188,6 +188,26 @@
   destinationAddon: Volume 976
   tags:
   - DecentralizationOfTrust
+
+## 2024
+- id: ICIN2024MOMO
+  id_iris: 346387
+  title: "Multi-Objective Microservice Orchestration: Balancing Security and Performance in CCAM"
+  authors:
+    - StefanoBerlato
+    - SilvioCretti
+    - DomenicoSiracusa
+    - SilvioRanise
+  tags:
+    - CAC
+    - CloudComputing
+    - PrivacyEnhancingCryptography
+  abstract: >               # Abstract (optional)
+    We (devise and) demonstrate the benefits of a methodology and a toolset for orchestrating Cloud-native applications to balance the minimization of risks due to the presence of security threats and the achievement of service performance requirements — expressed on, e.g., computational resources, network throughput and latency. The demo proves the effectiveness of the methodology in orchestrating a set of microservices implementing a prominent Cooperative, Connected and Automated Mobility (CCAM) service.    
+  destination: ICIN2024
+  isALEPH: true
+  year: 2024
+  doi: 10.1109/ICIN60470.2024.10494482
 
 ## 2024
 # ...
