@@ -209,7 +209,32 @@
   year: 2024
   doi: 10.1109/ICIN60470.2024.10494482
 
-## 2024
+- id: JMC 2024 MarcoCalderini
+  title: Searchable encryption with randomized ciphertext and randomized keyword search
+  authors:
+  - MarcoCalderini
+  - RiccardoLongo
+  - MassimilianoSala
+  - IreneVilla
+  destination: JMC
+  year: 2024
+  doi: 10.1515/jmc-2023-0029
+  isALEPH: false
+  abstract: "<jats:title>Abstract</jats:title>\n               <jats:p>The notion\
+    \ of public-key encryption with keyword search (PEKS) was introduced to search\
+    \ over encrypted data without performing any decryption. In this article, we propose\
+    \ a PEKS scheme in which both the encrypted keyword and the trapdoor are randomized\
+    \ so that the cloud server is not able to recognize identical queries <jats:italic>a\
+    \ priori</jats:italic>. Our scheme is <jats:italic>Ciphertext-Indistinguishabiltity</jats:italic>\
+    \ secure in the single-user setting and <jats:italic>Trapdoor-Indistinguishability</jats:italic>\
+    \ secure in the multi-user setting with a stronger security, i.e., with <jats:italic>multi-trapdoor</jats:italic>.</jats:p>"
+  destinationAddon: Volume 18, Issue 1
+  tags:
+  - CAC
+  - CloudComputing
+  - PrivacyEnhancingCryptography
+
+## 2025
 # ...
 
 # PLEASE KEEP ALPHABETICAL ORDER BY ID WITHIN YEARS
