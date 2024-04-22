@@ -54,6 +54,13 @@ current:
       yearFrom:       2024
       # yearTo:         2024
 
+    - personId:       ValeriaVicard
+      type:           M
+      topic:          Pairin based Cryptography for Searchable and Attribute-based Encryption
+      institution:    University of Udine
+      yearFrom:       2024
+      # yearTo:         2024
+
   junior:
     # -   # ID of the person
       
