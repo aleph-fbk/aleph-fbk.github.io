@@ -82,6 +82,16 @@
       place: Trento, Italy
   email: chiara.spadafora@unitn.it
 
+- id: EnricoSorbera
+  name: Enrico
+  surname: Sorbera
+  affiliations:
+    - role: Research Assistant
+      unit: Applied Cryptography
+      institution: Fondazione Bruno Kessler
+      place: Trento, Italy
+  email: esorbera@fbk.eu
+
 - id: FrancescoAntonioMarino
   name: Francesco Antonio
   surname: Marino
