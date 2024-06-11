@@ -6,7 +6,7 @@ links:
   - name: ACM
     value: 99659584111
   - name: CV
-    value: https://stefanoberlato.it/about/pdf/CV_BerlatoStefano.pdf
+    value: https://stefanoberlato.it/cv.pdf
   - name: dblp
     value: 265/9746
   - name: GitHub
