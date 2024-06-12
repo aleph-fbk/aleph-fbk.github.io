@@ -37,12 +37,12 @@ university-projects:
 
 past-university-projects:
   calls:
-    - id: first-call-2022
-      title: First Call (October-November 2022)
+    - id: c-2022-09
+      title: Call November 2022
       projects:
-        - id: P1-2022-2023
+        - id: p-2022-09-aleph-1
           title: Trusted Execution Environments for Advanced Data Protection
-          thesisID: IonAndyDitu_Thesis_Bachelor
+          thesisID: IonAndyDitu_BA
           description: >
             Cryptographic Access Control (CAC) is often employed to protect the confidentiality of Cloud-hosted sensitive data from curious service providers while enforcing access control policies. Unfortunately, CAC usually incurs significant computational overhead that limits its applicability in real-world scenarios [1]. The main goal of this project is to investigate how Trusted Execution Environments (TEEs) such as Intel SGX [2] can synergize with CAC to relieve these computational overheads and efficiently guarantee advanced data protection.
           level: BSc/MSc
@@ -67,3 +67,43 @@ past-university-projects:
             - "<a href=\"https://software.intel.com/content/www/us/en/develop/topics/software-guard-extensions.html\">https://software.intel.com/content/www/us/en/develop/topics/software-guard-extensions.html</a>"     
             - "<a href=\"https://github.com/stfbk/CryptoAC\">stfbk/CryptoAC</a>"
             - "Stefano Berlato, Roberto Carbone, Silvio Ranise. Cryptographic Enforcement of Access Control Policies in the Cloud: Implementation and Experimental Assessment In 18th International Conference on Security and Cryptography (SECRYPT 2021)"
+    
+    - id: c-2023-09
+      title: Call November 2023
+      projects:
+      - id: p-2023-09-aleph-6
+        title: Enhancing Cryptographic Access Control with Predicates and Negative Permissions
+        thesisID: SimoneBrunello_BA
+        description: >
+          Cryptographic Access Control (CAC) is often employed to protect the confidentiality of Cloud-hosted sensitive data from both external attackers and curious service providers while enforcing access control policies. In CAC, the sensitive data is encrypted, and the permission to access the encrypted data is embodied by the (secret) decrypting key. Unfortunately, CAC usually incurs significant computational overhead — mainly due to cryptographic computations — that limits its applicability in real-world scenarios. Moreover, by itself, CAC does not provide suitable abstractions for specifying additional information and constraints (e.g., on how much a user is trusted) that may instead be useful to relieve such a computational overhead. Put in the context of an already ongoing collaboration with the University of Pittsburgh, the main goal of this project is to enhance CAC by investigating one or more of the following ideas: 
+          <ol>
+            <li><b>Logic Predicates</b>: express assumptions and requirements about users and resources;</li>
+            <li><b>Negative Permissions</b>: deny accesses explicitly through a careful distribution of cryptographic keys;</li>
+            <li><b>Improved Performance</b>: investigate other means (e.g., use of symmetric vs. asymmetric cryptography) to directly relieve the computational overhead of CAC.</li>
+          </ol>
+        level:
+          - BSc
+          - MSc
+        supervisor:
+          - StefanoBerlato
+          - RobertoCarbone
+        prerequisites:
+          - Basic knowledge of IT security.
+          - Basic knowledge of cryptography from cryptography-related courses.
+          - Basic knowledge of object-oriented programming languages (i.e., Kotlin).
+        objectives:
+          - Familiarization and study of the state of the art in the use of the CAC techniques for advanced data protection.
+          - Evaluation of the aforementioned ideas and design of solutions to enhance the capabilities of CAC.
+          - Implementation of the proposed solutions in a tool developed and actively maintained by the FBK's Center for Cybersecurity [1].
+        topics:
+          - Access Control
+          - Cryptography
+        timeFrame: From October 2023
+        references:
+          - id: 1
+            text: CryptoAC
+            links:
+              - name: Link
+                url: https://aleph.fbk.eu/tools/CryptoAC
+        notes: >
+          The objectives may be weighted differently according to interest, availability, and the chosen topic.
