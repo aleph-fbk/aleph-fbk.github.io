@@ -70,7 +70,7 @@ Topics in Applied Cryptography 2024 (TAC2024) is a workshop dedicated to cryptog
 
 # Program
 
-The program will be defined and made available after the notification to authors. Until then, the workshop is structured as follows 
+The program will be defined and made available after the notification to authors. The structure of the workshop is as follows: 
 
 <!-- All times are in <a href="https://time.is/en/CEST" target="_blank">Central European Summer Time (CEST)</a>. The program is tentative and may be subject to changes. -->
 
@@ -90,7 +90,7 @@ The program will be defined and made available after the notification to authors
 
   <tr class="institutional">
     <td class="talk">
-      <p class="title">TBF</p>
+      <p class="title">TBD</p>
       <p class="speakers"><b>Filippo Valsorda</b> (full-time independent open source maintainer)</p>
     </td>
     <td>30'</td>
@@ -185,10 +185,12 @@ The full call for papers for TAC2024 will soon be available [here](https://easyc
 
 # Organizers
 
-* **Chair** Riccardo Longo, Fondazione Bruno Kessler (rlongo@fbk.eu)
+* **Chair** Riccardo Longo, *Fondazione Bruno Kessler* (rlongo@fbk.eu).
+
+<br />
 
 * **Organizing Committee**:
-  * Silvio Ranise, University of Trento - Department of Mathematics, Fondazione Bruno Kessler (ranise@fbk.eu);
-  * Alessandro Tomasi, Fondazione Bruno Kessler (altomasi@fbk.eu);
-  * Stefano Berlato, Fondazione Bruno Kessler (sberlato@fbk.eu);
-  * Chiara Spadafora, University of Trento - Department of Mathematics (chiara.spadafora@unitn.it).
+  * Silvio Ranise, *University of Trento - Department of Mathematics and Fondazione Bruno Kessler* (ranise@fbk.eu);
+  * Alessandro Tomasi, *Fondazione Bruno Kessler* (altomasi@fbk.eu);
+  * Stefano Berlato, *Fondazione Bruno Kessler* (sberlato@fbk.eu);
+  * Chiara Spadafora, *University of Trento - Department of Mathematics* (chiara.spadafora@unitn.it).
