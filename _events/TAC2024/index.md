@@ -1,4 +1,4 @@
-<!-- ---
+---
 # coming from "_layouts/default.html"
 title: Topics in Applied Cryptography 2024          # Title of the event
 show_hero: true                                     # Leave "true"
@@ -163,12 +163,12 @@ The program will be defined and made available after the notification to authors
 
 
 
-<!-- # Call for Papers
+# Call for Papers
 
 The full call for papers for TAC2024 can be found [here](https://easychair.org/cfp/TAC2024).
 
 
 # Important Dates
 
-- **Submission deadline**:      03.08.2024
-- **Notification to authors**:  10.08.2024 --> -->
+- **Submission deadline**:      25.07.2024
+- **Notification to authors**:  20.08.2024

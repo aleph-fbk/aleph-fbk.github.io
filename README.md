@@ -23,7 +23,6 @@ Table of Contents:
   - [Topics linked to the graph in the homepage](#topics-linked-to-the-graph-in-the-homepage)
 - [Currently disabled operations](#currently-disabled-operations)
   - [News](#news)
-  - [Events](#events)
   - [Dissemination](#dissemination)
   - [Teaching](#teaching)
   - [Internship and thesis offers](#internship-and-thesis-offers)
