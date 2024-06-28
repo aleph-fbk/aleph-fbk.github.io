@@ -70,15 +70,15 @@ Topics in Applied Cryptography 2024 (TAC2024) is a workshop dedicated to cryptog
 
 # Program
 
-The program will be defined and made available after the notification to authors.
+The program will be defined and made available after the notification to authors. Until then, the workshop is structured as follows 
 
-<!-- All times are in <a href="https://time.is/en/CEST" target="_blank">Central European Summer Time (CEST)</a>. The program is tentative and may be subject to changes.
+<!-- All times are in <a href="https://time.is/en/CEST" target="_blank">Central European Summer Time (CEST)</a>. The program is tentative and may be subject to changes. -->
 
 
 <table class="bordered program" width="100%">
   <tr class="day">
     <td colspan="2">
-      Friday 15th December 2024
+      Friday 27th September 2024
     </td>
   </tr>
 
@@ -90,21 +90,21 @@ The program will be defined and made available after the notification to authors
 
   <tr class="institutional">
     <td class="talk">
-      <p class="title">Royal Rumbles in Cryptography: the NIST PQC Competition</p>
-      <p class="speakers"><b>Marco Baldi</b> (Università Politecnica delle Marche)</p>
+      <p class="title">TBF</p>
+      <p class="speakers"><b>Filippo Valsorda</b> (full-time independent open source maintainer)</p>
     </td>
-    <td>11:30-12:10</td>
+    <td>30'</td>
   </tr>
 
 
 
   <tr class="session">
     <td colspan="2">
-      <p class="title">Lightning Talks</p>
+      <p class="title">Lightning Talks (~5' each)</p>
     </td>
   </tr>
   
-  <tr>
+  <!--<tr>
     <td class="talk">
       <p class="title">Cryptographic Enforcement of Attribute-based Access Control Policies</p>
       <p class="speakers"><b>Stefano Berlato</b> (Fondazione Bruno Kessler), Alessandro Colombo, Roberto Carbone, and Silvio Ranise</p>
@@ -126,17 +126,17 @@ The program will be defined and made available after the notification to authors
       <p class="speakers">Chiara Spadafora, <b>Michele Battagliola</b> (University of Trento), Giuseppe D'Alconzo and Andrea Gangemi</p>
     </td>
     <td>12:30-12:40</td>
-  </tr>
+  </tr>-->
 
 
 
   <tr class="session">
     <td colspan="2">
-      <p class="title">Presentations and Demos</p>
+      <p class="title">Work-in-Progress and Demos (~12' each)</p>
     </td>
   </tr>
   
-  <tr>
+  <!--<tr>
     <td class="talk">
       <p class="title">Vote App: Verifiable and Coercion-Resistant I-Voting</p>
       <p class="speakers">Chiara Spadafora, Riccardo Longo and Francesco Antonio Marino</p>
@@ -150,9 +150,17 @@ The program will be defined and made available after the notification to authors
       <p class="speakers">Andrea D'Intino and Denis Roio</p>
     </td>
     <td>13:00-13:30</td>
+  </tr>-->
+
+
+
+  <tr class="session">
+    <td colspan="2">
+      <p class="title">Round Table (~30')</p>
+    </td>
   </tr>
 
-</table> -->
+</table>
 
 
 
@@ -165,10 +173,22 @@ The program will be defined and made available after the notification to authors
 
 # Call for Papers
 
-The full call for papers for TAC2024 can be found [here](https://easychair.org/cfp/TAC2024).
+The full call for papers for TAC2024 will soon be available [here](https://easychair.org/cfp/TAC2024).
 
 
 # Important Dates
 
 - **Submission deadline**:      25.07.2024
 - **Notification to authors**:  20.08.2024
+
+
+
+# Organizers
+
+* **Chair** Riccardo Longo, Fondazione Bruno Kessler (rlongo@fbk.eu)
+
+* **Organizing Committee**:
+  * Silvio Ranise, University of Trento - Department of Mathematics, Fondazione Bruno Kessler (ranise@fbk.eu);
+  * Alessandro Tomasi, Fondazione Bruno Kessler (altomasi@fbk.eu);
+  * Stefano Berlato, Fondazione Bruno Kessler (sberlato@fbk.eu);
+  * Chiara Spadafora, University of Trento - Department of Mathematics (chiara.spadafora@unitn.it).

@@ -156,13 +156,6 @@ All times are in <a href="https://time.is/en/CEST" target="_blank">Central Europ
 
 
 
-
-
-
-
-
-
-
 # Call for Papers
 
 The full call for papers for TAC2023 can be found [here](https://easychair.org/cfp/TAC2023).
