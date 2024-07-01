@@ -173,7 +173,7 @@ The program will be defined and made available after the notification to authors
 
 # Call for Papers
 
-The full call for papers for TAC2024 will soon be available [here](https://easychair.org/cfp/TAC2024).
+The full call for papers for TAC2024 is available [here](https://easychair.org/cfp/tac2024).
 
 
 # Important Dates
