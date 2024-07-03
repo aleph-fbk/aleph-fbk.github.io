@@ -204,6 +204,7 @@ The full call for papers for TAC2024 is available [here](https://easychair.org/c
   * Prof. Andrea Visconti, *University of Milan*;
   * Prof. Antonia Wachter-Zeh, *Technical University of Munich*;
   * Dr. Cecilia Boschini, *ETH Zurich*;
+  * Dr. Pierrick Gaudry, *LORIA*;
   * Prof. Svetla Petkova-Nikova, *KU Leuven*;
   * Ms. Veronica Cristiano, *Telsy*;
   * More TBA.
