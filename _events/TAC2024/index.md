@@ -91,7 +91,7 @@ The program will be defined and made available after the notification to authors
   <tr class="institutional">
     <td class="talk">
       <p class="title">TBD</p>
-      <p class="speakers"><b>Filippo Valsorda</b> (full-time independent open source maintainer)</p>
+      <p class="speakers"><b><a href="https://filippo.io">Filippo Valsorda</a></b> (full-time independent open source maintainer)</p>
     </td>
     <td>20'-25'</td>
   </tr>
