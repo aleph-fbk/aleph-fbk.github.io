@@ -170,9 +170,17 @@ The program will be defined and made available after the notification to authors
 
   <tr class="session">
     <td colspan="2">
-      <p class="title">Round Table (~30')</p>
+      <p class="title">Round Table</p>
     </td>
   </tr>
+
+  <tr class="institutional">
+    <td class="talk">
+      <p class="title">Discussion and community feedback on hot topics, involving as much as possible the whole audience</p>
+    </td>
+    <td>~30'</td>
+  </tr>
+
 
 </table>
 
