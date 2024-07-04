@@ -93,16 +93,36 @@ The program will be defined and made available after the notification to authors
       <p class="title">TBD</p>
       <p class="speakers"><b>Filippo Valsorda</b> (full-time independent open source maintainer)</p>
     </td>
-    <td>30'</td>
+    <td>20'-25'</td>
   </tr>
-
-
 
   <tr class="session">
     <td colspan="2">
-      <p class="title">Lightning Talks (~5' each)</p>
+      <p class="title">Contributed Talks (~40')</p>
     </td>
   </tr>
+
+  <tr class="institutional">
+    <td class="talk">
+      <p class="title">Lightning Talks</p>
+    </td>
+    <td>5' each</td>
+  </tr>
+
+  <tr class="institutional">
+    <td class="talk">
+      <p class="title">Work-in-Progress</p>
+    </td>
+    <td>12' each</td>
+  </tr>
+
+  <tr class="institutional">
+    <td class="talk">
+      <p class="title">Demos</p>
+    </td>
+    <td>12' each</td>
+  </tr>
+
   
   <!--<tr>
     <td class="talk">
@@ -129,12 +149,6 @@ The program will be defined and made available after the notification to authors
   </tr>-->
 
 
-
-  <tr class="session">
-    <td colspan="2">
-      <p class="title">Work-in-Progress and Demos (~12' each)</p>
-    </td>
-  </tr>
   
   <!--<tr>
     <td class="talk">
