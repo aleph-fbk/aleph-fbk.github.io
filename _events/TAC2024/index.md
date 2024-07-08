@@ -220,14 +220,15 @@ The full call for papers for TAC2024 is available [here](https://easychair.org/c
 <br />
 
 * **Program Committee**:
-  * Prof. Alessandro Barenghi, *Polytechnic University of Milan*;
-  * Dr. Alexandre Debant, *LORIA*;
-  * Dr. Andrea Basso, *University of Bristol*;
-  * Prof. Andrea Bracciali, *University of Turin*;
-  * Prof. Andrea Visconti, *University of Milan*;
-  * Prof. Antonia Wachter-Zeh, *Technical University of Munich*;
-  * Dr. Cecilia Boschini, *ETH Zurich*;
-  * Dr. Pierrick Gaudry, *LORIA*;
-  * Prof. Svetla Petkova-Nikova, *KU Leuven*; 
-  * Ms. Veronica Cristiano, *Telsy*;
+  * Alessandro Barenghi, *Polytechnic University of Milan*;
+  * Alexandre Debant, *LORIA*;
+  * Andrea Basso, *University of Bristol*;
+  * Andrea Bracciali, *University of Turin*;
+  * Andrea Visconti, *University of Milan*;
+  * Antonia Wachter-Zeh, *Technical University of Munich*;
+  * Cecilia Boschini, *ETH Zurich*;
+  * Davide Carboni, *Uncommon Digital*;
+  * Pierrick Gaudry, *LORIA*;
+  * Svetla Petkova-Nikova, *KU Leuven*; 
+  * Veronica Cristiano, *Telsy*;
   * More TBA.
