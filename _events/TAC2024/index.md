@@ -213,7 +213,7 @@ The full call for papers for TAC2024 is available [here](https://easychair.org/c
 
 # Organizers
 
-* **Chair**: Riccardo Longo, *Fondazione Bruno Kessler* (rlongo@fbk.eu).
+* **Chair** Riccardo Longo, *Fondazione Bruno Kessler* (rlongo@fbk.eu).
 
 <br />
 
