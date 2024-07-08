@@ -213,15 +213,15 @@ The full call for papers for TAC2024 is available [here](https://easychair.org/c
 
 # Organizers
 
-* **Chair** Dr. Riccardo Longo, *Fondazione Bruno Kessler* (rlongo@fbk.eu).
+* **Chair**: Riccardo Longo, *Fondazione Bruno Kessler* (rlongo@fbk.eu).
 
 <br />
 
 * **Organizing Committee**:
-  * Dr. Alessandro Tomasi, *Fondazione Bruno Kessler* (altomasi@fbk.eu);
-  * Ms. Chiara Spadafora, *University of Trento - Department of Mathematics* (chiara.spadafora@unitn.it);
-  * Prof. Silvio Ranise, *University of Trento - Department of Mathematics and Fondazione Bruno Kessler* (ranise@fbk.eu);
-  * Dr. Stefano Berlato, *Fondazione Bruno Kessler* (sberlato@fbk.eu).
+  * Alessandro Tomasi, *Fondazione Bruno Kessler* (altomasi@fbk.eu);
+  * Chiara Spadafora, *University of Trento - Department of Mathematics* (chiara.spadafora@unitn.it);
+  * Silvio Ranise, *University of Trento - Department of Mathematics and Fondazione Bruno Kessler* (ranise@fbk.eu);
+  * Stefano Berlato, *Fondazione Bruno Kessler* (sberlato@fbk.eu).
 
 <br />
 
