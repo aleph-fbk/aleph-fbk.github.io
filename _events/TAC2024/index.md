@@ -43,14 +43,16 @@ menubar:                        # Menubar to show
 # tools:                          # List of IDs of related tools
 #     - 
 
-# projects:                       # List of IDs of related projects
-#     - 
+projects:                         # List of IDs of related projects
+    - SERICS 
 
 # collaborations:                 # List of IDs of related collaborations
 #     - 
 
-# people:                         # List of IDs of related people
-#     - 
+people:                           # List of IDs of related people
+    - RiccardoLongo
+    - AlessandroTomasi
+    - StefanoBerlato
 
 # images:                         # Repeat the following structure to add more images
 #     - title:                    # Title of the image
@@ -67,6 +69,10 @@ menubar:                        # Menubar to show
 
 Topics in Applied Cryptography 2024 (TAC2024) is a workshop dedicated to cryptography with a specific application, scenario and/or technology in mind, including performance evaluation, libraries and implementation issues, hardware and IoT, attacks and vulnerabilities, and requirements for unusual application scenarios; purely theoretical results are out of scope. Topics of interest include privacy enhancing cryptography, homomorphic encryption, secure multi-party computation, quantum key distribution, and quantum-safe cryptography.
 
+
+# Acknowledgements
+
+The workshop is developed within the SEcurity and RIghts in the CyberSpace (SERICS) foundation framework (https://serics.eu/). The Foundation's main purpose is scientific and technological research and, in this perspective, it is established to be the implementing entity of the extended Partnership "SERICS - Security and Rights in CyberSpace" financed following the participation in the Public Notice "for the presentation of Proposals for the creation of "Partnerships extended to universities research centers, companies for the funding of basic research projects" - as part of the National Recovery and Resilience Plan, Mission 4 "Education and Research" - Component 2 "From Research to Enterprise" - Investment 1. 3, funded by the European Union - NextGenerationEU - Notice No. 341 of 15.3.2022.
 
 # Program
 
