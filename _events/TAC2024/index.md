@@ -234,6 +234,7 @@ The full call for papers for TAC2024 is available [here](https://easychair.org/c
   * Antonia Wachter-Zeh, *Technical University of Munich*;
   * Cecilia Boschini, *ETH Zurich*;
   * Davide Carboni, *Uncommon Digital*;
+  * Maria Eichlseder, *Technische Universität Graz*;
   * Pierrick Gaudry, *LORIA*;
   * Svetla Petkova-Nikova, *KU Leuven*; 
   * Veronica Cristiano, *Telsy*;
