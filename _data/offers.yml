@@ -100,10 +100,36 @@ past-university-projects:
           - Cryptography
         timeFrame: From October 2023
         references:
-          - id: 1
-            text: CryptoAC
-            links:
-              - name: Link
-                url: https://aleph.fbk.eu/tools/CryptoAC
+          - "<a href=\"https://github.com/stfbk/CryptoAC\">stfbk/CryptoAC</a>"
         notes: >
           The objectives may be weighted differently according to interest, availability, and the chosen topic.
+      
+      - id: p-2023-09-aleph-7
+        title: Multi-Objective Microservice Orchestration        
+        thesisID: MarcoSoldera_BA
+        description: >
+          Microservices are the basic building blocks for modern Cloud-native applications. However, the orchestration — and especially the placement — of microservices should be aware of the functional and security requirements of the underlying applications. The main goal of this project revolves around the design of a methodology and a toolset for orchestrating (microservices in) Cloud-native applications to balance the minimization of risks due to the possible presence of security threats (e.g., malicious insider attackers, curious tenants) and the achievement of service performance requirements (e.g., expressed on computational resources, network throughput and latency).
+        level:
+          - BSc
+          - MSc
+        unit:
+          - ALEPH
+          - RiSING
+        supervisor:
+          - StefanoBerlato
+          - SilvioCretti
+          - DomenicoSiracusa
+        prerequisites:
+          - Basic knowledge of IT security.
+          - Basic knowledge of object-oriented programming languages (i.e., Kotlin).
+          - Knowledge of the microservice architectural paradigm and orchestrators (e.g., Kubernetes) would be highly advantageous.
+        objectives:
+          - Familiarization and study of the state of the art in the orchestration of microservices.
+          - Study and elicitation of requirements for applications deployed in prominent use case scenarios.
+          - Design and implementation of a methodology for the effective orchestration of microservices in a tool developed and actively maintained by the FBK's Center for Cybersecurity [1].
+        topics:
+          - Cloud-native Applications
+          - Security
+          - Multi-Objective Optimization
+        references:
+          - "<a href=\"https://rising.fbk.eu/tools/FogAtlas\">stfbk/FogAtlas</a>"

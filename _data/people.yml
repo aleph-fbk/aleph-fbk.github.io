@@ -152,10 +152,9 @@
   name: Marco
   surname: Centenaro
 
-- id: MarcoSoldera
+- id: MarcoSoldera_BA
   name: Marco
   surname: Soldera
-  email: msoldera@fbk.eu
 
 - id: MarianoCeccato
   name: Mariano
