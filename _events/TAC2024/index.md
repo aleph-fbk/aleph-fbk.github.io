@@ -238,5 +238,4 @@ The full call for papers for TAC2024 is available [here](https://easychair.org/c
   * Maria Eichlseder, *Technische Universität Graz*;
   * Pierrick Gaudry, *LORIA*;
   * Svetla Petkova-Nikova, *KU Leuven*; 
-  * Veronica Cristiano, *Telsy*;
-  * More TBA.
+  * Veronica Cristiano, *Telsy*.
