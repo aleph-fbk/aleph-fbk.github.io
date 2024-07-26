@@ -206,7 +206,7 @@ The full call for papers for TAC2024 is available [here](https://easychair.org/c
 
 # Important Dates
 
-- **Submission deadline**:      July 25th, 11:59 pm AOE (updates possible until July 29th, 11:59 pm AOE)
+- **Submission deadline**: ~July 25th, 11:59 pm AOE (updates possible until July 29th, 11:59 pm AOE)~ Extended: August 2nd, 11:59 pm AOE (updates possible until August 3th, 11:59 pm AOE)
 - **Notification to authors**:  August 20th
 
 
