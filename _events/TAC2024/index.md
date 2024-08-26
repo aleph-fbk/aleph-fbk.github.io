@@ -88,6 +88,14 @@ The program will be defined and made available after the notification to authors
     </td>
   </tr>
 
+  <tr class="institutional">
+    <td class="talk">
+      <p class="title">Workshop Presentation</p>
+      <p class="speakers"><b>Riccardo Longo</b> (TAC 2024 General Chair)</p>
+    </td>
+    <td>10:00-10:05</td>
+  </tr>
+
   <tr class="session">
     <td colspan="2">
       <p class="title">Invited Speaker</p>
@@ -99,80 +107,61 @@ The program will be defined and made available after the notification to authors
       <p class="title">TBD</p>
       <p class="speakers"><b><a href="https://filippo.io">Filippo Valsorda</a></b> (full-time independent open source maintainer)</p>
     </td>
-    <td>20'-25'</td>
+    <td>10:05-10:30</td>
   </tr>
 
   <tr class="session">
     <td colspan="2">
-      <p class="title">Contributed Talks (~40')</p>
+      <p class="title">Contributed Talks</p>
     </td>
-  </tr>
-
-  <tr class="institutional">
-    <td class="talk">
-      <p class="title">Lightning Talks</p>
-    </td>
-    <td>5' each</td>
-  </tr>
-
-  <tr class="institutional">
-    <td class="talk">
-      <p class="title">Work-in-Progress</p>
-    </td>
-    <td>12' each</td>
-  </tr>
-
-  <tr class="institutional">
-    <td class="talk">
-      <p class="title">Demos</p>
-    </td>
-    <td>12' each</td>
-  </tr>
-
-  
-  <!--<tr>
-    <td class="talk">
-      <p class="title">Cryptographic Enforcement of Attribute-based Access Control Policies</p>
-      <p class="speakers"><b>Stefano Berlato</b> (Fondazione Bruno Kessler), Alessandro Colombo, Roberto Carbone, and Silvio Ranise</p>
-    </td>
-    <td>12:10-12:20</td>
   </tr>
 
   <tr>
     <td class="talk">
-      <p class="title">OpenABE Bindings for Kotlin</p>
-      <p class="speakers"><b>Stefano Berlato</b> (Fondazione Bruno Kessler), Roberto Carbone, and Silvio Ranise</p>
+      <p class="title">Lova: A Novel Framework for Verifying Mathematical Proofs with Incrementally Verifiable Computation</p>
+      <p class="speakers"><b>Noel Elias</b> (remote presentation)</p>
     </td>
-    <td>12:20-12:30</td>
+    <td>10:30-10:45</td>
   </tr>
 
   <tr>
     <td class="talk">
-      <p class="title">Multiparty Class Group Encryption and Applications to E-Voting</p>
-      <p class="speakers">Chiara Spadafora, <b>Michele Battagliola</b> (University of Trento), Giuseppe D'Alconzo and Andrea Gangemi</p>
+      <p class="title">HASHTA: Share and compute securely your data</p>
+      <p class="speakers"><b>Amit Chaudhary</b> (Work-in-Progress)</p>
     </td>
-    <td>12:30-12:40</td>
-  </tr>-->
-
-
-  
-  <!--<tr>
-    <td class="talk">
-      <p class="title">Vote App: Verifiable and Coercion-Resistant I-Voting</p>
-      <p class="speakers">Chiara Spadafora, Riccardo Longo and Francesco Antonio Marino</p>
-    </td>
-    <td>12:40-13:00</td>
+    <td>10:45-11:00</td>
   </tr>
 
   <tr>
     <td class="talk">
-      <p class="title">Rapid implementation and deployment of cryptographic flows</p>
-      <p class="speakers">Andrea D'Intino and Denis Roio</p>
+      <p class="title">Extensible Decentralized Verifiable Refreshable Secret Sharing Protocol with Extension to Threshold Access Trees for Wallet Key Recovery</p>
+      <p class="speakers"><b>Sara Montanari</b> (Work-in-Progress)</p>
     </td>
-    <td>13:00-13:30</td>
-  </tr>-->
+    <td>11:00-11:15</td>
+  </tr>
 
+  <tr class="recreational">
+    <td colspan="1">
+      <p class="title">Coffee Break</p>
+    </td>
+    <td>11:15-11:40</td>
+  </tr>
 
+  <tr>
+    <td class="talk">
+      <p class="title">Improving Security and Performance of Cryptographic Access Control with Trusted Execution Environments</p>
+      <p class="speakers"><b>Stefano Berlato</b> (Lightning Talk)</p>
+    </td>
+    <td>11:40-11:55</td>
+  </tr>
+
+  <tr>
+    <td class="talk">
+      <p class="title">On the combination of Searchable Encryption and Attribute-based encryption</p>
+      <p class="speakers"><b>Enrico Sorbera</b> (Work-in-Progress)</p>
+    </td>
+    <td>11:55-12:10</td>
+  </tr>
 
   <tr class="session">
     <td colspan="2">
@@ -184,9 +173,8 @@ The program will be defined and made available after the notification to authors
     <td class="talk">
       <p class="title">Discussion and community feedback on hot topics, involving as much as possible the whole audience</p>
     </td>
-    <td>~30'</td>
+    <td>12:10-13:00</td>
   </tr>
-
 
 </table>
 
@@ -206,8 +194,8 @@ The full call for papers for TAC2024 is available [here](https://easychair.org/c
 
 # Important Dates
 
-- **Submission deadline**:      <s>July 25th, 11:59 pm AOE (updates possible until July 29th, 11:59 pm AOE)</s> <span style="color:#e74c3c;">Extended</span>: August 1st, 11:59 pm AOE (updates possible until August 2nd, 11:59 pm AOE)
-- **Notification to authors**:  August 20th
+- **Submission deadline**:      <s>July 25th, 11:59 pm AOE (updates possible until July 29th, 11:59 pm AOE) <span style="color:#e74c3c;">Extended</span>: August 1st, 11:59 pm AOE (updates possible until August 2nd, 11:59 pm AOE)</s>
+- **Notification to authors**: <s>August 20th</s>
 
 
 
