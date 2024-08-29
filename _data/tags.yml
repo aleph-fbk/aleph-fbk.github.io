@@ -16,7 +16,6 @@
                       # see below for some colors already generated with the above script.
                       # Check that each color is unique. Delete a color from the list below
                       # after use:
-                      # #c1cef0
                       # #c6ac8b
                       # #b2d1bf
                       # #bfb7f6
@@ -43,9 +42,9 @@
 #   text: "Attribute-based Encryption"
 #   color: "#8abcbb"
 
-# - id: AccessControl
-#   text: "Access Control"
-#   color: "#bca7a0"
+- id: AccessControl
+  text: "Access Control"
+  color: "#bca7a0"
 
 # - id: Blockchain
 #   text: "Blockchain Applications"
@@ -58,6 +57,10 @@
 - id: CloudComputing
   text: "Cloud Computing"
   color: "#cbb4ea"
+
+- id: CloudNative
+  text: "Cloud Native"
+  color: "#c1cef0"
 
 - id: Cryptanalysis
   text: "Cryptanalysis"
