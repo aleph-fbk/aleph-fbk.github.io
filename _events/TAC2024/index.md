@@ -104,7 +104,8 @@ The program will be defined and made available after the notification to authors
 
   <tr class="institutional">
     <td class="talk">
-      <p class="title">TBD</p>
+      <p class="title">Transparency, Trust, and Accountability</p>
+      <p class="speakers">Abstract: transparency logs (tlogs) are a powerful tool that makes it possible to bring accountability where it is unpractical to improve trust. In this talk, we'll discuss their mechanism, practical instantiation, and applications.</p>
       <p class="speakers"><b><a href="https://filippo.io">Filippo Valsorda</a></b> (full-time independent open source maintainer)</p>
     </td>
     <td>10:05-10:30</td>
