@@ -31,13 +31,6 @@ current:
       yearFrom:       2024
       # yearTo:         2023
 
-    - personId:       LucaClaus
-      type:           B
-      topic:          Cryptographic Access Control for Blockchain-based Applications
-      institution:    University of Trento
-      yearFrom:       2024
-      # yearTo:         2023
-
     - personId:       NicolaSmaniotto
       type:           M
       topic:          Cryptographic Revocation
@@ -106,6 +99,9 @@ former:
 
     - personId: IonAndyDitu_BA
       thesisId: IonAndyDitu_BA
+
+    - personId: LucaClaus_BA
+      thesisId: LucaClaus_BA
 
     - personId: SimoneBrunello_BA
       thesisId: SimoneBrunello_BA

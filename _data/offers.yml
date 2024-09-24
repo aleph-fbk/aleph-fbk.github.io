@@ -133,3 +133,39 @@ past-university-projects:
           - Multi-Objective Optimization
         references:
           - "<a href=\"https://rising.fbk.eu/tools/FogAtlas\">stfbk/FogAtlas</a>"
+
+    - id: c-2024-01
+      title: Call January 2024
+      projects:
+      - id: p-2024-01-aleph-2
+        title: Cryptographic Access Control for Blockchain-based Applications       
+        thesisID: LucaClaus_BA
+        description: >
+          Given the limited trust and inherently centralized nature of Cloud-based applications, the blockchain emerges as the ideal solution to guarantee the integrity and the confidentiality of sensitive data in cross-organizational scenarios. However, the basic security properties offered by the blockchain should be coupled with fine-grained access control policies (e.g., role- and attribute-based access control) enforced through cryptography (e.g., hybrid cryptography, multi-authority attribute-based encryption) for best security. The main goal of this project is to investigate how cryptographic access control is and can be used in blockchain-based applications to enforce access control policies in complex cross-organizational scenarios.
+        level:
+          - BSc
+          - MSc
+        unit:
+          - ALEPH
+          - ST
+        supervisor:
+          - StefanoBerlato
+          - RobertoCarbone
+          - RiccardoLongo
+        prerequisites:
+          - Basic knowledge of IT security.
+          - Basic knowledge of cryptography from cryptography-related courses.
+          - Basic knowledge of object-oriented programming languages (i.e., Kotlin).
+        objectives:
+          - Familiarization and study of the state of the art in the use of the Blockchain for advanced data protection.
+          - Evaluation of available techniques and design of a solution joining cryptographic access control with the Blockchain for high assurance of data integrity and confidentiality.
+          - Implementation of the proposed approach in a tool developed and actively maintained by the FBK's Center for Cybersecurity [1].
+        topics:
+          - Access Control
+          - Cryptography
+          - Blockchain
+        references:
+          - text: CryptoAC
+            links:
+              - name: Link
+                url: https://aleph.fbk.eu/tools/CryptoAC

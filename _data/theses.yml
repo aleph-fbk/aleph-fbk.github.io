@@ -14,6 +14,20 @@
 
 
 ## 2024
+- id: LucaClaus_BA
+  author: LucaClaus_BA
+  title: "End-to-End Protection for Data Sharing Among Organizations in Cloud-Managed Blockchain Applications"
+  type: B
+  abstract: >
+    With the development and widespread adoption of the Cloud, data sharing among individuals and organizations has become more convenient than ever before. However, one of the main obstacles that hinders the adoption of Cloud concerns data security and, in particular, data confidentiality and integrity, such as the risk of unauthorized access by third parties, data breaches due to vulnerabilities in the Cloud Service Provider (CSP)’s infrastructure, lack of control over data location, internal attackers and malicious users. Additionally, CSP are often considered “honest but curious”, meaning they might have the motivation or the technical ability to analyze and access to the data they store or process. The arrival of blockchain technology brought a new secure and decentralized approach ideal to guarantee the confidentiality and the integrity of sensitive data, especially in cross-organizational scenarios where multiple equally (dis)trusting parties need to collaborate and exchange data securely. Nonetheless, the blockchain is a difficulty technology to set-up, maintain, and use. For this reason, the adoption of blockchain technology in a serverless fashion is sometimes preferred, in which the duty to manage the blockchain is delegated to a partially-trusted third party, e.g. usually a CSP. The fact that organizations use Cloud-managed blockchains poses again a risk to the confidentiality of data, as the CSP — which handles the nodes composing the blockchain — has ideally access to the data contained within the transactions. In this thesis, we propose a solution for guaranteeing the confidentiality of sensitive data shared over a Cloud-managed blockchain network managed by a partially trusted CSP in cross-organizational scenarios. The solution ensures the confidentiality of the shared data by combining Cryptographic Access Control (CAC) — for end-to-end protection of the data according to Access Control (AC) policies internal to organizations — with Proxy Re-Encryption (PRE) — for achieving effective and secure revocation of access privileges. This project follows a deep analysis of a previous solution proposed by Enrico Marconi [11], which introduces a multi-admin data management system designed to ensure the confidentiality of sensistive data shared on a blockchain network managed by an honestbut-curious CSP. We identify its limitations, such as problems with collusions and the lack of a revocation mechanism, and outline the requirements that our solution must address. Finally, we implements a proof-of-concept to demonstrate the feasibility of the solution.
+  supervisor: SilvioRanise
+  co-supervisor:
+    - StefanoBerlato
+    - RiccardoLongo
+  year: 2024
+  awards: 
+  institution: University of Trento
+
 - id: MarcoSoldera_BA
   author: MarcoSoldera_BA
   title: "A Risk Assessment Methodology for VSNF Placement in Cloud Native Applications"
