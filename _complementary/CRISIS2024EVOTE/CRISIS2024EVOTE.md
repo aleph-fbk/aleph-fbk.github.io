@@ -18,7 +18,7 @@ people:
 
 ## Contributions
 We propose a novel methodology for performing a threat analysis on e-voting systems. Our research includes the following contributions:
-- A mapping of the [properties and principles](https://search.coe.int/cm#{%22CoEIdentifier%22:[%220900001680726f6f%22],%22sort%22:[%22CoEValidationDate%20Descending%22]}) identified by the Council of Europe  to verifiable voting system properties from academic literature.
+- A mapping of the [properties and principles](https://search.coe.int/cm#\{%22CoEIdentifier%22:[%220900001680726f6f%22],%22sort%22:[%22CoEValidationDate%20Descending%22]\}) identified by the Council of Europe  to verifiable voting system properties from academic literature.
 
   - A description of the properties that a secure e-voting system should satisfy is available [here](/A1.pdf).
 
