@@ -14,7 +14,7 @@ people:
 
 ## Download
 - Threat analysis table available [here](https://docs.google.com/spreadsheets/d/14N2AhBPlWgespNwZJkzUSdZA93pQzpzWIjwAxWeqERo).
-- Slides [here]().
+- Slides.
 
 ## Contributions
 We propose a novel methodology for performing a threat analysis on e-voting systems. Our research includes the following contributions:
