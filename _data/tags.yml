@@ -21,7 +21,6 @@
                       # #bfb7f6
                       # #d7d6c7
                       # #99bfd8
-                      # #9b81ab
                       # #f9d38a
                       # #b1c6a7
                       # #83ac93
@@ -31,7 +30,6 @@
                       # #9f82df
                       # #f9fc95
                       # #eccecc
-                      # #81e3b8
                       # #81d7cc
                       # #cd86d2
 
@@ -74,9 +72,9 @@
 #   text: "Digital Identity"
 #   color: "#dbbcec"
 
-# - id: EVoting
-#   text: "E-Voting"
-#   color: "#dbbcec"
+- id: EVoting
+  text: "E-Voting"
+  color: "#dbbcec"
 
 # - id: HardwareBasedSecurity
 #   text: "Hardware-based Security"
@@ -94,6 +92,10 @@
   text: "Privacy Enhancing Cryptography"
   color: "#e3e5d4"
 
+- id: RiskAnalysis
+  text: "Risk Analysis"
+  color: "#9b81ab"
+
 # - id: SearchableEncryption
 #   text: "Searchable Encryption"
 #   color: "#dbbcec"
@@ -109,6 +111,10 @@
 - id: SMPC
   text: "Secure Multi-Party Computation"
   color: "#ce8fc9"
+
+- id: ThreatModelling
+  text: "Threat Modelling"
+  color: "#81e3b8"
 
 - id: ThresholdCryptography
   text: "Threshold Cryptography"
