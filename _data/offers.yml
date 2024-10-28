@@ -169,3 +169,98 @@ past-university-projects:
             links:
               - name: Link
                 url: https://aleph.fbk.eu/tools/CryptoAC
+
+      - id: p-2024-01-aleph-3
+        title: Cryptographic Revocation
+        thesisID: GiorgiaGabardi_BA
+        description: >
+          There is a strong interest in privacy-enhancing technologies to satisfy the complex requirements of digital identity, in particular minimizing the personal data shared at each presentation and preventing others from correlating the activity of digital identity credential holders between presentations. Important use cases are the Mobile Driver's License (ISO 18013-5) and the European Digital Identity Wallet.<br /> Cryptographic accumulators, e.g., [BdM93, N05, LLX07, BBF18, VB20] are efficient protocols to prove set (non-)membership that have been proposed as privacy-enhancing credential revocation mechanisms for digital credentials, e.g., [CL02].<br /> During the internship, you will have an opportunity to consider theoretical and practical aspects of these technologies, to be agreed upon based on your interest and prior knowledge. We are particularly interested in a performance comparison of algorithms of interest, possibly using existing libraries (e.g., accumulator-rs).
+        level: MSc
+        unit: ALEPH
+        supervisor:
+          - AlessandroTomasi
+        prerequisites:
+          - An undergraduate course in cryptography is required for basic notions.
+          - "Knowledge of one or more of the following would be highly advantageous: RSA, elliptic curve cryptography, zero-knowledge proofs, programming in Python or Rust."
+          - Knowledge of programming languages (i.e., Python, Rust) would be highly advantageous.
+        objectives:
+          - Summary of chosen technologies.
+          - Comparison of technologies on metrics of interest for the chosen scenario, e.g., complexity (number of operations), proof size, and offline functionality.
+          - Exploration of alternatives for cryptographic agility, e.g., other elliptic curves or hash functions.
+        topics:
+          - Digital Identity
+          - Cryptography
+          - Privacy Enhancing Technologies
+        references:
+          - id: BBF18
+            text: "\"Batching Techniques for Accumulators with Applications to IOPs and Stateless Blockchains\". D Boneh, B Bünz, B Fisch. IACR 2018, CRYPTO 2019."
+            links:
+              - name: DOI
+                url: https://doi.org/10.1007/978-3-030-26948-7_20
+              - name: Video
+                url: https://www.youtube.com/watch?v=gui-D_Og61w"
+          - id: BdM93
+            text: "\"One-way accumulators: a decentralized alternative to digital signatures.\" J C Benaloh, M de Mare, Eurocrypt 93."
+            links:
+              - name: DOI
+                url: https://doi.org/10.1007/3-540-48285-7_24
+          - id: CL02
+            text: "\"Dynamic Accumulators and Application to Efficient Revocation of Anonymous Credentials.\" J Camenisch, A Lysyanskaya, CRYPTO 2002."
+            links:
+              - name: DOI
+                url: https://10.1007/3-540-45708-9_5"
+          - id: LLX07
+            text: "\"Universal Accumulators with Efficient Nonmembership Proofs\". Li, J., Li, N., Xue, R., 2007."
+            links:
+              - name: DOI
+                url: https://doi.org/10.1007/978-3-540-72738-5_17
+          - id: N05
+            text: "\"Accumulators from Bilinear Pairings and Applications.\" L Nguyen, CT-RSA 2005."
+            links:
+            - name: DOI
+              url: https://doi.org/10.1007/978-3-540-30574-3_19
+          - id: VB20
+            text: "\"Dynamic Universal Accumulator with Batch Update over Bilinear Groups\". G. Vitto, A. Biryukov, IACR 2020, CT-RSA 2022."
+            links:
+              - name: DOI
+                url: https://doi.org/10.1007/978-3-030-95312-6_17
+              - name: Video
+                url: https://www.youtube.com/watch?v=Zi9pJpZKHX0
+          - id: CHAHC22
+            text: "\"Curve Trees: Practical and Transparent Zero-Knowledge Accumulators.\" M Campanelli, M Hall-Andersen, S Holmgaard Kamp."
+            links:
+              - name: Link
+                url: https://ia.cr/2022/756
+        notes: >
+          The objectives may be weighted differently according to interest, availability, and the chosen topic.
+
+      - id: p-2024-01-aleph-4
+        title: Key Recovery
+        thesisID: SaraMontanari_MA
+        description: >
+          Safeguarding private keys presents many issues, especially for the general public. Private keys can be easily lost or forgotten, leading to the inaccessibility of the assets which they control. On the other hand, delegating full control of the keys to a third party for safekeeping is risky and may not be viable. We would like to implement and test a recently proposed cryptographic key recovery scheme [BLM22] based on a distributed secret sharing that allows some parties to be offline during the key-generation process.
+        level: MSc
+        unit: ALEPH
+        supervisor:
+          - RiccardoLongo
+          - AlessandroTomasi
+        prerequisites:
+          - Knowledge of secret sharing and Elliptic Curve Cryptography.
+          - Programming experience in Rust, C, Python, or equivalent.
+          - Knowledge of Pedersen commitment is not required but would be beneficial.
+        objectives:
+          - Development of a cryptographic proof of concept software.
+          - Performance evaluation and comparison.
+        topics:
+          - Secret Sharing
+          - Decentralization
+        references:
+          - text: "Aleph: e-voting"
+            links:
+              - name: Link
+                url: https://aleph.fbk.eu/projects/e-voting
+          - id: BLM22
+            text: "M Battagliola, R Longo, A Meneghetti: Extensible Decentralized Secret Sharing and Application to Schnorr Signatures."
+            links:
+              - name : Link
+                url: https://eprint.iacr.org/2022/1551

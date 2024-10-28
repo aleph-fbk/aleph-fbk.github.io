@@ -14,6 +14,19 @@
 
 
 ## 2024
+- id: GiorgiaGabardi_BA
+  author: GiorgiaGabardi_BA
+  title: "Studio dei pattern di revoca nelle liste di revoca dei certificati digitali"
+  type: B
+  abstract: >
+    L’integrità di Internet si basa in gran parte sulla fiducia garantita dai certificati X.509. Tuttavia, quando questi certificati sono compromessi o non sono più affidabili devono essere revocati. La ge- stione della revoca dei certificati è da tempo una componente di fondamentale importanza dell’attuale infrastruttura Web PKI. Molti metodi di revoca ampiamente riconosciuti e frequentemente utilizzati per i certificati X.509 presentano però delle limitazioni. Tali carenze comportano sfide rilevanti per garantire l’affidabilità e la trasparenza dell’infrastruttura di revoca. Questa tesi fornisce un’analisi dei meccanismi di revoca dei certificati più comuni, ponendo parti- colare attenzione sul metodo Certificate Revocation List (CRL). Lo studio inizia con un’analisi dello stato dell’arte nel campo della revoca dei certificati, partendo dai certificati X.509 fino ad arrivare ai principali meccanismi di revoca presenti, esaminandone le vulnerabilità e le limitazioni, ma evidenziando al contempo la loro rilevanza. Successivamente viene fornita una panoramica sulle motivazioni della revoca dei certificati, sull’importanza di un intervento tempestivo e sui diversi metodi disponibili per attuare la revoca. Segue poi un esame dettagliato del meccanismo CRL. Per analizzare il comportamento delle CRL e le loro prestazioni è stato sviluppato uno script personalizzato che utilizza e modifica alcune delle funzioni fornite dal repository tls-gen [25] di GitHub per generare certificati e CRL. Sono stati con- dotti una serie di test emettendo, e successivamente revocando, un sottoinsieme di certificati in ordine casuale e misurando varie metriche delle prestazioni, quali il tempo necessario per generare e leggere le CRL, nonché il tempo impiegato per verificarne la validità e cercare i certificati al loro interno. Sono state inoltre calcolate statistiche chiave, tra cui media, mediana e deviazione standard dei tempi di ricerca per certificati revocati e non revocati, per diverse dimensioni di CRL. Nella seconda parte della tesi è stata condotta un’analisi empirica dei dati relativi alla revoca dei certificati nel contesto reale. L’obiettivo è stato quello di esplorare e comprendere vari aspetti della revoca dei certificati, tra cui sono presenti i motivi specifici delle revoche, le date di emissione, di re- voca e di scadenza dei certificati, evidenziando le possibili correlazioni che possono essere presenti tra questi parametri. Questa indagine ha fornito importanti indicazioni sui fattori che portano alla revoca dei certificati, cosı̀ come sulle tempistiche che caratterizzano il loro intero ciclo di vita. Studiando questi dati è stato possibile ottenere una visione più chiara delle dinamiche e delle pratiche coinvolte nella gestione delle CRL, contribuendo cosı̀ ad una comprensione più completa delle procedure e delle sfide associate alla revoca dei certificati. Questo approfondimento è fondamentale per migliorare le pratiche correnti e per garantire una gestione più efficace e sicura delle infrastrutture a chiave pubblica. In termini di prestazioni e comportamento delle CRL, le visualizzazioni e i grafici derivati dai da- ti raccolti illustrano come i tempi medi varino all’aumentare delle dimensioni delle CRL, offrendo spunti preziosi sia per la comprensione teorica che per l’implementazione pratica dei meccanismi di revoca dei certificati. In aggiunta, l’analisi dei dati reali provenienti dal Web consente di ottenere una visione approfondita della validità dei certificati revocati e delle variazioni nella loro durata in relazione ai codici di motivo di revoca ad essi associati.
+  supervisor: 
+    - DomenicoSiracusa
+    - AlessandroTomasi
+  year: 2024
+  awards: 
+  institution: University of Trento
+
 - id: LucaClaus_BA
   author: LucaClaus_BA
   title: "End-to-End Protection for Data Sharing Among Organizations in Cloud-Managed Blockchain Applications"
@@ -38,6 +51,18 @@
   co-supervisor:
     - StefanoBerlato
     - SilvioCretti
+  year: 2024
+  awards: 
+  institution: University of Trento
+
+- id: SaraMontanari_MA
+  author: SaraMontanari_MA
+  title: "Refreshable and Extensible Verifiable Decentralized Secret Sharing for Threshold Access Trees"
+  type: M
+  abstract: >
+    This thesis investigates decentralized threshold secret sharing protocols in cryptography, with a particular emphasis on improving key recovery mechanisms. The research is partially tied to an internship project at the Bruno Kessler Foundation in Trento, titled Key Recovery. Safeguarding private keys is a critical challenge, especially for the general public, as losing these keys can result in the permanent loss of valuable assets. Traditional methods, which involve entrusting keys to third-party custodians, present significant risks and may not be suitable for some use-cases, whereas secret sharing schemes allow trust to be distributed among multiple parties, without relying on third parties. Decentralized systems are increasingly being seen as an attractive alternative to centralized ones, due to their benefits in data management, such as avoiding single points of failure or securely storing crypto-assets. For these systems to be a viable alternative, secure decentralized cryptographic schemes are essential. In this context, secret sharing is used in wallet key management to improve the security and accessibility of private keys by splitting them into multiple shares, distributed among different participants or providers. No single participant holds the complete key, and access to the wallet requires a minimum number of shares to reconstruct it. An example of this application is illustrated in [7], where a decentralized wallet model is described from an engineering standpoint. This method reduces the risk of key loss or theft, as the key is never fully exposed in one location. It also enables decentralized management, distributing trust across multiple entities to ensure that even if some shares are compromised, the key remains secure. The starting point is a recently proposed cryptographic key recovery scheme, iii detailed in [6] that leverages distributed secret sharing based on the Shamir’s technique. In particular, the protocol is a totally decentralized version of [5], where a subset of participants plays the role of dealer. Moreover, it allows for the addition of new parties after the initial secret sharing and the possibility of having offline participants. Strategies for making a secret sharing protocol extensible are present in the state of the art, but they often require the presence of a dealer and are therefore centralized. The protocol also includes the verifiability property, meaning that the added participant can verify the correctness of the received share, thanks to the use of commitment schemes. Original Contributions In our work, we analyze the introduction of a refresh phase to the protocol, ensuring proactive security, i.e. the maintenance of security thresholds over time. Proactive security is based on the consideration that if the information stored by participants to share a secret remains unchanged throughout the system’s lifetime, an adversary could eventually breach enough participants to recover the secret, as explained in [8]. To counteract this risk, proactive security introduces the concept of dividing time into periods known as epochs. At the start of each epoch, the shares held by participants are updated, although the shared secret itself remains constant. This approach enhances protection for long-lived secrets, forcing the adversary to start its attack afresh with each new period. We consider a snapshot, mobile and adaptive adversary. A snapshot adversary captures and analyzes a single point in time or a specific snapshot of the system’s state; an adaptive adversary can adapt their strategy based on the information gathered during the protocol’s execution, and in particular a mobile adversary can move among players over time but can only control a limited subset of players at any given moment. The first method for refreshing the shares involves generating and adding a polynomial with a zero constant term to the Shamir polynomial, while the second method involves regenerating the Shamir polynomial while keeping the constant term fixed. These two strategies are shown to be equivalent and proactive-secure against the snapshot, mobile and adaptive adversary model. The third method involves periodically updating the matrix that encodes the secret. This can be underiv stood by observing the parallelism between MDS codes and secret sharing. This strategy, together with proactive security against the snapshot, mobile and adaptive adversary model, achieves also forward secrecy against an adversary that steals a sufficient number of old shares. However, unlike the first two methods, it is shown to be insecure against a continuous-shot, nonmobile, adaptive adversary, where continuous-shot means that the adversary can control the corrupt players continuously in time. Finally, we extend the protocol to integrate more complex access structures among parties, such as groups of participants being more powerful than others and collaborative relationships between them. Access structures define the specific sets of participants who are authorized to reconstruct a secret. Any monotone access structure can be realized by a linear secret sharing scheme, as shown in [12]. Moreover, the most efficient structure, encompassing all others, is the threshold access tree: participants are represented as leaves in a tree, and each internal node has a threshold that specifies the minimum number of child nodes that must be satisfied to activate that node. For this reason, we focus on extending the Secret Sharing protocol to threshold access trees, exploiting also the theory of monotone span programs, as explained in [11].
+  supervisor: AlessioMeneghetti
+  co-supervisor: RiccardoLongo
   year: 2024
   awards: 
   institution: University of Trento
@@ -69,6 +94,17 @@
   awards: 
   institution: University of Genoa
 
+- id: ValeriaVicard_MA
+  author: ValeriaVicard_MA
+  title: "Searchable Encryption and Attributed-based encryption: theoretical and practical aspects"
+  type: M
+  abstract: >
+    missing
+  supervisor: MarinoMiculan
+  co-supervisor: RiccardoLongo
+  year: 2024
+  awards: 
+  institution: University of Udine
 
 ## 2023
 - id: IonAndyDitu_BA
