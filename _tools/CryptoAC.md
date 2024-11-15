@@ -21,9 +21,13 @@ publications:
     - SECRYPT2021_2
     - TOPS2020_2
     - DBSEC2022
+    - OSVS2024CRYPTOAC
+    - ICIN2024MOMO
 
-# theses:                         # List of IDs of related theses
-#     - 
+theses:                         # List of IDs of related theses
+    - SimoneBrunello_BA
+    - StefanoBerlato_PHD
+    - IonAndyDitu_BA
 
 # events:                         # List of IDs of related events
 #     - 
@@ -31,8 +35,8 @@ publications:
 # tools:                          # List of IDs of related tools
 #     - 
 
-# projects:                       # List of IDs of related projects
-#     - 
+projects:                       # List of IDs of related projects
+    - SERICS
 
 collaborations:                   # List of IDs of related collaborations
     - ST 
@@ -41,6 +45,7 @@ people:
     - StefanoBerlato
     - RobertoCarbone
     - SilvioRanise
+    - SimoneBrunello
 
 # images:                         # Repeat the following structure to add more images
 #     - title:                    # Title of the image
