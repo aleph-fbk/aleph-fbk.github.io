@@ -61,7 +61,6 @@ publications:                     # List of IDs of related publications
 
 collaborations:                 # List of IDs of related collaborations
      - UniTNAppliedCryptographyBlockchain
-     - ST
 
 people:                         # List of IDs of related people
     - AlessandroTomasi

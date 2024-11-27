@@ -9,14 +9,14 @@ description: piattaForma dinAMica per IL socIo sanitARio
 
 
 # coming from "_collaborations/index.html"
-isCurrent: true
+isCurrent: false
 
 
 
 # coming from "_layouts/project.html"
 # role:                           # Role of the Unit in the project (optional)
 startDate: 2023-08-01
-endDate: 2024-12-31
+endDate: 2024-10-09
 leader: Giampaolo Armellin
 referenceFBK: Silvio Ranise
 # duration:                       # Duration of the project (optional)
@@ -68,8 +68,8 @@ partners:                       # Partners of the project (optional)
 # projects:                       # List of IDs of related projects
 #     - 
 
-collaborations:                   # List of IDs of related collaborations
-    - ST
+# collaborations:                 # List of IDs of related collaborations
+#     -
 
 people:                           # List of IDs of related people
     - SilvioRanise

@@ -34,31 +34,31 @@ partners:                       # Partners of the project (optional)
 
 
 # coming from "_layouts/page.html"
-# selectedPublications:           # Whether publications for the page are selected 
-#                                 # (if "true", show "Selected Publications" instead  
-#                                 # of "Related Publications" in the page)
+# selectedPublications:         # Whether publications for the page are selected 
+#                               # (if "true", show "Selected Publications" instead  
+#                               # of "Related Publications" in the page)
                                 
-# selectedProjects:               # Whether projects for the page are selected 
-#                                 # (if "true", show "Main Projects" instead  
-#                                 # of "Related Projects" in the page)
+# selectedProjects:             # Whether projects for the page are selected 
+#                               # (if "true", show "Main Projects" instead  
+#                               # of "Related Projects" in the page)
                                                                 
-# publications:                   # List of IDs of related publications
+# publications:                 # List of IDs of related publications
 #     - 
 
-# theses:                         # List of IDs of related theses
+# theses:                       # List of IDs of related theses
 #     - 
 
-# events:                         # List of IDs of related events
+# events:                       # List of IDs of related events
 #     - 
 
-# tools:                          # List of IDs of related tools
+# tools:                        # List of IDs of related tools
 #     - 
 
-# projects:                       # List of IDs of related projects
+# projects:                     # List of IDs of related projects
 #     - 
 
-collaborations:                 # List of IDs of related collaborations
-    - ST
+# collaborations:               # List of IDs of related collaborations
+#     - 
 
 people:                         # List of IDs of related people
     - SilvioRanise

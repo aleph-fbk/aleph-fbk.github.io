@@ -59,9 +59,8 @@ publications:                     # List of IDs of related publications
 # projects:                       # List of IDs of related projects
 #     - 
 
-collaborations:                   # List of IDs of related collaborations
-    - ST
-    - RiSING
+# collaborations:                 # List of IDs of related collaborations
+#     -
 
 people:                           # List of IDs of related people
     - AlessandroTomasi
