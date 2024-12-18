@@ -45,7 +45,7 @@ endDate: 2023-06-30
 
 publications:                     # List of IDs of related publications
     - EVOTEID2022
-#    - EVOTEID2023
+    - EVOTEID2023
 
 # theses:                         # List of IDs of related theses
 #     - 
@@ -65,6 +65,7 @@ collaborations:                 # List of IDs of related collaborations
 people:                         # List of IDs of related people
     - AlessandroTomasi
     - RiccardoLongo
+    - ChiaraSpadafora
 
 # images:                         # Repeat the following structure to add more images
 #     - title:                    # Title of the image
