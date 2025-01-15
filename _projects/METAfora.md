@@ -16,7 +16,7 @@ isCurrent: true
 # coming from "_layouts/project.html"
 # role:                           # Role of the Unit in the project (optional)
 startDate: 2022-01-01
-endDate: 2025-12-31
+endDate: 2024-12-31
 # leader:                         # Activity leader (optional)
 referenceFBK: Silvio Ranise
 # duration:                       # Duration of the project (optional)
