@@ -9,7 +9,7 @@ description: Metodologie e tEcnologie di rappresenTazione per il metAverso
 
 
 # coming from "_projects_/index.html"
-isCurrent: true
+isCurrent: false
 
 
 
