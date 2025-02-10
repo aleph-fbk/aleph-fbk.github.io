@@ -181,6 +181,14 @@
   name: Pietro
   surname: De Matteis
 
+- id: RiccardoGennaro_BA
+  name: Riccardo
+  surname: Gennaro
+
+- id: RiccardoGermenia
+  name: Riccardo
+  surname: Germenia
+
 - id: RiccardoLongo
   name: Riccardo
   surname: Longo
@@ -191,10 +199,6 @@
       place: Trento, Italy
   email: rlongo@fbk.eu
   orcid: 0000-0002-8739-3091
-
-- id: RiccardoGermenia
-  name: Riccardo
-  surname: Germenia
 
 - id: RobertoCarbone
   name: Roberto
