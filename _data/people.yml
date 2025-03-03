@@ -125,6 +125,11 @@
   name: Irene
   surname: Villa
   
+- id: LauraCristiano
+  name: Laura
+  surname: Cristiano
+  email: l.cristiano@fbk.eu
+  
 - id: LucaClaus_BA
   name: Luca
   surname: Claus
