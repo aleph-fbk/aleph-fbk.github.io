@@ -1,4 +1,8 @@
-# 2023
+# PLEASE KEEP CHRONOLOGICAL ORDER BY START DATE WITHIN YEARS
+#
+# Available categories: Outreach, Academic, Professional
+
+## 2023
 
 - id: NDR2023
   title: "Dammi 3 parole: sole, voto, o ombrellone"
@@ -18,7 +22,7 @@
     - name: Event site
       url: https://nottedellaricerca.tn.it
 
-# 2024
+## 2024
 
 - id: VoteSeminars2024
   title: "Come il voto elettronico può migliorare la società - Ciclo di seminari"
@@ -47,12 +51,12 @@
   eventName: 16th IEEE International Workshop on Information Forensics And Security (WIFS 2024)
   startDate: "2024-12-02"
   endDate: "2024-12-02"
-  category: Specialized
+  category: Academic
   links:
     - name: Event
       url: https://wifs2024.uniroma3.it
 
-# 2025
+## 2025
 
 - id: ITASEC2025
   title: "Comparison of Credential Status Mechanisms for the Digital Wallet Ecosystem"
@@ -65,7 +69,7 @@
   eventName: Italian Conference on CyberSecurity (ITASEC) 2025
   startDate: "2025-02-03"
   endDate: "2025-02-08"
-  category: Specialized
+  category: Academic
   links:
-    - name: Conference w/o proceedings
+    - name: Conference
       url: https://itasec.it/
