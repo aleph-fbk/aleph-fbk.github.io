@@ -1,0 +1,71 @@
+# 2023
+
+- id: NDR2023
+  title: "Dammi 3 parole: sole, voto, o ombrellone"
+  participants:
+    - UmbertoMorelli
+    - ChiaraSpadafora
+    - RiccardoLongo
+    - MatteoBitussi
+    - LauraCristiano
+    - VincenzoDesantis
+    - AlessandroTomasi
+  eventName: Notte della Ricerca 2023
+  startDate: "2023-09-29"
+  endDate: "2023-09-29"
+  category: Outreach
+  links:
+    - name: Event site
+      url: https://nottedellaricerca.tn.it
+
+# 2024
+
+- id: VoteSeminars2024
+  title: "Come il voto elettronico può migliorare la società - Ciclo di seminari"
+  participants:
+    - ChiaraSpadafora
+    - RiccardoLongo
+    - LauraCristiano
+    - VincenzoDesantis
+    - FrancescoAntonioMarino
+    - SilvioRanise
+    - AlessandroTomasi
+  eventName: Incontri sul voto elettronico
+  startDate: "2024-02-22"
+  endDate: "2024-03-14"
+  category: Outreach
+  links:
+    - name: Poster
+      url: https://webmagazine.unitn.it/ciclo/giurisprudenza/119295/incontri-sul-voto-elettronico
+
+- id: WIFS2024
+  title: "European Digital Identity Wallet: Opportunities and Security Challenges"
+  participants:
+    - AmirSharif
+    - GiadaSciarretta
+    - AlessandroTomasi
+  eventName: 16th IEEE International Workshop on Information Forensics And Security (WIFS 2024)
+  startDate: "2024-12-02"
+  endDate: "2024-12-02"
+  category: Specialized
+  links:
+    - name: Event
+      url: https://wifs2024.uniroma3.it
+
+# 2025
+
+- id: ITASEC2025
+  title: "Comparison of Credential Status Mechanisms for the Digital Wallet Ecosystem"
+  participants:
+    - RiccardoGermenia
+    - SalvatoreManfredi
+    - GiadaSciarretta
+    - MarioScuro
+    - AlessandroTomasi
+  eventName: Italian Conference on CyberSecurity (ITASEC) 2025
+  startDate: "2025-02-03"
+  endDate: "2025-02-08"
+  category: Specialized
+  links:
+    - name: Conference w/o proceedings
+      url: https://itasec.it/

@@ -20,6 +20,11 @@ collections:
     layout: complementary
     image: https://via.placeholder.com/800x600
     show_sidebar: false
+  dissemination:
+    output: true
+    layout: dissemination
+    image: https://via.placeholder.com/800x600
+    show_sidebar: false
   events:
     output: true
     layout: page
