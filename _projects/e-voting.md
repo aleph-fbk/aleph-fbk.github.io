@@ -62,6 +62,9 @@ publications:                     # List of IDs of related publications
 collaborations:                 # List of IDs of related collaborations
      - UniTNAppliedCryptographyBlockchain
 
+disseminations:
+    - VoteSeminars2024
+
 people:                         # List of IDs of related people
     - AlessandroTomasi
     - RiccardoLongo

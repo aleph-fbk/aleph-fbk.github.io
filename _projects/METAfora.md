@@ -63,6 +63,8 @@ partners:                       # Partners of the project (optional)
 people:                         # List of IDs of related people
     - SilvioRanise
     - StefanoBerlato
+    - EnricoSorbera
+    - ValeriaVicard_MA
 
 # images:                         # Repeat the following structure to add more images
 #     - title:                    # Title of the image
