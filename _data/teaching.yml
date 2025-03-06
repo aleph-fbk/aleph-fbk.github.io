@@ -1,0 +1,48 @@
+- id: cryptoMalawi
+  name: Advanced Cryptography
+  level: MSc
+  institution:  University of Mzuzu, Department of Mathematics and Statistics, Mzuzu, Malawi
+  lecturer:
+    - ChiaraSpadafora
+  startYear: 2024
+  endYear: 2024
+
+- id: CyberChallenge
+  name: CyberChallenge.IT
+  institution: University of Trento
+  lecturer:
+    - AlessandroTomasi
+  startYear: 2020
+  links:
+    - name: Homepage
+      url: "https://cyberchallenge.it/"
+
+- id: MarconiCrittografia
+  name: Sicurezza Informatica: Crittografia
+  institution: Marconi Alta Formazione
+  lecturer:
+    - RiccardoLongo
+  startYear: 2018
+  links:
+    - name: Homepage
+      url: https://mat.tn.it/corsi/informatica/
+
+- id: Master_CCIP
+  name: Master Universitario di II livello in "Cybersecurity and Critical Infrastructure Protection"
+  institution: University of Genoa
+  lecturer:
+    - StefanoBerlato
+    - AlessandroTomasi
+  startYear: 2022
+  links:
+    - name: Homepage
+      url: "https://www.perform.unige.it/master/master-cybersecurity-iiied"
+
+- id: UPC
+  name: Coercion-Resistant Electronic Voting Solutions
+  level: MSc
+  institution:  Universitat Politècnica de Catalunya, Escola Politècnica Superior d'Enginyeria de Manresa, Spain
+  lecturer:
+    - ChiaraSpadafora
+  startYear: 2025
+  endYear: 2025
