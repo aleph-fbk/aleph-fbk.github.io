@@ -4,6 +4,25 @@
 
 ## 2023
 
+- id: ITASEC23
+  title: "To i-vote or not to i-vote? Interdisciplinary interim lessons learned from a research project"
+  participants:
+    - LauraCristiano
+    - VincenzoDesantis
+    - RiccardoLongo
+    - FrancescoAntonioMarino
+    - UmbertoMorelli
+    - ChiaraSpadafora
+    - AlessandroTomasi
+    - SilvioRanise
+  eventName: Italian Conference on CyberSecurity
+  startDate: "2023-05-03"
+  endDate: "2023-05-05"
+  category: Academic
+  links:
+    - name: Conference
+      url: https://2023.itasec.it/
+
 - id: NDR2023
   title: "Dammi 3 parole: sole, voto, o ombrellone"
   participants:
@@ -24,7 +43,47 @@
     - name: Project
       url: https://aleph.fbk.eu/projects/e-voting
 
+- id: TAC23
+  title: "Vote app: Verifiable and coercion-resistant i-voting"
+  participants:
+    - RiccardoLongo
+    - ChiaraSpadafora
+    - FrancescoAntonioMarino
+  eventName: Topics in Applied Cryptography - Co-Located with CIFRIS23
+  startDate: "2023-12-14"
+  endDate: "2023-12-15"
+  category: Academic
+  links:
+    - name: Conference
+      url: https://www.decifris.it/cifris23
+
 ## 2024
+
+- id: UniTrentoMagCrittografia
+  title: "Come la crittografia protegge i dati"
+  participants:
+    - ChiaraSpadafora
+  eventName: UniTrentoMag - Periodico online dell'Università di Trento
+  startDate: "2024-06-13"
+  endDate: "2024-06-13"
+  category: Outreach
+  links:
+    - name: Interview
+      url: https://mag.unitn.it/innovazione/121041/voto-online-e-sicurezza
+    - name: Project
+      url: https://aleph.fbk.eu/projects/e-voting
+
+- id: UniTrentoMagMW
+  title: "Insegnare crittografia nel cuore dell'Africa"
+  participants:
+    - ChiaraSpadafora
+  eventName: UniTrentoMag - Periodico online dell'Università di Trento
+  startDate: "2024-12-05"
+  endDate: "2024-12-05"
+  category: Outreach
+  links:
+    - name: Interview
+      url: https://mag.unitn.it/storie/121196/insegnare-crittografia-nel-cuore-dell-africa
 
 - id: VoteSeminars2024
   title: "Come il voto elettronico può migliorare la società - Ciclo di seminari"

@@ -1,11 +1,14 @@
 - id: cryptoMalawi
   name: Advanced Cryptography
   level: MSc
-  institution:  University of Mzuzu, Department of Mathematics and Statistics, Mzuzu, Malawi
+  institution: University of Mzuzu, Department of Mathematics and Statistics, Mzuzu, Malawi
   lecturer:
     - ChiaraSpadafora
   startYear: 2024
   endYear: 2024
+  links:
+    - name: Interview
+      url: https://mag.unitn.it/storie/121196/insegnare-crittografia-nel-cuore-dell-africa
 
 - id: CyberChallenge
   name: CyberChallenge.IT
