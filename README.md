@@ -152,12 +152,8 @@ The code to render the graph is in the [**d3Graph JavaScript file**](./assets/js
 ### News
 We have decided to permanently remove the news from the ALEPH's website (see [issue #2](https://github.com/aleph-fbk/aleph-fbk.github.io/issues/2)).
 
-### Dissemination
-Until we have a dissemination activity, we have decided to remove the dissemination page from the ALEPH's website. We will refer to the instructions in [the ST website](https://github.com/stfbk/stfbk.github.io/blob/master/README.md) to add dissemination activities.
-
 ### Teaching
 Until we have a teaching activity, we have decided to remove the teaching page from the ALEPH's website. We will refer to the instructions in [the ST website](https://github.com/stfbk/stfbk.github.io/blob/master/README.md) to add teaching activities.
-
 
 ### Internship and thesis offers
 In September 2023, it was decided that all Internship and thesis offers of the center for cybersecurity would be published in the [**center for cybersecurity website**](https://cs.fbk.eu/).

@@ -19,8 +19,10 @@
   endDate: "2023-09-29"
   category: Outreach
   links:
-    - name: Event site
+    - name: Event
       url: https://nottedellaricerca.tn.it
+    - name: Project
+      url: https://aleph.fbk.eu/projects/e-voting
 
 ## 2024
 
@@ -39,8 +41,10 @@
   endDate: "2024-03-14"
   category: Outreach
   links:
-    - name: Poster
-      url: https://webmagazine.unitn.it/ciclo/giurisprudenza/119295/incontri-sul-voto-elettronico
+    - name: Event
+      url: https://sites.google.com/view/incontri-voto-elettronico/home
+    - name: Project
+      url: https://aleph.fbk.eu/projects/e-voting
 
 - id: WIFS2024
   title: "European Digital Identity Wallet: Opportunities and Security Challenges"
@@ -54,7 +58,7 @@
   category: Academic
   links:
     - name: Event
-      url: https://wifs2024.uniroma3.it
+      url: https://wifs2024.uniroma3.it/?page_id=780#digitalwallet
 
 ## 2025
 
@@ -71,5 +75,7 @@
   endDate: "2025-02-08"
   category: Academic
   links:
-    - name: Conference
+    - name: Event
       url: https://itasec.it/
+    - name: Project
+      url: https://aleph.fbk.eu/projects/SERICS
