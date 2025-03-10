@@ -41,7 +41,7 @@
     - StefanoBerlato
     - AlessandroColombo_BA
     - RobertoCarbone
-    - Silvio Ranise
+    - SilvioRanise
   eventName: Italian Conference on CyberSecurity
   startDate: "2023-05-03"
   endDate: "2023-05-05"
@@ -92,7 +92,7 @@
     - StefanoBerlato
     - AlessandroColombo_BA
     - RobertoCarbone
-    - Silvio Ranise
+    - SilvioRanise
   eventName: Topics in Applied Cryptography - Co-Located with CIFRIS23
   startDate: "2023-12-14"
   endDate: "2023-12-15"
@@ -111,7 +111,7 @@
     - IonAndyDitu
     - StefanoBerlato
     - RobertoCarbone
-    - Silvio Ranise
+    - SilvioRanise
   eventName: Italian Conference on CyberSecurity
   startDate: "2024-04-08"
   endDate: "2024-04-12"
@@ -198,7 +198,22 @@
     - IonAndyDitu
     - StefanoBerlato
     - RobertoCarbone
-    - Silvio Ranise
+    - SilvioRanise
+  eventName: Topics in Applied Cryptography - Co-Located with CIFRIS24
+  startDate: "2024-09-27"
+  endDate: "2024-09-27"
+  category: Academic
+  links:
+    - name: Conference
+      url: https://www.decifris.it/cifris24
+    - name: Workshop
+      url: https://aleph.fbk.eu/events/TAC2024/index.html
+
+- id: TAC24_02
+  title: "On the combination of Searchable Encryption and Attribute-based encryption"
+  participants:
+    - EnricoSorbera
+    - ValeriaVicard
   eventName: Topics in Applied Cryptography - Co-Located with CIFRIS24
   startDate: "2024-09-27"
   endDate: "2024-09-27"
@@ -236,7 +251,7 @@
     - SimoneBrunello
     - StefanoBerlato
     - RobertoCarbone
-    - Silvio Ranise
+    - SilvioRanise
   eventName: Italian Conference on CyberSecurity (ITASEC) 2025
   startDate: "2025-02-03"
   endDate: "2025-02-08"
