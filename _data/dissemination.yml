@@ -247,6 +247,22 @@
     - name: Project
       url: https://aleph.fbk.eu/projects/SERICS
 
+- id: ITASEC2025_03
+  title: "MK-SEAC: Multi-Keyword Searchable Encryption with Access Control"
+  participants:
+    - RiccardoLongo
+    - EnricoSorbera
+    - ValeriaVicard
+  eventName: Italian Conference on CyberSecurity (ITASEC) 2025
+  startDate: "2025-02-03"
+  endDate: "2025-02-08"
+  category: Academic
+  links:
+    - name: Event
+      url: https://itasec.it/
+    - name: Project
+      url: https://aleph.fbk.eu/projects/SERICS
+
 - id: TronZanella2025
   title: "I Perché e i Come della Ricerca: Il Lavoro del Ricercatore nel Campo della Sicurezza Informatica"
   participants:
