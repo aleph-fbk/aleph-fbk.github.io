@@ -17,13 +17,13 @@ Table of Contents:
   - [Add a destination](#add-a-destination)
   - [Add a project](#add-a-project)
   - [Add a collaboration](#add-a-collaboration)
+  - [Add a dissemination](#add-a-dissemination)
   - [Add a complementary material](#add-a-complementary-material)
 - [Special operations](#special-operations)
   - [Add an event](#add-an-event)
   - [Topics linked to the graph in the homepage](#topics-linked-to-the-graph-in-the-homepage)
 - [Currently disabled operations](#currently-disabled-operations)
   - [News](#news)
-  - [Dissemination](#dissemination)
   - [Teaching](#teaching)
   - [Internship and thesis offers](#internship-and-thesis-offers)
 <!-- - [Structure of the website](#structure-of-the-website) -->
@@ -116,6 +116,9 @@ You can add a project by creating a new file in [`_projects`](./_projects/) foll
 
 ### Add a collaboration
 You can add a collaboration by creating a new file in [`_collaborations`](./_collaborations/) following the [**template**](./_collaborations/_template.md) and naming it accordingly.
+
+### Add a dissemination
+You can add a dissemination activity in the [`_data/dissemination.yml`](./_data/dissemination.yml) file using the template you find at the top of the file. 
 
 ### Add a complementary material
 You can add a complementary material (e.g., for a publication) by creating a new file in [`__complementary`](./__complementary/) following the [**template**](./__complementary/_template.md) and naming it accordingly. The page will **not** be listed on the website, but the link can be used in papers or other publications: `https://aleph.github.io/complementary/<name_of_the_complementary_file>`.

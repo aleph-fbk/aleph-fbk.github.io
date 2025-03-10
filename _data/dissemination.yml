@@ -1,6 +1,18 @@
 # PLEASE KEEP CHRONOLOGICAL ORDER BY START DATE WITHIN YEARS
 #
-# Available categories: Outreach, Academic, Professional
+# ===== template for a new dissemination =====
+# - id:                       # Choose a unique ID for the dissemination, will be referenced later
+#   title:                    # Title of the dissemination
+#   participants:             # Participants in the dissemination (create a new line for each participant)
+#     -                       # ... (remember that participants should exist in "_data/people.yml")
+#   eventName:                # Name of the event in which the dissemination occurred (or, more general, the "context" in which the dissemination occured)
+#   startDate:                # Start date of the event in which the dissemination occurred
+#   endDate:                  # End date of the event in which the dissemination occurred
+#   category:                 # Eother "Outreach", "Academic", or "Professional"
+#   links:                    # List of URLS where each element is composed of "name" and "url"
+#     - name: example
+#       url: https://example/
+
 
 ## 2023
 
@@ -15,6 +27,21 @@
     - ChiaraSpadafora
     - AlessandroTomasi
     - SilvioRanise
+  eventName: Italian Conference on CyberSecurity
+  startDate: "2023-05-03"
+  endDate: "2023-05-05"
+  category: Academic
+  links:
+    - name: Conference
+      url: https://2023.itasec.it/
+  
+- id: ITASEC23_02
+  title: "Cryptographic Enforcement of Fine-Grained Access Control Policies with Attribute-Based Encryption"
+  participants:
+    - StefanoBerlato
+    - AlessandroColombo_BA
+    - RobertoCarbone
+    - Silvio Ranise
   eventName: Italian Conference on CyberSecurity
   startDate: "2023-05-03"
   endDate: "2023-05-05"
@@ -56,8 +83,42 @@
   links:
     - name: Conference
       url: https://www.decifris.it/cifris23
+    - name: Workshop
+      url: https://aleph.fbk.eu/events/TAC2023/index.html
+
+- id: TAC23_02
+  title: "Cryptographic Enforcement of Fine-grained Access Control Policies With Attribute-based Encryption"
+  participants:
+    - StefanoBerlato
+    - AlessandroColombo_BA
+    - RobertoCarbone
+    - Silvio Ranise
+  eventName: Topics in Applied Cryptography - Co-Located with CIFRIS23
+  startDate: "2023-12-14"
+  endDate: "2023-12-15"
+  category: Academic
+  links:
+    - name: Conference
+      url: https://www.decifris.it/cifris23
+    - name: Workshop
+      url: https://aleph.fbk.eu/events/TAC2023/index.html
 
 ## 2024
+
+- id: ITASEC24
+  title: "Improving Security and Performance of Cryptographic Access Control with Trusted Execution Environments"
+  participants:
+    - IonAndyDitu
+    - StefanoBerlato
+    - RobertoCarbone
+    - Silvio Ranise
+  eventName: Italian Conference on CyberSecurity
+  startDate: "2024-04-08"
+  endDate: "2024-04-12"
+  category: Academic
+  links:
+    - name: Conference
+      url: https://2024.itasec.it/
 
 - id: UniTrentoMagCrittografia
   title: "Come la crittografia protegge i dati"
@@ -84,6 +145,18 @@
   links:
     - name: Interview
       url: https://mag.unitn.it/storie/121196/insegnare-crittografia-nel-cuore-dell-africa
+
+- id: TronZanella2024
+  title: "I Perché e i Come della Ricerca: Il Lavoro del Ricercatore nel Campo della Sicurezza Informatica"
+  participants:
+    - StefanoBerlato
+  eventName: Giornata di Orientamento I.I.S. TRON ZANELLA
+  startDate: "2024-02-02"
+  endDate: "2024-02-02"
+  category: Outreach
+  links:
+    - name: Website
+      url: https://www.tronzanella.edu.it/
 
 - id: VoteSeminars2024
   title: "Come il voto elettronico può migliorare la società - Ciclo di seminari"
@@ -119,6 +192,24 @@
     - name: Event
       url: https://wifs2024.uniroma3.it/?page_id=780#digitalwallet
 
+- id: TAC24
+  title: "Improving Security and Performance of Cryptographic Access Control with Trusted Execution Environments"
+  participants:
+    - IonAndyDitu
+    - StefanoBerlato
+    - RobertoCarbone
+    - Silvio Ranise
+  eventName: Topics in Applied Cryptography - Co-Located with CIFRIS24
+  startDate: "2024-09-27"
+  endDate: "2024-09-27"
+  category: Academic
+  links:
+    - name: Conference
+      url: https://www.decifris.it/cifris24
+    - name: Workshop
+      url: https://aleph.fbk.eu/events/TAC2024/index.html
+
+
 ## 2025
 
 - id: ITASEC2025
@@ -138,3 +229,32 @@
       url: https://itasec.it/
     - name: Project
       url: https://aleph.fbk.eu/projects/SERICS
+
+- id: ITASEC2025_02
+  title: "Draw on Trust to Balance Protection and Performance in Cryptographic Access Control"
+  participants:
+    - SimoneBrunello
+    - StefanoBerlato
+    - RobertoCarbone
+    - Silvio Ranise
+  eventName: Italian Conference on CyberSecurity (ITASEC) 2025
+  startDate: "2025-02-03"
+  endDate: "2025-02-08"
+  category: Academic
+  links:
+    - name: Event
+      url: https://itasec.it/
+    - name: Project
+      url: https://aleph.fbk.eu/projects/SERICS
+
+- id: TronZanella2025
+  title: "I Perché e i Come della Ricerca: Il Lavoro del Ricercatore nel Campo della Sicurezza Informatica"
+  participants:
+    - StefanoBerlato
+  eventName: Giornata di Orientamento I.I.S. TRON ZANELLA
+  startDate: "2025-02-07"
+  endDate: "2025-02-07"
+  category: Outreach
+  links:
+    - name: Website
+      url: https://www.tronzanella.edu.it/
