@@ -1,6 +1,6 @@
 # PLEASE KEEP CHRONOLOGICAL ORDER BY START DATE WITHIN YEARS
 #
-# ===== template for a new dissemination =====
+# ===== template for a new dissemination activity =====
 # - id:                       # Choose a unique ID for the dissemination, will be referenced later
 #   title:                    # Title of the dissemination
 #   participants:             # Participants in the dissemination (create a new line for each participant)

@@ -52,9 +52,25 @@
         {%- if course.lecturer -%}
             {%- if course.lecturer | first -%}
                 {% for lecturer in course.lecturer %}
-                    {% assign lecturerFromId = site.data.people | where: "id", lecturer %}
-                    {% assign lecturerName = lecturerFromId[0]["name"] | append: " " | append: lecturerFromId[0]["surname"] %}
-                    {%- assign lecturers = lecturers | push: lecturerName -%}
+                    {%- if lecturer.id -%}
+                        {% assign lecturerFromId = site.data.people | where: "id", lecturer.id %}
+                        {%- if lecturer.startYear -%}
+                            {%- if lecturer.endYear -%}
+                                {% assign lecturerName = lecturerFromId[0]["name"] | append: " " | append: lecturerFromId[0]["surname"] | append: " (from " | append: lecturer.startYear | append: " to " | append: lecturer.endYear | append: ")"  %}
+                            {% else %}
+                                {% assign lecturerName = lecturerFromId[0]["name"] | append: " " | append: lecturerFromId[0]["surname"] | append: " (from " | append: lecturer.startYear | append: ")"  %}
+                            {% endif %}
+                        {% else %}
+                            {%- if lecturer.endYear -%}
+                                {% assign lecturerName = lecturerFromId[0]["name"] | append: " " | append: lecturerFromId[0]["surname"] | append: " (until " | append: lecturer.endYear | append: ")"  %}
+                            {% endif %}
+                        {% endif %}
+                        {%- assign lecturers = lecturers | push: lecturerName -%}
+                    {% else %}
+                        {% assign lecturerFromId = site.data.people | where: "id", lecturer %}
+                        {% assign lecturerName = lecturerFromId[0]["name"] | append: " " | append: lecturerFromId[0]["surname"] %}
+                        {%- assign lecturers = lecturers | push: lecturerName -%}
+                    {% endif %}
                 {% endfor %}
             {% else %}
                 {% assign lecturerFromId = site.data.people | where: "id", course.lecturer %}

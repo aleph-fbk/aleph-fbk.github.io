@@ -1,3 +1,27 @@
+# ===== template for a new teaching activity =====
+# - id:                       # Choose a unique ID for the teaching activity, will be referenced later
+#   name:                     # Name of the teaching activity (e.g., name of the course or of the seminar)
+#   level:                    # for Bachelor's and Master's Courses: either BSc or MSc, respectively
+#   institution:              # Institution hosting or organizing the teaching activity
+#   lecturer:                 # List of lecturers in the teaching activity (create a new line for each lecturer)
+#     - IDofThePerson         # ... (remember that lecturers should exist in "_data/people.yml")
+#                             # Below, alternatives to specify also years in which the lecturer was involved
+#     - id:                   # The ID of the lecturer
+#       startYear:            # Specifying only the start year YYYY will make appear "Name Surname (from YYYY)"
+#
+#     - id:                   # The ID of the lecturer
+#       endYear:              # Specifying only the end year YYYY will make appear "Name Surname (until YYYY)"
+#
+#     - id:                   # The ID of the lecturer
+#       startYear:            # Specifying both the start and end years YYYY and XXXX will(from YYYY)"
+#       endYear:              #      make appear "Name Surname (from YYYY to XXXX)" 
+#   startYear:                # Start year of the teaching activity
+#   endYear:                  # End year of the teaching activity
+#   links:                    # List of URLS where each element is composed of "name" and "url"
+#     - name: example
+#       url: https://example/
+
+
 - id: cryptoMalawi
   name: Advanced Cryptography
   level: MSc
@@ -55,9 +79,11 @@
   level: MSc
   institution: University of Trento
   lecturer:
-    - SilvioRanise (2023-)
-    - RiccardoLongo (2021-)
-    - StefanoBerlato (2024-)
+    - id: SilvioRanise
+      startYear: 2023
+    - RiccardoLongo
+    - id: StefanoBerlato
+      startYear: 2024
   startYear: 2021
   links:
     - name: 2024/2025
@@ -68,8 +94,9 @@
   level: MSc
   institution: University of Trento
   lecturer:
-    - SilvioRanise (2019-2023)
-    - RiccardoLongo (2019-)
+    - id: SilvioRanise
+      endYear: 2023
+    - RiccardoLongo
   startYear: 2019
   links:
     - name: 2024/2025
@@ -80,8 +107,8 @@
   level: MSc
   institution: University of Trento
   lecturer:
-    - SilvioRanise (2025)
-    - StefanoBerlato (2025)
+    - SilvioRanise
+    - StefanoBerlato
   startYear: 2025
   links:
     - name: 2024/2025

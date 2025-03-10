@@ -18,13 +18,13 @@ Table of Contents:
   - [Add a project](#add-a-project)
   - [Add a collaboration](#add-a-collaboration)
   - [Add a dissemination](#add-a-dissemination)
+  - [Add teaching](#add-teaching)
   - [Add a complementary material](#add-a-complementary-material)
 - [Special operations](#special-operations)
   - [Add an event](#add-an-event)
   - [Topics linked to the graph in the homepage](#topics-linked-to-the-graph-in-the-homepage)
 - [Currently disabled operations](#currently-disabled-operations)
   - [News](#news)
-  - [Teaching](#teaching)
   - [Internship and thesis offers](#internship-and-thesis-offers)
 <!-- - [Structure of the website](#structure-of-the-website) -->
 
@@ -120,6 +120,9 @@ You can add a collaboration by creating a new file in [`_collaborations`](./_col
 ### Add a dissemination
 You can add a dissemination activity in the [`_data/dissemination.yml`](./_data/dissemination.yml) file using the template you find at the top of the file. 
 
+### Add Teaching
+You can add a teaching activity in the [`_data/teaching.yml`](./_data/teaching.yml) file using the template you find at the top of the file. 
+
 ### Add a complementary material
 You can add a complementary material (e.g., for a publication) by creating a new file in [`__complementary`](./__complementary/) following the [**template**](./__complementary/_template.md) and naming it accordingly. The page will **not** be listed on the website, but the link can be used in papers or other publications: `https://aleph.github.io/complementary/<name_of_the_complementary_file>`.
 
@@ -154,9 +157,6 @@ The code to render the graph is in the [**d3Graph JavaScript file**](./assets/js
 
 ### News
 We have decided to permanently remove the news from the ALEPH's website (see [issue #2](https://github.com/aleph-fbk/aleph-fbk.github.io/issues/2)).
-
-### Teaching
-Until we have a teaching activity, we have decided to remove the teaching page from the ALEPH's website. We will refer to the instructions in [the ST website](https://github.com/stfbk/stfbk.github.io/blob/master/README.md) to add teaching activities.
 
 ### Internship and thesis offers
 In September 2023, it was decided that all Internship and thesis offers of the center for cybersecurity would be published in the [**center for cybersecurity website**](https://cs.fbk.eu/).
