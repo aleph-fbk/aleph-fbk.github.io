@@ -64,10 +64,10 @@ website: https://ipcei-cis.fbk.eu/                       # Website of the projec
 #    - 
 
 people:                         # List of IDs of related people
-    - Alessandro Tomasi
-    - Enrico Sorbera
-    - Federica Zanetti
-    - Giacomo Brandi
+    - AlessandroTomasi
+    - EnricoSorbera
+    - FedericaZanetti
+    - GiacomoBrandi
 
 #images:                         # Repeat the following structure to add more images
 #    - title:                    # Title of the image
