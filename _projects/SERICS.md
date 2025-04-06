@@ -46,6 +46,9 @@ website: https://serics.eu/
 publications:                     # List of IDs of related publications
     - SECRYPT2023
     - AppliedSciences2023
+    - EVOTEID2023
+    - CRISIS2024EVOTE
+    - JISA 2024 AndreaFlamini
 
 # theses:                         # List of IDs of related theses
 #     - 
