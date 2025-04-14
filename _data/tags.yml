@@ -76,9 +76,9 @@
   text: "E-Voting"
   color: "#dbbcec"
 
-# - id: HardwareBasedSecurity
-#   text: "Hardware-based Security"
-#   color: "#c3dccc"
+- id: HardwareBasedSecurity
+  text: "Hardware-based Security"
+  color: "#c3dccc"
 
 # - id: HomomorphicEncryption
 #   text: "Homomorphic Encryption"
