@@ -23,7 +23,7 @@ endDate: 2026-03-20                       # End date in YYYY-MM-DD format (optio
 #referenceFBK: Silvio Ranise                  # Name of the reference in FBK (optional)
 #duration:                       # Duration of the project (optional)
 funding:                        # Funding of the project (optional)
-    - Joint Lab between Poligrafico e Zecca dello Stato Italiano (IPZS) and FBK.
+    - Joint Lab between Poligrafico e Zecca dello Stato Italiano (IPZS) and FBK
 #website:                        # Website of the project (optional)
 #cordisNo:                       # Number of the project within the CORDIS website (optional)
 partners:                       # Partners of the project (optional)
@@ -86,5 +86,5 @@ people:                         # List of IDs of related people
 ---
 
 The objective of this project is twofold:
-Internet Voting: aims at designing and testing secure and easy-to-use Internet voting systems.
-Evolution of the CIE-based digital identity: aims to enrich the digital identity ecosystem in Italy by improving and evolving current CIE id solutions and introducing new functionalities and services (e.g., Wallet-based solutions).
+- Internet Voting: aims at designing and testing secure and easy-to-use Internet voting systems.
+- Evolution of the CIE-based digital identity: aims to enrich the digital identity ecosystem in Italy by improving and evolving current CIE id solutions and introducing new functionalities and services (e.g., Wallet-based solutions).
