@@ -32,10 +32,8 @@ partners:                       # Partners of the project (optional)
     - name: Poligrafico e Zecca dello Stato Italiano (IPZS)
 #      detail:                   # Details about the partner
       link: https://www.ipzs.it/
-goals: >
-    The objective of this project is twofold:
-    Internet Voting: aims at designing and testing secure and easy-to-use Internet voting systems.
-    Evolution of the CIE-based digital identity: aims to enrich the digital identity ecosystem in Italy by improving and evolving current CIE id solutions and introducing new functionalities and services (e.g., Wallet-based solutions).
+#goals: >
+    
 
 
 
@@ -87,3 +85,6 @@ people:                         # List of IDs of related people
 #      source:                   # Path to the image
 ---
 
+The objective of this project is twofold:
+Internet Voting: aims at designing and testing secure and easy-to-use Internet voting systems.
+Evolution of the CIE-based digital identity: aims to enrich the digital identity ecosystem in Italy by improving and evolving current CIE id solutions and introducing new functionalities and services (e.g., Wallet-based solutions).
