@@ -58,6 +58,7 @@ publications:                   # List of IDs of related publications
 
 theses:                         # List of IDs of related theses
     - ChiaraSpadafora_PhD
+    - GiorgiaGabardi_BA
 
 #events:                         # List of IDs of related events
 #    - 
