@@ -10,6 +10,7 @@ Table of Contents:
   - [Language](#language)
 - [Common operations](#common-operations)
   - [Add a person](#add-a-person)
+  - [Remove a person](#remove-a-person)
   - [Add a thesis](#add-a-thesis)
   - [Add a tool](#add-a-tool)
   - [Add a publication](#add-a-publication)
@@ -82,7 +83,6 @@ Only plaintext is allowed inside YAML preambles, while common markdown or HTML t
 
 > **Important**: anything you create a reference to in the website (i.e., collaborations, complementary material, events, people, projects, tools, tags) need to exist already. For instance, it is not possible to create a new project referring to a person that does not exist in [`_data/people.yml`](./_data/people.yml). Similarly, it is not possible to create a new publication whose venue (e.g., conference) does not exist in [`_data/destinations.yml`](./_data/destinations.yml).
 
-
 ### Add a person
 You can add a person (e.g., new member or student) in the [`_data/people.yml`](./_data/people.yml) file:
 1. check whether the person (and the correct affiliation) is already listed;
@@ -93,6 +93,13 @@ You can add a person (e.g., new member or student) in the [`_data/people.yml`](.
 Members are asked to add a personal page [`_people`](./_people/) following the [**template**](./_people/_template.md) and naming it accordingly — the bio is optional. Currently, **the personal page is not available for interns, thesis students, and junior students.**
 
 Finally, modify the [`_data/members.yml`](./_data/members.yml) file to add the new person to the `people` page of the website.
+
+### Remove a person
+You can remove a person (e.g., former member or student):
+1. move the person from `current` to `former` in the [`_data/members.yml`](./_data/members.yml) file;
+2. remove all details - except id, name, and surname - from the entry of the person in the [`_data/people.yml`](./_data/people.yml) file;
+3. delete the image of the person from the [`assets/areas/people`](./assets/areas/people) folder (if present);
+4. delete the personal page of the person from [`_people`](./_people/).
 
 ### Add a thesis
 You can add a thesis in the [`_data/theses.yml`](./_data/theses.yml) file using the template you find at the top of the file.
