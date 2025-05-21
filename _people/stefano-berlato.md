@@ -6,7 +6,7 @@ links:
   - name: ACM
     value: 99659584111
   - name: CV
-    value: https://stefanoberlato.it/cv.pdf
+    value: https://stefano.berlato.it/cv.pdf
   - name: dblp
     value: 265/9746
   - name: GitHub
@@ -20,7 +20,7 @@ links:
   - name: ResearchGate
     value: Stefano-Berlato-2
   - name: Website
-    value: https://stefanoberlato.it/
+    value: https://stefano.berlato.it/
 ---
 
 Stefano Berlato is a Researcher at the Applied Cryptography (ALEPH) research unit of the Center for Cybersecurity in Fondazione Bruno Kessler. He received the BSc degree in Computer Science from the University of Trento in 2017, the MSc degree in Computer Science "ICT Innovation - Security & Privacy" from the University of Trento in 2019, and the PhD in Security, Risk and Vulnerability from the University of Genoa in 2024.
@@ -29,4 +29,4 @@ He joined the Security & Trust research unit in October 2018 as a Research Assis
 
 His research focuses on applied cryptography and the design of architectural models and orchestration optimization methodologies for cryptographic access control schemes in decentralized scenarios.
 
-Please refer to the [personal website](https://stefanoberlato.it/) for the complete list of projects, publications and theses before joining ALEPH.
+Please refer to the [personal website](https://stefano.berlato.it/) for the complete list of projects, publications and theses before joining ALEPH.
