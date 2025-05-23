@@ -1,7 +1,7 @@
 ---
 # coming from "_includes/list-items.html"
 id: 8ra                            # ID of the collaboration
-logo: /assets/areas/projects/8ra/ORA-Logo-quer-Web.jpg                          # "/assets/areas/projects/<image name>" or 
+logo: /assets/areas/projects/8ra/8ra_RGB_quer.png                          # "/assets/areas/projects/<image name>" or 
                                 # "/assets/svg/material-design-icons/icons.svg#<icon id>" or 
                                 # "/assets/svg/fontawesome-6.4.0/icons.svg#<icon id>"
 title: 8ra                         # Title of the collaboration
