@@ -19,8 +19,8 @@ description: Access Control Mechanisms Evaluator
 # publications:                   # List of IDs of related publications
 #     - 
 
-# theses:                         # List of IDs of related theses
-#     - 
+theses:                           # List of IDs of related theses
+    - StefanoBerlato_PHD
 
 # events:                         # List of IDs of related events
 #     - 

@@ -17,6 +17,10 @@ description: Cryptographic Access Control
 #                                 # of "Related Projects" in the page)
 
 publications:
+    - OSVS2025CRYPTOAC
+    - SACMAT2025CRYPTOAC
+    - ICIN2024MOMO
+    - OSVS2024CRYPTOAC
     - ASIACCS2020
     - SECRYPT2021_2
     - TOPS2020_2
