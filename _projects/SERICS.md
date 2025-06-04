@@ -44,6 +44,10 @@ website: https://serics.eu/
 #                                 # of "Related Projects" in the page)
 
 publications:                     # List of IDs of related publications
+    - OSVS2025CRYPTOAC
+    - SACMAT2025CRYPTOAC
+    - ICIN2024MOMO
+    - OSVS2024CRYPTOAC
     - SECRYPT2023
     - AppliedSciences2023
     - EVOTEID2023
