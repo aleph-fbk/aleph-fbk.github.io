@@ -108,7 +108,7 @@ You can add a thesis in the [`_data/theses.yml`](./_data/theses.yml) file using 
 You can add a tool by creating a new file in [`_tools`](./_tools/) following the [**template**](./_tools/_template.md) and naming it accordingly.
 
 ### Add a publication
-You can add a publication in the [`_data/publications.yml`](./_data/publications.yml) file using the template you find at the top of the file. Remember that each publication is linked to a destination (see below).
+You can add a publication in the [`_data/publications.yml`](./_data/publications.yml) file using the template you find at the top of the file. Remember that each publication is linked to a destination (see below). Also, please **check whether the new publication is related** to any of our collaborations, projects, or tools (the page of each collaboration, project, and tool has a section "publications" listing the IDs of related publications. Please add the ID of the new publication to such lists).
 
 > **How to define tags for a publication?** You can (*i*) check the tags already existing in [`_data/tags.yml`](./_data/tags.yml) or (*ii*) use the keywords of the publication as tags or (*iii*) you can create new tags (but only if strictly necessary), either by defining them manually or by asking an AI (e.g., ChatGPT) to extract them from the abstract. A publication should have no less than 2 tags and no more than 5 tags.
 
