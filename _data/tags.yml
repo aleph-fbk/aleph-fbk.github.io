@@ -16,7 +16,6 @@
                       # see below for some colors already generated with the above script.
                       # Check that each color is unique. Delete a color from the list below
                       # after use:
-                      # #c6ac8b
                       # #b2d1bf
                       # #bfb7f6
                       # #d7d6c7
@@ -83,6 +82,10 @@
 # - id: HomomorphicEncryption
 #   text: "Homomorphic Encryption"
 #   color: "#dbbcec"
+
+- id: IoT
+  text: "Internet of Things"
+  color: "#c6ac8b"
 
 # - id: PostQuantumCryptography
 #   text: "Post-Quantum Cryptography"

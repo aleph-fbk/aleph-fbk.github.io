@@ -17,6 +17,7 @@ description: Cryptographic Access Control
 #                                 # of "Related Projects" in the page)
 
 publications:
+    - JNCA2025CRYPTOAC
     - OSVS2025CRYPTOAC
     - SACMAT2025CRYPTOAC
     - ICIN2024MOMO
