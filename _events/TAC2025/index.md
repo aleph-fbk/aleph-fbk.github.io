@@ -53,6 +53,7 @@ people:                           # List of IDs of related people
     - RiccardoLongo
     - AlessandroTomasi
     - StefanoBerlato
+    - ChiaraSpadafora
 
 # images:                         # Repeat the following structure to add more images
 #     - title:                    # Title of the image
