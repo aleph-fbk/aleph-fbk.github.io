@@ -49,11 +49,11 @@ projects:                         # List of IDs of related projects
 # collaborations:                 # List of IDs of related collaborations
 #     - 
 
-people:                           # List of IDs of related people
-    - RiccardoLongo
-    - AlessandroTomasi
-    - StefanoBerlato
-    - ChiaraSpadafora
+# people:                           # List of IDs of related people
+#     - RiccardoLongo
+#     - AlessandroTomasi
+#     - StefanoBerlato
+#     - ChiaraSpadafora
 
 # images:                         # Repeat the following structure to add more images
 #     - title:                    # Title of the image
