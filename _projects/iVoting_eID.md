@@ -66,8 +66,8 @@ theses:                         # List of IDs of related theses
 #tools:                          # List of IDs of related tools
 #    - 
 
-#projects:                       # List of IDs of related projects
-#    - 
+projects:                       # List of IDs of related projects
+    - e-voting
 
 collaborations:                 # List of IDs of related collaborations
      - UniTNAppliedCryptographyBlockchain
