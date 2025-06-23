@@ -185,7 +185,7 @@ The program will be soon defined and made available.
 
 # Call for Submissions
 
-If you have a proposal for a talk or demo, please send an extended abstract of maximum 2 pages to `rlongo@fbk.eu`.
+If you have a proposal for a talk or demo, please send an extended abstract of maximum 2 pages to `tac@fbk.eu`.
 There is no fixed deadline, as this call expects a rolling evaluation of submissions.
 
 
