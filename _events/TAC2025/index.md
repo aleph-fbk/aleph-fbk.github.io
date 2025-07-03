@@ -78,6 +78,10 @@ The workshop is developed within the SEcurity and RIghts in the CyberSpace (SERI
 # Program
 
 The program will be soon defined and made available. 
+
+Already confirmed invited speakers:
+* [Peter Rønne](https://www.uni.lu/snt-en/people/peter-roenne/), *Université du Luxembourg*.
+
  <!-- after the notification to authors. The structure of the workshop is as follows:  -->
 
 <!-- All times are in <a href="https://time.is/en/CEST" target="_blank">Central European Summer Time (CEST)</a>. The program is tentative and may be subject to changes. -->
