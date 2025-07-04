@@ -200,7 +200,7 @@ There is no fixed deadline, as this call expects a rolling evaluation of submiss
 
 * **Organizing Committee**:
   * Marco Pedicini, *Roma Tre University - Department of Mathematics and Physics* (marco.pedicini@uniroma3.it);
-  * Veronica Cristiano, *Telsy*;
+  * Veronica Cristiano, *Telsy* (veronica.cristiano@telsy.it);
   * Alessandro Tomasi, *Fondazione Bruno Kessler* (altomasi@fbk.eu);
   * Chiara Spadafora, *University of Trento - Department of Mathematics* (chiara.spadafora@unitn.it);
   * Silvio Ranise, *University of Trento - Department of Mathematics and Fondazione Bruno Kessler* (ranise@fbk.eu);
