@@ -190,8 +190,10 @@ Already confirmed invited speakers:
 # Call for Submissions
 
 If you have a proposal for a talk or demo, please send an extended abstract of maximum 2 pages to `tac@fbk.eu`.
-There is no fixed deadline, as this call expects a rolling evaluation of submissions.
-
+Submissions will be subject to a rolling review, i.e., abstracts will be evaluated as soon as the organizing committee will receive them.
+Proposals that will be deemed suitable and interesting (by criteria of novelty, significance, and potential to spark engaging discussion that benefits the community) will be accepted within a short time-frame (a few working days).
+The call will be closed once the time capacity of the workshop will be reached, or by the 22nd of August at the latest.
+Note that the rolling review process favours earlier submissions.
 
 
 # Organizers
@@ -199,9 +201,9 @@ There is no fixed deadline, as this call expects a rolling evaluation of submiss
 * **Chair** Riccardo Longo, *Fondazione Bruno Kessler* (rlongo@fbk.eu).
 
 * **Organizing Committee**:
-  * Marco Pedicini, *Roma Tre University - Department of Mathematics and Physics* (marco.pedicini@uniroma3.it);
+  * Stefano Berlato, *Fondazione Bruno Kessler* (sberlato@fbk.eu);
   * Veronica Cristiano, *Telsy* (veronica.cristiano@telsy.it);
-  * Alessandro Tomasi, *Fondazione Bruno Kessler* (altomasi@fbk.eu);
-  * Chiara Spadafora, *University of Trento - Department of Mathematics* (chiara.spadafora@unitn.it);
+  * Marco Pedicini, *Roma Tre University - Department of Mathematics and Physics* (marco.pedicini@uniroma3.it);
   * Silvio Ranise, *University of Trento - Department of Mathematics and Fondazione Bruno Kessler* (ranise@fbk.eu);
-  * Stefano Berlato, *Fondazione Bruno Kessler* (sberlato@fbk.eu).
+  * Chiara Spadafora, *University of Trento - Department of Mathematics* (chiara.spadafora@unitn.it);
+  * Alessandro Tomasi, *Fondazione Bruno Kessler* (altomasi@fbk.eu).
