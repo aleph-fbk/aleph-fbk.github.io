@@ -8,12 +8,12 @@ show_hero: true                                     # Leave "true"
 id: TAC2025                                         # ID of the event
 acronym: TAC2025                                    # acronym of the event
 name: Topics in Applied Cryptography 2025           # Name of the event
-url: https://www.decifris.it/cifris25  # External url of the event
+url: https://www.decifris.it/cifris25/workshops  # External url of the event
 description: TAC2025 is the third edition of a workshop organized by the ALEPH research unit and co-located with the CIFRIS25 conference.            # Short description (few words)
 
 
 # coming from "_events/index.html"
-startDate: "2025-09-11" # Start date in "YYYY-MM-DD" format (keep also the double quotes, i.e., "2025-10-11")
+startDate: "2025-09-12" # Start date in "YYYY-MM-DD" format (keep also the double quotes, i.e., "2025-10-11")
 endDate: "2025-09-12"   # End date in "YYYY-MM-DD" format (keep also the double quotes, i.e., "2025-10-12")
 
 
@@ -65,15 +65,13 @@ projects:                         # List of IDs of related projects
   Rome, Italy, September 11-12, 2025
 </blockquote>
 
-
 # Scope & Topics
 
 Topics in Applied Cryptography 2025 (TAC2025) is a workshop dedicated to cryptography with a specific application, scenario and/or technology in mind, including performance evaluation, libraries and implementation issues, hardware and IoT, attacks and vulnerabilities, and requirements for unusual application scenarios; purely theoretical results are out of scope. Topics of interest include privacy enhancing cryptography, homomorphic encryption, secure multi-party computation, quantum key distribution, and quantum-safe cryptography.
 
+# Registration
 
-# Acknowledgements
-
-The workshop is developed within the SEcurity and RIghts in the CyberSpace (SERICS) foundation framework (https://serics.eu/). The Foundation's main purpose is scientific and technological research and, in this perspective, it is established to be the implementing entity of the extended Partnership "SERICS - Security and Rights in CyberSpace" financed following the participation in the Public Notice "for the presentation of Proposals for the creation of "Partnerships extended to universities research centers, companies for the funding of basic research projects" - as part of the National Recovery and Resilience Plan, Mission 4 "Education and Research" - Component 2 "From Research to Enterprise" - Investment 1. 3, funded by the European Union - NextGenerationEU - Notice No. 341 of 15.3.2022.
+To participate it is necessary to [register on the conference page](https://www.decifris.it/cifris25/registration). The registration is **free of charge**.
 
 # Program
 
@@ -185,8 +183,6 @@ Already confirmed invited speakers:
 
 </table> -->
 
-
-
 # Call for Submissions
 
 If you have a proposal for a talk or demo, please send an extended abstract of maximum 2 pages to `tac@fbk.eu`.
@@ -207,3 +203,8 @@ Note that the rolling review process favours earlier submissions.
   * Silvio Ranise, *University of Trento - Department of Mathematics and Fondazione Bruno Kessler* (ranise@fbk.eu);
   * Chiara Spadafora, *University of Trento - Department of Mathematics* (chiara.spadafora@unitn.it);
   * Alessandro Tomasi, *Fondazione Bruno Kessler* (altomasi@fbk.eu).
+
+# Acknowledgements
+
+The workshop is developed within the SEcurity and RIghts in the CyberSpace (SERICS) foundation framework (https://serics.eu/). The Foundation's main purpose is scientific and technological research and, in this perspective, it is established to be the implementing entity of the extended Partnership "SERICS - Security and Rights in CyberSpace" financed following the participation in the Public Notice "for the presentation of Proposals for the creation of "Partnerships extended to universities research centers, companies for the funding of basic research projects" - as part of the National Recovery and Resilience Plan, Mission 4 "Education and Research" - Component 2 "From Research to Enterprise" - Investment 1. 3, funded by the European Union - NextGenerationEU - Notice No. 341 of 15.3.2022.
+
