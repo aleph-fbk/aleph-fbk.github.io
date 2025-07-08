@@ -87,9 +87,9 @@
   text: "Internet of Things"
   color: "#c6ac8b"
 
-# - id: PostQuantumCryptography
-#   text: "Post-Quantum Cryptography"
-#   color: "#d9bec6"
+- id: PostQuantumCryptography
+  text: "Post-Quantum Cryptography"
+  color: "#d9bec6"
 
 - id: PrivacyEnhancingCryptography
   text: "Privacy Enhancing Cryptography"

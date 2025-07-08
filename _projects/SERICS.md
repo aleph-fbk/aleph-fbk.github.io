@@ -44,16 +44,17 @@ website: https://serics.eu/
 #                                 # of "Related Projects" in the page)
 
 publications:                     # List of IDs of related publications
+    - DCC 2025 MicheleBattagliola
     - JNCA2025CRYPTOAC
     - OSVS2025CRYPTOAC
     - SACMAT2025CRYPTOAC
     - ICIN2024MOMO
     - OSVS2024CRYPTOAC
+    - CRISIS2024EVOTE
+    - JISA 2024 AndreaFlamini
     - SECRYPT2023
     - AppliedSciences2023
     - EVOTEID2023
-    - CRISIS2024EVOTE
-    - JISA 2024 AndreaFlamini
 
 # theses:                         # List of IDs of related theses
 #     - 
