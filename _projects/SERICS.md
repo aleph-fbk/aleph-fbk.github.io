@@ -44,6 +44,8 @@ website: https://serics.eu/
 #                                 # of "Related Projects" in the page)
 
 publications:                     # List of IDs of related publications
+    - SECRYPT2025 RiccardoGermenia
+    - SECRYPT2025 RiccardoLongo
     - DCC 2025 MicheleBattagliola
     - JNCA2025CRYPTOAC
     - OSVS2025CRYPTOAC
