@@ -75,10 +75,16 @@ To participate it is necessary to [register on the conference page](https://www.
 
 # Program
 
-The program will be soon defined and made available. 
+The detailed program will be soon defined and made available. 
 
-Already confirmed invited speakers:
+## Invited Speaker:
 * [Peter Rønne](https://www.uni.lu/snt-en/people/peter-roenne/), *Université du Luxembourg*.
+
+## Contributed Talks:
+* Francesco Stocco (*Telsy*), Edoardo Signorini (*Telsy*), and Claudia De Lazzari (*QTI*)   
+  **QKD (Re)Initialization via PQC: An Industrial Security-Usability Trade-off**
+
+
 
  <!-- after the notification to authors. The structure of the workshop is as follows:  -->
 
