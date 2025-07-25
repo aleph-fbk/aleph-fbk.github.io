@@ -83,7 +83,7 @@ The detailed program will be soon defined and made available.
 ## Contributed Talks:
 * Francesco Stocco (*Telsy*), Edoardo Signorini (*Telsy*), and Claudia De Lazzari (*QTI*)   
   **QKD (Re)Initialization via PQC: An Industrial Security-Usability Trade-off**
-* Lorenzo Rovida (University of Milano-Bicocca, DISCo)  
+* Lorenzo Rovida (*University of Milano-Bicocca, DISCo*)  
   **Exploring blind signatures under FHE by combining GBFV and HAWK**
 
 
