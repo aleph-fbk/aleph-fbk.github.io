@@ -6,6 +6,8 @@
   link: /events/
 # - name: News
 #   link: /news/
+- name: Knowledge Base
+  link: /pqc-kb/
 - name: People
   link: /people/
   dropdown:
