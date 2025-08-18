@@ -85,6 +85,8 @@ The detailed program will be soon defined and made available.
   **QKD (Re)Initialization via PQC: An Industrial Security-Usability Trade-off**
 * Lorenzo Rovida (*University of Milano-Bicocca, DISCo*)  
   **Exploring blind signatures under FHE by combining GBFV and HAWK**
+* Laura Mattiuz (*Cybersecurity Center, FBK*)  
+  **A Review of Post-Quantum e-Voting**
 
 
 
