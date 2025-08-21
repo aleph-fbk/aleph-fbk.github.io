@@ -78,7 +78,13 @@ To participate it is necessary to [register on the conference page](https://www.
 The detailed program will be soon defined and made available. 
 
 ## Invited Speaker:
-* [Peter Rønne](https://www.uni.lu/snt-en/people/peter-roenne/), *Université du Luxembourg*.
+* [Peter Rønne](https://www.uni.lu/snt-en/people/peter-roenne/), *Université du Luxembourg*.   
+   
+  **Transparent Verification in E-Voting**   
+   
+   *The main challenge in secure e-voting is to allow voters to verify their cast vote while preserving strong privacy notions, especially preventing vote-buying and coercion.
+  We will introduce the electronic voting schemes Selene and Hyperion which offer a very transparent form of verifiability allowing voters to find and check their plaintext vote directly in the tally result while preserving coercion-mitigation.
+  We will introduce new, more general security definitions to capture the context of these schemes and prove their security.  Finally, we will see how we can achieve both everlasting privacy and everlasting coercion-mitigation for Hyperion, as well as speculating on the post-quantum migration of the scheme.*
 
 ## Contributed Talks:
 * Francesco Stocco (*Telsy*), Edoardo Signorini (*Telsy*), and Claudia De Lazzari (*QTI*)   
@@ -87,8 +93,8 @@ The detailed program will be soon defined and made available.
   **Exploring blind signatures under FHE by combining GBFV and HAWK**
 * Laura Mattiuz (*Cybersecurity Center, FBK*)  
   **A Review of Post-Quantum e-Voting**
-
-
+* Carlo Brunetta (*independent*), Stefano Galatolo (*Department of Applied Mathematics, University of Pisa*)  
+  **Verifiable Computation Outsourcing via Contracts over Blockchain Transactions**
 
 
 
