@@ -95,6 +95,9 @@ The detailed program will be soon defined and made available.
   **A Review of Post-Quantum e-Voting**
 * Carlo Brunetta (*independent*), Stefano Galatolo (*Department of Applied Mathematics, University of Pisa*)  
   **Verifiable Computation Outsourcing via Contracts over Blockchain Transactions**
+* Lorenzo Naturale, Alessandro Bugno, Cesare Caratozzolo, Massimo Caccia (*Random Power s.r.l. &
+University of Insubria*)  
+  **Quantum Root-of-Trust: Post-Quantum Security for Industrial IoT**
 
 
 
