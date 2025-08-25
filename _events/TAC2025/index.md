@@ -73,68 +73,24 @@ Topics in Applied Cryptography 2025 (TAC2025) is a workshop dedicated to cryptog
 
 To participate it is necessary to [register on the conference page](https://www.decifris.it/cifris25/registration). The registration is **free of charge**.
 
+
+
+
+
+
+
 # Program
 
-The detailed program will be soon defined and made available. 
+<!-- The program will be defined and made available after the notification to authors. The structure of the workshop is as follows:  -->
 
-## Invited Speaker:
-* [Peter Rønne](https://www.uni.lu/snt-en/people/peter-roenne/), *Université du Luxembourg*.   
-   
-  **Transparent Verification in E-Voting**   
-   
-   *The main challenge in secure e-voting is to allow voters to verify their cast vote while preserving strong privacy notions, especially preventing vote-buying and coercion.
-  We will introduce the electronic voting schemes Selene and Hyperion which offer a very transparent form of verifiability allowing voters to find and check their plaintext vote directly in the tally result while preserving coercion-mitigation.
-  We will introduce new, more general security definitions to capture the context of these schemes and prove their security.  Finally, we will see how we can achieve both everlasting privacy and everlasting coercion-mitigation for Hyperion, as well as speculating on the post-quantum migration of the scheme.*
-
-## Contributed Talks:
-* Francesco Stocco (*Telsy*), Edoardo Signorini (*Telsy*), and Claudia De Lazzari (*QTI*)   
-  **QKD (Re)Initialization via PQC: An Industrial Security-Usability Trade-off**
-* Lorenzo Rovida (*University of Milano-Bicocca, DISCo*)  
-  **Exploring blind signatures under FHE by combining GBFV and HAWK**
-* Laura Mattiuz (*Cybersecurity Center, FBK*)  
-  **A Review of Post-Quantum e-Voting**
-* Carlo Brunetta (*independent*), Stefano Galatolo (*Department of Applied Mathematics, University of Pisa*)  
-  **Verifiable Computation Outsourcing via Contracts over Blockchain Transactions**
-* Lorenzo Naturale, Alessandro Bugno, Cesare Caratozzolo, Massimo Caccia (*Random Power s.r.l. &
-University of Insubria*)  
-  **Quantum Root-of-Trust: Post-Quantum Security for Industrial IoT**
+All times are in <a href="https://time.is/en/CEST" target="_blank">Central European Summer Time (CEST)</a>.
 
 
-
-
- <!-- after the notification to authors. The structure of the workshop is as follows:  -->
-
-<!-- All times are in <a href="https://time.is/en/CEST" target="_blank">Central European Summer Time (CEST)</a>. The program is tentative and may be subject to changes. -->
-
-
-<!-- <table class="bordered program" width="100%">
+<table class="bordered program" width="100%">
   <tr class="day">
     <td colspan="2">
-      Friday 27th September 2025
+      Friday 12th September 2025
     </td>
-  </tr>
-
-  <tr class="institutional">
-    <td class="talk">
-      <p class="title">Workshop Presentation</p>
-      <p class="speakers"><b>Riccardo Longo</b> (TAC 2025 General Chair)</p>
-    </td>
-    <td>10:00-10:05</td>
-  </tr>
-
-  <tr class="session">
-    <td colspan="2">
-      <p class="title">Invited Speaker</p>
-    </td>
-  </tr>
-
-  <tr class="institutional">
-    <td class="talk">
-      <p class="title">Transparency, Trust, and Accountability</p>
-      <p class="speakers">Abstract: transparency logs (tlogs) are a powerful tool that makes it possible to bring accountability where it is unpractical to improve trust. In this talk, we'll discuss their mechanism, practical instantiation, and applications.</p>
-      <p class="speakers"><b><a href="https://filippo.io">Filippo Valsorda</a></b> (full-time independent open source maintainer)</p>
-    </td>
-    <td>10:05-10:30</td>
   </tr>
 
   <tr class="session">
@@ -145,73 +101,84 @@ University of Insubria*)
 
   <tr>
     <td class="talk">
-      <p class="title">Lova: A Novel Framework for Verifying Mathematical Proofs with Incrementally Verifiable Computation</p>
-      <p class="speakers"><b>Noel Elias</b> (remote presentation)</p>
+      <p class="title">QKD (Re)Initialization via PQC: An Industrial Security-Usability Trade-off</p>
+      <p class="speakers"><b>Francesco Stocco</b> (Telsy)</p>
     </td>
-    <td>10:30-10:45</td>
+    <td>10:00-10:20</td>
   </tr>
 
   <tr>
     <td class="talk">
-      <p class="title">HASHTA: Share and compute securely your data</p>
-      <p class="speakers"><b>Amit Chaudhary</b> (Work-in-Progress)</p>
+      <p class="title">Quantum Root-of-Trust: Post-Quantum Security for Industrial IoT</p>
+      <p class="speakers"><b>Massimo Caccia</b> (Random Power s.r.l. & University of Insubria)</p>
     </td>
-    <td>10:45-11:00</td>
+    <td>10:20-10:40</td>
   </tr>
 
   <tr>
     <td class="talk">
-      <p class="title">Extensible Decentralized Verifiable Refreshable Secret Sharing Protocol with Extension to Threshold Access Trees for Wallet Key Recovery</p>
-      <p class="speakers"><b>Sara Montanari</b> (Work-in-Progress)</p>
+      <p class="title">Verifiable Computation Outsourcing via Contracts over Blockchain Transactions</p>
+      <p class="speakers"><b>Carlo Brunetta</b> (independent researcher)</p>
     </td>
-    <td>11:00-11:15</td>
+    <td>10:40-11:00</td>
   </tr>
 
   <tr class="recreational">
     <td colspan="1">
       <p class="title">Coffee Break</p>
     </td>
-    <td>11:15-11:40</td>
-  </tr>
-
-  <tr>
-    <td class="talk">
-      <p class="title">Improving Security and Performance of Cryptographic Access Control with Trusted Execution Environments</p>
-      <p class="speakers"><b>Stefano Berlato</b> (Lightning Talk)</p>
-    </td>
-    <td>11:40-11:55</td>
-  </tr>
-
-  <tr>
-    <td class="talk">
-      <p class="title">On the combination of Searchable Encryption and Attribute-based encryption</p>
-      <p class="speakers"><b>Enrico Sorbera</b> (Work-in-Progress)</p>
-    </td>
-    <td>11:55-12:10</td>
+    <td>11:00-11:30</td>
   </tr>
 
   <tr class="session">
     <td colspan="2">
-      <p class="title">Round Table</p>
+      <p class="title">Invited Speaker</p>
     </td>
   </tr>
 
   <tr class="institutional">
     <td class="talk">
-      <p class="title">Discussion and community feedback on hot topics, involving as much as possible the whole audience</p>
+      <p class="title">Transparent Verification in E-Voting</p>
+      <p class="speakers">Abstract: the main challenge in secure e-voting is to allow voters to verify their cast vote while preserving strong privacy notions, especially preventing vote-buying and coercion. We will introduce the electronic voting schemes Selene and Hyperion which offer a very transparent form of verifiability allowing voters to find and check their plaintext vote directly in the tally result while preserving coercion-mitigation. We will introduce new, more general security definitions to capture the context of these schemes and prove their security. Finally, we will see how we can achieve both everlasting privacy and everlasting coercion-mitigation for Hyperion, as well as speculating on the post-quantum migration of the scheme.</p>
+      <p class="speakers"><b><a href="https://www.uni.lu/snt-en/people/peter-roenne/">Peter Rønne</a></b> (University of Luxembourg)</p>
     </td>
-    <td>12:10-13:00</td>
+    <td>11:30-12:15</td>
   </tr>
 
-</table> -->
+  <tr class="session">
+    <td colspan="2">
+      <p class="title">Contributed Talks</p>
+    </td>
+  </tr>
+
+  <tr>
+    <td class="talk">
+      <p class="title">A Review of Post-Quantum e-Voting</p>
+      <p class="speakers"><b>Laura Mattiuz</b> (Center for Cybersecurity, FBK)</p>
+    </td>
+    <td>12:15-12:40</td>
+  </tr>
+
+  <tr>
+    <td class="talk">
+      <p class="title">Exploring blind signatures under FHE by combining GBFV and HAWK</p>
+      <p class="speakers"><b>Lorenzo Rovida</b> (University of Milano-Bicocca, DISCo)</p>
+    </td>
+    <td>12:40-13:00</td>
+  </tr>
+
+</table>
+
+
 
 # Call for Submissions
 
-If you have a proposal for a talk or demo, please send an extended abstract of maximum 2 pages to `tac@fbk.eu`.
+The call for submissions is now closed.
+<!-- If you have a proposal for a talk or demo, please send an extended abstract of maximum 2 pages to `tac@fbk.eu`.
 Submissions will be subject to a rolling review, i.e., abstracts will be evaluated as soon as the organizing committee will receive them.
 Proposals that will be deemed suitable and interesting (by criteria of novelty, significance, and potential to spark engaging discussion that benefits the community) will be accepted within a short time-frame (a few working days).
 The call will be closed once the time capacity of the workshop will be reached, or by the 22nd of August at the latest.
-Note that the rolling review process favours earlier submissions.
+Note that the rolling review process favours earlier submissions. -->
 
 
 # Organizers
