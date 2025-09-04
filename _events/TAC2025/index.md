@@ -110,7 +110,7 @@ All times are in <a href="https://time.is/en/CEST" target="_blank">Central Europ
   <tr>
     <td class="talk">
       <p class="title">Quantum Root-of-Trust: Post-Quantum Security for Industrial IoT</p>
-      <p class="speakers"><b>Massimo Caccia</b> (Random Power s.r.l. & University of Insubria)</p>
+      <p class="speakers"><b>Lorenzo Naturale</b> (Random Power s.r.l. & University of Insubria)</p>
     </td>
     <td>10:20-10:40</td>
   </tr>
