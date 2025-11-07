@@ -16,7 +16,7 @@ isCurrent: true
 # coming from "_layouts/project.html"
 # role:                           # Role of the Unit in the project (optional)
 startDate: 2024-09-01
-endDate: 2025-04-30
+endDate: 2027-04-30
 leader: French Gendarmerie
 referenceFBK: Riccardo Longo
 # duration:                       # Duration of the project (optional)
