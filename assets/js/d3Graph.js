@@ -128,7 +128,10 @@ function createGraph(data) {
     });
 
     // Append the SVG element.
-    d3.select("#d3jsGraph").append(function(){return svg.node();});
+    d3.select(".section")
+        .append("div")
+        .attr("id", "d3jsGraph")
+        .append(() => svg.node());
 
     // Call the updateScaling function initially and on window resize
     window.addEventListener('resize', updateScaling);

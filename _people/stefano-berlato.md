@@ -1,6 +1,6 @@
 ---
 person: StefanoBerlato
-show_hero: true
+hide_hero: false
 
 links:
   - name: ACM

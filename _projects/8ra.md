@@ -1,24 +1,8 @@
 ---
-# coming from "_includes/list-items.html"
-id: 8ra                            # ID of the collaboration
-logo: /assets/areas/projects/8ra/8ra_RGB_quer.png                          # "/assets/areas/projects/<image name>" or 
-                                # "/assets/svg/material-design-icons/icons.svg#<icon id>" or 
-                                # "/assets/svg/fontawesome-6.4.0/icons.svg#<icon id>"
-title: 8ra                         # Title of the collaboration
-internalUrl: /projects/8ra                   # "/projects/<ID of the collaboration>"
-description: Europe’s Next Generation Cloud Infrastructure and Services                   # Short description (few words)
-
-
-
-# coming from "_projects_/index.html"
-isCurrent: true                     # Either 'true' for ongoing projects or 'false' for terminated projects
-
-
+project: 8ra
 
 # coming from "_layouts/project.html"
 #role:                           # Role of the Unit in the project (optional)
-startDate: 2024-05-02                     # Start date in YYYY-MM-DD format (optional)
-endDate: 2028-10-31                       # End date in YYYY-MM-DD format (optional)
 #leader:                         # Activity leader (optional)
 referenceFBK: Silvio Ranise                  # Name of the reference in FBK (optional)
 #duration:                       # Duration of the project (optional)

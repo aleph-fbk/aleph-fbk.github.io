@@ -1,0 +1,14 @@
+- id: AccessControl
+  title: Access Control
+  category: topic
+  url: /topics/AccessControl
+
+- id: DecentralizationOfTrust
+  title: Decentralization of Trust
+  category: topic
+  url: /topics/DecentralizationOfTrust
+
+- id: PrivacyEnhancingCryptography
+  title: Privacy-Enhancing Cryptography
+  category: topic
+  url: /topics/PrivacyEnhancingCryptography

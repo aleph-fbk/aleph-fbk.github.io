@@ -1,11 +1,6 @@
 ---
 # coming from "_includes/list-items.html"
-id: CryptoAC
-logo: /assets/areas/tools/CryptoAC/CryptoAC.png
-title: CryptoAC
-internalUrl: /tools/CryptoAC
-description: Cryptographic Access Control
-
+tool: CryptoAC
 
 # coming from "_layouts/page.html"
 # selectedPublications:           # Whether publications for the page are selected 

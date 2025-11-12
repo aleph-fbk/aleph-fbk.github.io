@@ -1,9 +1,7 @@
 ---
 # coming from "_layouts/default.html"
-title: Decentralization of Trust
-show_hero: true                 # Leave "true"
-
-
+topic: DecentralizationOfTrust
+hide_hero: false
 
 # coming from "_layouts/page.html"
 # selectedPublications:           # Whether publications for the page are selected 

@@ -1,0 +1,20 @@
+- id: ACE
+  name: ACE
+  nameAddon: AC state-change rule extraction procedurE
+  logo: ACE/ACE.png
+  urlDocumentation:
+    unit: /tools/ACE
+
+- id: ACME
+  name: ACME
+  nameAddon: Access Control Mechanisms Evaluator
+  logo: ACME/ACME.png
+  urlDocumentation:
+    unit: /tools/ACME
+
+- id: CryptoAC
+  name: CryptoAC
+  nameAddon: Cryptographic Access Control
+  logo: CryptoAC/CryptoAC.png
+  urlDocumentation:
+    unit: /tools/CryptoAC

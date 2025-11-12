@@ -1,24 +1,8 @@
 ---
-# coming from "_includes/list-items.html"
-id: iVoting_eID                            # ID of the collaboration
-logo: /assets/svg/material-design-icons/icons.svg#how_to_vote                          # "/assets/areas/projects/<image name>" or 
-                                # "/assets/svg/material-design-icons/icons.svg#<icon id>" or 
-                                # "/assets/svg/fontawesome-6.4.0/icons.svg#<icon id>"
-title: Internet Voting - Evoluzione ID sulla CIE                         # Title of the collaboration
-internalUrl: /projects/iVoting_eID                   # "/projects/<ID of the collaboration>"
-description: Internet Voting - Evoluzione ID sulla CIE                   # Short description (few words)
-
-
-
-# coming from "_projects_/index.html"
-isCurrent: true                     # Either 'true' for ongoing projects or 'false' for terminated projects
-
-
+project: iVoting_eID
 
 # coming from "_layouts/project.html"
 #role:                           # Role of the Unit in the project (optional)
-startDate: 2024-03-21                     # Start date in YYYY-MM-DD format (optional)
-endDate: 2026-03-20                       # End date in YYYY-MM-DD format (optional)
 #leader:                         # Activity leader (optional)
 #referenceFBK: Silvio Ranise                  # Name of the reference in FBK (optional)
 #duration:                       # Duration of the project (optional)

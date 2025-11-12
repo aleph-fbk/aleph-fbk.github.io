@@ -1,0 +1,67 @@
+- id: 8ra
+  title: 8ra
+  titleAddon: Europe's Next Generation Cloud Infrastructure and Services
+  startDate: "2024-05-02"
+  endDate: "2028-10-31"
+  isCurrent: true
+  logo: 8ra/8ra_RGB_quer.png
+  url:
+    unit: /projects/8ra
+    external: https://ipcei-cis.fbk.eu/
+
+- id: e-voting
+  title: E-voting
+  description: Electronic voting
+  startDate: "2021-07-01"
+  endDate: "2023-06-30"
+  isCurrent: false
+  logo: /assets/svg/material-design-icons/icons.svg#how_to_vote
+  url:
+    unit: /projects/e-voting
+
+- id: ECTEG_Blockchain
+  title: ECTEG Blockchain
+  description: ECTEG Blockchain Technology Project
+  startDate: "2024-09-01"
+  endDate: "2027-04-30"
+  isCurrent: true
+  logo: ECTEG_Blockchain/logo_ECTEG_Blockchain.png
+  url:
+    unit: /projects/ECTEG_Blockchain
+
+- id: FAMILIAR
+  title: FAMILIAR
+  titleAddon: piattaForma dinAMica per IL socIo sanitARio
+  startDate: "2023-08-01"
+  endDate: "2024-10-09"
+  isCurrent: false
+  logo: FAMILIAR/logo_FAMILIAR.png
+  url:
+    unit: /projects/FAMILIAR
+
+- id: iVoting_eID
+  title: Internet Voting - Evoluzione ID sulla CIE
+  startDate: "2024-03-21"
+  endDate: "2026-03-20"
+  isCurrent: true
+  logo: /assets/svg/material-design-icons/icons.svg#how_to_vote
+  url:
+    unit: /projects/iVoting_eID
+
+- id: METAfora
+  title: METAfora
+  titleAddon: Metodologie e tEcnologie di rappresenTazione per il metAverso
+  startDate: "2022-01-01"
+  endDate: "2024-12-31"
+  isCurrent: false
+  logo: METAfora/logo_METAfora.jpg
+  url:
+    unit: /projects/METAfora
+
+- id: SERICS
+  title: SERICS
+  titleAddon: SEcurity and RIghts In the CyberSpace
+  isCurrent: true
+  logo: SERICS/logo_SERICS.png
+  url:
+    unit: /projects/SERICS

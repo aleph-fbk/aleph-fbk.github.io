@@ -1,11 +1,5 @@
 ---
-# coming from "_includes/list-items.html"
-id: ACME
-logo: /assets/areas/tools/ACME/ACME.png
-title: ACME
-internalUrl: /tools/ACME
-description: Access Control Mechanisms Evaluator
-
+tool: ACME
 
 # coming from "_layouts/page.html"
 # selectedPublications:           # Whether publications for the page are selected 

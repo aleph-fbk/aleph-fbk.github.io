@@ -1,4 +1,4 @@
 ---
 person: FedericaZanetti
-show_hero: true
+hide_hero: false
 ---

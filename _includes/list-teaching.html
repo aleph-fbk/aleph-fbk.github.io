@@ -1,14 +1,19 @@
-{% assign sort = include.sort %}
-{% if include.source %}
-    {% assign source = include.source %}
-{% endif %}
-{% if include.style %}
-    {% assign style = include.style %}
-{% else %}
-    {% assign style = "table" %}
+{% assign details = include.details | default: "" %}
+{% assign sort_by = include.sort_by | default: "name" %}
+{% assign source = include.source %}
+{% assign style = include.style | default: "table" %}
+
+{% assign sort_natural = true %}
+{% if include.sort_natural == false %}
+    {% assign sort_natural = false %}
 {% endif %}
 
-{% if source.size > 0 %}
+{% assign sort_reverse = false %}
+{% if include.sort_reverse == true %}
+    {% assign sort_reverse = true %}
+{% endif %}
+
+{% if source and source.size > 0 %}
     {% if style == "table" %}
         <table class="teaching">
             <thead>
@@ -26,44 +31,46 @@
         <ul class="teaching">
     {% endif %}
 
-    {% assign coursesFromId = "" | split: "" %}
-    {% for course in source %}
-        {% assign courseFromId = site.data.teaching | where: "id", course %}
-        {% assign courseFromIdLabel = site.data.teaching | where: "id", course.id %}
-        {% if courseFromId.size == 1 %}
-            {% assign coursesFromId = coursesFromId | concat: courseFromId %}
-        {% elsif courseFromIdLabel.size == 1 %}
-            {% assign coursesFromId = coursesFromId | concat: courseFromIdLabel %}
+    {% assign courses = "" | split: "" %}
+    {% for item in source %}
+        {% if item.id %}
+            {% assign match = site.data.teaching | where: "id", item.id | first %}
+        {% else %}
+            {% assign match = site.data.teaching | where: "id", item | first %}
+        {% endif %}
+        {% if match %}
+            {% assign courses = courses | push: match %}
         {% endif %}
     {% endfor %}
 
-    {% if sort %}
-        {% if sort == "none" %}
-            {% assign coursesSorted = coursesFromId %}
+    {% if sort != "none" %}
+        {% if sort_natural %}
+            {% assign courses = courses | sort_natural: sort_by %}
         {% else %}
-            {% assign coursesSorted = coursesFromId | sort_natural: sort %}
+            {% assign courses = courses | sort: sort_by %}
         {% endif %}
-    {% else %}
-        {% assign coursesSorted = coursesFromId | sort_natural: "name" %}
+        {% if sort_reverse %}
+            {% assign courses = courses | reverse %}
+        {% endif %}
     {% endif %}
 
-    {%- for course in coursesSorted -%}
+    {%- for course in courses -%}
         {% assign lecturers = "" | split: "" %}
         {%- if course.lecturer -%}
             {%- if course.lecturer | first -%}
                 {% for lecturer in course.lecturer %}
-                    {%- if lecturer.id -%}
+                    {% if lecturer.id %}
                         {% assign lecturerFromId = site.data.people | where: "id", lecturer.id %}
+                        {% assign lecturerName = lecturerFromId[0]["name"] | append: " " | append: lecturerFromId[0]["surname"] %}
                         {%- if lecturer.startYear -%}
+                            {% assign lecturerName = lecturerName | append: " (from " | append: lecturer.startYear %}
                             {%- if lecturer.endYear -%}
-                                {% assign lecturerName = lecturerFromId[0]["name"] | append: " " | append: lecturerFromId[0]["surname"] | append: " (from " | append: lecturer.startYear | append: " to " | append: lecturer.endYear | append: ")"  %}
+                                {% assign lecturerName = lecturerName | append: " to " | append: lecturer.endYear | append: ")" %}
                             {% else %}
-                                {% assign lecturerName = lecturerFromId[0]["name"] | append: " " | append: lecturerFromId[0]["surname"] | append: " (from " | append: lecturer.startYear | append: ")"  %}
+                                {% assign lecturerName = lecturerName | append: ")" %}
                             {% endif %}
-                        {% else %}
-                            {%- if lecturer.endYear -%}
-                                {% assign lecturerName = lecturerFromId[0]["name"] | append: " " | append: lecturerFromId[0]["surname"] | append: " (until " | append: lecturer.endYear | append: ")"  %}
-                            {% endif %}
+                        {% elsif lecturer.endYear -%}
+                            {% assign lecturerName = lecturerName | append: " (until " | append: lecturer.endYear | append: ")"  %}
                         {% endif %}
                         {%- assign lecturers = lecturers | push: lecturerName -%}
                     {% else %}

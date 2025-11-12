@@ -1,6 +1,6 @@
 ---
 person: AlessandroTomasi
-show_hero: true
+hide_hero: false
 
 links:
   - name: ORCID

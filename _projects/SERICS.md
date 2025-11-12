@@ -1,17 +1,6 @@
 ---
 # coming from "_includes/list-items.html"
-id: SERICS
-logo: /assets/areas/projects/SERICS/logo_SERICS.png
-title: SERICS
-internalUrl: /projects/SERICS
-description: SEcurity and RIghts In the CyberSpace
-
-
-
-# coming from "_collaborations/index.html"
-isCurrent: true
-
-
+project: SERICS
 
 # coming from "_layouts/project.html"
 # role:                           # Role of the Unit in the project (optional)

@@ -1,9 +1,6 @@
 ---
-# coming from "_layouts/default.html"
-title: Access Control
-show_hero: true                 # Leave "true"
-
-
+topic: AccessControl
+hide_hero: false
 
 # coming from "_layouts/page.html"
 # selectedPublications:           # Whether publications for the page are selected 

@@ -1,0 +1,23 @@
+- id: TAC2023
+  name: Topics in Applied Cryptography 2023
+  acronym: TAC2023
+  startDate: "2023-12-14"
+  endDate: "2023-12-15"
+  description: TAC2023 is the first edition of a workshop organized by the ALEPH research unit and co-located with the CIFRIS23 conference.
+  url: /events/TAC2023
+
+- id: TAC2024
+  name: Topics in Applied Cryptography 2024
+  acronym: TAC2024
+  startDate: "2024-09-25"
+  endDate: "2024-09-27"
+  description: TAC2024 is the second edition of a workshop organized by the ALEPH research unit and co-located with the CIFRIS24 conference.
+  url: /events/TAC2024
+
+- id: TAC2025
+  name: Topics in Applied Cryptography 2025
+  acronym: TAC2025
+  startDate: "2025-09-12"
+  endDate: "2025-09-12"
+  description: TAC2025 is the third edition of a workshop organized by the ALEPH research unit and co-located with the CIFRIS25 conference.
+  url: /events/TAC2025

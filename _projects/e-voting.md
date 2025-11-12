@@ -1,22 +1,8 @@
 ---
-# coming from "_includes/list-items.html"
-id: e-voting
-logo: /assets/svg/material-design-icons/icons.svg#how_to_vote
-title: E-voting
-internalUrl: /projects/e-voting
-description: Electronic voting
-
-
-
-# coming from "_collaborations/index.html"
-isCurrent: false
-
-
+project: e-voting
 
 # coming from "_layouts/project.html"
 # role:                           # Role of the Unit in the project (optional)
-startDate: 2021-07-01
-endDate: 2023-06-30
 # leader:                         # Activity leader (optional)
 # referenceFBK:                   # Name of the reference in FBK (optional)
 # duration:                       # Duration of the project (optional)

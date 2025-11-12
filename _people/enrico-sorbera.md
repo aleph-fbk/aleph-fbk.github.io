@@ -1,4 +1,4 @@
 ---
 person: EnricoSorbera
-show_hero: true
+hide_hero: false
 ---
