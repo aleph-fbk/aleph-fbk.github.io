@@ -1,21 +1,8 @@
 ---
 # coming from "_layouts/default.html"
 title: Topics in Applied Cryptography 2025          # Title of the event
-show_hero: true                                     # Leave "true"
-
-
-# coming from "_includes/list-events.html"
-id: TAC2025                                         # ID of the event
-acronym: TAC2025                                    # acronym of the event
-name: Topics in Applied Cryptography 2025           # Name of the event
-url: https://www.decifris.it/cifris25/workshops  # External url of the event
-description: TAC2025 is the third edition of a workshop organized by the ALEPH research unit and co-located with the CIFRIS25 conference.            # Short description (few words)
-
-
-# coming from "_events/index.html"
-startDate: "2025-09-12" # Start date in "YYYY-MM-DD" format (keep also the double quotes, i.e., "2025-10-11")
-endDate: "2025-09-12"   # End date in "YYYY-MM-DD" format (keep also the double quotes, i.e., "2025-10-12")
-
+hide_hero: false
+permalink: /events/TAC2025
 
 # coming from "_includes/menubar.html"
 menubar:                        # Menubar to show

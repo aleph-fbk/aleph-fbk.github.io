@@ -1,22 +1,9 @@
 ---
 # coming from "_includes/list-items.html"
-id: METAfora
-logo: /assets/areas/projects/METAfora/logo_METAfora.jpg
-title: METAfora                     # Title of the collaboration
-internalUrl: /projects/METAfora
-description: Metodologie e tEcnologie di rappresenTazione per il metAverso
-
-
-
-# coming from "_projects_/index.html"
-isCurrent: false
-
-
+project: METAfora
 
 # coming from "_layouts/project.html"
 # role:                           # Role of the Unit in the project (optional)
-startDate: 2022-01-01
-endDate: 2024-12-31
 # leader:                         # Activity leader (optional)
 referenceFBK: Silvio Ranise
 # duration:                       # Duration of the project (optional)

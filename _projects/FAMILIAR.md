@@ -1,22 +1,9 @@
 ---
 # coming from "_includes/list-items.html"
-id: FAMILIAR
-logo: /assets/areas/projects/FAMILIAR/logo_FAMILIAR.png
-title: FAMILIAR
-internalUrl: /projects/FAMILIAR
-description: piattaForma dinAMica per IL socIo sanitARio
-
-
-
-# coming from "_collaborations/index.html"
-isCurrent: false
-
-
+project: FAMILIAR
 
 # coming from "_layouts/project.html"
 # role:                           # Role of the Unit in the project (optional)
-startDate: 2023-08-01
-endDate: 2024-10-09
 leader: Giampaolo Armellin
 referenceFBK: Silvio Ranise
 # duration:                       # Duration of the project (optional)

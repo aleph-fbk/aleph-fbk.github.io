@@ -1,4 +1,4 @@
 ---
 person: MarioScuro
-show_hero: true
+hide_hero: false
 ---

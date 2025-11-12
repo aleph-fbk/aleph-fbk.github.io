@@ -1,9 +1,7 @@
 ---
 # coming from "_layouts/default.html"
-title: Privacy-Enhancing Cryptography
-show_hero: true
-
-
+topic: PrivacyEnhancingCryptography
+hide_hero: false
 
 # coming from "_layouts/page.html"
 # selectedPublications:           # Whether publications for the page are selected 

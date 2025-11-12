@@ -1,17 +1,6 @@
 ---
 # coming from "_includes/list-items.html"
-id: ECTEG
-logo: /assets/images/logos/ECTEG.png
-title: ECTEG
-internalUrl: /collaborations/ECTEG
-description: European Cybercrime Training and Education Group
-
-
-
-# coming from "_collaborations/index.html"
-isCurrent: true
-
-
+collaboration: ECTEG
 
 # coming from "_layouts/page.html"
 selectedPublications: true      # Whether publications for the page are selected 

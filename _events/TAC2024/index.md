@@ -1,21 +1,8 @@
 ---
 # coming from "_layouts/default.html"
 title: Topics in Applied Cryptography 2024          # Title of the event
-show_hero: true                                     # Leave "true"
-
-
-# coming from "_includes/list-events.html"
-id: TAC2024                                         # ID of the event
-acronym: TAC2024                                    # acronym of the event
-name: Topics in Applied Cryptography 2024           # Name of the event
-url: https://www.decifris.it/cifris24/homeCifris24  # External url of the event
-description: TAC2024 is the second edition of a workshop organized by the ALEPH research unit and co-located with the CIFRIS24 conference.            # Short description (few words)
-
-
-# coming from "_events/index.html"
-startDate: "2024-09-25" # Start date in "YYYY-MM-DD" format (keep also the double quotes, i.e., "2024-10-11")
-endDate: "2024-09-27"   # End date in "YYYY-MM-DD" format (keep also the double quotes, i.e., "2024-10-12")
-
+hide_hero: false
+permalink: /events/TAC2024
 
 # coming from "_includes/menubar.html"
 menubar:                        # Menubar to show

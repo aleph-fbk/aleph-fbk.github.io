@@ -1,0 +1,15 @@
+- id: ECTEG
+  name: European Cybercrime Training and Education Group
+  acronym: ECTEG
+  isCurrent: true
+  logo: ECTEG/logo_ECTEG.png
+  url:
+    unit: /collaborations/ECTEG
+
+- id: UniTNAppliedCryptographyBlockchain
+  name: Laboratory of Applied Cryptography and Blockchain Technology
+  isCurrent: true
+  logo: UniTNAppliedCryptographyBlockchain/logo_UNITN.png
+  description: Joint Lab with the University of Trento
+  url:
+    unit: /collaborations/UniTNAppliedCryptographyBlockchain

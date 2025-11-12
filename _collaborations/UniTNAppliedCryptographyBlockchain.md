@@ -1,17 +1,5 @@
 ---
-# coming from "_includes/list-items.html"
-id: UniTNAppliedCryptographyBlockchain
-logo: /assets/areas/collaborations/UniTNAppliedCryptographyBlockchain/logo_UNITN.png
-title: Laboratory of Applied Cryptography and Blockchain Technology
-internalUrl: /collaborations/UniTNAppliedCryptographyBlockchain
-description: Joint Lab with the University of Trento
-
-
-
-# coming from "_collaborations/index.html"
-isCurrent: true
-
-
+collaboration: UniTNAppliedCryptographyBlockchain
 
 # coming from "_layouts/page.html"
 # selectedPublications:           # Whether publications for the page are selected 

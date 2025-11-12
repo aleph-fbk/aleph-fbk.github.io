@@ -1,22 +1,9 @@
 ---
 # coming from "_includes/list-items.html"
-id: ECTEG_Blockchain
-logo: /assets/areas/projects/ECTEG_Blockchain/logo_ECTEG_Blockchain.png
-title: ECTEG Blockchain
-internalUrl: /projects/ECTEG_Blockchain
-description: ECTEG Blockchain Technology Project
-
-
-
-# coming from "_collaborations/index.html"
-isCurrent: true
-
-
+project: ECTEG_Blockchain
 
 # coming from "_layouts/project.html"
 # role:                           # Role of the Unit in the project (optional)
-startDate: 2024-09-01
-endDate: 2027-04-30
 leader: French Gendarmerie
 referenceFBK: Riccardo Longo
 # duration:                       # Duration of the project (optional)
