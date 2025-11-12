@@ -65,8 +65,7 @@ function createGraph(data) {
 
     // Add a line for each link, and a circle for each node.
     const link = svg.append("g")
-        .attr("stroke", "#999")
-        .attr("stroke-opacity", 0.5)
+        .attr("class", "d3graph-connection-line")
         .selectAll("line")
         .data(links)
         .join("line")
@@ -92,25 +91,19 @@ function createGraph(data) {
         .attr("style", d => d.hasOwnProperty("click") ? "cursor: pointer;" : "");
 
     node.append("circle")
+        .attr("class", "d3graph-node-circle")
         .attr("r", d => d.radius)
-        .attr("fill", "white")
         .attr("stroke", d => d.color)
         .attr("stroke-width", d => d.strokewidth);
 
     node.append("text")
+        .attr("class", "d3graph-node-label")
         .attr("x", d => (-d.id.length)*(3.5))
         .attr("y", d => (d.radius+20))
-        .attr("font-family", "\"Montserrat\", sans-serif")
-        .attr("font-size", "1.25em")
-        .text(d => d.id)
-        .clone(true).lower()
-        .attr("fill", "none")
-        .attr("stroke", "white")
-        .attr("stroke-width", 3)
-        .attr("font-family", "\"Montserrat\", sans-serif")
-        .attr("font-size", ".251em");
+        .text(d => d.id);
 
     node.append('use')
+        .attr("class", "d3graph-node-icon")
         .attr("x", d => (-d.radius/2))
         .attr("y", d => (-d.radius/2))
         .attr("width", d => (d.radius))
