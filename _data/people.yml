@@ -59,6 +59,7 @@
 - id: ChiaraSpadafora
   name: Chiara
   surname: Spadafora
+  usernameFBK: cspadafora
 
 - id: ClaudioForoncelli
   name: Claudio
@@ -169,6 +170,7 @@
 - id: LiviaMarini_MA
   name: Livia
   surname: Marini
+  usernameFBK: lmarini
 
 - id: AlessandroColombo_BA
   name: Alessandro
@@ -350,6 +352,7 @@
 - id: ZahraEbadiAnsaroudi
   name: Zahra
   surname: Ebadi Ansaroudi
+  usernameFBK: zebadiansaroudi
   
 # Please keep alphabetical order
 
