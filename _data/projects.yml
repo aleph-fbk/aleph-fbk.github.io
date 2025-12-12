@@ -65,3 +65,11 @@
   logo: SERICS/logo_SERICS.png
   url:
     unit: /projects/SERICS
+
+- id: TrueBeesGoesCrypto
+  title: TrueBees Goes Crypto
+  titleAddon: AI e crittografia per il trust management di dati media
+  isCurrent: true
+  logo: TrueBeesGoesCrypto/logo_TrueBeesGoesCrypto.jpg
+  url:
+    unit: /projects/TrueBeesGoesCrypto

@@ -6,7 +6,7 @@ project: 8ra
 #leader:                         # Activity leader (optional)
 referenceFBK: Silvio Ranise                  # Name of the reference in FBK (optional)
 #duration:                       # Duration of the project (optional)
-funding: This work was supported by Ministero delle Imprese e del Made in Italy (IPCEI Cloud DM 27 giugno 2022 – IPCEI-CL-0000007) and European Union (Next Generation EU).                       # Funding of the project (optional)
+funding: This work was supported by Ministero delle Imprese e del Made in Italy (IPCEI Cloud DM 27 giugno 2022 – IPCEI-CL-0000007) and European Union (Next Generation EU)                       # Funding of the project (optional)
 website: https://ipcei-cis.fbk.eu/                       # Website of the project (optional)
 #cordisNo:                       # Number of the project within the CORDIS website (optional)
 #partners:                       # Partners of the project (optional)

@@ -1,11 +1,11 @@
 ---
 # coming from "_includes/list-items.html"
-id:                             # ID of the collaboration
+id:                             # ID of the project
 logo:                           # "/assets/areas/projects/<image name>" or 
                                 # "/assets/svg/material-design-icons/icons.svg#<icon id>" or 
                                 # "/assets/svg/fontawesome-6.4.0/icons.svg#<icon id>"
-title:                          # Title of the collaboration
-internalUrl:                    # "/projects/<ID of the collaboration>"
+title:                          # Title of the project
+internalUrl:                    # "/projects/<ID of the project>"
 description:                    # Short description (few words)
 
 
