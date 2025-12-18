@@ -37,6 +37,7 @@ publications:                     # List of IDs of related publications
     - SECRYPT2025 RiccardoGermenia
     - SECRYPT2025 RiccardoLongo
     - DCC 2025 MicheleBattagliola
+    - DCC 2025 MicheleBattagliola_2
     - JNCA2025CRYPTOAC
     - OSVS2025CRYPTOAC
     - SACMAT2025CRYPTOAC
