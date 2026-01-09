@@ -68,8 +68,8 @@
 
 - id: TrueBeesGoesCrypto
   title: TrueBees Goes Crypto
-  titleAddon: AI e crittografia per il trust management di dati media
+  titleAddon: AI and cryptography for media trust management
   isCurrent: true
-  logo: TrueBeesGoesCrypto/logo_TrueBeesGoesCrypto.jpg
+  logo: /assets/svg/material-design-icons/icons.svg#hive
   url:
     unit: /projects/TrueBeesGoesCrypto

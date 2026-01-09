@@ -65,4 +65,4 @@ people:                         # List of IDs of related people
       #source:                   # Path to the image
 ---
 
-L'obiettivo del progetto è supportare TrueBees nel processo di integrazione nel proprio prodotto di tecniche di media provenance basate su meccanismi di tipo crittografico, quali firme digitali e hash. L’iniziativa mira a potenziare l’efficacia dell’analisi forense passiva, tramite l’introduzione di indicatori di autenticità basati su un modello di fiducia (trust).
+The project's goal is to support TrueBees in integrating media provenance techniques based on cryptography, such as digital signatures and hashes, into its product. The initiative aims to enhance the effectiveness of passive forensic analysis by introducing authenticity indicators based on a trust model.
