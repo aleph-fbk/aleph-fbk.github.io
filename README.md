@@ -36,20 +36,29 @@ Table of Contents:
 
 1. Read the instructions you find in the [Common operations](#common-operations) section to understand how to implement your change (e.g., add a new publication, update a project). You may try out your change by following the instructions in the [How to try the website locally](#how-to-try-the-website-locally) section;
 2. Create a dedicated issue and make a pull request to the repository. **It is a best practice to avoid pushing changes directly into the main branch**;
-3. The Content Managers (`sberlato@fbk.eu` and `altomasi@fbk.eu`) will check your modification and merge it into the main branch;
+3. The Content Managers (`aleph-webmaster@fbk.eu`) will check your modification and merge it into the main branch;
 4. The website will automatically update accordingly.
 
 ### How to try the website locally
 
 1. clone the repository;
-2. install rvm (https://rvm.io/rvm/install) (you may need to reboot your computer);
-3. install ruby with `rvm install ruby 2.7.2`;
+3. install ruby (see sample scripts below)
 4. run `bundle install`;
 5. run `bundle exec jekyll serve`;
   - if the above command does not work, delete the `gemfile.lock` file, run `rvm install ruby 3.2.2` and again `bundle exec jekyll serve`;
 6. open the browser at `http://0.0.0.0:4000/`;
 
-Sample installation script in Ubuntu 22.04:
+Sample installation script:
+
+- using `snap`, tested in Ubuntu 25.10 and 24.04:
+
+```bash
+sudo snap install ruby --classic
+bundle install
+bundle exec jekyll serve
+```
+
+- using `apt`, tested in Ubuntu 22.04 (you may need to reboot your computer after installing `rvm`):
 
 ```bash
 sudo apt install software-properties-common ruby-dev ruby-bundler
@@ -108,7 +117,11 @@ You can add a thesis in the [`_data/theses.yml`](./_data/theses.yml) file using 
 You can add a tool by creating a new file in [`_tools`](./_tools/) following the [**template**](./_tools/_template.md) and naming it accordingly.
 
 ### Add a publication
-You can add a publication in the [`_data/publications.yml`](./_data/publications.yml) file using the template you find at the top of the file. Remember that each publication is linked to a destination (see below). Also, please **check whether the new publication is related** to any of our collaborations, projects, or tools (the page of each collaboration, project, and tool has a section "publications" listing the IDs of related publications. Please add the ID of the new publication to such lists).
+You can add a publication in the [`_data/publications.yml`](./_data/publications.yml) file using the template you find at the top of the file.
+
+- Each publication must be linked to a destination -- conference, journal etc: get an existing destination ID from [`_data/destinations.yml`](./_data/destinations.yml) or [add a new destination](https://github.com/aleph-fbk/aleph-fbk.github.io?tab=readme-ov-file#add-a-destination).
+- For each author, get an existing person ID from [`_data/people.yml`](./_data/people.yml) or [add a new person](https://github.com/aleph-fbk/aleph-fbk.github.io?tab=readme-ov-file#add-a-person).
+- Add the ID of the new publication to any related [`_collaborations`](./_collaborations/), [`_projects`](./_projects/), or [`_tools`](./_tools/). Each of these pages has a *publications* section listing the IDs of related publications.
 
 > **How to define tags for a publication?** You can (*i*) check the tags already existing in [`_data/tags.yml`](./_data/tags.yml) or (*ii*) use the keywords of the publication as tags or (*iii*) you can create new tags (but only if strictly necessary), either by defining them manually or by asking an AI (e.g., ChatGPT) to extract them from the abstract. A publication should have no less than 2 tags and no more than 5 tags.
 
@@ -166,6 +179,4 @@ The code to render the graph is in the [**d3Graph JavaScript file**](./assets/js
 We have decided to permanently remove the news from the ALEPH's website (see [issue #2](https://github.com/aleph-fbk/aleph-fbk.github.io/issues/2)).
 
 ### Internship and thesis offers
-In September 2023, it was decided that all Internship and thesis offers of the center for cybersecurity would be published in the [**center for cybersecurity website**](https://cs.fbk.eu/).
-
-Contact `mpernpruner@fbk.eu` for more details.
+All Internship and thesis offers of the center for cybersecurity are published in the [**center for cybersecurity website**](https://cs.fbk.eu/).
