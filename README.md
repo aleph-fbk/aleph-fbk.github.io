@@ -53,10 +53,12 @@ Sample installation script:
 - using `snap`, tested in Ubuntu 25.10 and 24.04:
 
 ```bash
-sudo snap install ruby --classic
+sudo snap install ruby --channel=3.4/stable --classic
 bundle install
 bundle exec jekyll serve
 ```
+
+Ruby version compatibility with gems is a potential source of errors; for instance, [pages-gem](https://github.com/github/pages-gem) v. 232 supports ruby 3.4.x but not 4.0.x. Versions available can be checked via `snap info ruby`.
 
 - using `apt`, tested in Ubuntu 22.04 (you may need to reboot your computer after installing `rvm`):
 
