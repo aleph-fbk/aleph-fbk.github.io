@@ -97,7 +97,9 @@ You can add a person (e.g., new member or student) in the [`_data/people.yml`](.
 1. check whether the person (and the correct affiliation) is already listed;
 2. if the person is already listed but with a former affiliation, please do not update the existent entry, as this would cause every page referring to the entry to update accordingly. Instead, add a new entry with a different ID;
 3. if the person is not listed, ask the person's consent to appear on the website (e.g., via email). If given the consent, add the person using the template you find at the top of the [`_data/people.yml`](./_data/people.yml) file;
-4. if the person gave consent, you can add an image of the person in the [`assets/areas/people`](./assets/areas/people) folder (the name of the image should be the ID of the person in [`_data/people.yml`](./_data/people.yml)).
+4. concerning the image:
+  * employees can allow for adding an image in the [`assets/areas/people`](./assets/areas/people) folder (the name of the image should be the ID of the person in [`_data/people.yml`](./_data/people.yml));
+  * interns, thesis students, and junior students may have an image only through the `usernameFBK` field. Do not add any image to [`assets/areas/people`](./assets/areas/people).
 
 Members are asked to add a personal page [`_people`](./_people/) following the [**template**](./_people/_template.md) and naming it accordingly — the bio is optional. Currently, **the personal page is not available for interns, thesis students, and junior students.**
 
