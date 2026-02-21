@@ -61,7 +61,7 @@
 - id: SERICS
   title: SERICS
   titleAddon: SEcurity and RIghts In the CyberSpace
-  isCurrent: true
+  isCurrent: false
   logo: SERICS/logo_SERICS.png
   url:
     unit: /projects/SERICS
