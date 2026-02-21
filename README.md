@@ -118,7 +118,10 @@ You can remove a person (e.g., former member or student):
 You can add a thesis in the [`_data/theses.yml`](./_data/theses.yml) file using the template you find at the top of the file.
 
 ### Add a tool
-You can add a tool by creating a new file in [`_tools`](./_tools/) following the [**template**](./_tools/_template.md) and naming it accordingly.
+
+1. Create a new file in [`_tools`](./_tools/).
+2. Add a new entry in [`_data/tools.yml`](./_data/tools.yml).
+3. Add the tool's `id` to any related [`_projects/`](./_projects/).
 
 ### Add a publication
 You can add a publication in the [`_data/publications.yml`](./_data/publications.yml) file using the template you find at the top of the file.
