@@ -29,8 +29,8 @@ website: https://ipcei-cis.fbk.eu/                       # Website of the projec
                                 # (if "true", show "Main Projects" instead  
                                 # of "Related Projects" in the page)
                                                                 
-#publications:                   # List of IDs of related publications
-#    - 
+publications:                   # List of IDs of related publications
+    - AIMS2025 EnricoSorbera
 
 #theses:                         # List of IDs of related theses
 #    - 
