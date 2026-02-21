@@ -30,7 +30,6 @@
                       # #f9fc95
                       # #eccecc
                       # #81d7cc
-                      # #cd86d2
 
 
 
@@ -103,17 +102,21 @@
 #   text: "Searchable Encryption"
 #   color: "#dbbcec"
 
+- id: SecAgg
+  text: "Secure Aggregation"
+  color: "#cd86d2"
+
 # - id: SelectiveDisclosure
 #   text: "Selective Disclosure"
 #   color: "#bd98dc"
 
-# - id: SymbolicModelVerification
-#   text: "Symbolic Model Verification"
-#   color: "#7fad88"
-
 - id: SMPC
   text: "Secure Multi-Party Computation"
   color: "#ce8fc9"
+
+# - id: SymbolicModelVerification
+#   text: "Symbolic Model Verification"
+#   color: "#7fad88"
 
 - id: ThreatModelling
   text: "Threat Modelling"
