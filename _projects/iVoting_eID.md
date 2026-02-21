@@ -47,8 +47,8 @@ theses:                         # List of IDs of related theses
 #events:                         # List of IDs of related events
 #    - 
 
-#tools:                          # List of IDs of related tools
-#    - 
+tools:                          # List of IDs of related tools
+    - CP4PETs
 
 projects:                       # List of IDs of related projects
     - e-voting

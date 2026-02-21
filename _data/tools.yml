@@ -12,6 +12,13 @@
   urlDocumentation:
     unit: /tools/ACME
 
+- id: CP4PETs
+  name: Cryptographic Primitives for Privacy-Enhancing Technologies
+  nameAddon: Cryptographic PETs 🐕—reliable, well-behaved, and safe to keep around.
+  logo: /assets/svg/material-design-icons/icons.svg#pets
+  urlDocumentation:
+    unit: /tools/CP4PETs
+
 - id: CryptoAC
   name: CryptoAC
   nameAddon: Cryptographic Access Control
