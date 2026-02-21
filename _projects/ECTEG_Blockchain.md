@@ -8,7 +8,7 @@ leader: French Gendarmerie
 referenceFBK: Riccardo Longo
 # duration:                       # Duration of the project (optional)
 # funding:                        # Funding of the project (optional)
-# website:                        # Website of the project (optional)
+website: https://www.ecteg.eu/projects/blockchain-project/                       # Website of the project (optional)
 # cordisNo:                       # Number of the project within the CORDIS website (optional)
 partners:                       # Partners of the project (optional)
     - name: French Gendarmerie
