@@ -278,6 +278,37 @@
     - name: Project
       url: https://aleph.fbk.eu/projects/SERICS
 
+- id: NDR2025
+  title: "Scopri la Magia della Crittografia!"
+  participants:
+    - ChiaraSpadafora
+    - RiccardoLongo
+    - LauraMattiuz
+    - FedericaZanetti
+    - AlessandroTomasi
+    - FedericoPintore
+  eventName: Notte della Ricerca 2025
+  startDate: "2025-09-26"
+  endDate: "2025-09-26"
+  category: Outreach
+  links:
+    - name: Event
+      url: https://nottedellaricerca.tn.it
+
+- id: TAC25
+  title: "A Review of Post-Quantum e-Voting"
+  participants:
+    - LauraMattiuz
+  eventName: Topics in Applied Cryptography - Co-Located with CIFRIS25
+  startDate: "2025-09-12"
+  endDate: "2025-09-12"
+  category: Academic
+  links:
+    - name: Conference
+      url: https://www.decifris.it/cifris25
+    - name: Workshop
+      url: https://aleph.fbk.eu/events/TAC2025
+
 - id: TronZanella2025
   title: "I Perché e i Come della Ricerca: Il Lavoro del Ricercatore nel Campo della Sicurezza Informatica"
   participants:
