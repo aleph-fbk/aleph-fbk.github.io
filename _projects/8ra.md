@@ -52,6 +52,7 @@ people:                         # List of IDs of related people
     - EnricoSorbera
     - FedericaZanetti
     - GiacomoBrandi
+    - GiuliaCavicchioni
 
 #images:                         # Repeat the following structure to add more images
 #    - title:                    # Title of the image
