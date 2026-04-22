@@ -320,3 +320,43 @@
   links:
     - name: Website
       url: https://www.tronzanella.edu.it/
+
+
+## 2026
+
+- id: ITASEC2026_01
+  title: "Revisiting the ETSI ITS Lifecycle with Certificateless Authorization Based on Group Signatures"
+  participants:
+    - StefanoBerlato
+    - RiccardoGennaro_MA
+    - AlessandroTomasi
+    - SilvioRanise
+    - FlorianHahn
+  eventName: Italian Conference on CyberSecurity (ITASEC) 2026
+  startDate: "2026-02-09"
+  endDate: "2026-02-13"
+  category: Academic
+  links:
+    - name: Event
+      url: https://itasec.it/
+    - name: Project
+      url: https://aleph.fbk.eu/projects/SERICS
+
+- id: ITASEC2026_02
+  title: "Exploring the Ecosystem of Security and Correctness Analysis Tools for Zero-Knowledge Proofs"
+  participants:
+    - MatteoBusi
+    - StefanoBerlato
+    - RiccardoLongo
+    - MarioScuro
+  eventName: Italian Conference on CyberSecurity (ITASEC) 2026
+  startDate: "2026-02-09"
+  endDate: "2026-02-13"
+  category: Academic
+  links:
+    - name: Event
+      url: https://itasec.it/
+    - name: Project
+      url: https://aleph.fbk.eu/projects/SERICS
+    - name: Project
+      url: https://aleph.fbk.eu/projects/8ra/
