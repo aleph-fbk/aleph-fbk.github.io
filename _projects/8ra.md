@@ -31,6 +31,9 @@ website: https://ipcei-cis.fbk.eu/                       # Website of the projec
                                                                 
 publications:                   # List of IDs of related publications
     - AIMS2025 EnricoSorbera
+    - SACMAT2025CRYPTOAC
+    - OSVS2025CRYPTOAC
+    - JISA2025CRYPTOAC
 
 #theses:                         # List of IDs of related theses
 #    - 

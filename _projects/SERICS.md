@@ -48,6 +48,8 @@ publications:                     # List of IDs of related publications
     - SECRYPT2023
     - AppliedSciences2023
     - EVOTEID2023
+    - ACSW2026
+    - JISA2025CRYPTOAC
 
 # theses:                         # List of IDs of related theses
 #     - 
