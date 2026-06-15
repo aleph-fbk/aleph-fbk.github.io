@@ -73,7 +73,7 @@
   titleAddon: AI and cryptography for media trust management
   startDate: "2025-11-27"
   endDate: "2026-03-31"
-  isCurrent: true
+  isCurrent: false
   logo: /assets/svg/material-design-icons/icons.svg#hive
   url:
     unit: /projects/TrueBeesGoesCrypto
