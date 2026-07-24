@@ -21,3 +21,11 @@
   endDate: "2025-09-12"
   description: TAC2025 is the third edition of a workshop organized by the ALEPH research unit and co-located with the CIFRIS25 conference.
   url: /events/TAC2025
+
+# - id: TAC2026
+#   name: Topics in Applied Cryptography 2026
+#   acronym: TAC2026
+#   startDate: "2026-10-05"
+#   endDate: "2026-10-05"
+#   description: TAC2026 is the fourth edition of a workshop organized by the ALEPH research unit and co-located with the CIFRIS26 conference.
+#   url: /events/TAC2026
