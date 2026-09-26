@@ -68,7 +68,7 @@ All times are in <a href="https://time.is/en/CEST" target="_blank">Central Europ
 <table class="bordered program" width="100%">
   <tr class="day">
     <td colspan="2">
-      Friday 12th September 2026
+      Monday 5th October 2026
     </td>
   </tr>
 
