@@ -58,24 +58,10 @@ Topics in Applied Cryptography 2026 (TAC2026) is a workshop dedicated to cryptog
 
 # Registration
 
-Information on the registration will be posted soon.
-
-<!--To participate it is necessary to [register on the conference page](https://www.decifris.it/cifris26/registration). The registration is **free of charge**. -->
-
-
-
-
-
-
+To participate it is necessary to [register on the conference page](https://www.decifris.it/cifris26/registration).
 
 # Program
 
-Information on the program will be posted soon.
-
-<!-- The program will be defined and made available after the notification to authors. The structure of the workshop is as follows:  -->
-
-
-<!--
 All times are in <a href="https://time.is/en/CEST" target="_blank">Central European Summer Time (CEST)</a>.
 
 
@@ -88,80 +74,56 @@ All times are in <a href="https://time.is/en/CEST" target="_blank">Central Europ
 
   <tr class="session">
     <td colspan="2">
-      <p class="title">Contributed Talks</p>
+      <p class="title">Invited Speaker</p>
     </td>
   </tr>
 
-  <tr>
+  <tr class="talk">
     <td class="talk">
-      <p class="title">QKD (Re)Initialization via PQC: An Industrial Security-Usability Trade-off</p>
-      <p class="speakers"><b>Francesco Stocco</b> (Telsy)</p>
+      <p class="title">On Delegation of Verifiable Presentations from mdoc and BBS Credentials</p>
+      <p class="speakers">Abstract: The interest in verifiable credential systems has gained traction as eIDAS 2.0 Regulation has been published. This regulation instructs EU member states to provide their citizens with digital identity wallets (EUDI Wallet) that must store the credentials and enable privacy-preserving presentation of identity information to relying parties. This new digital identity system requires defining new protocols and procedures to perform tasks involving the disclosure of identity information. One of such procedures is the delegation of attestation, as is reported in the EUDI Wallet Reference Implementation Roadmap. In this talk, we address the problem of constructing secure processes for the delegation of verifiable presentations derived from both verifiable and anonymous credentials. Our goal is to enable a credential holder (the delegator) to securely delegate another party (the delegatee) to present a credential on their behalf. We introduce the notion of a verifiable presentation delegation scheme, formalizing the core algorithms, namely delegation issuance, delegated presentation, and presentation verification, and defining the relevant security properties that such a scheme should satisfy: the correctness, the unforgeability, and, when the scheme is built on top of anonymous credentials, even the unlinkability. We present two concrete instantiations of delegation schemes: the first is built on top of mdoc verifiable credentials, while the second is built on top of BBS anonymous credentials. Finally, we discuss and analyze the security of our constructions in terms of the security properties we have introduced.</p>
+      <p class="speakers"><b><a href="https://sites.google.com/view/andreagangemi/?pli=1&authuser=0">Andrea Gangemi</a></b> (ShunyaXifra)</p>
     </td>
-    <td>10:00-10:20</td>
+    <td>15:45-16:15</td>
   </tr>
 
-  <tr>
+  <tr class="talk">
     <td class="talk">
-      <p class="title">Quantum Root-of-Trust: Post-Quantum Security for Industrial IoT</p>
-      <p class="speakers"><b>Lorenzo Naturale</b> (Random Power s.r.l. & University of Insubria)</p>
+      <p class="title">Tough cookies in the PQC migration: where current standards will have a hard time chewing</p>
+      <p class="speakers">Abstract: The ongoing transition to Post-Quantum Cryptography (PQC) requires to replace current factoring- and discrete logarithm based primitives with alternatives which rely on different computationally hard problems. The said problems often provide either less flexibility in the primitive design, or require a significantly higher (one- to two-orders of magnitude) more memory to encode their instances or their solutions, leading to an inflation in the cryptographic objects (keypairs, signatures, ciphertexts). While some relevant application scenarios can tolerate this increase in the requirements, there are concrete examples where we will need alternative ways to achieve the same confidentiality, integrity and origin authentication guarantees. Scenarios such as authentication in very low-bandwidth radio communication channels and encryption and authentication on severely memory limited devices (e.g., RFIDs) will require concrete engineering effort to complete the PQC transition. This talk will provide a survey of these scenarios, and highlight the open challenges.</p>
+      <p class="speakers"><b><a href="https://barenghi.faculty.polimi.it/doku.php">Alessandro Barenghi</a></b> (PoliMI)</p>
     </td>
-    <td>10:20-10:40</td>
+    <td>16:15-16:45</td>
   </tr>
 
-  <tr>
+  <tr class="talk">
     <td class="talk">
-      <p class="title">Verifiable Computation Outsourcing via Contracts over Blockchain Transactions</p>
-      <p class="speakers"><b>Carlo Brunetta</b> (independent researcher)</p>
+      <p class="title">The cost of quantum resistance: comparing classical and post-quantum cryptography</p>
+      <p class="speakers">Abstract: The transition to post-quantum cryptography implies long-term security against quantum adversaries, but this security comes with significant design and implementation trade-offs. This talk presents an in-depth technical examination of the challenges associated with replacing classical public-key cryptography with quantum-resistant alternatives. A thorough comparison between established schemes such as RSA and ECC and emerging post-quantum algorithms, including those standardized or currently being standardized by NIST, ISO, and the IETF, is essential to understand the scope and complexity of this transition. This discussion analyzes key encapsulation mechanisms and digital signature schemes, examining parameter selection, implementation complexity, memory requirements, computational efficiency, and communication overhead.</p>
+      <p class="speakers"><b><a href="https://scholar.google.com/citations?user=18FqKogAAAAJ&hl=en">Simone Dutto</a></b> (ACN)</p>
     </td>
-    <td>10:40-11:00</td>
+    <td>16:45-17:15</td>
   </tr>
 
   <tr class="recreational">
     <td colspan="1">
       <p class="title">Coffee Break</p>
     </td>
-    <td>11:00-11:30</td>
+    <td>17:15-17:30</td>
   </tr>
 
-  <tr class="session">
-    <td colspan="2">
-      <p class="title">Invited Speaker</p>
-    </td>
-  </tr>
-
-  <tr class="institutional">
+  <tr class="talk">
     <td class="talk">
-      <p class="title">Transparent Verification in E-Voting</p>
-      <p class="speakers">Abstract: the main challenge in secure e-voting is to allow voters to verify their cast vote while preserving strong privacy notions, especially preventing vote-buying and coercion. We will introduce the electronic voting schemes Selene and Hyperion which offer a very transparent form of verifiability allowing voters to find and check their plaintext vote directly in the tally result while preserving coercion-mitigation. We will introduce new, more general security definitions to capture the context of these schemes and prove their security. Finally, we will see how we can achieve both everlasting privacy and everlasting coercion-mitigation for Hyperion, as well as speculating on the post-quantum migration of the scheme.</p>
-      <p class="speakers"><b><a href="https://www.uni.lu/snt-en/people/peter-roenne/">Peter Rønne</a></b> (University of Luxembourg)</p>
+      <p class="title">Beyond the Algorithm: Hardware/Software Design for Post-Quantum Cryptography</p>
+      <p class="speakers">Abstract: Post-quantum cryptography is moving from standardization to deployment, but efficient implementation requires more than selecting secure algorithms. PQC schemes introduce new challenges in computation, memory footprint, data movement, and energy, particularly on embedded and IoT platforms. This talk provides a practical overview of how PQC workloads can be mapped to hardware, from custom instructions to tightly and loosely coupled accelerators, with a particular focus on RISC-V architectures. Through representative implementation examples, it discusses how algorithmic bottlenecks, communication overheads, and accelerator integration choices shape the final system performance, highlighting the need for a hardware/software co-design approach to practical PQC deployment..</p>
+      <p class="speakers"><b><a href="https://www.polito.it/personale?p=061642">Alessandra Dolmeta</a></b> (PoliTO)</p>
     </td>
-    <td>11:30-12:15</td>
+    <td>17:30-18:00</td>
   </tr>
 
-  <tr class="session">
-    <td colspan="2">
-      <p class="title">Contributed Talks</p>
-    </td>
-  </tr>
-
-  <tr>
-    <td class="talk">
-      <p class="title">A Review of Post-Quantum e-Voting</p>
-      <p class="speakers"><b>Laura Mattiuz</b> (Center for Cybersecurity, FBK)</p>
-    </td>
-    <td>12:15-12:40</td>
-  </tr>
-
-  <tr>
-    <td class="talk">
-      <p class="title">Exploring blind signatures under FHE by combining GBFV and HAWK</p>
-      <p class="speakers"><b>Lorenzo Rovida</b> (University of Milano-Bicocca, DISCo)</p>
-    </td>
-    <td>12:40-13:00</td>
-  </tr>
 
 </table>
--->
+
 
 <!--
 # Call for Submissions
