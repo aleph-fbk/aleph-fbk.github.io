@@ -16,7 +16,6 @@
                       # see below for some colors already generated with the above script.
                       # Check that each color is unique. Delete a color from the list below
                       # after use:
-                      # #b2d1bf
                       # #bfb7f6
                       # #d7d6c7
                       # #99bfd8
@@ -69,6 +68,10 @@
 # - id: DigitalIdentity
 #   text: "Digital Identity"
 #   color: "#dbbcec"
+
+- id: DigitalSovereignty
+  text: "Digital Sovereignty"
+  color: "#b2d1bf"
 
 - id: EVoting
   text: "E-Voting"
