@@ -19,6 +19,10 @@
   name: Adam J.
   surname: Lee
 
+- id: AlessandroColombo_BA
+  name: Alessandro
+  surname: Colombo
+
 - id: AlessandroPerez
   name: Alessandro
   surname: Perez
@@ -149,7 +153,7 @@
   name: Giacomo
   surname: Brandi
   affiliations:
-    - role: Researcher
+    - role: PhD Student
       unit: Applied Cryptography
       institution: Fondazione Bruno Kessler
       place: Trento, Italy
@@ -249,10 +253,6 @@
   email: lmarini@fbk.eu
   usernameFBK: lmarini
 
-- id: AlessandroColombo_BA
-  name: Alessandro
-  surname: Colombo
-
 - id: LucaBortolotti_BA
   name: Luca
   surname: Bortolotti
@@ -260,6 +260,17 @@
 - id: LucaClaus_BA
   name: Luca
   surname: Claus
+
+- id: LucaDiDomenico
+  name: Luca
+  surname: Di Domenico
+  affiliations:
+    - role: PhD Student
+      unit: Applied Cryptography
+      institution: Fondazione Bruno Kessler
+      place: Trento, Italy
+  email: ldidomenico@fbk.eu
+  orcid: 0009-0005-5455-8362
 
 - id: LucaPiras
   name: Luca
@@ -422,16 +433,16 @@
   surname: Montanari
   usernameFBK: smontanari
 
+- id: SilvioCretti
+  name: Silvio
+  surname: Cretti
+  email: scretti@fbk.eu
+
 - id: SilvioRanise
   name: Silvio
   surname: Ranise
   usernameFBK: ranise
   orcid: 0000-0001-7269-9285
-
-- id: SilvioCretti
-  name: Silvio
-  surname: Cretti
-  email: scretti@fbk.eu
 
 - id: SimoneBrunello_BA
   name: Simone
